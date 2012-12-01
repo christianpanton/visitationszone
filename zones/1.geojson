@@ -8,6 +8,8 @@
 				"start": "2012-11-30 15:00:00",
 				"end": "2013-01-01 07:00:00",
 				"authority": "Københavns Politi",
+				"area": "Nørrebro og Indre By",
+				"people": "190.000",
 				"extent": "Havnefronten nord for Fisketorvet – Dybbølsbro – Ingerslevsgade – Enghavevej – Kingosgade – Alhambravej – H C Ørsteds Vej – Åboulevard – Jagtvej – Borups Alle – Nordre Fasanvej – Lygten – Tagensvej – Fredensgade – Sølvgade – Øster Voldgade – Grønningen – Esplanaden – havnefronten til nord for Fisketorvet." 
 			}, 
 			"geometry": { 
