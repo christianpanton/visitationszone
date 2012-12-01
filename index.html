@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Visitationszone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/cosmo.bootstrap.min.css" rel="stylesheet">
+
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      #map { height: 450px; margin-bottom: 20px;}
+      #inzone { display: none}
+      #outzone { display: none}
+      sup { cursor: help;}
+    </style>
+    
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.5/leaflet.css" />
+
+
+    <!-- Fav and touch icons -->
+    <!--<link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Visitationzone</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="#oversigt">Oversigt</a></li>
+              <li><a href="#lov">Baggrund</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <section id="alerts">
+        <div class="row">
+          <div class="span12">
+            <div class="alert alert-error alert-block" id="inzone">
+              <a class="close close-alert">x</a>
+              <p>Du befinder dig i øjeblikket i en visitationszone!</p>
+            </div>
+            <div class="alert alert-success alert-block" id="outzone">
+              <a class="close close-alert">x</a>
+              <p>Du befinder dig i øjeblikket ikke i en visitationszone!</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+ 
+      <section id="themap">
+        <div id="map"></div>
+      </section> 
+
+      <section id="oversigt">
+        <div class="page-header">
+          <h2>Oversigt</h2>
+        </div>
+
+        <div class="row">
+          <div class="span8">
+
+            <table class="table table-bordered table-striped table-hover">
+              <thead>
+                <tr>
+                  <th>Politikreds</th>
+                  <th>Område</th>
+                  <th>Beboere</th>
+                  <th>Udløb</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Københavns Politi</td>
+                  <td>Nørrebro og Indre By</td>
+                  <td>190.000<sup title="Baseret på en befolkningstæthed på 61 beboere pr. ha.">?</sup></td>
+                  <td>1. januar 2013, kl. 07.00</td>
+                </tr>
+                <tr class="muted">
+                  <td>Københavns Politi</td>
+                  <td>Brønshøj-Husum</td>
+                  <td>-</td>
+                  <td>30. marts 2011, kl. 14.00</td>
+                </tr>
+               <tr class="muted">
+                  <td>Københavns Politi</td>
+                  <td>Tingbjerg</td>
+                  <td>-</td>
+                  <td>8. januar 2000, kl. 14.00</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+          <div class="span4">
+            <blockquote>En visitationszone eller besigtigelses- og visitationszone er et afgrænset område, indenfor hvilket politiet uden en konkret mistanke om at et strafbart forhold er begået af den pågældende, kan visitere borgere og undersøge tøj og tasker. Formålet er at kontrollere, om de forbipasserende bærer ulovlige knive eller våben på sig. Politiet kan også gennemsøge biler og andre køretøjer i zonen. <small>Kilde: <a href="">Wikipedia</a></small>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="lov">
+        <div class="page-header">
+          <h2>Baggrund</h2>
+        </div>
+        <div class="row">
+          <div class="span8">
+
+          <p>Politiet har siden 2004 kunne oprette visitationszoner, hvor de uden konkret mistanke, kan foretage stikprøve visitationer af personer, personers egendele samt biler der befinder sig inden for visitationszonen. Formålet med visitationen er at søge efter våben og sprængstof.</p>
+
+          <p>Ifølge bemærkningerne til lovforslaget kan politiet kun oprette visitationzoner i et bestemt afgrænset område.
+            
+          <blockquote>Det geografiske anvendelsesområde for den konkrete beslutning om stikprøvevisitation mv. må fastlægges på baggrund af de forhold, som begrunder politiets vurdering af, at der er en forøget risiko for, at nogen foretager strafbare handlinger, som indebærer fare for personers liv, helbred eller velfærd. Dette indebærer, at en beslutning om visitation mv. typisk vil omfatte et bestemt afgrænset område, f.eks. et værtshus, et butikscenter, en gade eller en plads, mens der ikke kan træffes beslutning om visitation mv. i f.eks. en hel politikreds eller kommune.<small>Bemærkningerne til L159, punkt 5.2.4.3</small></blockquote>
+
+          Trods bemærkningerne til loven har store dele af Københavns Politikreds af flere omgange været udpeget som visitationzone. Dette har blandt andet fået CEPOS til at kritisere Politiet for at zonerne var ulovlige.</p>
+
+
+          </div>
+          <div class="span4">
+            <ul class="nav nav-list">
+              <li class="nav-header">Lovgivningen og forarbejdet</li>
+              <li><a target="_blank" href="https://www.retsinformation.dk/Forms/r0710.aspx?id=1836#K3">Lov om politiets virksomhed, §6</a></li>
+              <li><a target="_blank" href="http://webarkiv.ft.dk/Samling/20031/lovforslag_som_fremsat/L159.htm">Lovforslag med bemærkninger</a></li>
+              <li><a target="_blank" href="http://webarkiv.ft.dk/Samling/20031/lovforslag_oversigtsformat/L159.htm">Folketingets behandling</a></li>
+              <li class="nav-header">Lovligheden af visitationszoner</li>
+              <li><a target="_blank" href="https://www.cepos.dk/publikationer/nyheder/single/artikel/politiets-ulovlige-visitationszoner/">
+                CEPOS: Politiets ulovlige visitationszoner
+              </a></li>
+              <li><a target="_blank" href="http://politiken.dk/indland/ECE878897/dom-skaber-tvivl-om-visitationszoner/">Dom skaber tvivl om visitationszoner</a></li>
+              <li><a target="_blank" href="http://www.justitsministeriet.dk/nyt-og-presse/pressemeddelelser/2010/visitation-ikke-n%C3%B8dvendigt-%C3%A6ndre-danske-regler">JM: Ikke nødvendigt at ændre danske regler</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <footer>
+        <p>Denne side er udgivet under en <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons 3.0 Attribution</a> licens. </p>
+      </footer>
+
+    </div> 
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.4.5/leaflet.js"></script>
+
+    <script type="text/javascript">
+
+      var polygons = [];
+      
+      function isPointInPoly(poly, pt){
+        for(var c = false, i = -1, l = poly.length, j = l - 1; ++i < l; j = i)
+          ((poly[i][1] <= pt[1] && pt[1] < poly[j][1]) || (poly[j][1] <= pt[1] && pt[1] < poly[i][1]))
+          && (pt[0] < (poly[j][0] - poly[i][0]) * (pt[1] - poly[i][1]) / (poly[j][1] - poly[i][1]) + poly[i][0])
+          && (c = !c);
+        return c;
+      }
+
+      function onLocationFound(e) {
+          var radius = e.accuracy / 2;
+          var inzone = false;
+
+          // e.latlng.lng = 12.5595;
+          // e.latlng.lat = 55.689391;
+
+          L.circle(e.latlng, radius, me).addTo(map);
+          
+          for(var i = 0; i < polygons.length; i++){
+            if(isPointInPoly(polygons[i], [e.latlng.lng, e.latlng.lat])){
+              inzone = true;
+            }
+          }
+
+          if(inzone){
+            $("#inzone").show("fast");
+          }else{
+            $("#outzone").show("fast");
+          }
+      }
+
+
+      var map = L.map('map').setView([55.685, 12.57], 12);
+      
+      var attribution = "Data from OpenStreetMap, rendered by CloudMade";
+      
+      var style = {
+          "color": "#F50F43",
+          "weight": 2,
+          "opacity": 0.7
+      };
+
+      var me = {
+          "color": "#0059B3",
+          "weight": 3,
+          "opacity": 0.9
+      }
+
+      var polygons = [];
+
+      $(function(){
+
+          L.tileLayer('http://{s}.tile.cloudmade.com/85ee5ea570b4491bbaad62c355fe4ab4/1714/256/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
+
+          $.getJSON("zones/1.geojson", function(data){
+
+          polygons.push(data.features[0].geometry.coordinates[0]);
+
+          L.geoJson(data, 
+            {
+              style: style,
+              onEachFeature: function (feature, layer) {
+                var text = feature.properties.background ;
+                text = text + "<br /><br />Udløber: " + feature.properties.end;
+                layer.bindPopup(text);
+              }
+            })
+            .addTo(map);
+
+        });
+
+        map.locate({setView: true, maxZoom: 14});
+        map.on('locationfound', onLocationFound);
+
+        $(".close-alert").click(function(e){
+          $(".alert").hide("fast");
+        });
+
+      });
+      
+      
+
+    </script>
+
+  </body>
+</html>
