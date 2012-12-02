@@ -20,7 +20,16 @@
       #inzone { display: none}
       #outzone { display: none}
       #failzone { display: none}
-      sup { cursor: help;}
+      #zonelist { 
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        cursor: pointer !important;
+      }
+
     </style>
     
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
@@ -98,29 +107,10 @@
                 <tr>
                   <th>Politikreds</th>
                   <th>Område</th>
-                  <th>Beboere</th>
                   <th>Udløb</th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-                  <td>Københavns Politi</td>
-                  <td>Nørrebro og Indre By</td>
-                  <td>190.000<sup title="Baseret på en befolkningstæthed på 61 beboere pr. ha.">?</sup></td>
-                  <td>1. januar 2013, kl. 07.00</td>
-                </tr>
-                <tr class="muted">
-                  <td>Københavns Politi</td>
-                  <td>Brønshøj-Husum</td>
-                  <td>-</td>
-                  <td>30. marts 2011, kl. 14.00</td>
-                </tr>
-               <tr class="muted">
-                  <td>Københavns Politi</td>
-                  <td>Tingbjerg</td>
-                  <td>-</td>
-                  <td>8. januar 2000, kl. 14.00</td>
-                </tr>
+              <tbody id="zonelist">
               </tbody>
             </table>
 
@@ -198,102 +188,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="http://cdn.leafletjs.com/leaflet-0.4.5/leaflet.js"></script>
-
-    <script type="text/javascript">
-
-      var polygons = [];
-      
-      function isPointInPoly(poly, pt){
-        for(var c = false, i = -1, l = poly.length, j = l - 1; ++i < l; j = i)
-          ((poly[i][1] <= pt[1] && pt[1] < poly[j][1]) || (poly[j][1] <= pt[1] && pt[1] < poly[i][1]))
-          && (pt[0] < (poly[j][0] - poly[i][0]) * (pt[1] - poly[i][1]) / (poly[j][1] - poly[i][1]) + poly[i][0])
-          && (c = !c);
-        return c;
-      }
-
-      function onLocationFound(e) {
-          var radius = e.accuracy / 2;
-          var inzone = false;
-
-          // test location
-          // e.latlng.lng = 12.539692;
-          // e.latlng.lat = 55.694543;
-
-          L.circle(e.latlng, radius, me).addTo(map);
-          
-          for(var i = 0; i < polygons.length; i++){
-            if(isPointInPoly(polygons[i], [e.latlng.lng, e.latlng.lat])){
-              inzone = true;
-            }
-          }
-
-          if(inzone){
-            $("#inzone").show("fast");
-          }else{
-            $("#outzone").show("fast");
-          }
-
-         
-      }
-
-      function onLocationError(e) {
-        $("#failzone").show("fast");
-      }
-
-
-      var map = L.map('map').setView([55.685, 12.57], 12);
-      
-      var attribution = "Data from OpenStreetMap, rendered by CloudMade";
-      
-      var style = {
-          "color": "#F50F43",
-          "weight": 2,
-          "opacity": 0.7
-      };
-
-      var me = {
-          "color": "#0059B3",
-          "weight": 3,
-          "opacity": 0.9
-      }
-
-      var polygons = [];
-
-      $(function(){
-
-          L.tileLayer('http://{s}.tile.cloudmade.com/85ee5ea570b4491bbaad62c355fe4ab4/1714/256/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
-
-          $.getJSON("zones/1.geojson", function(data){
-
-          polygons.push(data.features[0].geometry.coordinates[0]);
-
-          L.geoJson(data, 
-            {
-              style: style,
-              onEachFeature: function (feature, layer) {
-                var text = feature.properties.background ;
-                text = text + "<br /><br />Udløber: " + feature.properties.end;
-                layer.bindPopup(text);
-              }
-            })
-            .addTo(map);
-
-            map.locate({setView: true, maxZoom: 14});
-
-        });
-        
-        map.on('locationfound', onLocationFound);
-        map.on('locationerror', onLocationError);      
-
-        $(".close-alert").click(function(e){
-          $(".alert").hide("fast");
-        });
-
-      });
-      
-      
-
-    </script>
+    <script src="js/page.js"></script>
 
   </body>
 </html>
