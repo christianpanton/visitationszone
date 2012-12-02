@@ -12,19 +12,26 @@ function isPointInPoly(poly, pt){
   return c;
 }
 
+function getDate(str){
+  var strparts = str.split(" ");
+  var dateparts = strparts[0].split("-");
+  var timeparts = strparts[1].split(":");
 
+  var date = new Date(parseInt(dateparts[0]), parseInt(dateparts[1]-1), parseInt(dateparts[2]), parseInt(timeparts[0]), parseInt(timeparts[1]));
+  return date;
+}
 
 function niceDate(date){
   function pad(n){return n<10 ? '0'+n : n}
   var months = ["januar", "februar", "marts", "april", "maj", "juni", "juli", "august", "september", "oktober", "november", "december"];
-  return date.getDay() + ". " + months[date.getMonth()] + " " + (1900+date.getYear()) + " kl. " + date.getHours() + ":" + pad(date.getMinutes());
+  return date.getDate() + ". " + months[date.getMonth()] + " " + (1900+date.getYear()) + " kl. " + date.getHours() + ":" + pad(date.getMinutes());
 }
 
 
 function fetchGeoJSON(id) {
   $.getJSON("zones/" + id + ".geojson", function(data){
 
-        var expire = new Date(data.features[0].properties.end);
+        var expire = getDate(data.features[0].properties.end);
         var authority = data.features[0].properties.authority;
         var area = data.features[0].properties.area;
         var today = new Date();
