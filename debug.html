@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Visitationszone - debugger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/cosmo.bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      #map { height: 0px;}
+    </style>
+    
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.5/leaflet.css" />
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Visitationzone</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="#debug">Debug info</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+ 
+      <section id="themap">
+        <div id="map"></div>
+      </section> 
+
+      <section id="debug">
+        <div class="page-header">
+          <h2>Debug</h2>
+        </div>
+
+        <div class="row">
+          <div class="span12" id="dbg">
+          </div>
+        </div>
+      </section>
+
+    </div> 
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.4.5/leaflet.js"></script>
+
+    <script type="text/javascript">
+
+
+      function debug(str){
+        var date = (new Date).toString();
+        $("#dbg").append("<p>" + date + " - " + str + "</p>");
+      }
+
+      var polygons = [];
+      
+      function isPointInPoly(poly, pt){
+        for(var c = false, i = -1, l = poly.length, j = l - 1; ++i < l; j = i)
+          ((poly[i][1] <= pt[1] && pt[1] < poly[j][1]) || (poly[j][1] <= pt[1] && pt[1] < poly[i][1]))
+          && (pt[0] < (poly[j][0] - poly[i][0]) * (pt[1] - poly[i][1]) / (poly[j][1] - poly[i][1]) + poly[i][0])
+          && (c = !c);
+        return c;
+      }
+
+      function onLocationFound(e) {
+          var radius = e.accuracy / 2;
+          var inzone = false;
+
+          // test location
+          // e.latlng.lng = 12.539692;
+          // e.latlng.lat = 55.694543;
+
+          debug("Got location: " + e.latlng.toString() +  ", accuracy: " + e.accuracy);
+
+                    
+          for(var i = 0; i < polygons.length; i++){
+            if(isPointInPoly(polygons[i], [e.latlng.lng, e.latlng.lat])){
+              inzone = true;
+              debug("Found location: " + e.latlng.toString() +  " inside of polygon: " + i);
+            }
+          }
+
+          if(!inzone){
+              debug("Did not find location: " + e.latlng.toString() +  " inside of polygons");
+          }
+
+         
+      }
+
+      function onLocationError(e) {
+        debug("Location could not be found via API");
+      }
+
+
+      var map = L.map('map');
+      
+      var polygons = [];
+
+      $(function(){
+
+          $.getJSON("zones/1.geojson", function(data){
+
+          polygons.push(data.features[0].geometry.coordinates[0]);
+          map.locate({setView: true, maxZoom: 14});
+
+        });
+        
+        map.on('locationfound', onLocationFound);
+        map.on('locationerror', onLocationError);
+
+
+      });
+      
+      
+
+    </script>
+
+  </body>
+</html>
