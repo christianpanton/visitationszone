@@ -19,6 +19,7 @@
       #map { height: 450px; margin-bottom: 20px;}
       #inzone { display: none}
       #outzone { display: none}
+      #failzone { display: none}
       sup { cursor: help;}
     </style>
     
@@ -69,6 +70,10 @@
             <div class="alert alert-success alert-block" id="outzone">
               <a class="close close-alert">x</a>
               <p>Du befinder dig i øjeblikket ikke i en visitationszone!</p>
+            </div>
+            <div class="alert alert-block" id="failzone">
+              <a class="close close-alert">x</a>
+              <p><strong>Oh noes!</strong> Kunne ikke bestemme din position.</p>
             </div>
           </div>
         </div>
@@ -208,8 +213,9 @@
           var radius = e.accuracy / 2;
           var inzone = false;
 
-          // e.latlng.lng = 12.5595;
-          // e.latlng.lat = 55.689391;
+          // test location
+          // e.latlng.lng = 12.539692;
+          // e.latlng.lat = 55.694543;
 
           L.circle(e.latlng, radius, me).addTo(map);
           
@@ -224,6 +230,12 @@
           }else{
             $("#outzone").show("fast");
           }
+
+         
+      }
+
+      function onLocationError(e) {
+        $("#failzone").show("fast");
       }
 
 
@@ -265,9 +277,11 @@
             .addTo(map);
 
         });
+        
+        map.on('locationfound', onLocationFound);
+        map.on('locationerror', onLocationError);
 
         map.locate({setView: true, maxZoom: 14});
-        map.on('locationfound', onLocationFound);
 
         $(".close-alert").click(function(e){
           $(".alert").hide("fast");
