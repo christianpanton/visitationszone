@@ -118,10 +118,9 @@
       $(function(){
 
           $.getJSON("zones/1.geojson", function(data){
-
-          polygons.push(data.features[0].geometry.coordinates[0]);
-          map.locate({setView: true, maxZoom: 14});
-
+            debug("Got GeoJSON");
+            polygons.push(data.features[0].geometry.coordinates[0]);
+            map.locate({setView: true, maxZoom: 14});
         });
         
         map.on('locationfound', onLocationFound);
