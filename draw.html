@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Visitationszone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/cosmo.bootstrap.min.css" rel="stylesheet">
+
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      #map { height: 800px; margin-bottom: 20px;}
+      #inzone { display: none}
+      #outzone { display: none}
+      #failzone { display: none}
+      sup { cursor: help;}
+    </style>
+    
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.5/leaflet.css" />
+    <link rel="stylesheet" href="css/leaflet.draw.css" />
+    <link rel="stylesheet" href="css/datepicker.css" />
+
+
+    <!-- Fav and touch icons -->
+    <!--<link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Visitationzone</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="#draw">Optegn</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <section id="themap">
+        <div id="map"></div>
+      </section> 
+    </div> 
+
+    <div id="geojson" class="modal hide fade" style="display: none; ">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal">×</button>
+          <h3>Tilføj metadata</h3>
+        </div>
+        <div class="modal-body">
+           <form class="form-horizontal">
+            <fieldset>
+
+
+              <div class="control-group">
+                <label class="control-label" for="authority">Politikreds</label>
+                <div class="controls">
+                  <select id="authority">
+                    <option>Københavns Politi</option>
+                    <option></option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="control-group">
+                <label class="control-label" for="area">Område</label>
+                <div class="controls">
+                  <input type="text" class="input-xlarge" id="area">
+                  <p class="help-block">Fx: Nørrebro og Indre By</p>
+                </div>
+              </div>
+              
+              <div class="control-group">
+                <label class="control-label" for="background">Begrundelse</label>
+                <div class="controls">
+                  <textarea class="input-xlarge" id="background" rows="3"></textarea>
+                </div>
+              </div>
+
+              <div class="control-group">
+                <label class="control-label" for="extent">Gadenavne</label>
+                <div class="controls">
+                  <textarea class="input-xlarge" id="extent" rows="3"></textarea>
+                  <p class="help-block">Fx: Nørrebrogade - Jagtvej - ...</p>
+                </div>
+              </div>
+
+
+              <div class="control-group">
+                <label class="control-label" for="start">Oprettet</label>
+                <div class="controls">
+                  <input type="text" data-datepicker-format="yyyy-mm-dd hh:ii" id="start"/>
+                </div>
+              </div>
+
+              <div class="control-group">
+                <label class="control-label" for="end">Ophævet</label>
+                <div class="controls">
+                  <input type="text" data-datepicker-format="yyyy-mm-dd hh:ii" id="end"/>
+                </div>
+              </div>
+
+              
+            </fieldset>
+          </form>
+            </div>
+            <div class="modal-footer">
+              <a href="#" class="btn" data-dismiss="modal">Fortryd</a>
+              <a href="#" class="btn btn-primary" id="makejson">Lav GeoJSON</a>
+            </div>
+        </div>​
+
+
+
+        <div id="geojson2" class="modal hide fade" style="display: none;">
+            <div class="modal-header">
+              <button class="close" data-dismiss="modal">×</button>
+              <h3>GeoJSON</h3>
+            </div>
+            <div class="modal-body">
+              <textarea id="export" rows="15" style="width: 515px"></textarea>
+            </div>
+            <div class="modal-footer">
+              <a href="#" class="btn btn-primary" data-dismiss="modal">Luk</a>
+            </div>
+      </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.4.5/leaflet.js"></script>
+    <script src="js/leaflet.draw.js"></script>
+    <script src="js/datepicker.js"></script>
+
+    <script type="text/javascript">
+
+      var map = L.map('map').setView([56, 10], 7);
+      
+      var attribution = "Data from OpenStreetMap, rendered by CloudMade";
+
+      var drawControl = new L.Control.Draw({
+          position: 'topleft',
+          polyline: false,
+          circle: false,
+          rectangle: false,
+          marker: false,
+          polygon: {
+            allowIntersection: false,
+            shapeOptions: {
+              "color": "#F50F43",
+              "weight": 2,
+              "opacity": 0.7
+            }
+          }
+           
+      });
+
+      var poly = null;
+
+      map.addControl(drawControl);
+
+      map.on('draw:poly-created', function (e) {
+        poly = e.poly;
+        $("#geojson").modal("show");
+      });
+
+      $(function(){
+          L.tileLayer('http://{s}.tile.cloudmade.com/85ee5ea570b4491bbaad62c355fe4ab4/1714/256/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
+          $("#makejson").click(function(){
+            $("#geojson").modal("hide");
+
+            var coords = [];
+
+            for(var i = 0; i < poly._latlngs.length; i++){
+              coords.push([poly._latlngs[i].lng, poly._latlngs[i].lat]);
+            }
+
+            var json = {
+                "type": "FeatureCollection",
+                "features": [
+                  {
+                    "type": "Feature", 
+                    "properties": { 
+                      "background": $("#background").val(),
+                      "start": $("#start").val(),
+                      "end": $("#end").val(),
+                      "authority": $("#authority").val(),
+                      "area": $("#area").val(),
+                      "extent": $("#extent").val()
+                    }, 
+                    "geometry": { 
+                      "type": "Polygon", 
+                      "coordinates": [ coords ] 
+                    } 
+                  }
+                ]
+              };
+
+              var json_str = JSON.stringify(json);
+
+              
+              $("#geojson2").modal("show");
+              $("#export").val(json_str);
+              $("#export").select();
+
+          });
+
+      });
+
+      
+      
+      
+    </script>
+
+  </body>
+</html>
