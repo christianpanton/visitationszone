@@ -116,7 +116,6 @@
       var polygons = [];
 
       $(function(){
-
           $.getJSON("zones/1.geojson", function(data){
             debug("Got GeoJSON");
             polygons.push(data.features[0].geometry.coordinates[0]);
