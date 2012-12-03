@@ -12,6 +12,13 @@ function isPointInPoly(poly, pt){
   return c;
 }
 
+function dateSorter(a, b){
+  console.log(a[2], b[2]);
+  if (a[2] > b[2]) return 1;
+  if (a[2] < b[2]) return -1;
+  return 0;
+}
+
 function getDate(str){
   var strparts = str.split(" ");
   var dateparts = strparts[0].split("-");
@@ -64,14 +71,18 @@ function fetchGeoJSON(id) {
         polygonMap["zone-" + id] = obj;
 
         if(expire > today){
-          activeZones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + niceDate(start) + "</td><td>" + niceDate(expire) + "</td></tr>", obj]);
+          activeZones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + niceDate(start) + "</td><td>" + niceDate(expire) + "</td></tr>", obj, expire]);
         }else{
-          pastZones.push(["<tr class='muted' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td></tr>", obj]);
+          pastZones.push(["<tr class='muted' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td></tr>", obj, expire]);
         }
 
         fetchGeoJSON(id + 1);
 
   }).error(function(){
+
+
+    pastZones = pastZones.sort(dateSorter);
+    activeZones = activeZones.sort(dateSorter)
 
     for(var i = 0; i < pastZones.length; i++){
       $("#zonelist").prepend(pastZones[i][0]);
