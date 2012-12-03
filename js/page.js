@@ -108,7 +108,7 @@ function fetchGeoJSON(id) {
         if(expire > today){
           activeZones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + " (" + formatNumber(Math.round(narea)) + " hektar)</td><td>" + niceDate(start) + "</td><td>" + niceDate(expire) + "</td></tr>", obj, expire]);
         }else{
-          pastZones.push(["<tr class='muted' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + " (" + formatNumber(Math.round(narea) + " hektar) </td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td></tr>", obj, expire]);
+          pastZones.push(["<tr class='muted' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + " (" + formatNumber(Math.round(narea)) + " hektar) </td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td></tr>", obj, expire]);
         }
 
         fetchGeoJSON(id + 1);
