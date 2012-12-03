@@ -36,13 +36,13 @@ function fetchGeoJSON(id) {
         var area = data.features[0].properties.area;
         var today = new Date();
         var style = pastStyle;
-        var verb = "Udløber";
+        var verb = "Udløb";
 
 
         if(expire > today) {
           polygons.push(data.features[0].geometry.coordinates[0]);
           style = activeStyle;
-          verb = "Udløb"; 
+          verb = "Udløber"; 
         }
 
         var obj = L.geoJson(data, 
@@ -50,6 +50,8 @@ function fetchGeoJSON(id) {
           style: style,
           onEachFeature: function (feature, layer) {
             var text = feature.properties.background ;
+            text = text.replace(/\n/g, '<br />');
+
             text = "<strong>"+feature.properties.area+"</strong><br />"+ text + "<br /><br />" + verb + ": " + niceDate(expire);
             layer.bindPopup(text);
             layer.on('click', function(e){
