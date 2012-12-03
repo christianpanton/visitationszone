@@ -3,7 +3,10 @@ var polygons = [];
 var activeZones = [];
 var pastZones = [];
 var polygonMap = {};
-      
+
+var areas = {};
+
+
 function isPointInPoly(poly, pt){
   for(var c = false, i = -1, l = poly.length, j = l - 1; ++i < l; j = i)
     ((poly[i][1] <= pt[1] && pt[1] < poly[j][1]) || (poly[j][1] <= pt[1] && pt[1] < poly[i][1]))
@@ -12,8 +15,34 @@ function isPointInPoly(poly, pt){
   return c;
 }
 
+function polygonArea(poly) { 
+
+  var latAnchor = 56;
+  var lonAnchor = 10;
+
+  var numPoints = poly.length;
+  var area = 0;         // Accumulates area in the loop
+  var j = numPoints-1;  // The last vertex is the 'previous' one to the first
+
+  var PI = Math.PI;
+
+  for (i=0; i<numPoints; i++) { 
+
+    var xi = (poly[i][0]-lonAnchor)*( 6378137*PI/180 )*Math.cos( latAnchor*PI/180 );
+    var yi = (poly[i][1]-latAnchor)*( 6378137*PI/180 );
+
+    var xj = (poly[j][0]-lonAnchor)*( 6378137*PI/180 )*Math.cos( latAnchor*PI/180 );
+    var yj = (poly[j][1]-latAnchor)*( 6378137*PI/180 );
+
+    area = area +  (xj+xi) * (yj-yi); 
+    j = i;  //j is previous vertex to i
+  }
+  return area/2;
+}
+
+
+
 function dateSorter(a, b){
-  console.log(a[2], b[2]);
   if (a[2] > b[2]) return 1;
   if (a[2] < b[2]) return -1;
   return 0;
@@ -45,6 +74,7 @@ function fetchGeoJSON(id) {
         var today = new Date();
         var style = pastStyle;
         var verb = "Udløb";
+        var narea = Math.abs(polygonArea(data.features[0].geometry.coordinates[0]))/10000;
 
 
         if(expire > today) {
@@ -68,12 +98,13 @@ function fetchGeoJSON(id) {
           }
         });
 
+        areas["zone-" + id] = narea;
         polygonMap["zone-" + id] = obj;
 
         if(expire > today){
-          activeZones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + niceDate(start) + "</td><td>" + niceDate(expire) + "</td></tr>", obj, expire]);
+          activeZones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + " (" + Math.round(narea) + " hektar)</td><td>" + niceDate(start) + "</td><td>" + niceDate(expire) + "</td></tr>", obj, expire]);
         }else{
-          pastZones.push(["<tr class='muted' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td></tr>", obj, expire]);
+          pastZones.push(["<tr class='muted' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + " (" + Math.round(narea) + " hektar) </td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td></tr>", obj, expire]);
         }
 
         fetchGeoJSON(id + 1);
