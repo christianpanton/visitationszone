@@ -63,6 +63,10 @@ function niceDate(date){
   return date.getDate() + ". " + months[date.getMonth()] + " " + (1900+date.getYear()) + " kl. " + date.getHours() + ":" + pad(date.getMinutes());
 }
 
+function formatNumber(number) {
+   return Math.max(0, number).toFixed(0).replace(/(?=(?:\d{3})+$)(?!^)/g, ',');
+}
+
 
 function fetchGeoJSON(id) {
   $.getJSON("zones/" + id + ".geojson", function(data){
@@ -102,9 +106,9 @@ function fetchGeoJSON(id) {
         polygonMap["zone-" + id] = obj;
 
         if(expire > today){
-          activeZones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + " (" + Math.round(narea) + " hektar)</td><td>" + niceDate(start) + "</td><td>" + niceDate(expire) + "</td></tr>", obj, expire]);
+          activeZones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + " (" + formatNumber(Math.round(narea)) + " hektar)</td><td>" + niceDate(start) + "</td><td>" + niceDate(expire) + "</td></tr>", obj, expire]);
         }else{
-          pastZones.push(["<tr class='muted' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + " (" + Math.round(narea) + " hektar) </td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td></tr>", obj, expire]);
+          pastZones.push(["<tr class='muted' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + " (" + formatNumber(Math.round(narea) + " hektar) </td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td></tr>", obj, expire]);
         }
 
         fetchGeoJSON(id + 1);
