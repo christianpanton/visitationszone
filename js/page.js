@@ -32,6 +32,7 @@ function fetchGeoJSON(id) {
   $.getJSON("zones/" + id + ".geojson", function(data){
 
         var expire = getDate(data.features[0].properties.end);
+        var start = getDate(data.features[0].properties.start);
         var authority = data.features[0].properties.authority;
         var area = data.features[0].properties.area;
         var today = new Date();
@@ -63,9 +64,9 @@ function fetchGeoJSON(id) {
         polygonMap["zone-" + id] = obj;
 
         if(expire > today){
-          activeZones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + niceDate(expire) + "</td></tr>", obj]);
+          activeZones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + niceDate(start) + "</td><td>" + niceDate(expire) + "</td></tr>", obj]);
         }else{
-          pastZones.push(["<tr class='muted' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + niceDate(expire) + "</td></tr>", obj]);
+          pastZones.push(["<tr class='muted' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td></tr>", obj]);
         }
 
         fetchGeoJSON(id + 1);
@@ -124,13 +125,15 @@ var attribution = "Data from OpenStreetMap, rendered by CloudMade";
 var activeStyle = {
     "color": "#F50F43",
     "weight": 2,
-    "opacity": 0.7
+    "opacity": 0.8,
+    "fillOpacity": 0.5
 };
 
 var pastStyle = {
     "color": "#666666",
     "weight": 2,
-    "opacity": 0.7
+    "opacity": 0.15,
+    "fillOpacity": 0.05
 };
 
 var me = {
