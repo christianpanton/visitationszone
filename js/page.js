@@ -131,8 +131,8 @@ var activeStyle = {
 
 var pastStyle = {
     "color": "#666666",
-    "weight": 2,
-    "opacity": 0.15,
+    "weight": 1,
+    "opacity": 0.4,
     "fillOpacity": 0.05
 };
 
