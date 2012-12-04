@@ -136,6 +136,11 @@ function fetchGeoJSON(id) {
 function onLocationFound(e) {
     var radius = e.accuracy / 2;
     var inzone = false;
+    
+    if(radius > 1000){
+      $("#failzone").show("fast");
+      return;
+    }
 
     // test location
     // e.latlng.lng = 12.539692;
