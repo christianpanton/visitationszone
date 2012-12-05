@@ -95,7 +95,7 @@ function fetchGeoJSON(id) {
             text = text.replace(/\n/g, '<br />');
 
             text = "<strong>"+feature.properties.area+"</strong><br />"+ text + "<br /><br />" + verb + ": " + niceDate(expire);
-            layer.bindPopup(text);
+            layer.bindPopup(text, {maxHeight: 250, maxWidth: 400});
             layer.on('click', function(e){
               map.fitBounds(e.target.getBounds());
             });
