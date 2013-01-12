@@ -113,8 +113,9 @@ function fetchGeoJSON(id) {
 
         fetchGeoJSON(id + 1);
 
-  }).error(function(){
+  }).error(function(e, x){
 
+    console.log(e,x);
 
     pastZones = pastZones.sort(dateSorter);
     activeZones = activeZones.sort(dateSorter)
