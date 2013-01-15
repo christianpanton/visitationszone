@@ -69,7 +69,7 @@ function formatNumber(number) {
 
 
 function fetchGeoJSON(id) {
-  $.getJSON("zones/" + id + ".geojson", function(data){
+  $.getJSON("zones/" + id + ".geojson?" + Date.now(), function(data){
 
         var expire = getDate(data.features[0].properties.end);
         var start = getDate(data.features[0].properties.start);
