@@ -16,7 +16,7 @@
         padding-top: 60px;
         padding-bottom: 40px;
       }
-      #map { height: 450px; margin-bottom: 20px;}
+      #map { height: 400px; margin-bottom: 20px;}
       #inzone { display: none}
       #outzone { display: none}
       #failzone { display: none}
@@ -86,6 +86,19 @@
       <section id="themap">
         <div id="map"></div>
       </section> 
+
+
+      <section id="infobox">
+        <div>
+          <h2 id="infohead"></h2> 
+        </div>
+        <div class="row">
+          <div class="span12">
+            <blockquote id="infotext">
+            </blockquote>
+          </div>
+        </div>
+      </section>
 
       <section id="oversigt">
         <div class="page-header">
@@ -186,6 +199,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="http://cdn.leafletjs.com/leaflet-0.4.5/leaflet.js"></script>
+    <script src="js/jquery.scrollto.js"></script>
     <script src="js/page.js"></script>
 
   </body>

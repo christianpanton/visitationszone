@@ -77,27 +77,23 @@ function fetchGeoJSON(id) {
         var area = data.features[0].properties.area;
         var today = new Date();
         var style = pastStyle;
-        var verb = "Udløb";
         var narea = Math.abs(polygonArea(data.features[0].geometry.coordinates[0]))/10000;
 
 
         if(expire > today) {
           polygons.push(data.features[0].geometry.coordinates[0]);
           style = activeStyle;
-          verb = "Udløber"; 
         }
+
+        data.features[0].properties.id = id;
+        data.features[0].properties.style = style;
 
         var obj = L.geoJson(data, 
         {
           style: style,
           onEachFeature: function (feature, layer) {
-            var text = feature.properties.background ;
-            text = text.replace(/\n/g, '<br />');
-
-            text = "<strong>"+feature.properties.area+"</strong><br />"+ text + "<br /><br />" + verb + ": " + niceDate(expire);
-            layer.bindPopup(text, {maxHeight: 250, maxWidth: 400});
             layer.on('click', function(e){
-              map.fitBounds(e.target.getBounds());
+              showText(feature, layer);
             });
           }
         });
@@ -114,8 +110,6 @@ function fetchGeoJSON(id) {
         fetchGeoJSON(id + 1);
 
   }).error(function(e, x){
-
-    console.log(e,x);
 
     pastZones = pastZones.sort(dateSorter);
     activeZones = activeZones.sort(dateSorter)
@@ -134,6 +128,29 @@ function fetchGeoJSON(id) {
   });
 }
 
+
+function showText(feature, layer){
+
+    var text = feature.properties.background ;
+    text = text.replace(/\n/g, '<br />');
+    text = "<i>" + niceDate(getDate(feature.properties.start)) + " - " + niceDate(getDate(feature.properties.end)) + "</i><br /><br />" + text ;
+
+    map.fitBounds(layer.getBounds());
+    $("#infohead").text(feature.properties.area);
+    $("#infotext").html(text);
+
+    $("#alerts").ScrollTo();
+
+
+    for(var l in map._layers){
+      if(map._layers[l].feature) map._layers[l].setStyle(map._layers[l].feature.properties.style);
+    }
+
+    layer.setStyle(highlightStyle);
+
+
+}
+
 function onLocationFound(e) {
     var radius = e.accuracy / 2;
     var inzone = false;
@@ -142,10 +159,6 @@ function onLocationFound(e) {
       $("#failzone").show("fast");
       return;
     }
-
-    // test location
-    // e.latlng.lng = 12.539692;
-    // e.latlng.lat = 55.694543;
 
     L.circle(e.latlng, radius, me).addTo(map);
     
@@ -178,15 +191,24 @@ var activeStyle = {
     "color": "#F50F43",
     "weight": 2,
     "opacity": 0.8,
-    "fillOpacity": 0.5
+    "fillOpacity": 0.2,
+    "dashArray": null
 };
 
 var pastStyle = {
     "color": "#666666",
     "weight": 1,
     "opacity": 0.4,
-    "fillOpacity": 0.05
+    "fillOpacity": 0.05,
+    "dashArray": null
 };
+
+var highlightStyle = {
+    "weight": 2,
+    "opacity": 1,
+    "fillOpacity": 0.4,
+    "dashArray": "5, 5"
+}
 
 var me = {
     "color": "#0059B3",
@@ -208,7 +230,9 @@ $(function(){
     $("#zonelist").click(function(e){
       var p = polygonMap[e.target.parentNode.id];
       map.fitBounds(p.getBounds());
-      p.eachLayer(function(l){l.openPopup()});
+      p.eachLayer(function(l){
+        showText(l.feature, l);
+      });
     });
 
 });
