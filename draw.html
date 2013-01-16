@@ -17,9 +17,6 @@
         padding-bottom: 40px;
       }
       #map { height: 800px; margin-bottom: 20px;}
-      #inzone { display: none}
-      #outzone { display: none}
-      #failzone { display: none}
       sup { cursor: help;}
     </style>
     
@@ -43,7 +40,8 @@
           <a class="brand" href="#">Visitationzone</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li><a href="#draw">Optegn</a></li>
+              <li><a href="#" id="opdater">Opdater</a></li>
+              <li><a href="#" id="optegn">Optegn</a></li>
             </ul>
           </div>
         </div>
@@ -56,6 +54,43 @@
       </section> 
     </div> 
 
+
+    <div id="kredsselect" class="modal hide fade" style="display: none; ">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal">×</button>
+          <h3>Vælg politikreds</h3>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal">
+            <fieldset>
+              <div class="control-group">
+                <label class="control-label" for="authority">Politikreds</label>
+                <div class="controls">
+                  <select id="authority">
+                    <option>Nordjyllands Politi</option>
+                    <option>Østjyllands Politi</option>
+                    <option>Midt- og Vestjyllands Politi</option>
+                    <option>Sydøstjyllands Politi</option>
+                    <option>Syd- og Sønderjyllands Politi</option>
+                    <option>Fyns Politi</option>
+                    <option>Sydsjællands Politi</option>
+                    <option>Midt- og Vestsjællands Politi</option>
+                    <option>Nordsjællands Politi</option>
+                    <option>Københavns Vestegns Politi</option>
+                    <option>Københavns Politi</option>
+                    <option>Bornholms Politi</option>
+                  </select>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="btn" data-dismiss="modal">Fortryd</a>
+          <a href="#" class="btn btn-primary" id="optegnstart">Start optegning</a>
+        </div>
+    </div>​
+
     <div id="geojson" class="modal hide fade" style="display: none; ">
         <div class="modal-header">
           <button class="close" data-dismiss="modal">×</button>
@@ -64,27 +99,6 @@
         <div class="modal-body">
            <form class="form-horizontal">
             <fieldset>
-
-
-              <div class="control-group">
-                <label class="control-label" for="authority">Politikreds</label>
-                <div class="controls">
-                  <select id="authority">
-                    <option>Nordjyllands Politi</option>
-                    <option>Østjyllands Politi</option>
-                    <option>Midt- &amp; Vestjyllands Politi</option>
-                    <option>Sydøstjyllands Politi</option>
-                    <option>Syd- &amp; Sønderjyllands Politi</option>
-                    <option>Fyns Politi</option>
-                    <option>Sydsjællands Politi</option>
-                    <option>Midt- &amp; Vestsjællands Politi</option>
-                    <option>Nordsjællands Politi</option>
-                    <option>Københavns Vestegns Politi</option>
-                    <option>Københavns Politi</option>
-                    <option>Bornholms Politi</option>
-                  </select>
-                </div>
-              </div>
 
               <div class="control-group">
                 <label class="control-label" for="area">Område</label>
@@ -179,9 +193,16 @@
            
       });
 
+      drawControl.missing = true;
+
       var poly = null;
 
-      map.addControl(drawControl);
+      var kredsStyle = {
+          "color": "#ff0000",
+          "weight": 2,
+          "opacity": 1,
+          "fillOpacity": 0
+      };
 
       map.on('draw:poly-created', function (e) {
         poly = e.poly;
@@ -189,7 +210,44 @@
       });
 
       $(function(){
+
           L.tileLayer('http://{s}.tile.cloudmade.com/85ee5ea570b4491bbaad62c355fe4ab4/1/256/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
+        
+          $("#opdater").click(function(){
+            if(!drawControl.missing) map.removeControl(drawControl); drawControl.missing = true;
+          });
+
+          $("#optegn").click(function(){
+            if(drawControl.missing) map.addControl(drawControl); drawControl.missing = false;
+            $("#kredsselect").modal("show");
+          });
+
+          $("#optegnstart").click(function(){
+            
+            $.getJSON("oio/politikredse.json", function(data){
+                var selected = $("#authority").val();
+
+                for(var kreds in data){
+                  if(data[kreds].navn == selected){
+                    selected = data[kreds].nr;
+                  }
+                }
+
+                $.getJSON("oio/" +  selected + ".json", function(geojson){
+
+                   var obj = L.geoJson(geojson, {style: kredsStyle});
+                   obj.addTo(map);
+                   map.fitBounds(obj.getBounds());
+                   drawControl.handlers.polygon.enable();
+                  $("#kredsselect").modal("hide");
+                });
+
+                
+            });
+            
+          });
+
+
           $("#makejson").click(function(){
             $("#geojson").modal("hide");
 
