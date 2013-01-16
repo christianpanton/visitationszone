@@ -131,6 +131,8 @@ function fetchGeoJSON(id) {
 
 function showText(feature, layer){
 
+    $("#infobox").show();
+
     var text = feature.properties.background ;
     text = text.replace(/\n/g, '<br />');
     text = "<i>" + niceDate(getDate(feature.properties.start)) + " - " + niceDate(getDate(feature.properties.end)) + "</i><br /><br />" + text ;
@@ -219,6 +221,9 @@ var me = {
 var polygons = [];
 
 $(function(){
+
+
+    $("#infobox").hide();
 
     L.tileLayer('http://{s}.tile.cloudmade.com/85ee5ea570b4491bbaad62c355fe4ab4/1714/256/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
   
