@@ -6,7 +6,7 @@ $features = array();
 foreach($sdir as $file){
    $data = file_get_contents($dir.$file, 0, null, null);
    $json = json_decode($data);
-   array_push($features, $json->features);
+   array_push($features, $json->features[0]);
 }
 
 $json->features = $features;
