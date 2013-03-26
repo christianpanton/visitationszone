@@ -1,8 +1,7 @@
 var polygons = [];
 
-var activeZones = [];
-var pastZones = [];
-var polygonMap = {};
+var zones = [];
+var layerMap = {};
 
 var areas = {};
 
@@ -43,8 +42,8 @@ function polygonArea(poly) {
 
 
 function dateSorter(a, b){
-  if (a[2] > b[2]) return 1;
-  if (a[2] < b[2]) return -1;
+  if (a[1] > b[1]) return 1;
+  if (a[1] < b[1]) return -1;
   return 0;
 }
 
@@ -68,68 +67,64 @@ function formatNumber(number) {
 }
 
 
-function fetchGeoJSON(id) {
-  $.getJSON("zones/" + id + ".geojson?" + Date.now(), function(data){
+function fetchGeoJSON() {
+  $.getJSON("zone.php?" + Date.now(), function(data){
 
-        var expire = getDate(data.features[0].properties.end);
-        var start = getDate(data.features[0].properties.start);
-        var authority = data.features[0].properties.authority;
-        var area = data.features[0].properties.area;
+     for(var id = 0; id < data.features.length; id++){
+
+        var expire = getDate(data.features[id].properties.end);
+        var start = getDate(data.features[id].properties.start);
+        var authority = data.features[id].properties.authority;
+        var area = data.features[id].properties.area;
         var today = new Date();
         var style = pastStyle;
-        var narea = Math.abs(polygonArea(data.features[0].geometry.coordinates[0]))/10000;
+        var narea = Math.abs(polygonArea(data.features[id].geometry.coordinates[0]))/10000;
 
 
         if(expire > today) {
-          polygons.push(data.features[0].geometry.coordinates[0]);
+          polygons.push(data.features[id].geometry.coordinates[0]);
           style = activeStyle;
         }
 
-        data.features[0].properties.id = id;
-        data.features[0].properties.style = style;
+        data.features[id].properties.id = id;
+        data.features[id].properties.style = style;
 
-        var obj = L.geoJson(data, 
-        {
-          style: style,
-          onEachFeature: function (feature, layer) {
+        areas["zone-" + id] = narea;
+
+        if(expire > today){
+          zones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + niceDate(start) + "</td><td>" + niceDate(expire) + "</td></tr>", expire]);
+        }else{
+          zones.push(["<tr class='muted' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td></tr>", expire]);
+        }
+
+    }
+
+
+    zones = zones.sort(dateSorter);
+
+    for(var i = 0; i < zones.length; i++){
+      $("#zonelist").prepend(zones[i][0]);
+    }
+
+    var obj = L.geoJson(data, 
+    {
+       onEachFeature: function (feature, layer) {
+      layerMap["zone-" + feature.properties.id] = layer;
+            layer.setStyle(feature.properties.style);
             layer.on('click', function(e){
               showText(feature, layer);
             });
           }
-        });
+    });
 
-        areas["zone-" + id] = narea;
-        polygonMap["zone-" + id] = obj;
-
-        if(expire > today){
-          activeZones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + niceDate(start) + "</td><td>" + niceDate(expire) + "</td></tr>", obj, expire]);
-        }else{
-          pastZones.push(["<tr class='muted' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td></tr>", obj, expire]);
-        }
-
-        fetchGeoJSON(id + 1);
-
-  }).error(function(e, x){
-
-    pastZones = pastZones.sort(dateSorter);
-    activeZones = activeZones.sort(dateSorter)
-
-    for(var i = 0; i < pastZones.length; i++){
-      $("#zonelist").prepend(pastZones[i][0]);
-      pastZones[i][1].addTo(map);
-    }
-
-    for(var i = 0; i < activeZones.length; i++){
-      $("#zonelist").prepend(activeZones[i][0]);
-      activeZones[i][1].addTo(map);
-    }
-
+    obj.addTo(map);
     map.locate({setView: true, maxZoom: 13});
   });
 }
 
 
 function showText(feature, layer){
+
 
     $("#infobox").show();
 
@@ -227,17 +222,15 @@ $(function(){
 
     L.tileLayer('http://{s}.tile.cloudmade.com/85ee5ea570b4491bbaad62c355fe4ab4/1714/256/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
   
-    fetchGeoJSON(1); 
+    fetchGeoJSON(); 
     $(".close-alert").click(function(e){
       $(".alert").hide("fast");
     });
 
     $("#zonelist").click(function(e){
-      var p = polygonMap[e.target.parentNode.id];
-      map.fitBounds(p.getBounds());
-      p.eachLayer(function(l){
-        showText(l.feature, l);
-      });
+      var l = layerMap[e.target.parentNode.id];
+      map.fitBounds(l.getBounds());
+      showText(l.feature, l);
     });
 
 });
