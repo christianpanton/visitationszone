@@ -81,8 +81,7 @@ function fetchGeoJSON() {
         var narea = Math.abs(polygonArea(data.features[id].geometry.coordinates[0]))/10000;
 
 
-        if(expire > today) {
-          polygons.push(data.features[id].geometry.coordinates[0]);
+        if(expire > today) {          polygons.push(data.features[id].geometry.coordinates[0]);
           style = activeStyle;
         }
 
@@ -182,7 +181,7 @@ var map = L.map('map').setView([56, 10], 7);
 map.on('locationfound', onLocationFound);
 map.on('locationerror', onLocationError);     
 
-var attribution = "Data from OpenStreetMap, rendered by CloudMade";
+var attribution = "Data from OpenStreetMap";
 
 var activeStyle = {
     "color": "#F50F43",
@@ -220,7 +219,8 @@ $(function(){
 
     $("#infobox").hide();
 
-    L.tileLayer('http://{s}.tile.cloudmade.com/85ee5ea570b4491bbaad62c355fe4ab4/1714/256/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
+    L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
+//    L.tileLayer('https://a.tiles.mapbox.com/v3/panton.i20ai51n/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
   
     fetchGeoJSON(); 
     $(".close-alert").click(function(e){

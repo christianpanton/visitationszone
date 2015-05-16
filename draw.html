@@ -21,7 +21,7 @@
     </style>
     
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.5/leaflet.css" />
+    <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/leaflet.draw.css" />
     <link rel="stylesheet" href="css/datepicker.css" />
 
@@ -73,7 +73,7 @@
                     <option>Sydøstjyllands Politi</option>
                     <option>Syd- og Sønderjyllands Politi</option>
                     <option>Fyns Politi</option>
-                    <option>Sydsjællands Politi</option>
+                    <option>Sydsjællands og Lolland-Falsters Politi</option>
                     <option>Midt- og Vestsjællands Politi</option>
                     <option>Nordsjællands Politi</option>
                     <option>Københavns Vestegns Politi</option>
@@ -166,7 +166,7 @@
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="http://cdn.leafletjs.com/leaflet-0.4.5/leaflet.js"></script>
+    <script src="js/leaflet.js"></script>
     <script src="js/leaflet.draw.js"></script>
     <script src="js/datepicker.js"></script>
 
@@ -174,7 +174,7 @@
 
       var map = L.map('map').setView([56, 10], 7);
       
-      var attribution = "Data from OpenStreetMap, rendered by CloudMade";
+      var attribution = "Data from OpenStreetMap";
 
       var drawControl = new L.Control.Draw({
           position: 'topleft',
@@ -211,7 +211,7 @@
 
       $(function(){
 
-          L.tileLayer('http://{s}.tile.cloudmade.com/85ee5ea570b4491bbaad62c355fe4ab4/1/256/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
+          L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
         
           $("#opdater").click(function(){
             if(!drawControl.missing) map.removeControl(drawControl); drawControl.missing = true;
