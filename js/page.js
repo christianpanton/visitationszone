@@ -117,7 +117,7 @@ function fetchGeoJSON() {
     });
 
     obj.addTo(map);
-    map.locate({setView: true, maxZoom: 13});
+    //map.locate({setView: true, maxZoom: 13});
   });
 }
 
@@ -231,6 +231,10 @@ $(function(){
       var l = layerMap[e.target.parentNode.id];
       map.fitBounds(l.getBounds());
       showText(l.feature, l);
+    });
+
+    $("#locate").click(function(e){
+      map.locate({setView: true, maxZoom: 13});
     });
 
 });
