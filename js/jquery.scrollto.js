@@ -1,186 +1,210 @@
-/**
- * @depends jquery
- * @name jquery.scrollto
- * @package jquery-scrollto {@link http://balupton.com/projects/jquery-scrollto}
+/*!
+ * jQuery.scrollTo
+ * Copyright (c) 2007-2015 Ariel Flesler - aflesler ○ gmail • com | http://flesler.blogspot.com
+ * Licensed under MIT
+ * http://flesler.blogspot.com/2007/10/jqueryscrollto.html
+ * @projectDescription Lightweight, cross-browser and highly customizable animated scrolling with jQuery
+ * @author Ariel Flesler
+ * @version 2.1.2
  */
+;(function(factory) {
+	'use strict';
+	if (typeof define === 'function' && define.amd) {
+		// AMD
+		define(['jquery'], factory);
+	} else if (typeof module !== 'undefined' && module.exports) {
+		// CommonJS
+		module.exports = factory(require('jquery'));
+	} else {
+		// Global
+		factory(jQuery);
+	}
+})(function($) {
+	'use strict';
 
-/**
- * jQuery Aliaser
- */
-(function($){
+	var $scrollTo = $.scrollTo = function(target, duration, settings) {
+		return $(window).scrollTo(target, duration, settings);
+	};
 
-	/**
-	 * jQuery ScrollTo (balupton edition)
-	 * @version 1.0.1
-	 * @date August 31, 2010
-	 * @since 0.1.0, August 27, 2010
-     * @package jquery-scrollto {@link http://balupton.com/projects/jquery-scrollto}
-	 * @author Benjamin "balupton" Lupton {@link http://balupton.com}
-	 * @copyright (c) 2010 Benjamin Arthur Lupton {@link http://balupton.com}
-	 * @license MIT License {@link http://creativecommons.org/licenses/MIT/}
-	 */
-	if ( !($.ScrollTo||false) ) {
-		$.ScrollTo = {
-			/**
-			 * The Default Configuration
-			 */
-			config: {
-				duration: 400,
-				easing: 'swing',
-				callback: undefined,
-				durationMode: 'each'
-			},
+	$scrollTo.defaults = {
+		axis:'xy',
+		duration: 0,
+		limit:true
+	};
 
-			/**
-			 * Configure ScrollTo
-			 */
-			configure: function(options){
-				var ScrollTo = $.ScrollTo;
+	function isWin(elem) {
+		return !elem.nodeName ||
+			$.inArray(elem.nodeName.toLowerCase(), ['iframe','#document','html','body']) !== -1;
+	}		
 
-				// Apply Options to Config
-				$.extend(ScrollTo.config, options||{});
+	$.fn.scrollTo = function(target, duration, settings) {
+		if (typeof duration === 'object') {
+			settings = duration;
+			duration = 0;
+		}
+		if (typeof settings === 'function') {
+			settings = { onAfter:settings };
+		}
+		if (target === 'max') {
+			target = 9e9;
+		}
 
-				// Chain
-				return this;
-			},
+		settings = $.extend({}, $scrollTo.defaults, settings);
+		// Speed is still recognized for backwards compatibility
+		duration = duration || settings.duration;
+		// Make sure the settings are given right
+		var queue = settings.queue && settings.axis.length > 1;
+		if (queue) {
+			// Let's keep the overall duration
+			duration /= 2;
+		}
+		settings.offset = both(settings.offset);
+		settings.over = both(settings.over);
 
-			/**
-			 * Perform the Scroll Animation for the Collections
-			 * We use $inline here, so we can determine the actual offset start for each overflow:scroll item
-			 * Each collection is for each overflow:scroll item
-			 */
-			scroll: function(collections, config){
-				var ScrollTo = $.ScrollTo;
+		return this.each(function() {
+			// Null target yields nothing, just like jQuery does
+			if (target === null) return;
 
-				// Determine the Scroll
-	    		var	collection = collections.pop(),
-					$container = collection.$container,
-					$target = collection.$target;
+			var win = isWin(this),
+				elem = win ? this.contentWindow || window : this,
+				$elem = $(elem),
+				targ = target, 
+				attr = {},
+				toff;
 
-				// Prepare the Inline Element of the Container
-				var $inline = $('<span/>').css({
-					'position': 'absolute',
-					'top': '0px',
-					'left': '0px'
-				});
-				var position = $container.css('position');
-
-				// Insert the Inline Element of the Container
-				$container.css('position','relative');
-				$inline.appendTo($container);
-
-				// Determine the Offsets
-				var	startOffset = $inline.offset().top,
-					targetOffset = $target.offset().top,
-					offsetDifference = targetOffset - startOffset;
-
-				// Reset the Inline Element of the Container
-				$inline.remove();
-				$container.css('position',position);
-
-				// Prepare the callback
-				var callback = function(event){
-					// Check
-					if ( collections.length === 0 ) {
-						// Callback
-						if ( typeof config.callback === 'function' ) {
-							config.callback.apply(this,[event]);
-						}
+			switch (typeof targ) {
+				// A number will pass the regex
+				case 'number':
+				case 'string':
+					if (/^([+-]=?)?\d+(\.\d+)?(px|%)?$/.test(targ)) {
+						targ = both(targ);
+						// We are done
+						break;
 					}
-					else {
-						// Recurse
-						ScrollTo.scroll(collections,config);
+					// Relative/Absolute selector
+					targ = win ? $(targ) : $(targ, elem);
+					/* falls through */
+				case 'object':
+					if (targ.length === 0) return;
+					// DOMElement / jQuery
+					if (targ.is || targ.style) {
+						// Get the real position of the target
+						toff = (targ = $(targ)).offset();
 					}
-					// Return true
-					return true;
-				};
-
-				// Perform the Scroll
-				$container.animate({
-					'scrollTop': offsetDifference+'px'
-				}, config.duration, config.easing, callback);
-
-				// Return true
-				return true;
-			},
-
-			/**
-			 * ScrollTo the Element using the Options
-			 */
-			fn: function(options){
-				var ScrollTo = $.ScrollTo;
-
-				// Prepare
-				var	$target = $(this);
-				if ( $target.length === 0 ) {
-					// Chain
-					return this;
-				}
-
-				// Fetch
-				var	$container = $target.parent(),
-					collections = [];
-
-				// Handle Options
-				config = $.extend({},ScrollTo.config,options);
-
-				// Cycle through the containers
-				while ( $container.length === 1 && !$container.is('body') && !($container.get(0) === document) ) {
-					// Check Container
-					var container = $container.get(0);
-					if ( $container.css('overflow-y') !== 'visible' && container.scrollHeight !== container.clientHeight ) {
-						// Push the Collection
-						collections.push({
-							'$container': $container,
-							'$target': $target
-						});
-						// Update the Target
-						$target = $container;
-					}
-					// Update the Container
-					$container = $container.parent();
-				}
-
-				// Add the final collection
-				collections.push({
-					'$container': $($.browser.msie ? 'html' : 'body'),
-					'$target': $target
-				});
-
-				// Adjust the Config
-				if ( config.durationMode === 'all' ) {
-					config.duration /= collections.length;
-				}
-
-				// Handle
-				ScrollTo.scroll(collections,config);
-
-				// Chain
-				return this;
-			},
-
-			/**
-			 * Construct
-			 */
-			construct: function(options){
-				var ScrollTo = $.ScrollTo;
-
-				// Apply our jQuery Function
-				$.fn.ScrollTo = ScrollTo.fn;
-
-				// Apply our Options to the Default Config
-				ScrollTo.config = $.extend(ScrollTo.config,options);
-
-				// Chain
-				return this;
 			}
-		};
 
-		// Construct It
-		$.ScrollTo.construct();
-	}
-	else {
-		window.console.warn("$.ScrollTo has already been defined...");
+			var offset = $.isFunction(settings.offset) && settings.offset(elem, targ) || settings.offset;
+
+			$.each(settings.axis.split(''), function(i, axis) {
+				var Pos	= axis === 'x' ? 'Left' : 'Top',
+					pos = Pos.toLowerCase(),
+					key = 'scroll' + Pos,
+					prev = $elem[key](),
+					max = $scrollTo.max(elem, axis);
+
+				if (toff) {// jQuery / DOMElement
+					attr[key] = toff[pos] + (win ? 0 : prev - $elem.offset()[pos]);
+
+					// If it's a dom element, reduce the margin
+					if (settings.margin) {
+						attr[key] -= parseInt(targ.css('margin'+Pos), 10) || 0;
+						attr[key] -= parseInt(targ.css('border'+Pos+'Width'), 10) || 0;
+					}
+
+					attr[key] += offset[pos] || 0;
+
+					if (settings.over[pos]) {
+						// Scroll to a fraction of its width/height
+						attr[key] += targ[axis === 'x'?'width':'height']() * settings.over[pos];
+					}
+				} else {
+					var val = targ[pos];
+					// Handle percentage values
+					attr[key] = val.slice && val.slice(-1) === '%' ?
+						parseFloat(val) / 100 * max
+						: val;
+				}
+
+				// Number or 'number'
+				if (settings.limit && /^\d+$/.test(attr[key])) {
+					// Check the limits
+					attr[key] = attr[key] <= 0 ? 0 : Math.min(attr[key], max);
+				}
+
+				// Don't waste time animating, if there's no need.
+				if (!i && settings.axis.length > 1) {
+					if (prev === attr[key]) {
+						// No animation needed
+						attr = {};
+					} else if (queue) {
+						// Intermediate animation
+						animate(settings.onAfterFirst);
+						// Don't animate this axis again in the next iteration.
+						attr = {};
+					}
+				}
+			});
+
+			animate(settings.onAfter);
+
+			function animate(callback) {
+				var opts = $.extend({}, settings, {
+					// The queue setting conflicts with animate()
+					// Force it to always be true
+					queue: true,
+					duration: duration,
+					complete: callback && function() {
+						callback.call(elem, targ, settings);
+					}
+				});
+				$elem.animate(attr, opts);
+			}
+		});
+	};
+
+	// Max scrolling position, works on quirks mode
+	// It only fails (not too badly) on IE, quirks mode.
+	$scrollTo.max = function(elem, axis) {
+		var Dim = axis === 'x' ? 'Width' : 'Height',
+			scroll = 'scroll'+Dim;
+
+		if (!isWin(elem))
+			return elem[scroll] - $(elem)[Dim.toLowerCase()]();
+
+		var size = 'client' + Dim,
+			doc = elem.ownerDocument || elem.document,
+			html = doc.documentElement,
+			body = doc.body;
+
+		return Math.max(html[scroll], body[scroll]) - Math.min(html[size], body[size]);
+	};
+
+	function both(val) {
+		return $.isFunction(val) || $.isPlainObject(val) ? val : { top:val, left:val };
 	}
 
-})(jQuery);
+	// Add special hooks so that window scroll properties can be animated
+	$.Tween.propHooks.scrollLeft = 
+	$.Tween.propHooks.scrollTop = {
+		get: function(t) {
+			return $(t.elem)[t.prop]();
+		},
+		set: function(t) {
+			var curr = this.get(t);
+			// If interrupt is true and user scrolled, stop animating
+			if (t.options.interrupt && t._last && t._last !== curr) {
+				return $(t.elem).stop();
+			}
+			var next = Math.round(t.now);
+			// Don't waste CPU
+			// Browsers don't render floating point scroll
+			if (curr !== next) {
+				$(t.elem)[t.prop](next);
+				t._last = this.get(t);
+			}
+		}
+	};
+
+	// AMD requirement
+	return $scrollTo;
+});
