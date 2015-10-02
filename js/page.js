@@ -91,9 +91,9 @@ function fetchGeoJSON() {
         areas["zone-" + id] = narea;
 
         if(expire > today){
-          zones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + niceDate(start) + "</td><td>" + niceDate(expire) + "</td></tr>", expire]);
+          zones.push(["<tr class='warning' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + niceDate(start) + "</td><td>" + niceDate(expire) + "</td></tr>", expire]);
         }else{
-          zones.push(["<tr class='muted' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td></tr>", expire]);
+          zones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td></tr>", expire]);
         }
 
     }
@@ -135,8 +135,8 @@ function showText(feature, layer){
     $("#infohead").text(feature.properties.area);
     $("#infotext").html(text);
 
-    $("#alerts").ScrollTo();
-
+    //$("#alerts").ScrollTo();
+    $.scrollTo(0, 800);
 
     for(var l in map._layers){
       if(map._layers[l].feature) map._layers[l].setStyle(map._layers[l].feature.properties.style);
