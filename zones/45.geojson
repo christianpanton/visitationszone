@@ -1,1 +1,128 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"Baggrunden herfor er det anspændte forhold mellem kriminelle grupperinger og enkeltpersoner fra områderne Blågårds Plads, København, Værebro, Bagsværd og Kokkedal, der vurderedes at indebære en stærkt forøget risiko for voldelige konfrontationer med fare for - også udenforstående -  personers liv, helbred eller velfærd. Der er også gennem den seneste periode forekommet en flere episoder i det storkøbenhavnske område, hvorunder der mellem formodede bandegrupperinger er anvendt såvel skyde- som stikvåben. Episoderne har som helhed en betydelig geografisk spredning i det storkøbenhavnske område, og det må antages, at episoder af den beskrevne karakter vil kunne forekomme overalt, hvor medlemmer af bandegrupperingerne bor og færdes. Det bemærkes herved, at fortsat antræffes personer er i Kokkedal-området iført skudsikre veste og beklædning med påtrykt tekst, der angiver bandetilhørsforhold til en af de involverede grupperinger. I forbindelse med omfattende ransagninger, senest den 19. april 2013, er der fundet et større antal skydevåben hos medlemmer af de anførte grupperinger, hos hvem der også tidligere flere gange er fundet stik- og skydevåben.Herefter og idet de foreliggende oplysninger indikerer, at der fortsat består et forværret forhold mellem de ovennævnte grupperinger/enkeltpersoner, hvorved der på nuværende tidspunkt fortsat foreligger risiko for voldelige konfrontationer, har jeg i dag besluttet, at perioden for anvendelse af besigtigelses- og visitationszonen forlænges til den 7. maj 2013 kl. 12.00.","start":"2013-04-23 12:00","end":"2013-05-07 12:00","authority":"Nordsjællands Politi","area":"Kokkedal","extent":"Ikke opgivet"},"geometry":{"type":"Polygon","coordinates":[[[12.516388893127441,55.91287423547277],[12.517204284667969,55.91208051036322],[12.515316009521484,55.9111424506494],[12.514243125915527,55.907582427828636],[12.51119613647461,55.90536927594148],[12.507462501525879,55.90241019079086],[12.500123977661133,55.90152001531609],[12.495746612548828,55.90123130536952],[12.486605644226074,55.90053358079389],[12.483644485473633,55.89971554289555],[12.48270034790039,55.89952306088302],[12.480254173278809,55.900220803634404],[12.476434707641602,55.9036852714221],[12.472915649414062,55.90508059464523],[12.466135025024414,55.90953085918421],[12.478365898132324,55.919031066232854],[12.479395866394043,55.92078654584881],[12.484674453735352,55.92040178999611],[12.492399215698242,55.91943988365562],[12.49518871307373,55.91999298271799],[12.496304512023926,55.919127258955484],[12.496304512023926,55.9171312110488],[12.498836517333984,55.91701096391683],[12.50291347503662,55.91650592188955],[12.50570297241211,55.91585657247252],[12.509865760803223,55.91424517693769]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.516388893127441, 
+                            55.91287423547277
+                        ], 
+                        [
+                            12.517204284667969, 
+                            55.91208051036322
+                        ], 
+                        [
+                            12.515316009521484, 
+                            55.9111424506494
+                        ], 
+                        [
+                            12.514243125915527, 
+                            55.907582427828636
+                        ], 
+                        [
+                            12.51119613647461, 
+                            55.90536927594148
+                        ], 
+                        [
+                            12.507462501525879, 
+                            55.90241019079086
+                        ], 
+                        [
+                            12.500123977661133, 
+                            55.90152001531609
+                        ], 
+                        [
+                            12.495746612548828, 
+                            55.90123130536952
+                        ], 
+                        [
+                            12.486605644226074, 
+                            55.90053358079389
+                        ], 
+                        [
+                            12.483644485473633, 
+                            55.89971554289555
+                        ], 
+                        [
+                            12.48270034790039, 
+                            55.89952306088302
+                        ], 
+                        [
+                            12.480254173278809, 
+                            55.900220803634404
+                        ], 
+                        [
+                            12.476434707641602, 
+                            55.9036852714221
+                        ], 
+                        [
+                            12.472915649414062, 
+                            55.90508059464523
+                        ], 
+                        [
+                            12.466135025024414, 
+                            55.90953085918421
+                        ], 
+                        [
+                            12.478365898132324, 
+                            55.919031066232854
+                        ], 
+                        [
+                            12.479395866394043, 
+                            55.92078654584881
+                        ], 
+                        [
+                            12.484674453735352, 
+                            55.92040178999611
+                        ], 
+                        [
+                            12.492399215698242, 
+                            55.91943988365562
+                        ], 
+                        [
+                            12.49518871307373, 
+                            55.91999298271799
+                        ], 
+                        [
+                            12.496304512023926, 
+                            55.919127258955484
+                        ], 
+                        [
+                            12.496304512023926, 
+                            55.9171312110488
+                        ], 
+                        [
+                            12.498836517333984, 
+                            55.91701096391683
+                        ], 
+                        [
+                            12.50291347503662, 
+                            55.91650592188955
+                        ], 
+                        [
+                            12.50570297241211, 
+                            55.91585657247252
+                        ], 
+                        [
+                            12.509865760803223, 
+                            55.91424517693769
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2013-05-07 12:00", 
+                "background": "Baggrunden herfor er det ansp\u00e6ndte forhold mellem kriminelle grupperinger og enkeltpersoner fra omr\u00e5derne Bl\u00e5g\u00e5rds Plads, K\u00f8benhavn, V\u00e6rebro, Bagsv\u00e6rd og Kokkedal, der vurderedes at indeb\u00e6re en st\u00e6rkt for\u00f8get risiko for voldelige konfrontationer med fare for - ogs\u00e5 udenforst\u00e5ende -  personers liv, helbred eller velf\u00e6rd. Der er ogs\u00e5 gennem den seneste periode forekommet en flere episoder i det stork\u00f8benhavnske omr\u00e5de, hvorunder der mellem formodede bandegrupperinger er anvendt s\u00e5vel skyde- som stikv\u00e5ben. Episoderne har som helhed en betydelig geografisk spredning i det stork\u00f8benhavnske omr\u00e5de, og det m\u00e5 antages, at episoder af den beskrevne karakter vil kunne forekomme overalt, hvor medlemmer af bandegrupperingerne bor og f\u00e6rdes. Det bem\u00e6rkes herved, at fortsat antr\u00e6ffes personer er i Kokkedal-omr\u00e5det if\u00f8rt skudsikre veste og bekl\u00e6dning med p\u00e5trykt tekst, der angiver bandetilh\u00f8rsforhold til en af de involverede grupperinger. I forbindelse med omfattende ransagninger, senest den 19. april 2013, er der fundet et st\u00f8rre antal skydev\u00e5ben hos medlemmer af de anf\u00f8rte grupperinger, hos hvem der ogs\u00e5 tidligere flere gange er fundet stik- og skydev\u00e5ben.Herefter og idet de foreliggende oplysninger indikerer, at der fortsat best\u00e5r et forv\u00e6rret forhold mellem de ovenn\u00e6vnte grupperinger/enkeltpersoner, hvorved der p\u00e5 nuv\u00e6rende tidspunkt fortsat foreligger risiko for voldelige konfrontationer, har jeg i dag besluttet, at perioden for anvendelse af besigtigelses- og visitationszonen forl\u00e6nges til den 7. maj 2013 kl. 12.00.", 
+                "area": "Kokkedal", 
+                "authority": "Nordsj\u00e6llands Politi", 
+                "start": "2013-04-23 12:00", 
+                "extent": "Ikke opgivet", 
+                "population": 8700
+            }
+        }
+    ]
+}
