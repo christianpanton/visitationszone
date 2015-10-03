@@ -55,10 +55,7 @@
           	<li class="active"><a href="#oversigt">Oversigt<span class="sr-only">(current)</span></a></li>
           	<li><a href="#lov">Baggrund</a></li>
           	<li><a href="#data">Data</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><button type="button" class="btn btn-success navbar-btn" aria-label="Left Align" id="locate">Find mig</button></li>
-            <li><a href="#"></a></li>
+          	<li><a href="#statestik">Statestik</a></li>
           </ul>
         </div>
       </div>
@@ -82,7 +79,6 @@
             </div>
           </div>
         </div>
-
       </section>
 
       <div class="row">
@@ -90,6 +86,16 @@
           <section id="themap">
 	        <div id="map"></div>
           </section>
+        </div>
+        <div class="col-xs-12 text-center">
+          <a class="btn btn-lg btn-success" href="#" id="locate">
+	        <i class="fa fa-street-view fa-3x pull-left"></i>
+	        Er du i en Visitationzone?<br>Tryk her, så kigger vi
+	      </a>
+        </div>
+        <div class="col-xs-12">
+        	<div id="status">
+        	</div>
         </div>
         <div class="col-xs-12">
           <section id="infobox">
@@ -107,7 +113,7 @@
             </div>
           </div>
           <div class="col-xs-12">
-            <blockquote>En visitationszone eller besigtigelses- og visitationszone er et afgrænset område, indenfor hvilket politiet uden en konkret mistanke om at et strafbart forhold er begået af den pågældende, kan visitere borgere og undersøge tøj og tasker. Formålet er at kontrollere, om de forbipasserende bærer ulovlige knive eller våben på sig. Politiet kan også gennemsøge biler og andre køretøjer i zonen. <footer>Kilde: <cite title="Source Title">Wikipedia</cite></footer>
+            <blockquote><i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i>En visitationszone eller besigtigelses- og visitationszone er et afgrænset område, indenfor hvilket politiet uden en konkret mistanke om at et strafbart forhold er begået af den pågældende, kan visitere borgere og undersøge tøj og tasker. Formålet er at kontrollere, om de forbipasserende bærer ulovlige knive eller våben på sig. Politiet kan også gennemsøge biler og andre køretøjer i zonen. <footer>Kilde: <cite title="Source Title"><a href="https://da.wikipedia.org/wiki/Visitationszone" target="_blank">Wikipedia</a></cite></footer>
             </blockquote>
           </div>
           
@@ -132,7 +138,54 @@
 
         </div>
       </section>
-
+      
+      <section id="statestik">
+        <div class="row">
+          <div class="mini-charts">
+          	<div class="col-xs-12">
+          	  <div class="page-header">
+                <h2>Statestik ud fra datasæt</h2>
+              </div>
+          	</div>
+      	    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+      	      <div class="panel panel-default">
+      	        <div class="panel-body">
+      	  	      <i class="fa fa-4x pull-left fa-calendar"></i>
+      	  	      <small>Dage med Visitationzone</small><br />
+      	  	      <span class="fa-2x" id="total_days">0</span>
+      	        </div>
+      	      </div>
+      	    </div>
+      	    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+      	      <div class="panel panel-default">
+      	        <div class="panel-body">
+      	  	      <i class="fa fa-4x pull-left fa-map-o"></i>
+      	  	      <small>Areal i gennemsnit</small><br />
+      	  	      <span class="fa-2x" id="avg_area">0</span>
+      	        </div>
+      	      </div>
+      	    </div>
+      	    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+      	      <div class="panel panel-default">
+      	        <div class="panel-body">
+      	  	      <i class="fa fa-4x pull-left fa-street-view"></i>
+      	  	      <small>Gennemsnit befolkning</small><br />
+      	  	      <span class="fa-2x" id="avg_population">0</span>
+      	        </div>
+      	      </div>
+      	    </div>
+      	    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+      	      <div class="panel panel-default">
+      	        <div class="panel-body">
+      	  	      <i class="fa fa-4x pull-left fa-question"></i>
+      	  	      <small>Har du et forslag?<br /></small><br />
+      	  	      <span class="fa-2x"></span>
+      	        </div>
+      	      </div>
+      	    </div>
+      	  </div>
+        </div>
+      </section>
 
       <section id="lov">
         <div class="row">

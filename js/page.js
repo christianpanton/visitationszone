@@ -69,17 +69,24 @@ function formatNumber(number) {
 
 function fetchGeoJSON() {
   $.getJSON("zone.php?" + Date.now(), function(data){
-
+     var total_days = 0;
+     var total_area = 0;
+     var total_population = 0;
      for(var id = 0; id < data.features.length; id++){
 
         var expire = getDate(data.features[id].properties.end);
         var start = getDate(data.features[id].properties.start);
+        var days = (expire.getTime() - start.getTime())/1000/60/60/24;
+        console.log(days);
+        total_days = days + total_days;
         var authority = data.features[id].properties.authority;
         var area = data.features[id].properties.area;
         var today = new Date();
         var style = pastStyle;
         var narea = Math.abs(polygonArea(data.features[id].geometry.coordinates[0]))/10000;
         var population = data.features[id].properties.population;
+        total_area = total_area + narea;
+        total_population = total_population + population;
 
 
         if(expire > today) {          polygons.push(data.features[id].geometry.coordinates[0]);
@@ -105,7 +112,11 @@ function fetchGeoJSON() {
     for(var i = 0; i < zones.length; i++){
       $("#zonelist").prepend(zones[i][0]);
     }
-
+    
+    $("#total_days").text(formatNumber(total_days));
+    $("#avg_area").text(formatNumber(total_area / data.features.length));
+    $("#avg_population").text(formatNumber(total_population / data.features.length));
+    
     var obj = L.geoJson(data, 
     {
        onEachFeature: function (feature, layer) {
@@ -154,6 +165,7 @@ function onLocationFound(e) {
     
     if(radius > 1000){
       $("#failzone").show("fast");
+      $("#locate").find($(".fa")).removeClass('fa-spinner fa-pulse').addClass('fa-street-view');
       return;
     }
 
@@ -167,14 +179,17 @@ function onLocationFound(e) {
 
     if(inzone){
       $("#inzone").show("fast");
+      $("#locate").find($(".fa")).removeClass('fa-spinner fa-pulse').addClass('fa-street-view');
     }else{
       $("#outzone").show("fast");
+      $("#locate").find($(".fa")).removeClass('fa-spinner fa-pulse').addClass('fa-street-view');
     }
 
 }
 
 function onLocationError(e) {
   $("#failzone").show("fast");
+  $("#locate").find($(".fa")).removeClass('fa-spinner fa-pulse').addClass('fa-street-view');
 }
 
 
@@ -235,6 +250,7 @@ $(function(){
     });
 
     $("#locate").click(function(e){
+      $(this).find($(".fa")).removeClass('fa-street-view').addClass('fa-spinner fa-pulse');
       map.locate({setView: true, maxZoom: 13});
     });
 
