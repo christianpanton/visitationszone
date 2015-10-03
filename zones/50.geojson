@@ -1,1 +1,60 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"Tirsdag aften gæster de Globus1 i Gellerup - og i den forbindelse indfører Østjyllands Politi visitationszone i området i tidsrummet 16 til 24.\n\nBeslutningen om at indføre visitationszonen skyldes, at Østjyllands Politi vurderer, at der i forbindelse med dialogmødet er en forøget risiko for, at der opstår ballade - og at der er personer med våben. ","start":"2013-10-29 16:00","end":"2013-10-30 00:00","authority":"Østjyllands Politi","area":"Gellerup","extent":"Visitationszonen omfatter området afgrænset af Edwin Rahrs Vej, Gudrunsvej, Tinesvej, Silkeborgvej og Åby Ringvej inklusive de nævnte veje.\n"},"geometry":{"type":"Polygon","coordinates":[[[10.14462947845459,56.16263956090035],[10.140724182128906,56.16283073535746],[10.14059543609619,56.16082335610069],[10.140852928161621,56.15711898803427],[10.140423774719238,56.15644977377478],[10.136604309082031,56.15566104200359],[10.136518478393555,56.15298401343793],[10.144071578979492,56.15358158062731],[10.142998695373535,56.15680828286349]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            10.14462947845459, 
+                            56.16263956090035
+                        ], 
+                        [
+                            10.140724182128906, 
+                            56.16283073535746
+                        ], 
+                        [
+                            10.14059543609619, 
+                            56.16082335610069
+                        ], 
+                        [
+                            10.140852928161621, 
+                            56.15711898803427
+                        ], 
+                        [
+                            10.140423774719238, 
+                            56.15644977377478
+                        ], 
+                        [
+                            10.136604309082031, 
+                            56.15566104200359
+                        ], 
+                        [
+                            10.136518478393555, 
+                            56.15298401343793
+                        ], 
+                        [
+                            10.144071578979492, 
+                            56.15358158062731
+                        ], 
+                        [
+                            10.142998695373535, 
+                            56.15680828286349
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2013-10-30 00:00", 
+                "background": "Tirsdag aften g\u00e6ster de Globus1 i Gellerup - og i den forbindelse indf\u00f8rer \u00d8stjyllands Politi visitationszone i omr\u00e5det i tidsrummet 16 til 24.\n\nBeslutningen om at indf\u00f8re visitationszonen skyldes, at \u00d8stjyllands Politi vurderer, at der i forbindelse med dialogm\u00f8det er en for\u00f8get risiko for, at der opst\u00e5r ballade - og at der er personer med v\u00e5ben. ", 
+                "area": "Gellerup", 
+                "authority": "\u00d8stjyllands Politi", 
+                "start": "2013-10-29 16:00", 
+                "extent": "Visitationszonen omfatter omr\u00e5det afgr\u00e6nset af Edwin Rahrs Vej, Gudrunsvej, Tinesvej, Silkeborgvej og \u00c5by Ringvej inklusive de n\u00e6vnte veje.\n", 
+                "population": 1600
+            }
+        }
+    ]
+}

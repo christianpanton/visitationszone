@@ -1,1 +1,180 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"Begrundelsen er den fortsatte højt prioriterede målrettede indsats mod bander og banderelaterede hændelser, samt andre forbrydelser, hvor våben indgår. \nVisitationsmuligheden inden for den beskrevne zone er et nødvendigt værktøj, for at kunne fastholde trykket på mulige banderelaterede personer og køretøjer.      \nTillige med henblik på hurtigt og effektivt at genskabe trygheden for borgerne i området ved at sikre, at personer i området ikke bærer våben af nogen art.    \n\nVisitationszonen omkring Østre Landsret opretholdes begrundet med den igangværende ankesag i Østre Landsret mod ”Store A”. ","start":"2010-02-19 12:00","end":"2010-04-20 12:00","authority":"Københavns Politi","area":"Indre By","extent":"Oslo Plads fra Østbanegade, Øster Voldgade til Kronprinsessegade, Kronprinsessegade, Gothersgade mod Kongens Nytorv, Kongens Nytorvs nordlige ende, Nyhavn til vandet, langt vandet mod nord til den lille Havfrue, Langelinie, Langeliniebroen, Østbanegade mod Oslo Plads."},"geometry":{"type":"Polygon","coordinates":[[[12.586469650268555,55.69251159381938],[12.588357925415039,55.691084443457875],[12.588379383087158,55.690854643191194],[12.586963176727295,55.69041922845555],[12.586705684661865,55.68964514584155],[12.583422660827637,55.68587127363198],[12.580718994140625,55.68266561533899],[12.58533239364624,55.68145586467539],[12.584881782531738,55.68082677954215],[12.585418224334717,55.67977424909712],[12.586362361907959,55.68005250702637],[12.587049007415771,55.68065740873901],[12.593872547149658,55.67898785729046],[12.594408988952635,55.67922982568413],[12.595288753509521,55.679556480641246],[12.595911026000977,55.68040335115915],[12.595417499542236,55.68059691898875],[12.59706974029541,55.68271400458722],[12.595417499542236,55.6831495051271],[12.599494457244873,55.68806064770216],[12.599430084228516,55.68885895250036],[12.600095272064209,55.689028287786506],[12.600352764129639,55.69045551320205],[12.600760459899902,55.690540177479626],[12.600674629211426,55.69093930660447],[12.600417137145996,55.691169106373536],[12.599537372589111,55.69131424237389],[12.599129676818848,55.69158032364188],[12.599194049835205,55.692680913286566],[12.599902153015137,55.69317677322206],[12.59857177734375,55.69343074782657],[12.59709119796753,55.69356378148474],[12.595932483673094,55.693467029778226],[12.595224380493164,55.69374519028904],[12.594795227050781,55.69436197392705],[12.594108581542969,55.69445872341868],[12.590589523315428,55.69561969864199],[12.590267658233643,55.69496665432148],[12.58833646774292,55.69370890859552]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.586469650268555, 
+                            55.69251159381938
+                        ], 
+                        [
+                            12.588357925415039, 
+                            55.691084443457875
+                        ], 
+                        [
+                            12.588379383087158, 
+                            55.690854643191194
+                        ], 
+                        [
+                            12.586963176727295, 
+                            55.69041922845555
+                        ], 
+                        [
+                            12.586705684661865, 
+                            55.68964514584155
+                        ], 
+                        [
+                            12.583422660827637, 
+                            55.68587127363198
+                        ], 
+                        [
+                            12.580718994140625, 
+                            55.68266561533899
+                        ], 
+                        [
+                            12.58533239364624, 
+                            55.68145586467539
+                        ], 
+                        [
+                            12.584881782531738, 
+                            55.68082677954215
+                        ], 
+                        [
+                            12.585418224334717, 
+                            55.67977424909712
+                        ], 
+                        [
+                            12.586362361907959, 
+                            55.68005250702637
+                        ], 
+                        [
+                            12.587049007415771, 
+                            55.68065740873901
+                        ], 
+                        [
+                            12.593872547149658, 
+                            55.67898785729046
+                        ], 
+                        [
+                            12.594408988952635, 
+                            55.67922982568413
+                        ], 
+                        [
+                            12.595288753509521, 
+                            55.679556480641246
+                        ], 
+                        [
+                            12.595911026000977, 
+                            55.68040335115915
+                        ], 
+                        [
+                            12.595417499542236, 
+                            55.68059691898875
+                        ], 
+                        [
+                            12.59706974029541, 
+                            55.68271400458722
+                        ], 
+                        [
+                            12.595417499542236, 
+                            55.6831495051271
+                        ], 
+                        [
+                            12.599494457244873, 
+                            55.68806064770216
+                        ], 
+                        [
+                            12.599430084228516, 
+                            55.68885895250036
+                        ], 
+                        [
+                            12.600095272064209, 
+                            55.689028287786506
+                        ], 
+                        [
+                            12.600352764129639, 
+                            55.69045551320205
+                        ], 
+                        [
+                            12.600760459899902, 
+                            55.690540177479626
+                        ], 
+                        [
+                            12.600674629211426, 
+                            55.69093930660447
+                        ], 
+                        [
+                            12.600417137145996, 
+                            55.691169106373536
+                        ], 
+                        [
+                            12.599537372589111, 
+                            55.69131424237389
+                        ], 
+                        [
+                            12.599129676818848, 
+                            55.69158032364188
+                        ], 
+                        [
+                            12.599194049835205, 
+                            55.692680913286566
+                        ], 
+                        [
+                            12.599902153015137, 
+                            55.69317677322206
+                        ], 
+                        [
+                            12.59857177734375, 
+                            55.69343074782657
+                        ], 
+                        [
+                            12.59709119796753, 
+                            55.69356378148474
+                        ], 
+                        [
+                            12.595932483673094, 
+                            55.693467029778226
+                        ], 
+                        [
+                            12.595224380493164, 
+                            55.69374519028904
+                        ], 
+                        [
+                            12.594795227050781, 
+                            55.69436197392705
+                        ], 
+                        [
+                            12.594108581542969, 
+                            55.69445872341868
+                        ], 
+                        [
+                            12.590589523315428, 
+                            55.69561969864199
+                        ], 
+                        [
+                            12.590267658233643, 
+                            55.69496665432148
+                        ], 
+                        [
+                            12.58833646774292, 
+                            55.69370890859552
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2010-04-20 12:00", 
+                "background": "Begrundelsen er den fortsatte h\u00f8jt prioriterede m\u00e5lrettede indsats mod bander og banderelaterede h\u00e6ndelser, samt andre forbrydelser, hvor v\u00e5ben indg\u00e5r. \nVisitationsmuligheden inden for den beskrevne zone er et n\u00f8dvendigt v\u00e6rkt\u00f8j, for at kunne fastholde trykket p\u00e5 mulige banderelaterede personer og k\u00f8ret\u00f8jer.      \nTillige med henblik p\u00e5 hurtigt og effektivt at genskabe trygheden for borgerne i omr\u00e5det ved at sikre, at personer i omr\u00e5det ikke b\u00e6rer v\u00e5ben af nogen art.    \n\nVisitationszonen omkring \u00d8stre Landsret opretholdes begrundet med den igangv\u00e6rende ankesag i \u00d8stre Landsret mod \u201dStore A\u201d. ", 
+                "area": "Indre By", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2010-02-19 12:00", 
+                "extent": "Oslo Plads fra \u00d8stbanegade, \u00d8ster Voldgade til Kronprinsessegade, Kronprinsessegade, Gothersgade mod Kongens Nytorv, Kongens Nytorvs nordlige ende, Nyhavn til vandet, langt vandet mod nord til den lille Havfrue, Langelinie, Langeliniebroen, \u00d8stbanegade mod Oslo Plads.", 
+                "population": 1500
+            }
+        }
+    ]
+}
