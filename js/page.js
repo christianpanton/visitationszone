@@ -79,6 +79,7 @@ function fetchGeoJSON() {
         var today = new Date();
         var style = pastStyle;
         var narea = Math.abs(polygonArea(data.features[id].geometry.coordinates[0]))/10000;
+        var population = data.features[id].properties.population;
 
 
         if(expire > today) {          polygons.push(data.features[id].geometry.coordinates[0]);
@@ -91,9 +92,9 @@ function fetchGeoJSON() {
         areas["zone-" + id] = narea;
 
         if(expire > today){
-          zones.push(["<tr class='warning' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + niceDate(start) + "</td><td>" + niceDate(expire) + "</td></tr>", expire]);
+          zones.push(["<tr class='warning' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + formatNumber(population) + "</td><td>" + niceDate(start) + "</td><td>" + niceDate(expire) + "</td></tr>", expire]);
         }else{
-          zones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td></tr>", expire]);
+          zones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + formatNumber(population) + "</td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td></tr>", expire]);
         }
 
     }
