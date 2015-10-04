@@ -9,6 +9,7 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/cosmo.bootstrap.min.css" rel="stylesheet">
 
     <style type="text/css">
@@ -20,7 +21,7 @@
       sup { cursor: help;}
     </style>
     
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/leaflet.draw.css" />
     <link rel="stylesheet" href="css/datepicker.css" />
@@ -28,45 +29,46 @@
   </head>
 
   <body>
-
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">Visitationzone</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li><a href="#" id="opdater">Opdater</a></li>
-              <li><a href="#" id="optegn">Optegn</a></li>
-            </ul>
-          </div>
+          </button>
+          <a class="navbar-brand" href="#">Visitationzone</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+          	<li><a href="#" id="opdater">Opdater</a></li>
+          	<li><a href="#" id="optegn">Optegn</a></li>
+          </ul>
         </div>
       </div>
-    </div>
-
+    </nav>
     <div class="container">
       <section id="themap">
         <div id="map"></div>
       </section> 
     </div> 
+    
 
-
-    <div id="kredsselect" class="modal hide fade" style="display: none; ">
-        <div class="modal-header">
-          <button class="close" data-dismiss="modal">×</button>
-          <h3>Vælg politikreds</h3>
-        </div>
-        <div class="modal-body">
-          <form class="form-horizontal">
+    <div id="kredsselect" class="modal fade" style="display: none; ">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Vælg politikreds</h4>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal">
             <fieldset>
               <div class="control-group">
-                <label class="control-label" for="authority">Politikreds</label>
-                <div class="controls">
-                  <select id="authority">
+                <label class="col-sm-2 control-label" for="authority">Politikreds</label>
+                <div class="col-sm-10">
+                  <select id="authority" class="form-control">
                     <option>Nordjyllands Politi</option>
                     <option>Østjyllands Politi</option>
                     <option>Midt- og Vestjyllands Politi</option>
@@ -84,85 +86,92 @@
               </div>
             </fieldset>
           </form>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn" data-dismiss="modal">Fortryd</a>
+            <a href="#" class="btn btn-primary" id="optegnstart">Start optegning</a>
+          </div>
         </div>
-        <div class="modal-footer">
-          <a href="#" class="btn" data-dismiss="modal">Fortryd</a>
-          <a href="#" class="btn btn-primary" id="optegnstart">Start optegning</a>
-        </div>
+      </div>
     </div>​
-
-    <div id="geojson" class="modal hide fade" style="display: none; ">
-        <div class="modal-header">
-          <button class="close" data-dismiss="modal">×</button>
-          <h3>Tilføj metadata</h3>
-        </div>
-        <div class="modal-body">
-           <form class="form-horizontal">
-            <fieldset>
+    
+    <div id="geojson" class="modal fade" style="display: none; ">
+      <div class="modal-dialog">
+      	<div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">×</button>
+            <h4 class="modal-title">Tilføj Metadata</h4>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal">
+              <fieldset>
 
               <div class="control-group">
-                <label class="control-label" for="area">Område</label>
-                <div class="controls">
-                  <input type="text" class="input-xlarge" id="area">
-                  <p class="help-block">Fx: Nørrebro og Indre By</p>
+                <label class="col-xs-2 control-label" for="area">Område</label>
+                <div class="col-xs-10">
+                  <input type="text" class="form-control" id="area" aria-describedby="areaHelpBlock">
+                  <p id="areaHelpBlock" class="help-block">Fx: Nørrebro og Indre By</p>
                 </div>
               </div>
               
               <div class="control-group">
-                <label class="control-label" for="background">Begrundelse</label>
-                <div class="controls">
-                  <textarea class="input-xlarge" id="background" rows="3"></textarea>
+                <label class="col-xs-2 control-label" for="background">Begrundelse</label>
+                <div class="col-xs-10">
+                  <textarea class="form-control" id="background" rows="3"></textarea>
                 </div>
               </div>
 
               <div class="control-group">
-                <label class="control-label" for="extent">Gadenavne</label>
-                <div class="controls">
-                  <textarea class="input-xlarge" id="extent" rows="3"></textarea>
-                  <p class="help-block">Fx: Nørrebrogade - Jagtvej - ...</p>
+                <label class="col-xs-2 control-label" for="extent">Gadenavne</label>
+                <div class="col-xs-10">
+                  <textarea class="form-control" id="extent" rows="3" aria-describedby="extentHelpBlock"></textarea>
+                  <p id="extentHelpBlock" class="help-block">Fx: Nørrebrogade - Jagtvej - ...</p>
                 </div>
               </div>
 
 
               <div class="control-group">
-                <label class="control-label" for="start">Oprettet</label>
-                <div class="controls">
-                  <input type="text" data-datepicker-format="yyyy-mm-dd hh:ii" id="start"/>
+                <label class="col-xs-2 control-label" for="start">Oprettet</label>
+                <div class="col-xs-10">
+                  <input type="text" class="form-control" data-datepicker-format="yyyy-mm-dd hh:ii" id="start"/>
                 </div>
               </div>
 
               <div class="control-group">
-                <label class="control-label" for="end">Ophævet</label>
-                <div class="controls">
-                  <input type="text" data-datepicker-format="yyyy-mm-dd hh:ii" id="end"/>
+                <label class="col-xs-2 control-label" for="end">Ophævet</label>
+                <div class="col-xs-10">
+                  <input type="text" class="form-control" data-datepicker-format="yyyy-mm-dd hh:ii" id="end"/>
                 </div>
               </div>
 
               
             </fieldset>
-          </form>
-            </div>
-            <div class="modal-footer">
+            </form>
+          </div>
+          <div class="modal-footer">
               <a href="#" class="btn" data-dismiss="modal">Fortryd</a>
               <a href="#" class="btn btn-primary" id="makejson">Lav GeoJSON</a>
             </div>
-        </div>​
-
-
-
-        <div id="geojson2" class="modal hide fade" style="display: none;">
-            <div class="modal-header">
-              <button class="close" data-dismiss="modal">×</button>
-              <h2>GeoJSON</h2>
-              <p>Send dette til <a href="mailto:christian@panton.org">christian@panton.org</a></p>
-            </div>
+      	</div>
+      </div>​
+    </div>
+    <div id="geojson2" class="modal fade" style="display: none;">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">×</button>
+            <h2>GeoJSON</h2>
+            <p>Send dette til <a href="mailto:christian@panton.org">christian@panton.org</a></p>
+          </div>
             <div class="modal-body">
               <textarea id="export" rows="15" style="width: 515px"></textarea>
             </div>
             <div class="modal-footer">
               <a href="#" class="btn btn-primary" data-dismiss="modal">Luk</a>
             </div>
+        </div>
       </div>
+    </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
