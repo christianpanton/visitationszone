@@ -1,0 +1,88 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.568295, 
+                            55.676773999999995
+                        ], 
+                        [
+                            12.567371999999999, 
+                            55.676495
+                        ], 
+                        [
+                            12.566814000000003, 
+                            55.676411
+                        ], 
+                        [
+                            12.565463, 
+                            55.675951
+                        ], 
+                        [
+                            12.564862000000002, 
+                            55.675721
+                        ], 
+                        [
+                            12.564497, 
+                            55.675806
+                        ], 
+                        [
+                            12.563982, 
+                            55.675903
+                        ], 
+                        [
+                            12.563252, 
+                            55.67579400000001
+                        ], 
+                        [
+                            12.562051, 
+                            55.675431
+                        ], 
+                        [
+                            12.562609000000002, 
+                            55.673894000000004
+                        ], 
+                        [
+                            12.563488, 
+                            55.67249
+                        ], 
+                        [
+                            12.564862000000002, 
+                            55.671075
+                        ], 
+                        [
+                            12.567371999999999, 
+                            55.671969999999995
+                        ], 
+                        [
+                            12.564476, 
+                            55.674566
+                        ], 
+                        [
+                            12.569497, 
+                            55.676241
+                        ], 
+                        [
+                            12.568295, 
+                            55.676773999999995
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2007-12-09 07:00", 
+                "background": "Begrundelse ukendt", 
+                "area": "Indre By", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2007-12-08 21:00", 
+                "extent": "Axeltorv ( inkl. Hovedbaneg\u00e5rden )  Bernstorffsgade, Axeltorv, Jernbanegade, Vesterbrogade, R\u00e5dhuspladsen.   Har v\u00e6ret g\u00e6ldende:    Fredag den 7. december 2007 kl. 2100 \u2013 0700. L\u00f8rdag den 8 december 2007  kl. 2100 \u2013 0700.   Fredag den 14. december 2007  kl. 2100 \u2013 0700. L\u00f8rdag den 15. december 2007 kl. 2100 \u2013 0700.", 
+                "population": 500
+            }
+        }
+    ]
+}

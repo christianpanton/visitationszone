@@ -1,0 +1,88 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.58074, 
+                            55.68269
+                        ], 
+                        [
+                            12.584131, 
+                            55.681807000000006
+                        ], 
+                        [
+                            12.584817, 
+                            55.681625000000004
+                        ], 
+                        [
+                            12.585053000000002, 
+                            55.681492
+                        ], 
+                        [
+                            12.584988999999998, 
+                            55.681214
+                        ], 
+                        [
+                            12.584860000000003, 
+                            55.68091100000001
+                        ], 
+                        [
+                            12.584903, 
+                            55.680367
+                        ], 
+                        [
+                            12.585161, 
+                            55.679762
+                        ], 
+                        [
+                            12.585783, 
+                            55.679811
+                        ], 
+                        [
+                            12.586298000000001, 
+                            55.68004
+                        ], 
+                        [
+                            12.586813, 
+                            55.680355000000006
+                        ], 
+                        [
+                            12.587328000000001, 
+                            55.680887
+                        ], 
+                        [
+                            12.585354, 
+                            55.681456
+                        ], 
+                        [
+                            12.587156, 
+                            55.683633
+                        ], 
+                        [
+                            12.582564, 
+                            55.684879
+                        ], 
+                        [
+                            12.58074, 
+                            55.68269
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2007-12-08 07:00", 
+                "background": "Begrundelse ukendt", 
+                "area": "Indre By", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2007-12-07 21:00", 
+                "extent": "Gothersgade Gothersgade, Kronprinsessegade, Kongens Nytorv, St. Kongensgade, Boltens G\u00e5rd.  Har v\u00e6ret g\u00e6ldende:   Fredag den 7. december 2007  kl. 2100 \u2013 0700.  L\u00f8rdag den 8 december 2007  kl. 2100 \u2013 0700.  Fredag den 14. december 2007  kl. 2100 \u2013 0700.  L\u00f8rdag den 15. december 2007  kl. 2100 \u2013 0700.", 
+                "population": 700
+            }
+        }
+    ]
+}
