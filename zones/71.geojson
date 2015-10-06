@@ -1,0 +1,84 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            10.064603, 
+                            56.262828
+                        ], 
+                        [
+                            10.0647, 
+                            56.262935
+                        ], 
+                        [
+                            10.065149999999997, 
+                            56.263519
+                        ], 
+                        [
+                            10.062532000000001, 
+                            56.26413900000001
+                        ], 
+                        [
+                            10.062189000000002, 
+                            56.264353
+                        ], 
+                        [
+                            10.060751, 
+                            56.264687
+                        ], 
+                        [
+                            10.059936, 
+                            56.263769
+                        ], 
+                        [
+                            10.059056, 
+                            56.262339
+                        ], 
+                        [
+                            10.059377999999999, 
+                            56.26226799999999
+                        ], 
+                        [
+                            10.060687, 
+                            56.261993
+                        ], 
+                        [
+                            10.061449, 
+                            56.262851
+                        ], 
+                        [
+                            10.062565, 
+                            56.262631
+                        ], 
+                        [
+                            10.062962, 
+                            56.26314300000001
+                        ], 
+                        [
+                            10.064625000000001, 
+                            56.26287500000001
+                        ], 
+                        [
+                            10.064603, 
+                            56.262828
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2007-04-29 12:00", 
+                "background": "Begrundelse ukendt", 
+                "area": "Hinnerup", 
+                "authority": "\u00d8stjyllands Politi", 
+                "start": "2007-04-27 16:00", 
+                "extent": "\u00c5dalsvej vest for Lille\u00e5 \u2013 \u00d8stergade \u2013 Storegade \u2013 S\u00f8ndergade \u2013 Jernbanegade \u2013 Baneg\u00e5rdspladsen \u2013 Tv\u00e6rgade \u2013 Adeline Geneevej.     G\u00e6ldende fra fredag den 270407 kl. 16 til s\u00f8ndag den 290407 kl. 12.", 
+                "population": 0
+            }
+        }
+    ]
+}
