@@ -168,9 +168,9 @@
             "type": "Feature", 
             "properties": {
                 "end": "2007-05-06 23:59", 
-                "background": "Begrundelse ukendt", 
+                "background": "Midt-  og Vestsj\u00e6llands Politi har i de sidste m\u00e5neder oplevet, at der er gentagne problemer i K\u00f8ges natteliv bl.a. omkring byens diskoteker.\u000d\u000a\u000d\u000aBl.a. har politiet truffet mange unge mennesker, der har v\u00e6ret bev\u00e6bnet med knive og andre v\u00e5ben, og det \u00f8nsker politiet nu at s\u00e6tte en effektiv stopper for.\u000d\u000a\u000d\u000aPolitidirekt\u00f8r Anders Linnet har derfor bestemt, at der fra mandag den 26. marts til s\u00f8ndag den 6. maj indf\u00f8res visitationsomr\u00e5de efter politilovens \u00a7 6 i f\u00f8lgende omr\u00e5de:\u000d\u000a\u000d\u000aTorvet, Nyportstr\u00e6de til Sankt Gertruds Str\u00e6de, N\u00f8rregade til Allegade, Jernbanegade, Stationspladsen, K\u00f8ge S-station, K\u00f8ge Havn til Nordre Kajgade og Toldbodvej til Vestre Havnevej i K\u00f8ge.\u000d\u000a\u000d\u000aDet s\u00e6rlige visitationsomr\u00e5de indeb\u00e6rer, at politiet har mulighed for, uden forudg\u00e5ende sigtelse eller mistankegrundlag i \u00f8vrigt, stikpr\u00f8vevis at visitere personer i det n\u00e6vnte omr\u00e5de samt ransage eksempelvis tasker og k\u00f8ret\u00f8jer med henblik p\u00e5 at finde v\u00e5ben.\u000d\u000a\u000d\u000aPolitiets personale er indsk\u00e6rpet, at den udvidede mulighed for visitation skal ske med stor omtanke og konduite, og det er Midt- og Vestsj\u00e6llands Politis h\u00e5b, at en m\u00e5lrettet indsats over for uheldige elementer i K\u00f8ge vil f\u00f8re til, at almindelige mennesker kan f\u00e6rdes mere sikkert i K\u00f8ges natteliv i fremtiden.", 
                 "area": "K\u00f8ge", 
-                "authority": "Midt- og Vestjyllands Politi", 
+                "authority": "Midt- og Vestsj\u00e6llands Politi", 
                 "start": "2007-03-26 00:00", 
                 "extent": "Torvet, Nyportstr\u00e6de til Sankt Gertruds Str\u00e6de, N\u00f8rregade til Allegade, Jernbanegade, Stationspladsen, K\u00f8ge S-station, K\u00f8ge Havn til Nordre Kajgade og Toldbodvej til Vestre Havnevej i  K\u00f8ge.    G\u00e6ldende fra uge 13 til uge18 2007", 
                 "population": 800

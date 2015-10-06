@@ -167,11 +167,11 @@
             }, 
             "type": "Feature", 
             "properties": {
-                "end": "2007-09-14 23:59", 
-                "background": "Begrundelse ukendt", 
+                "end": "2007-09-13 23:59", 
+                "background": "Baggrunden for, at politidirekt\u00f8r Anders Linnet valgte at oprette en visitationszone var, at politiet igennem f\u00f8rste halv\u00e5r af 2007 har konfiskeret en del v\u00e5ben i form af knive og andet i Roskilde. Endvidere blev en 23-\u00e5rig mand stukket ned med kniv af en 15-\u00e5rig p\u00e5 en gade i Roskilde i august m\u00e5ned, ligesom der i Roskilde gik rygter om, at det var helt almindeligt, at man gik med v\u00e5ben, n\u00e5r man var i byen i Roskilde.\u000d\u000a\u000d\u000ahttps://www.politi.dk/Midtvestsjaelland/da/lokalnyt/Nyheder/K08_nyheder_140907.htm", 
                 "area": "Roskilde", 
                 "authority": "Midt- og Vestsj\u00e6llands Politi", 
-                "start": "2007-08-16 00:00", 
+                "start": "2007-08-17 00:00", 
                 "extent": "Byvolden, Villavej, Bl\u00e5g\u00e5rdsstr\u00e6de, Bondetinget, Skolegade, Provstestr\u00e6de, Dronning Margrethes Vej, Kong Valdemars Vej, K\u00f8benhavnsvej, Ny \u00d8stergade, \u00d8stergade, K\u00f8gevej, Jernbanegade og Borgediget.   G\u00e6ldende fra 16. august  til den 14.  september 2007.", 
                 "population": 3500
             }
