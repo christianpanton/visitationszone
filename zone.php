@@ -10,5 +10,6 @@ foreach($sdir as $file){
 }
 
 $json->features = $features;
+header('Content-Type: application/json');
 echo json_encode($json);
 ?>
