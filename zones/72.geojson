@@ -312,10 +312,10 @@
             "type": "Feature", 
             "properties": {
                 "end": "2007-06-04 23:59", 
-                "background": "Begrundelse ukendt", 
+                "background": "Baggrunden for at indf\u00f8re visitationszonen var, at byen havde v\u00e6ret plaget af en stribe bandeslagsm\u00e5l med blandt andet k\u00f8ller.\u000d\u000a\u000d\u000ahttp://www.dr.dk/nyheder/indland/indsats-mod-vaaben-i-nattelivet-virker", 
                 "area": "Horsens", 
                 "authority": "Syd\u00f8stjyllands Politi", 
-                "start": "2007-05-04 00:00", 
+                "start": "2007-05-03 00:00", 
                 "extent": "Vejlevej, Ringvejen, Sch\u00fcttesvej,  Silkeborgvej, Vestergade, Borgmestervej, Fussingsvej, N\u00f8rrebrogade, Adelgade, N\u00f8rrestrandsgade, Dannebroesgade, Nordmarksvej,  S\u00f8lystvej,  Strandpromenaden, Niels Gyldings Gade, S\u00f8nderbrogade og Vejlevej.       G\u00e6ldende i tidsrummet fra fredag den  040507 til mandag den 040607.", 
                 "population": 24700
             }
