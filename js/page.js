@@ -77,7 +77,6 @@ function fetchGeoJSON() {
         var expire = getDate(data.features[id].properties.end);
         var start = getDate(data.features[id].properties.start);
         var days = (expire.getTime() - start.getTime())/1000/60/60/24;
-        console.log(days);
         total_days = days + total_days;
         var authority = data.features[id].properties.authority;
         var area = data.features[id].properties.area;
@@ -113,6 +112,7 @@ function fetchGeoJSON() {
       $("#zonelist").prepend(zones[i][0]);
     }
     
+    $("#total_zones").text(formatNumber(data.features.length));
     $("#total_days").text(formatNumber(total_days));
     $("#avg_area").text(formatNumber(total_area / data.features.length));
     $("#avg_population").text(formatNumber(total_population / data.features.length));
@@ -138,10 +138,9 @@ function showText(feature, layer){
 
 
     $("#infobox").show();
-
     var text = feature.properties.background ;
     text = text.replace(/\n/g, '<br />');
-    text = "<i>" + niceDate(getDate(feature.properties.start)) + " - " + niceDate(getDate(feature.properties.end)) + "</i><br /><br />" + text ;
+    text = "<i>" + niceDate(getDate(feature.properties.start)) + " - " + niceDate(getDate(feature.properties.end)) + "</i><br /><br />" + text;
 
     map.fitBounds(layer.getBounds());
     $("#infohead").text(feature.properties.area);
