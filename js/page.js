@@ -5,6 +5,7 @@ var layerMap = {};
 
 var areas = {};
 
+var authority = "";
 
 function isPointInPoly(poly, pt){
   for(var c = false, i = -1, l = poly.length, j = l - 1; ++i < l; j = i)
@@ -63,12 +64,13 @@ function niceDate(date){
 }
 
 function formatNumber(number) {
+   number = number || 0;
    return Math.max(0, number).toFixed(0).replace(/(?=(?:\d{3})+$)(?!^)/g, '.');
 }
 
 
-function fetchGeoJSON() {
-  $.getJSON("zone.php?" + Date.now(), function(data){
+function fetchGeoJSON(authority) {
+  $.getJSON("zone.php?authority=" +authority+ "&" + Date.now(), function(data){
      var total_days = 0;
      var total_area = 0;
      var total_population = 0;
@@ -119,13 +121,13 @@ function fetchGeoJSON() {
     
     var obj = L.geoJson(data, 
     {
-       onEachFeature: function (feature, layer) {
-      layerMap["zone-" + feature.properties.id] = layer;
-            layer.setStyle(feature.properties.style);
-            layer.on('click', function(e){
-              showText(feature, layer);
-            });
-          }
+      onEachFeature: function (feature, layer) {
+        layerMap["zone-" + feature.properties.id] = layer;
+        layer.setStyle(feature.properties.style);
+        layer.on('click', function(e){
+        showText(feature, layer);
+      });
+    }
     });
 
     obj.addTo(map);
@@ -237,7 +239,7 @@ $(function(){
     L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
 //    L.tileLayer('https://a.tiles.mapbox.com/v3/panton.i20ai51n/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
   
-    fetchGeoJSON(); 
+    fetchGeoJSON(""); 
     $(".close-alert").click(function(e){
       $(".alert").hide("fast");
     });
@@ -252,5 +254,25 @@ $(function(){
       $(this).find($(".fa")).removeClass('fa-street-view').addClass('fa-spinner fa-pulse');
       map.locate({setView: true, maxZoom: 13});
     });
+    
 
 });
+
+function updateZone(data){
+	if (data.selectedIndex == -1)
+        text = null;
+    text = data.options[data.selectedIndex].value;
+    console.log(text);
+    reset_data();
+    fetchGeoJSON(text);
+}
+
+
+function reset_data()
+{
+	for(var index in layerMap) {
+		map.removeLayer(layerMap[index]);  
+    }
+    zones.length = 0;
+    $("#zonelist").html('');
+}
