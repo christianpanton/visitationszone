@@ -169,9 +169,13 @@ function onLocationFound(e) {
       $("#locate").find($(".fa")).removeClass('fa-spinner fa-pulse').addClass('fa-street-view');
       return;
     }
-
-    L.circle(e.latlng, radius, me).addTo(map);
     
+    for(var index in map._layers) {
+    	if(typeof map._layers[index]._mRadius !== "undefined")
+    	map.removeLayer(map._layers[index]);  
+    }
+    
+    L.circle(e.latlng, radius, me).addTo(map);
     for(var i = 0; i < polygons.length; i++){
       if(isPointInPoly(polygons[i], [e.latlng.lng, e.latlng.lat])){
         inzone = true;
