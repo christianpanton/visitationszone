@@ -165,7 +165,7 @@ function onLocationFound(e) {
     var inzone = false;
     
     if(radius > 1000){
-      $("#failzone").show("fast");
+      bootstrap_alert("<strong>Oh noes!</strong> Nøjagtigheden for din position er for upræcis, prøv venligst igen.","warning");
       $("#locate").find($(".fa")).removeClass('fa-spinner fa-pulse').addClass('fa-street-view');
       return;
     }
@@ -179,17 +179,17 @@ function onLocationFound(e) {
     }
 
     if(inzone){
-      $("#inzone").show("fast");
+      bootstrap_alert("Du befinder dig i øjeblikket i en visitationszone!","danger");
       $("#locate").find($(".fa")).removeClass('fa-spinner fa-pulse').addClass('fa-street-view');
     }else{
-      $("#outzone").show("fast");
+      bootstrap_alert("Du befinder dig i øjeblikket ikke i en visitationszone!","success");
       $("#locate").find($(".fa")).removeClass('fa-spinner fa-pulse').addClass('fa-street-view');
     }
 
 }
 
 function onLocationError(e) {
-  $("#failzone").show("fast");
+  bootstrap_alert("<strong>Oh noes!</strong> Kunne ikke bestemme din position.","warning");
   $("#locate").find($(".fa")).removeClass('fa-spinner fa-pulse').addClass('fa-street-view');
 }
 
@@ -275,4 +275,12 @@ function reset_data()
     }
     zones.length = 0;
     $("#zonelist").html('');
+}
+function bootstrap_alert(text,type){
+
+	$("#alert").html('<div class="alert alert-'+type+' alert-dismissible" role="alert">' +
+              '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' +
+              '<p><strong>'+text+'</strong></p>' + 
+            '</div>');
+    $("#alert .alert").fadeIn("slow");
 }
