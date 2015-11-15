@@ -186,17 +186,19 @@
       var attribution = "Data from OpenStreetMap";
 
       var drawControl = new L.Control.Draw({
-          position: 'topleft',
-          polyline: false,
-          circle: false,
-          rectangle: false,
-          marker: false,
-          polygon: {
-            allowIntersection: false,
-            shapeOptions: {
-              "color": "#F50F43",
-              "weight": 2,
-              "opacity": 0.7
+          draw:{
+            position: 'topleft',
+            polyline: false,
+            circle: false,
+            rectangle: false,
+            marker: false,
+            polygon: {
+              allowIntersection: false,
+              shapeOptions: {
+                "color": "#F50F43",
+                "weight": 2,
+                "opacity": 0.7
+              }
             }
           }
            
@@ -213,8 +215,9 @@
           "fillOpacity": 0
       };
 
-      map.on('draw:poly-created', function (e) {
-        poly = e.poly;
+      map.on('draw:created', function (e) {
+      	console.log(e);
+        poly = e.layer;
         $("#geojson").modal("show");
       });
 
@@ -247,7 +250,6 @@
                    var obj = L.geoJson(geojson, {style: kredsStyle});
                    obj.addTo(map);
                    map.fitBounds(obj.getBounds());
-                   drawControl.handlers.polygon.enable();
                   $("#kredsselect").modal("hide");
                 });
 
