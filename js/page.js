@@ -96,13 +96,13 @@ function fetchGeoJSON(authority) {
 
         data.features[id].properties.id = id;
         data.features[id].properties.style = style;
-
+        
         areas["zone-" + id] = narea;
-
+        var validation = data.features[id].properties.validation;
         if(expire > today){
-          zones.push(["<tr class='warning' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + formatNumber(population) + "</td><td>" + niceDate(start) + "</td><td>" + niceDate(expire) + "</td></tr>", expire]);
+          zones.push(["<tr class='warning' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + formatNumber(population) + "</td><td>" + niceDate(start) + "</td><td>" + niceDate(expire) + "</td><td>"+ zone_validation(validation) +"</td></tr>", expire]);
         }else{
-          zones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + formatNumber(population) + "</td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td></tr>", expire]);
+          zones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + formatNumber(population) + "</td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td><td>"+ zone_validation(validation) +"</td></tr>", expire]);
         }
 
     }
@@ -140,10 +140,12 @@ function showText(feature, layer){
 
 
     $("#infobox").show();
-    var text = feature.properties.background ;
+    var text = feature.properties.background;
+    console.log(feature);
     text = text.replace(/\n/g, '<br />');
     text = "<i>" + niceDate(getDate(feature.properties.start)) + " - " + niceDate(getDate(feature.properties.end)) + "</i><br /><br />" + text;
-
+    if(feature.properties.validation !== null)
+    text = text + '<footer>Kilde: <cite title="Source Title">'+feature.properties.validation+'</cite></footer>'
     map.fitBounds(layer.getBounds());
     $("#infohead").text(feature.properties.area);
     $("#infotext").html(text);
@@ -271,7 +273,20 @@ function updateZone(data){
     fetchGeoJSON(text);
 }
 
-
+function zone_validation(validation)
+{
+  switch(validation) {
+    case 'Aktindsigt':
+        type = "success";
+        break;
+    case 'Nyhedsmedie':
+        type = "primary";
+        break;
+    default:
+        type = "muted";
+  }
+  return '<p class="text-'+type+'"><i class="fa fa-check-circle"></i></p>';
+}
 function reset_data()
 {
 	for(var index in layerMap) {
