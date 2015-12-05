@@ -143,6 +143,17 @@
                   <input type="text" class="form-control" data-datepicker-format="yyyy-mm-dd hh:ii" id="end"/>
                 </div>
               </div>
+              
+              <div class="control-group">
+                <label class="col-xs-2 control-label" for="validation">Kilde</label>
+                <div class="col-xs-10">
+                  <select id="validation" class="form-control">
+                  	<option value=""></option>
+                  	<option value="Nyhedsmedie">Nyhedsmedie</option>
+                  	<option value="Aktindsigt">Aktindsigt</option>
+                  </select>
+                </div>
+              </div>
 
               
             </fieldset>
@@ -279,7 +290,8 @@
                       "end": $("#end").val(),
                       "authority": $("#authority").val(),
                       "area": $("#area").val(),
-                      "extent": $("#extent").val()
+                      "extent": $("#extent").val(),
+                      "validation": $("#validation").val(),
                     }, 
                     "geometry": { 
                       "type": "Polygon", 
