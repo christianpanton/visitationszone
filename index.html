@@ -18,9 +18,7 @@
         padding-bottom: 40px;
       }
       #map { height: 400px; margin-bottom: 20px;}
-      #inzone { display: none}
-      #outzone { display: none}
-      #failzone { display: none}
+      #alert div { display: none}
       #zonelist { 
         -webkit-touch-callout: none;
         -webkit-user-select: none;
@@ -64,19 +62,7 @@
 
       <section id="alerts">
         <div class="row">
-          <div class="col-xs-12">
-            <div class="alert alert-danger alert-dismissible" id="inzone" role="alert">
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <p><strong>Du befinder dig i øjeblikket i en visitationszone!</strong></p>
-            </div>
-            <div class="alert alert-success alert-dismissible" id="outzone" role="alert">
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <p>Du befinder dig i øjeblikket ikke i en visitationszone!</p>
-            </div>
-            <div class="alert alert-warning alert-dismissible" id="failzone" role="alert">
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-               <p><strong>Oh noes!</strong> Kunne ikke bestemme din position.</p>
-            </div>
+          <div class="col-xs-12" id="alert">
           </div>
         </div>
       </section>
@@ -149,6 +135,7 @@
 	                <th>Befolkning</th>
 	                <th>Oprettet</th>
 	                <th>Udløb</th>
+	                <th></th>
 	              </tr>
 	            </thead>
                 <tbody id="zonelist">

@@ -96,13 +96,13 @@ function fetchGeoJSON(authority) {
 
         data.features[id].properties.id = id;
         data.features[id].properties.style = style;
-
+        
         areas["zone-" + id] = narea;
-
+        var validation = data.features[id].properties.validation;
         if(expire > today){
-          zones.push(["<tr class='warning' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + formatNumber(population) + "</td><td>" + niceDate(start) + "</td><td>" + niceDate(expire) + "</td></tr>", expire]);
+          zones.push(["<tr class='warning' id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + formatNumber(population) + "</td><td>" + niceDate(start) + "</td><td>" + niceDate(expire) + "</td><td>"+ zone_validation(validation) +"</td></tr>", expire]);
         }else{
-          zones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + formatNumber(population) + "</td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td></tr>", expire]);
+          zones.push(["<tr id='zone-" + id + "'><td>" + authority + "</td><td>" + area + "</td><td>" + formatNumber(Math.round(narea)) + "</td><td>" + formatNumber(population) + "</td><td>" + niceDate(start) +"</td><td>" + niceDate(expire) + "</td><td>"+ zone_validation(validation) +"</td></tr>", expire]);
         }
 
     }
@@ -140,10 +140,12 @@ function showText(feature, layer){
 
 
     $("#infobox").show();
-    var text = feature.properties.background ;
+    var text = feature.properties.background;
+    console.log(feature);
     text = text.replace(/\n/g, '<br />');
     text = "<i>" + niceDate(getDate(feature.properties.start)) + " - " + niceDate(getDate(feature.properties.end)) + "</i><br /><br />" + text;
-
+    if(feature.properties.validation !== null)
+    text = text + '<footer>Kilde: <cite title="Source Title">'+feature.properties.validation+'</cite></footer>'
     map.fitBounds(layer.getBounds());
     $("#infohead").text(feature.properties.area);
     $("#infotext").html(text);
@@ -165,13 +167,17 @@ function onLocationFound(e) {
     var inzone = false;
     
     if(radius > 1000){
-      $("#failzone").show("fast");
+      bootstrap_alert("<strong>Oh noes!</strong> Nøjagtigheden for din position er for upræcis, prøv venligst igen.","warning");
       $("#locate").find($(".fa")).removeClass('fa-spinner fa-pulse').addClass('fa-street-view');
       return;
     }
-
-    L.circle(e.latlng, radius, me).addTo(map);
     
+    for(var index in map._layers) {
+    	if(typeof map._layers[index]._mRadius !== "undefined")
+    	map.removeLayer(map._layers[index]);  
+    }
+    
+    L.circle(e.latlng, radius, me).addTo(map);
     for(var i = 0; i < polygons.length; i++){
       if(isPointInPoly(polygons[i], [e.latlng.lng, e.latlng.lat])){
         inzone = true;
@@ -179,17 +185,17 @@ function onLocationFound(e) {
     }
 
     if(inzone){
-      $("#inzone").show("fast");
+      bootstrap_alert("Du befinder dig i øjeblikket i en visitationszone!","danger");
       $("#locate").find($(".fa")).removeClass('fa-spinner fa-pulse').addClass('fa-street-view');
     }else{
-      $("#outzone").show("fast");
+      bootstrap_alert("Du befinder dig i øjeblikket ikke i en visitationszone!","success");
       $("#locate").find($(".fa")).removeClass('fa-spinner fa-pulse').addClass('fa-street-view');
     }
 
 }
 
 function onLocationError(e) {
-  $("#failzone").show("fast");
+  bootstrap_alert("<strong>Oh noes!</strong> Kunne ikke bestemme din position.","warning");
   $("#locate").find($(".fa")).removeClass('fa-spinner fa-pulse').addClass('fa-street-view');
 }
 
@@ -267,7 +273,20 @@ function updateZone(data){
     fetchGeoJSON(text);
 }
 
-
+function zone_validation(validation)
+{
+  switch(validation) {
+    case 'Aktindsigt':
+        type = "success";
+        break;
+    case 'Nyhedsmedie':
+        type = "primary";
+        break;
+    default:
+        type = "muted";
+  }
+  return '<p class="text-'+type+'"><i class="fa fa-check-circle"></i></p>';
+}
 function reset_data()
 {
 	for(var index in layerMap) {
@@ -275,4 +294,12 @@ function reset_data()
     }
     zones.length = 0;
     $("#zonelist").html('');
+}
+function bootstrap_alert(text,type){
+
+	$("#alert").html('<div class="alert alert-'+type+' alert-dismissible" role="alert">' +
+              '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' +
+              '<p><strong>'+text+'</strong></p>' + 
+            '</div>');
+    $("#alert .alert").fadeIn("slow");
 }
