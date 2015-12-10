@@ -1,1 +1,69 @@
-{"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[12.4636888504,55.6755517446],[12.4616503716,55.675515446],[12.4572086334,55.6756727396],[12.4552130699,55.6758058337],[12.4549126625,55.6781530548],[12.4535608292,55.6803670571],[12.4524879456,55.6829438527],[12.464826107,55.6845406549],[12.4649763107,55.6820002571],[12.4643325806,55.6791814321],[12.4636673927,55.6768584709]]]},"type":"Feature","properties":{"end":"2014-06-15 06:00","background":"K\u00f8benhavns Vestegns Politi \u00f8nsker at sikre, at R\u00f8dovre Byfest afvikles i god ro, orden og sikkerhed som en festlig begivenhed for byens borgere.\n\nVisitationszonen oprettes som en indsats mod personer fra rocker- og bandemilj\u00f8et, som f\u00f8r har skabt uro ved byfesten.","area":"R\u00f8dovre","authority":"K\u00f8benhavns Vestegns Politi","start":"2014-06-13 16:00","extent":"T\u00e5rnvej \u2013 Egeg\u00e5rdsvej \u2013 R\u00f8dovrevej \u2013 R\u00f8dager All\u00e9 ","population":2500,"validation":null}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.4636888504, 
+                            55.6755517446
+                        ], 
+                        [
+                            12.4616503716, 
+                            55.675515446
+                        ], 
+                        [
+                            12.4572086334, 
+                            55.6756727396
+                        ], 
+                        [
+                            12.4552130699, 
+                            55.6758058337
+                        ], 
+                        [
+                            12.4549126625, 
+                            55.6781530548
+                        ], 
+                        [
+                            12.4535608292, 
+                            55.6803670571
+                        ], 
+                        [
+                            12.4524879456, 
+                            55.6829438527
+                        ], 
+                        [
+                            12.464826107, 
+                            55.6845406549
+                        ], 
+                        [
+                            12.4649763107, 
+                            55.6820002571
+                        ], 
+                        [
+                            12.4643325806, 
+                            55.6791814321
+                        ], 
+                        [
+                            12.4636673927, 
+                            55.6768584709
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2014-06-15 06:00", 
+                "background": "K\u00f8benhavns Vestegns Politi \u00f8nsker at sikre, at R\u00f8dovre Byfest afvikles i god ro, orden og sikkerhed som en festlig begivenhed for byens borgere.\n\nVisitationszonen oprettes som en indsats mod personer fra rocker- og bandemilj\u00f8et, som f\u00f8r har skabt uro ved byfesten.", 
+                "area": "R\u00f8dovre", 
+                "authority": "K\u00f8benhavns Vestegns Politi", 
+                "start": "2014-06-13 16:00", 
+                "extent": "T\u00e5rnvej \u2013 Egeg\u00e5rdsvej \u2013 R\u00f8dovrevej \u2013 R\u00f8dager All\u00e9 ", 
+                "validation": null, 
+                "population": 2500
+            }
+        }
+    ]
+}

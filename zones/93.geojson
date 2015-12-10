@@ -1,1 +1,149 @@
-{"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[8.44189345837,55.4620504484],[8.44178617001,55.4620534898],[8.44205439091,55.4646963493],[8.44270884991,55.4650673694],[8.44293415546,55.4653988517],[8.44295024872,55.4664814717],[8.44623863697,55.4649882999],[8.44723641872,55.4648849009],[8.45421552658,55.4644013553],[8.45395803452,55.463586309],[8.45392048359,55.4634281638],[8.45352351665,55.4633977512],[8.45378637314,55.4624884029],[8.45357716084,55.4620960689],[8.4534484148,55.4620230761],[8.45280468464,55.4622572609],[8.45250964165,55.4613296378],[8.45187664032,55.4590819622],[8.45010101795,55.4591975427],[8.45078229904,55.462013952],[8.44888329506,55.4621599375],[8.4484487772,55.4603746194],[8.44607770443,55.46072439],[8.44597041607,55.4604962791],[8.44350278378,55.4606970167],[8.4433311224,55.4604628227],[8.44270348549,55.4606301043],[8.44263374805,55.4610771989],[8.44329357147,55.462013952],[8.4462761879,55.463315637],[8.44234406948,55.4645199614]]]},"type":"Feature","properties":{"end":"2012-04-13 23:59","background":"Politiet tager ingen chancer, n\u00e5r flere rockere i slutningen af marts og i april skal for retten. Derfor indf\u00f8res der en visitationszone i omr\u00e5det omkring domhuset p\u00e5 havnen i Esbjerg. Det oplyser politidirekt\u00f8r J\u00f8rgen Meyer i en pressemeddelelse\r\n\r\nhttp:\/\/www.jv.dk\/artikel\/1304069:Esbjerg--Rockere-skal-i-retten--Politiet-indfOerer-visitationszone-paa-havnen-i-Esbjerg","area":"Esbjerg","authority":"Syd- og S\u00f8nderjyllands Politi","start":"2012-04-10 00:00","extent":"afgr\u00e6nset af havnebassin, Vestre Dokkaj, Stormgade, Havnegade, Englandsgade, \u00d8stre Havnevej, Sm\u00f8rstikkervej, Estrupvej, Vestkraftgade og Vestkraftkaj.","population":300,"validation":"Aktindsigt"}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            8.44189345837, 
+                            55.4620504484
+                        ], 
+                        [
+                            8.44178617001, 
+                            55.4620534898
+                        ], 
+                        [
+                            8.44205439091, 
+                            55.4646963493
+                        ], 
+                        [
+                            8.44270884991, 
+                            55.4650673694
+                        ], 
+                        [
+                            8.44293415546, 
+                            55.4653988517
+                        ], 
+                        [
+                            8.44295024872, 
+                            55.4664814717
+                        ], 
+                        [
+                            8.44623863697, 
+                            55.4649882999
+                        ], 
+                        [
+                            8.44723641872, 
+                            55.4648849009
+                        ], 
+                        [
+                            8.45421552658, 
+                            55.4644013553
+                        ], 
+                        [
+                            8.45395803452, 
+                            55.463586309
+                        ], 
+                        [
+                            8.45392048359, 
+                            55.4634281638
+                        ], 
+                        [
+                            8.45352351665, 
+                            55.4633977512
+                        ], 
+                        [
+                            8.45378637314, 
+                            55.4624884029
+                        ], 
+                        [
+                            8.45357716084, 
+                            55.4620960689
+                        ], 
+                        [
+                            8.4534484148, 
+                            55.4620230761
+                        ], 
+                        [
+                            8.45280468464, 
+                            55.4622572609
+                        ], 
+                        [
+                            8.45250964165, 
+                            55.4613296378
+                        ], 
+                        [
+                            8.45187664032, 
+                            55.4590819622
+                        ], 
+                        [
+                            8.45010101795, 
+                            55.4591975427
+                        ], 
+                        [
+                            8.45078229904, 
+                            55.462013952
+                        ], 
+                        [
+                            8.44888329506, 
+                            55.4621599375
+                        ], 
+                        [
+                            8.4484487772, 
+                            55.4603746194
+                        ], 
+                        [
+                            8.44607770443, 
+                            55.46072439
+                        ], 
+                        [
+                            8.44597041607, 
+                            55.4604962791
+                        ], 
+                        [
+                            8.44350278378, 
+                            55.4606970167
+                        ], 
+                        [
+                            8.4433311224, 
+                            55.4604628227
+                        ], 
+                        [
+                            8.44270348549, 
+                            55.4606301043
+                        ], 
+                        [
+                            8.44263374805, 
+                            55.4610771989
+                        ], 
+                        [
+                            8.44329357147, 
+                            55.462013952
+                        ], 
+                        [
+                            8.4462761879, 
+                            55.463315637
+                        ], 
+                        [
+                            8.44234406948, 
+                            55.4645199614
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2012-04-13 23:59", 
+                "background": "Politiet tager ingen chancer, n\u00e5r flere rockere i slutningen af marts og i april skal for retten. Derfor indf\u00f8res der en visitationszone i omr\u00e5det omkring domhuset p\u00e5 havnen i Esbjerg. Det oplyser politidirekt\u00f8r J\u00f8rgen Meyer i en pressemeddelelse\r\n\r\nhttp://www.jv.dk/artikel/1304069:Esbjerg--Rockere-skal-i-retten--Politiet-indfOerer-visitationszone-paa-havnen-i-Esbjerg", 
+                "area": "Esbjerg", 
+                "authority": "Syd- og S\u00f8nderjyllands Politi", 
+                "start": "2012-04-10 00:00", 
+                "extent": "afgr\u00e6nset af havnebassin, Vestre Dokkaj, Stormgade, Havnegade, Englandsgade, \u00d8stre Havnevej, Sm\u00f8rstikkervej, Estrupvej, Vestkraftgade og Vestkraftkaj.", 
+                "validation": "Aktindsigt", 
+                "population": 300
+            }
+        }
+    ]
+}

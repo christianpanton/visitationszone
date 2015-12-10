@@ -1,1 +1,73 @@
-{"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[11.7534399033,55.2577824477],[11.7573451996,55.2586384271],[11.7583966255,55.2566085031],[11.7583966255,55.2562416383],[11.7584609985,55.2556301895],[11.7592978477,55.2548230626],[11.7595767975,55.2542238214],[11.7595124245,55.2537713272],[11.7595767975,55.2534533552],[11.7591905594,55.2531843],[11.7561650276,55.2527562538],[11.7541050911,55.255972602]]]},"type":"Feature","properties":{"end":"2015-01-17 12:00","background":" Vi ved, at Bandidos denne fredag skal holde fest. Vi har derfor p\u00e5 baggrund af den sp\u00e6ndte situation i N\u00e6stved mellem rockergruppen Bandidos og bandegrupperingen Black Army vurderet, at der er en \u00f8get risiko for, at nogen i det omr\u00e5de, vi opretter visitationszone i, kan finde p\u00e5 at b\u00e6re v\u00e5ben. For at forebygge eventuelle strafbare handlinger, der kan v\u00e6re til fare for personers liv eller helbred, v\u00e6lger vi derfor at indf\u00f8re visitationszonen i de n\u00e6vnte 24 timer, siger politidirekt\u00f8r Lene Frank.","area":"N\u00e6stved Nord","authority":"Sydsj\u00e6llands og Lolland-Falsters Politi","start":"2015-01-16 12:00","extent":"Omr\u00e5det er afgr\u00e6nset af rundk\u00f8rslen ved Ringstedgade og Holsted All\u00e9, Holsted All\u00e9, en cykel\/gangsti mellem Kuhlaus Vej og Carl Nielsens Vej, Kuhlaus vej, Ringstedgade og baneterr\u00e6net parallelt med Ringstedgade.","population":100,"validation":null}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            11.7534399033, 
+                            55.2577824477
+                        ], 
+                        [
+                            11.7573451996, 
+                            55.2586384271
+                        ], 
+                        [
+                            11.7583966255, 
+                            55.2566085031
+                        ], 
+                        [
+                            11.7583966255, 
+                            55.2562416383
+                        ], 
+                        [
+                            11.7584609985, 
+                            55.2556301895
+                        ], 
+                        [
+                            11.7592978477, 
+                            55.2548230626
+                        ], 
+                        [
+                            11.7595767975, 
+                            55.2542238214
+                        ], 
+                        [
+                            11.7595124245, 
+                            55.2537713272
+                        ], 
+                        [
+                            11.7595767975, 
+                            55.2534533552
+                        ], 
+                        [
+                            11.7591905594, 
+                            55.2531843
+                        ], 
+                        [
+                            11.7561650276, 
+                            55.2527562538
+                        ], 
+                        [
+                            11.7541050911, 
+                            55.255972602
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2015-01-17 12:00", 
+                "background": " Vi ved, at Bandidos denne fredag skal holde fest. Vi har derfor p\u00e5 baggrund af den sp\u00e6ndte situation i N\u00e6stved mellem rockergruppen Bandidos og bandegrupperingen Black Army vurderet, at der er en \u00f8get risiko for, at nogen i det omr\u00e5de, vi opretter visitationszone i, kan finde p\u00e5 at b\u00e6re v\u00e5ben. For at forebygge eventuelle strafbare handlinger, der kan v\u00e6re til fare for personers liv eller helbred, v\u00e6lger vi derfor at indf\u00f8re visitationszonen i de n\u00e6vnte 24 timer, siger politidirekt\u00f8r Lene Frank.", 
+                "area": "N\u00e6stved Nord", 
+                "authority": "Sydsj\u00e6llands og Lolland-Falsters Politi", 
+                "start": "2015-01-16 12:00", 
+                "extent": "Omr\u00e5det er afgr\u00e6nset af rundk\u00f8rslen ved Ringstedgade og Holsted All\u00e9, Holsted All\u00e9, en cykel/gangsti mellem Kuhlaus Vej og Carl Nielsens Vej, Kuhlaus vej, Ringstedgade og baneterr\u00e6net parallelt med Ringstedgade.", 
+                "validation": null, 
+                "population": 100
+            }
+        }
+    ]
+}

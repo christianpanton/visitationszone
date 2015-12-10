@@ -1,1 +1,85 @@
-{"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[10.064603,56.262828],[10.0647,56.262935],[10.06515,56.263519],[10.062532,56.264139],[10.062189,56.264353],[10.060751,56.264687],[10.059936,56.263769],[10.059056,56.262339],[10.059378,56.262268],[10.060687,56.261993],[10.061449,56.262851],[10.062565,56.262631],[10.062962,56.263143],[10.064625,56.262875],[10.064603,56.262828]]]},"type":"Feature","properties":{"end":"2007-04-29 12:00","background":"Med baggrund i flere volds- og trusselssager i Hinnerup  og beslagl\u00e6ggelse af skarpladt skydev\u00e5ben i Hammel i den senere tid sammenholdt med aktuelle oplysninger om et forest\u00e5ende sammenst\u00f8d fredag den 270407 ved diskotek XXL i Hinnerup mellem 2 grupper af unge fra henholdsvis Hinnerup og Hammel, hvor der er opfordret til at medbringe v\u00e5ben, iv\u00e6rks\u00e6tter \u00d8stjyllands Politi en m\u00e5lrettet indsats i Hinnerup ved diskotek XXL.","area":"Hinnerup","authority":"\u00d8stjyllands Politi","start":"2007-04-27 16:00","extent":"\u00c5dalsvej vest for Lille\u00e5 \u2013 \u00d8stergade \u2013 Storegade \u2013 S\u00f8ndergade \u2013 Jernbanegade \u2013 Baneg\u00e5rdspladsen \u2013 Tv\u00e6rgade \u2013 Adeline Geneevej.     G\u00e6ldende fra fredag den 270407 kl. 16 til s\u00f8ndag den 290407 kl. 12.","population":0,"validation":null}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            10.064603, 
+                            56.262828
+                        ], 
+                        [
+                            10.0647, 
+                            56.262935
+                        ], 
+                        [
+                            10.06515, 
+                            56.263519
+                        ], 
+                        [
+                            10.062532, 
+                            56.264139
+                        ], 
+                        [
+                            10.062189, 
+                            56.264353
+                        ], 
+                        [
+                            10.060751, 
+                            56.264687
+                        ], 
+                        [
+                            10.059936, 
+                            56.263769
+                        ], 
+                        [
+                            10.059056, 
+                            56.262339
+                        ], 
+                        [
+                            10.059378, 
+                            56.262268
+                        ], 
+                        [
+                            10.060687, 
+                            56.261993
+                        ], 
+                        [
+                            10.061449, 
+                            56.262851
+                        ], 
+                        [
+                            10.062565, 
+                            56.262631
+                        ], 
+                        [
+                            10.062962, 
+                            56.263143
+                        ], 
+                        [
+                            10.064625, 
+                            56.262875
+                        ], 
+                        [
+                            10.064603, 
+                            56.262828
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2007-04-29 12:00", 
+                "background": "Med baggrund i flere volds- og trusselssager i Hinnerup  og beslagl\u00e6ggelse af skarpladt skydev\u00e5ben i Hammel i den senere tid sammenholdt med aktuelle oplysninger om et forest\u00e5ende sammenst\u00f8d fredag den 270407 ved diskotek XXL i Hinnerup mellem 2 grupper af unge fra henholdsvis Hinnerup og Hammel, hvor der er opfordret til at medbringe v\u00e5ben, iv\u00e6rks\u00e6tter \u00d8stjyllands Politi en m\u00e5lrettet indsats i Hinnerup ved diskotek XXL.", 
+                "area": "Hinnerup", 
+                "authority": "\u00d8stjyllands Politi", 
+                "start": "2007-04-27 16:00", 
+                "extent": "\u00c5dalsvej vest for Lille\u00e5 \u2013 \u00d8stergade \u2013 Storegade \u2013 S\u00f8ndergade \u2013 Jernbanegade \u2013 Baneg\u00e5rdspladsen \u2013 Tv\u00e6rgade \u2013 Adeline Geneevej.     G\u00e6ldende fra fredag den 270407 kl. 16 til s\u00f8ndag den 290407 kl. 12.", 
+                "validation": null, 
+                "population": 0
+            }
+        }
+    ]
+}

@@ -1,1 +1,145 @@
-{"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[12.5885081291,55.6908425484],[12.5869631767,55.6904313234],[12.5835514069,55.6861011032],[12.5807404518,55.682617226],[12.5853538513,55.6815042554],[12.5847959518,55.6808872689],[12.585310936,55.6798468383],[12.5864052773,55.6800283108],[12.5872850418,55.6808025838],[12.5874352455,55.6804154492],[12.5940871239,55.6786853947],[12.5955247879,55.6798589365],[12.5954818726,55.6805364291],[12.5971341133,55.682653518],[12.5954389572,55.6830890192],[12.5994515419,55.6881211259],[12.6001596451,55.6891492411],[12.6007390022,55.69074579],[12.6004171371,55.6910844435],[12.5992369652,55.691483567],[12.5993442535,55.6928986087],[12.5997948647,55.6930558324],[12.5989580154,55.6933702778],[12.5975632668,55.6936121572],[12.5958037376,55.6935033117],[12.5950312614,55.6941080054],[12.5938296318,55.6945796599],[12.590675354,55.6955834187],[12.5864267349,55.6925962536],[12.5880146027,55.6913626209]]]},"type":"Feature","properties":{"end":"2010-02-16 23:59","background":"Opretholdelsen af visitationsomr\u00e5det begrundes med den igangv\u00e6rende ankesag i \u00d8stre Landsret mod den s\u00e5kaldte \u201dStore A\u201d. Ankesagen k\u00f8rer fra den 8. december 2009 til den 19. april 2010.   \n\nAnmodningen begrundes desuden med den fortsatte h\u00f8jt prioriterede m\u00e5lrettede indsats mod bander og  banderelaterede h\u00e6ndelser, samt andre forbrydelser hvor v\u00e5ben indg\u00e5r.","area":"Indre By","authority":"K\u00f8benhavns Politi","start":"2010-01-18 12:00","extent":"Oslo Plads fra \u00d8stbanegade \u2013 \u00d8ster Voldgade til Kronprinsessegade \u2013 Kronprinsessegade \u2013 Gothersgade mod Kongens Nytorv \u2013 Kongens Nytorvs nordlige ende \u2013 Nyhavn til vandet \u2013 langs vandet mod nord til Den lille Havfrue \u2013 Langelinie  \u2013 Langeliniebroen \u2013 \u00d8stbanegade mod Oslo Plads. ","population":1600,"validation":null}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.5885081291, 
+                            55.6908425484
+                        ], 
+                        [
+                            12.5869631767, 
+                            55.6904313234
+                        ], 
+                        [
+                            12.5835514069, 
+                            55.6861011032
+                        ], 
+                        [
+                            12.5807404518, 
+                            55.682617226
+                        ], 
+                        [
+                            12.5853538513, 
+                            55.6815042554
+                        ], 
+                        [
+                            12.5847959518, 
+                            55.6808872689
+                        ], 
+                        [
+                            12.585310936, 
+                            55.6798468383
+                        ], 
+                        [
+                            12.5864052773, 
+                            55.6800283108
+                        ], 
+                        [
+                            12.5872850418, 
+                            55.6808025838
+                        ], 
+                        [
+                            12.5874352455, 
+                            55.6804154492
+                        ], 
+                        [
+                            12.5940871239, 
+                            55.6786853947
+                        ], 
+                        [
+                            12.5955247879, 
+                            55.6798589365
+                        ], 
+                        [
+                            12.5954818726, 
+                            55.6805364291
+                        ], 
+                        [
+                            12.5971341133, 
+                            55.682653518
+                        ], 
+                        [
+                            12.5954389572, 
+                            55.6830890192
+                        ], 
+                        [
+                            12.5994515419, 
+                            55.6881211259
+                        ], 
+                        [
+                            12.6001596451, 
+                            55.6891492411
+                        ], 
+                        [
+                            12.6007390022, 
+                            55.69074579
+                        ], 
+                        [
+                            12.6004171371, 
+                            55.6910844435
+                        ], 
+                        [
+                            12.5992369652, 
+                            55.691483567
+                        ], 
+                        [
+                            12.5993442535, 
+                            55.6928986087
+                        ], 
+                        [
+                            12.5997948647, 
+                            55.6930558324
+                        ], 
+                        [
+                            12.5989580154, 
+                            55.6933702778
+                        ], 
+                        [
+                            12.5975632668, 
+                            55.6936121572
+                        ], 
+                        [
+                            12.5958037376, 
+                            55.6935033117
+                        ], 
+                        [
+                            12.5950312614, 
+                            55.6941080054
+                        ], 
+                        [
+                            12.5938296318, 
+                            55.6945796599
+                        ], 
+                        [
+                            12.590675354, 
+                            55.6955834187
+                        ], 
+                        [
+                            12.5864267349, 
+                            55.6925962536
+                        ], 
+                        [
+                            12.5880146027, 
+                            55.6913626209
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2010-02-16 23:59", 
+                "background": "Opretholdelsen af visitationsomr\u00e5det begrundes med den igangv\u00e6rende ankesag i \u00d8stre Landsret mod den s\u00e5kaldte \u201dStore A\u201d. Ankesagen k\u00f8rer fra den 8. december 2009 til den 19. april 2010.   \n\nAnmodningen begrundes desuden med den fortsatte h\u00f8jt prioriterede m\u00e5lrettede indsats mod bander og  banderelaterede h\u00e6ndelser, samt andre forbrydelser hvor v\u00e5ben indg\u00e5r.", 
+                "area": "Indre By", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2010-01-18 12:00", 
+                "extent": "Oslo Plads fra \u00d8stbanegade \u2013 \u00d8ster Voldgade til Kronprinsessegade \u2013 Kronprinsessegade \u2013 Gothersgade mod Kongens Nytorv \u2013 Kongens Nytorvs nordlige ende \u2013 Nyhavn til vandet \u2013 langs vandet mod nord til Den lille Havfrue \u2013 Langelinie  \u2013 Langeliniebroen \u2013 \u00d8stbanegade mod Oslo Plads. ", 
+                "validation": null, 
+                "population": 1600
+            }
+        }
+    ]
+}

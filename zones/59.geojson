@@ -1,1 +1,137 @@
-{"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[11.9312810898,55.3293519173],[11.9289422035,55.3257020433],[11.9289636612,55.3226744681],[11.9337916374,55.3223814646],[11.9410872459,55.3219297468],[11.942653656,55.3218198687],[11.9435334206,55.3213315179],[11.9446277618,55.3200373593],[11.9448852539,55.3198908481],[11.9450569153,55.3197931737],[11.9463443756,55.32033038],[11.9479107857,55.3206478167],[11.9502925873,55.3211605937],[11.9527387619,55.3222715878],[11.9567084312,55.3237121711],[11.9587898254,55.3263856573],[11.9571805,55.3311340079],[11.9561719894,55.3341731419],[11.9554853439,55.3349054285],[11.9541764259,55.3353203849],[11.9449067116,55.3370655951],[11.9433617592,55.3370900031],[11.9421601295,55.3314879753],[11.9470953941,55.3301331176],[11.9466662407,55.3293275046],[11.9468164444,55.3285462884],[11.9441771507,55.3284120153],[11.9384264946,55.3287415939]]]},"type":"Feature","properties":{"end":"2015-02-08 12:00","background":" Gennem vores efterretninger ved vi, at Gremium MC denne l\u00f8rdag skal holde stor \u00e5bningsfest. Vi har derfor p\u00e5 baggrund af den sp\u00e6ndte situation i Haslev mellem den nyetablerede rockergruppe Gremium MC og rockergruppen Bandidos vurderet, at der er en \u00f8get risiko for, at nogen i det omr\u00e5de, vi opretter visitationszone i, kan finde p\u00e5 at b\u00e6re v\u00e5ben","area":"Haslev","authority":"Sydsj\u00e6llands og Lolland-Falsters Politi","start":"2015-02-07 12:00","extent":"Visitationszonen omfatter et omr\u00e5de afgr\u00e6nset af krydset ved Lysholm All\u00e9 og Lysholm Skolevej \u2013 mod syd til Teestrupvej \u2013 mod \u00f8st ad Teestrupvej til Troelstrupvej \u2013 nord\u00f8st ad Troelstrupvej til S\u00f8ndergade til krydset S\u00f8ndergade og Tingvej \u2013 mod nord ad Tingvej og Ringstedvej mod vest til krydset Tingvej og Vester Ringvej \u2013 ad Vester Ringvej mod syd til v\u00e5domr\u00e5de ud for Hestehave \u2013 langs \u00e5en modsyd til Lysholm All\u00e9 og derefter mod vest ad Lysholm All\u00e9 til krydset ved Lysholm Skolevej.","population":1600,"validation":null}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            11.9312810898, 
+                            55.3293519173
+                        ], 
+                        [
+                            11.9289422035, 
+                            55.3257020433
+                        ], 
+                        [
+                            11.9289636612, 
+                            55.3226744681
+                        ], 
+                        [
+                            11.9337916374, 
+                            55.3223814646
+                        ], 
+                        [
+                            11.9410872459, 
+                            55.3219297468
+                        ], 
+                        [
+                            11.942653656, 
+                            55.3218198687
+                        ], 
+                        [
+                            11.9435334206, 
+                            55.3213315179
+                        ], 
+                        [
+                            11.9446277618, 
+                            55.3200373593
+                        ], 
+                        [
+                            11.9448852539, 
+                            55.3198908481
+                        ], 
+                        [
+                            11.9450569153, 
+                            55.3197931737
+                        ], 
+                        [
+                            11.9463443756, 
+                            55.32033038
+                        ], 
+                        [
+                            11.9479107857, 
+                            55.3206478167
+                        ], 
+                        [
+                            11.9502925873, 
+                            55.3211605937
+                        ], 
+                        [
+                            11.9527387619, 
+                            55.3222715878
+                        ], 
+                        [
+                            11.9567084312, 
+                            55.3237121711
+                        ], 
+                        [
+                            11.9587898254, 
+                            55.3263856573
+                        ], 
+                        [
+                            11.9571805, 
+                            55.3311340079
+                        ], 
+                        [
+                            11.9561719894, 
+                            55.3341731419
+                        ], 
+                        [
+                            11.9554853439, 
+                            55.3349054285
+                        ], 
+                        [
+                            11.9541764259, 
+                            55.3353203849
+                        ], 
+                        [
+                            11.9449067116, 
+                            55.3370655951
+                        ], 
+                        [
+                            11.9433617592, 
+                            55.3370900031
+                        ], 
+                        [
+                            11.9421601295, 
+                            55.3314879753
+                        ], 
+                        [
+                            11.9470953941, 
+                            55.3301331176
+                        ], 
+                        [
+                            11.9466662407, 
+                            55.3293275046
+                        ], 
+                        [
+                            11.9468164444, 
+                            55.3285462884
+                        ], 
+                        [
+                            11.9441771507, 
+                            55.3284120153
+                        ], 
+                        [
+                            11.9384264946, 
+                            55.3287415939
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2015-02-08 12:00", 
+                "background": " Gennem vores efterretninger ved vi, at Gremium MC denne l\u00f8rdag skal holde stor \u00e5bningsfest. Vi har derfor p\u00e5 baggrund af den sp\u00e6ndte situation i Haslev mellem den nyetablerede rockergruppe Gremium MC og rockergruppen Bandidos vurderet, at der er en \u00f8get risiko for, at nogen i det omr\u00e5de, vi opretter visitationszone i, kan finde p\u00e5 at b\u00e6re v\u00e5ben", 
+                "area": "Haslev", 
+                "authority": "Sydsj\u00e6llands og Lolland-Falsters Politi", 
+                "start": "2015-02-07 12:00", 
+                "extent": "Visitationszonen omfatter et omr\u00e5de afgr\u00e6nset af krydset ved Lysholm All\u00e9 og Lysholm Skolevej \u2013 mod syd til Teestrupvej \u2013 mod \u00f8st ad Teestrupvej til Troelstrupvej \u2013 nord\u00f8st ad Troelstrupvej til S\u00f8ndergade til krydset S\u00f8ndergade og Tingvej \u2013 mod nord ad Tingvej og Ringstedvej mod vest til krydset Tingvej og Vester Ringvej \u2013 ad Vester Ringvej mod syd til v\u00e5domr\u00e5de ud for Hestehave \u2013 langs \u00e5en modsyd til Lysholm All\u00e9 og derefter mod vest ad Lysholm All\u00e9 til krydset ved Lysholm Skolevej.", 
+                "validation": null, 
+                "population": 1600
+            }
+        }
+    ]
+}
