@@ -1,1 +1,89 @@
-{"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[12.4853396416,55.7255875257],[12.4797177315,55.7220829969],[12.4758768082,55.718155134],[12.4695682526,55.7165597046],[12.4680447578,55.7129697501],[12.4770998955,55.7106367072],[12.4851465225,55.7078441255],[12.4858760834,55.7085936692],[12.4854683876,55.7112532243],[12.4866271019,55.714118088],[12.4889016151,55.7168377008],[12.4908542633,55.7168497875],[12.4940943718,55.7171882149],[12.4968194962,55.7179134065],[12.4977207184,55.7184572914],[12.4904251099,55.7230860494]]]},"type":"Feature","properties":{"end":"2011-03-25 14:00","background":"Der har i perioden fra 1. januar 2011 og indtil 11. marts 2011 v\u00e6ret flere episoder i omhandlede omr\u00e5de, hvor der har v\u00e6ret anvendelse af skydev\u00e5ben:   \n\nMandag den 17. januar 2011 var der p\u00e5 adressen Ruten 2 fors\u00f8g p\u00e5 manddrab. Der blev afgivet 14 skud \u2013 ingen ramt.  \nTorsdag den 17. februar 2011 var der p\u00e5 adressen Terrasserne fors\u00f8g p\u00e5 manddrab. Der blev afgivet flere skud \u2013 forurettede ramt i benet.  \nTorsdag den 10. marts 2011 var der p\u00e5 adressen Gadelandet for\u00f8vet drab og fors\u00f8g p\u00e5 manddrab. Der blev afgivet 25 skud \u2013 en dr\u00e6bt og 2 tilskadekomne","area":"Tingbjerg","authority":"K\u00f8benhavns Politi","start":"2011-03-11 14:00","extent":"Hareskovvej fra tilk\u00f8rsel 1 nordp\u00e5 til kredsgr\u00e6nsen \u2013 kredsgr\u00e6nsen til M\u00f8rkh\u00f8jvej \u2013 Frederikssundsvej \u2013 \u00c5kandevej \u2013 Ruten til Hareskovvej \u2013 Hareskovvej sydp\u00e5 til afk\u00f8rsel 1. ","population":8400,"validation":null}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.4853396416, 
+                            55.7255875257
+                        ], 
+                        [
+                            12.4797177315, 
+                            55.7220829969
+                        ], 
+                        [
+                            12.4758768082, 
+                            55.718155134
+                        ], 
+                        [
+                            12.4695682526, 
+                            55.7165597046
+                        ], 
+                        [
+                            12.4680447578, 
+                            55.7129697501
+                        ], 
+                        [
+                            12.4770998955, 
+                            55.7106367072
+                        ], 
+                        [
+                            12.4851465225, 
+                            55.7078441255
+                        ], 
+                        [
+                            12.4858760834, 
+                            55.7085936692
+                        ], 
+                        [
+                            12.4854683876, 
+                            55.7112532243
+                        ], 
+                        [
+                            12.4866271019, 
+                            55.714118088
+                        ], 
+                        [
+                            12.4889016151, 
+                            55.7168377008
+                        ], 
+                        [
+                            12.4908542633, 
+                            55.7168497875
+                        ], 
+                        [
+                            12.4940943718, 
+                            55.7171882149
+                        ], 
+                        [
+                            12.4968194962, 
+                            55.7179134065
+                        ], 
+                        [
+                            12.4977207184, 
+                            55.7184572914
+                        ], 
+                        [
+                            12.4904251099, 
+                            55.7230860494
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2011-03-25 14:00", 
+                "background": "Der har i perioden fra 1. januar 2011 og indtil 11. marts 2011 v\u00e6ret flere episoder i omhandlede omr\u00e5de, hvor der har v\u00e6ret anvendelse af skydev\u00e5ben:   \n\nMandag den 17. januar 2011 var der p\u00e5 adressen Ruten 2 fors\u00f8g p\u00e5 manddrab. Der blev afgivet 14 skud \u2013 ingen ramt.  \nTorsdag den 17. februar 2011 var der p\u00e5 adressen Terrasserne fors\u00f8g p\u00e5 manddrab. Der blev afgivet flere skud \u2013 forurettede ramt i benet.  \nTorsdag den 10. marts 2011 var der p\u00e5 adressen Gadelandet for\u00f8vet drab og fors\u00f8g p\u00e5 manddrab. Der blev afgivet 25 skud \u2013 en dr\u00e6bt og 2 tilskadekomne", 
+                "area": "Tingbjerg", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2011-03-11 14:00", 
+                "extent": "Hareskovvej fra tilk\u00f8rsel 1 nordp\u00e5 til kredsgr\u00e6nsen \u2013 kredsgr\u00e6nsen til M\u00f8rkh\u00f8jvej \u2013 Frederikssundsvej \u2013 \u00c5kandevej \u2013 Ruten til Hareskovvej \u2013 Hareskovvej sydp\u00e5 til afk\u00f8rsel 1. ", 
+                "validation": null, 
+                "population": 8400
+            }
+        }
+    ]
+}

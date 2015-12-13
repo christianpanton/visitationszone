@@ -1,1 +1,181 @@
-{"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[12.5864696503,55.6925115938],[12.5883579254,55.6910844435],[12.5883793831,55.6908546432],[12.5869631767,55.6904192285],[12.5867056847,55.6896451458],[12.5834226608,55.6858712736],[12.5807189941,55.6826656153],[12.5853323936,55.6814558647],[12.5848817825,55.6808267795],[12.5854182243,55.6797742491],[12.5863623619,55.680052507],[12.5870490074,55.6806574087],[12.5938725471,55.6789878573],[12.594408989,55.6792298257],[12.5952887535,55.6795564806],[12.595911026,55.6804033512],[12.5954174995,55.680596919],[12.5970697403,55.6827140046],[12.5954174995,55.6831495051],[12.5994944572,55.6880606477],[12.5994300842,55.6888589525],[12.6000952721,55.6890282878],[12.6003527641,55.6904555132],[12.6007604599,55.6905401775],[12.6006746292,55.6909393066],[12.6004171371,55.6911691064],[12.5995373726,55.6913142424],[12.5991296768,55.6915803236],[12.5991940498,55.6926809133],[12.599902153,55.6931767732],[12.5985717773,55.6934307478],[12.597091198,55.6935637815],[12.5959324837,55.6934670298],[12.5952243805,55.6937451903],[12.5947952271,55.6943619739],[12.5941085815,55.6944587234],[12.5905895233,55.6956196986],[12.5902676582,55.6949666543],[12.5883364677,55.6937089086]]]},"type":"Feature","properties":{"end":"2010-04-20 12:00","background":"Begrundelsen er den fortsatte h\u00f8jt prioriterede m\u00e5lrettede indsats mod bander og banderelaterede h\u00e6ndelser, samt andre forbrydelser, hvor v\u00e5ben indg\u00e5r. \nVisitationsmuligheden inden for den beskrevne zone er et n\u00f8dvendigt v\u00e6rkt\u00f8j, for at kunne fastholde trykket p\u00e5 mulige banderelaterede personer og k\u00f8ret\u00f8jer.      \nTillige med henblik p\u00e5 hurtigt og effektivt at genskabe trygheden for borgerne i omr\u00e5det ved at sikre, at personer i omr\u00e5det ikke b\u00e6rer v\u00e5ben af nogen art.    \n\nVisitationszonen omkring \u00d8stre Landsret opretholdes begrundet med den igangv\u00e6rende ankesag i \u00d8stre Landsret mod \u201dStore A\u201d. ","area":"Indre By","authority":"K\u00f8benhavns Politi","start":"2010-02-19 12:00","extent":"Oslo Plads fra \u00d8stbanegade, \u00d8ster Voldgade til Kronprinsessegade, Kronprinsessegade, Gothersgade mod Kongens Nytorv, Kongens Nytorvs nordlige ende, Nyhavn til vandet, langt vandet mod nord til den lille Havfrue, Langelinie, Langeliniebroen, \u00d8stbanegade mod Oslo Plads.","population":1500,"validation":null}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.5864696503, 
+                            55.6925115938
+                        ], 
+                        [
+                            12.5883579254, 
+                            55.6910844435
+                        ], 
+                        [
+                            12.5883793831, 
+                            55.6908546432
+                        ], 
+                        [
+                            12.5869631767, 
+                            55.6904192285
+                        ], 
+                        [
+                            12.5867056847, 
+                            55.6896451458
+                        ], 
+                        [
+                            12.5834226608, 
+                            55.6858712736
+                        ], 
+                        [
+                            12.5807189941, 
+                            55.6826656153
+                        ], 
+                        [
+                            12.5853323936, 
+                            55.6814558647
+                        ], 
+                        [
+                            12.5848817825, 
+                            55.6808267795
+                        ], 
+                        [
+                            12.5854182243, 
+                            55.6797742491
+                        ], 
+                        [
+                            12.5863623619, 
+                            55.680052507
+                        ], 
+                        [
+                            12.5870490074, 
+                            55.6806574087
+                        ], 
+                        [
+                            12.5938725471, 
+                            55.6789878573
+                        ], 
+                        [
+                            12.594408989, 
+                            55.6792298257
+                        ], 
+                        [
+                            12.5952887535, 
+                            55.6795564806
+                        ], 
+                        [
+                            12.595911026, 
+                            55.6804033512
+                        ], 
+                        [
+                            12.5954174995, 
+                            55.680596919
+                        ], 
+                        [
+                            12.5970697403, 
+                            55.6827140046
+                        ], 
+                        [
+                            12.5954174995, 
+                            55.6831495051
+                        ], 
+                        [
+                            12.5994944572, 
+                            55.6880606477
+                        ], 
+                        [
+                            12.5994300842, 
+                            55.6888589525
+                        ], 
+                        [
+                            12.6000952721, 
+                            55.6890282878
+                        ], 
+                        [
+                            12.6003527641, 
+                            55.6904555132
+                        ], 
+                        [
+                            12.6007604599, 
+                            55.6905401775
+                        ], 
+                        [
+                            12.6006746292, 
+                            55.6909393066
+                        ], 
+                        [
+                            12.6004171371, 
+                            55.6911691064
+                        ], 
+                        [
+                            12.5995373726, 
+                            55.6913142424
+                        ], 
+                        [
+                            12.5991296768, 
+                            55.6915803236
+                        ], 
+                        [
+                            12.5991940498, 
+                            55.6926809133
+                        ], 
+                        [
+                            12.599902153, 
+                            55.6931767732
+                        ], 
+                        [
+                            12.5985717773, 
+                            55.6934307478
+                        ], 
+                        [
+                            12.597091198, 
+                            55.6935637815
+                        ], 
+                        [
+                            12.5959324837, 
+                            55.6934670298
+                        ], 
+                        [
+                            12.5952243805, 
+                            55.6937451903
+                        ], 
+                        [
+                            12.5947952271, 
+                            55.6943619739
+                        ], 
+                        [
+                            12.5941085815, 
+                            55.6944587234
+                        ], 
+                        [
+                            12.5905895233, 
+                            55.6956196986
+                        ], 
+                        [
+                            12.5902676582, 
+                            55.6949666543
+                        ], 
+                        [
+                            12.5883364677, 
+                            55.6937089086
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2010-04-20 12:00", 
+                "background": "Begrundelsen er den fortsatte h\u00f8jt prioriterede m\u00e5lrettede indsats mod bander og banderelaterede h\u00e6ndelser, samt andre forbrydelser, hvor v\u00e5ben indg\u00e5r. \nVisitationsmuligheden inden for den beskrevne zone er et n\u00f8dvendigt v\u00e6rkt\u00f8j, for at kunne fastholde trykket p\u00e5 mulige banderelaterede personer og k\u00f8ret\u00f8jer.      \nTillige med henblik p\u00e5 hurtigt og effektivt at genskabe trygheden for borgerne i omr\u00e5det ved at sikre, at personer i omr\u00e5det ikke b\u00e6rer v\u00e5ben af nogen art.    \n\nVisitationszonen omkring \u00d8stre Landsret opretholdes begrundet med den igangv\u00e6rende ankesag i \u00d8stre Landsret mod \u201dStore A\u201d. ", 
+                "area": "Indre By", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2010-02-19 12:00", 
+                "extent": "Oslo Plads fra \u00d8stbanegade, \u00d8ster Voldgade til Kronprinsessegade, Kronprinsessegade, Gothersgade mod Kongens Nytorv, Kongens Nytorvs nordlige ende, Nyhavn til vandet, langt vandet mod nord til den lille Havfrue, Langelinie, Langeliniebroen, \u00d8stbanegade mod Oslo Plads.", 
+                "validation": null, 
+                "population": 1500
+            }
+        }
+    ]
+}

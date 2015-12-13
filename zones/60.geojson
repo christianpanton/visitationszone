@@ -1,1 +1,77 @@
-{"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[12.3721075058,55.649335405],[12.3726654053,55.6480277594],[12.3730516434,55.6468653711],[12.3729658127,55.6458482531],[12.3718929291,55.6445404911],[12.3718929291,55.6440561237],[12.3909044266,55.6432326854],[12.3948955536,55.6440803422],[12.3978567123,55.6436928443],[12.4015903473,55.6434022183],[12.4012899399,55.6466958533],[12.3977279663,55.651175721],[12.395067215,55.6541781563]]]},"type":"Feature","properties":{"end":"2015-05-17 12:00","background":"K\u00f8benhavns Vestegns Politi har oprettet visitationszone i dele af Br\u00f8ndby Kommune i omr\u00e5det omkring Lyngg\u00e5rden frem til s\u00f8ndag kl. 12 i forbindelse med rockerfest.\nL\u00f8rdag aften er der en st\u00f8rre fest hos rockergruppen Satudarah MC p\u00e5 Lyngg\u00e5rden i Br\u00f8ndby. Erfaringsm\u00e6ssigt bliver der ved s\u00e5danne begivenheder ofte truffet personer med v\u00e5ben, og der er derfor oprettet en visitationszone.","area":"Br\u00f8ndby","authority":"K\u00f8benhavns Vestegns Politi","start":"2015-05-16 12:00","extent":"Omr\u00e5det afgr\u00e6nset af vejene Park All\u00e9 mod nord, S\u00f8ndre Ringvej mod \u00f8st, Vallensb\u00e6kvej mod syd og Vallensb\u00e6k Torvevej mod vest","population":1500,"validation":null}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.3721075058, 
+                            55.649335405
+                        ], 
+                        [
+                            12.3726654053, 
+                            55.6480277594
+                        ], 
+                        [
+                            12.3730516434, 
+                            55.6468653711
+                        ], 
+                        [
+                            12.3729658127, 
+                            55.6458482531
+                        ], 
+                        [
+                            12.3718929291, 
+                            55.6445404911
+                        ], 
+                        [
+                            12.3718929291, 
+                            55.6440561237
+                        ], 
+                        [
+                            12.3909044266, 
+                            55.6432326854
+                        ], 
+                        [
+                            12.3948955536, 
+                            55.6440803422
+                        ], 
+                        [
+                            12.3978567123, 
+                            55.6436928443
+                        ], 
+                        [
+                            12.4015903473, 
+                            55.6434022183
+                        ], 
+                        [
+                            12.4012899399, 
+                            55.6466958533
+                        ], 
+                        [
+                            12.3977279663, 
+                            55.651175721
+                        ], 
+                        [
+                            12.395067215, 
+                            55.6541781563
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2015-05-17 12:00", 
+                "background": "K\u00f8benhavns Vestegns Politi har oprettet visitationszone i dele af Br\u00f8ndby Kommune i omr\u00e5det omkring Lyngg\u00e5rden frem til s\u00f8ndag kl. 12 i forbindelse med rockerfest.\nL\u00f8rdag aften er der en st\u00f8rre fest hos rockergruppen Satudarah MC p\u00e5 Lyngg\u00e5rden i Br\u00f8ndby. Erfaringsm\u00e6ssigt bliver der ved s\u00e5danne begivenheder ofte truffet personer med v\u00e5ben, og der er derfor oprettet en visitationszone.", 
+                "area": "Br\u00f8ndby", 
+                "authority": "K\u00f8benhavns Vestegns Politi", 
+                "start": "2015-05-16 12:00", 
+                "extent": "Omr\u00e5det afgr\u00e6nset af vejene Park All\u00e9 mod nord, S\u00f8ndre Ringvej mod \u00f8st, Vallensb\u00e6kvej mod syd og Vallensb\u00e6k Torvevej mod vest", 
+                "validation": null, 
+                "population": 1500
+            }
+        }
+    ]
+}

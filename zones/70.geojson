@@ -1,1 +1,65 @@
-{"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[8.456898,55.465597],[8.457713,55.467324],[8.458056,55.468686],[8.444538,55.470219],[8.443637,55.46781],[8.442993,55.466375],[8.446255,55.464964],[8.44707,55.464867],[8.456254,55.464356],[8.456898,55.465597]]]},"type":"Feature","properties":{"end":"2008-01-07 23:59","background":"Begrundelse ukendt","area":"Esbjerg","authority":"Syd- og S\u00f8nderjyllands Politi","start":"2007-12-13 00:00","extent":"Esbjerg midtby, afgr\u00e6nset af  Jernbanegade, Havnegade, Stormgade og N\u00f8rregade.   G\u00e6ldende fra fredag den 13. december  2007 til mandag den 7. januar 2008.","population":500,"validation":null}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            8.456898, 
+                            55.465597
+                        ], 
+                        [
+                            8.457713, 
+                            55.467324
+                        ], 
+                        [
+                            8.458056, 
+                            55.468686
+                        ], 
+                        [
+                            8.444538, 
+                            55.470219
+                        ], 
+                        [
+                            8.443637, 
+                            55.46781
+                        ], 
+                        [
+                            8.442993, 
+                            55.466375
+                        ], 
+                        [
+                            8.446255, 
+                            55.464964
+                        ], 
+                        [
+                            8.44707, 
+                            55.464867
+                        ], 
+                        [
+                            8.456254, 
+                            55.464356
+                        ], 
+                        [
+                            8.456898, 
+                            55.465597
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2008-01-07 23:59", 
+                "background": "Begrundelse ukendt", 
+                "area": "Esbjerg", 
+                "authority": "Syd- og S\u00f8nderjyllands Politi", 
+                "start": "2007-12-13 00:00", 
+                "extent": "Esbjerg midtby, afgr\u00e6nset af  Jernbanegade, Havnegade, Stormgade og N\u00f8rregade.   G\u00e6ldende fra fredag den 13. december  2007 til mandag den 7. januar 2008.", 
+                "validation": null, 
+                "population": 500
+            }
+        }
+    ]
+}

@@ -1,1 +1,61 @@
-{"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[12.3989832401,55.7206448407],[12.4011826515,55.7215814611],[12.4016010761,55.7232854483],[12.4047124386,55.7229470738],[12.4043262005,55.7226449512],[12.4040150642,55.7200889005],[12.403639555,55.7193879212],[12.4034142494,55.7191643304],[12.3987042904,55.7204454283]]]},"type":"Feature","properties":{"end":"2012-12-21 21:00","background":"Baggrunden er, at der de sidste m\u00e5neder er sket en r\u00e6kke overtr\u00e6delser af v\u00e5benloven i og omkring Skovlunde Centret blandt andet i forbindelse med narkohandel.\n\nVisitationszonen oprettes derfor for at forebygge strafbare handlinger med fare for nogens liv og helbred, s\u00e5 borgerne kan f\u00e6rdes frit og trygt i omr\u00e5det.","area":"Skovlunde Centret","authority":"K\u00f8benhavns Vestegns Politi","start":"2012-11-23 08:00","extent":"Skovlunde Station - Bybuen - Ballerup Boulevard - Torvevej","population":300,"validation":null}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.3989832401, 
+                            55.7206448407
+                        ], 
+                        [
+                            12.4011826515, 
+                            55.7215814611
+                        ], 
+                        [
+                            12.4016010761, 
+                            55.7232854483
+                        ], 
+                        [
+                            12.4047124386, 
+                            55.7229470738
+                        ], 
+                        [
+                            12.4043262005, 
+                            55.7226449512
+                        ], 
+                        [
+                            12.4040150642, 
+                            55.7200889005
+                        ], 
+                        [
+                            12.403639555, 
+                            55.7193879212
+                        ], 
+                        [
+                            12.4034142494, 
+                            55.7191643304
+                        ], 
+                        [
+                            12.3987042904, 
+                            55.7204454283
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2012-12-21 21:00", 
+                "background": "Baggrunden er, at der de sidste m\u00e5neder er sket en r\u00e6kke overtr\u00e6delser af v\u00e5benloven i og omkring Skovlunde Centret blandt andet i forbindelse med narkohandel.\n\nVisitationszonen oprettes derfor for at forebygge strafbare handlinger med fare for nogens liv og helbred, s\u00e5 borgerne kan f\u00e6rdes frit og trygt i omr\u00e5det.", 
+                "area": "Skovlunde Centret", 
+                "authority": "K\u00f8benhavns Vestegns Politi", 
+                "start": "2012-11-23 08:00", 
+                "extent": "Skovlunde Station - Bybuen - Ballerup Boulevard - Torvevej", 
+                "validation": null, 
+                "population": 300
+            }
+        }
+    ]
+}

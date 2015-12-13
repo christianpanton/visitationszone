@@ -1,1 +1,65 @@
-{"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[12.5981211662,55.6768584709],[12.6005029678,55.6759268279],[12.599902153,55.6754307492],[12.6023483276,55.6744869723],[12.6034426689,55.674511172],[12.6044297218,55.6736278736],[12.602391243,55.6717765122],[12.5972414017,55.6711714732],[12.5956535339,55.6716071022],[12.5924134254,55.6733011691]]]},"type":"Feature","properties":{"end":"2007-22-12 23:59","background":"Begrundelse ukendt","area":"Christiania","authority":"K\u00f8benhavns Politi","start":"2007-11-28 00:00","extent":"Overgaden oven Vandet \u2013 Bodehoffs \nPlads \u2013 Prinsessegade \u2013 Refshalevej til\nk\u00f8revejen ved Parthenon \u2013\nVoldanl\u00e6gget til Christianshavns\nVoldgade \u2013 Sankt Ann\u00e6 Gade.","population":2600,"validation":null}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.5981211662, 
+                            55.6768584709
+                        ], 
+                        [
+                            12.6005029678, 
+                            55.6759268279
+                        ], 
+                        [
+                            12.599902153, 
+                            55.6754307492
+                        ], 
+                        [
+                            12.6023483276, 
+                            55.6744869723
+                        ], 
+                        [
+                            12.6034426689, 
+                            55.674511172
+                        ], 
+                        [
+                            12.6044297218, 
+                            55.6736278736
+                        ], 
+                        [
+                            12.602391243, 
+                            55.6717765122
+                        ], 
+                        [
+                            12.5972414017, 
+                            55.6711714732
+                        ], 
+                        [
+                            12.5956535339, 
+                            55.6716071022
+                        ], 
+                        [
+                            12.5924134254, 
+                            55.6733011691
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2007-22-12 23:59", 
+                "background": "Begrundelse ukendt", 
+                "area": "Christiania", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2007-11-28 00:00", 
+                "extent": "Overgaden oven Vandet \u2013 Bodehoffs \nPlads \u2013 Prinsessegade \u2013 Refshalevej til\nk\u00f8revejen ved Parthenon \u2013\nVoldanl\u00e6gget til Christianshavns\nVoldgade \u2013 Sankt Ann\u00e6 Gade.", 
+                "validation": null, 
+                "population": 2600
+            }
+        }
+    ]
+}

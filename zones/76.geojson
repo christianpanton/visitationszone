@@ -1,1 +1,133 @@
+<<<<<<< HEAD
 {"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[9.422772,55.042594],[9.422944,55.043393],[9.422858,55.044401],[9.422429,55.046675],[9.421592,55.046651],[9.420862,55.04654],[9.419596,55.046405],[9.420304,55.045286],[9.420519,55.044278],[9.420755,55.043405],[9.420433,55.043307],[9.418738,55.043245],[9.418674,55.043036],[9.418652,55.042791],[9.418888,55.042274],[9.419317,55.041573],[9.419403,55.041155],[9.419768,55.040651],[9.419811,55.040073],[9.419789,55.039938],[9.419746,55.039864],[9.419703,55.039717],[9.419639,55.039704],[9.423137,55.039618],[9.422965,55.041094],[9.422772,55.042594]]]},"type":"Feature","properties":{"end":"2008-01-07 23:59","background":"If\u00f8lge politiet i Aabenraa skyldes indf\u00f8relsen af visitationszonen, at der er grupperinger af unge i byen, som er p\u00e5 kant med hinanden.\n\nhttp:\/\/jyllands-posten.dk\/indland\/politiretsvaesen\/ECE5524616\/aabenraa-med-pa-visitationsvognen\/","start":"2007-12-21 00:00","area":"Aabenraa","authority":"Syd- og S\u00f8nderjyllands Politi","extent":"Gasv\u00e6rksvej, Sydhavn, M\u00f8llem\u00e6rsk, S\u00f8nderport, S\u00f8ndergade, Storetorv, R\u00e5dhusgade, Madevej og Kilen.   G\u00e6ldende fra fredag den 21. december  2007 til mandag den 7. januar 2008.","population":300,"validation":null}}]}
+=======
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            9.422772, 
+                            55.042594
+                        ], 
+                        [
+                            9.422944, 
+                            55.043393
+                        ], 
+                        [
+                            9.422858, 
+                            55.044401
+                        ], 
+                        [
+                            9.422429, 
+                            55.046675
+                        ], 
+                        [
+                            9.421592, 
+                            55.046651
+                        ], 
+                        [
+                            9.420862, 
+                            55.04654
+                        ], 
+                        [
+                            9.419596, 
+                            55.046405
+                        ], 
+                        [
+                            9.420304, 
+                            55.045286
+                        ], 
+                        [
+                            9.420519, 
+                            55.044278
+                        ], 
+                        [
+                            9.420755, 
+                            55.043405
+                        ], 
+                        [
+                            9.420433, 
+                            55.043307
+                        ], 
+                        [
+                            9.418738, 
+                            55.043245
+                        ], 
+                        [
+                            9.418674, 
+                            55.043036
+                        ], 
+                        [
+                            9.418652, 
+                            55.042791
+                        ], 
+                        [
+                            9.418888, 
+                            55.042274
+                        ], 
+                        [
+                            9.419317, 
+                            55.041573
+                        ], 
+                        [
+                            9.419403, 
+                            55.041155
+                        ], 
+                        [
+                            9.419768, 
+                            55.040651
+                        ], 
+                        [
+                            9.419811, 
+                            55.040073
+                        ], 
+                        [
+                            9.419789, 
+                            55.039938
+                        ], 
+                        [
+                            9.419746, 
+                            55.039864
+                        ], 
+                        [
+                            9.419703, 
+                            55.039717
+                        ], 
+                        [
+                            9.419639, 
+                            55.039704
+                        ], 
+                        [
+                            9.423137, 
+                            55.039618
+                        ], 
+                        [
+                            9.422965, 
+                            55.041094
+                        ], 
+                        [
+                            9.422772, 
+                            55.042594
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2008-01-07 23:59", 
+                "background": "If\u00f8lge politiet i Aabenraa skyldes indf\u00f8relsen af visitationszonen, at der er grupperinger af unge i byen, som er p\u00e5 kant med hinanden.\n\nhttp://jyllands-posten.dk/indland/politiretsvaesen/ECE5524616/aabenraa-med-pa-visitationsvognen/", 
+                "area": "Aabenraa", 
+                "authority": "Syd- og S\u00f8nderyllands Politi", 
+                "start": "2007-12-21 00:00", 
+                "extent": "Gasv\u00e6rksvej, Sydhavn, M\u00f8llem\u00e6rsk, S\u00f8nderport, S\u00f8ndergade, Storetorv, R\u00e5dhusgade, Madevej og Kilen.   G\u00e6ldende fra fredag den 21. december  2007 til mandag den 7. januar 2008.", 
+                "validation": null, 
+                "population": 300
+            }
+        }
+    ]
+}
+>>>>>>> christianpanton/master

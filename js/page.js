@@ -113,7 +113,7 @@ function fetchGeoJSON(authority) {
     for(var i = 0; i < zones.length; i++){
       $("#zonelist").prepend(zones[i][0]);
     }
-    
+    $('[data-toggle="tooltip"]').tooltip();
     $("#total_zones").text(formatNumber(data.features.length));
     $("#total_days").text(formatNumber(total_days));
     $("#avg_area").text(formatNumber(total_area / data.features.length));
@@ -278,14 +278,17 @@ function zone_validation(validation)
   switch(validation) {
     case 'Aktindsigt':
         type = "success";
+        text = "Aktinsigt";
         break;
     case 'Nyhedsmedie':
         type = "primary";
+        text = "Nyhedsmedie";
         break;
     default:
         type = "muted";
+        text = "Ukendt";
   }
-  return '<p class="text-'+type+'"><i class="fa fa-check-circle"></i></p>';
+  return '<p class="text-'+type+'"><i data-toggle="tooltip" data-placement="left" title="'+text+'"class="fa fa-check-circle"></i></p>';
 }
 function reset_data()
 {

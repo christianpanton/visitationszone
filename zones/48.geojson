@@ -1,1 +1,129 @@
-{"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[12.5163888931,55.9128742355],[12.5172042847,55.9120805104],[12.5153160095,55.9111424506],[12.5142431259,55.9075824278],[12.5111961365,55.9053692759],[12.5074625015,55.9024101908],[12.5001239777,55.9015200153],[12.4957466125,55.9012313054],[12.4866056442,55.9005335808],[12.4836444855,55.8997155429],[12.4827003479,55.8995230609],[12.4802541733,55.9002208036],[12.4764347076,55.9036852714],[12.4729156494,55.9050805946],[12.466135025,55.9095308592],[12.4783658981,55.9190310662],[12.4793958664,55.9207865458],[12.4846744537,55.92040179],[12.4923992157,55.9194398837],[12.4951887131,55.9199929827],[12.496304512,55.919127259],[12.496304512,55.917131211],[12.4988365173,55.9170109639],[12.502913475,55.9165059219],[12.5057029724,55.9158565725],[12.5098657608,55.9142451769]]]},"type":"Feature","properties":{"end":"2013-05-21 12:00","background":"Baggrunden herfor er det ansp\u00e6ndte forhold mellem kriminelle grupperinger og enkeltpersoner fra omr\u00e5derne Bl\u00e5g\u00e5rds Plads, K\u00f8benhavn, V\u00e6rebro, Bagsv\u00e6rd og Kokkedal, der vurderedes at indeb\u00e6re en st\u00e6rkt for\u00f8get risiko for voldelige konfrontationer med fare for - ogs\u00e5 udenforst\u00e5ende -  personers liv, helbred eller velf\u00e6rd. Der er ogs\u00e5 gennem den seneste periode forekommet en flere episoder i det stork\u00f8benhavnske omr\u00e5de, hvorunder der mellem formodede bandegrupperinger er anvendt s\u00e5vel skyde- som stikv\u00e5ben. Episoderne har som helhed en betydelig geografisk spredning i det stork\u00f8benhavnske omr\u00e5de, og det m\u00e5 antages, at episoder af den beskrevne karakter vil kunne forekomme overalt, hvor medlemmer af bandegrupperingerne bor og f\u00e6rdes. Det bem\u00e6rkes herved, at fortsat antr\u00e6ffes personer er i Kokkedal-omr\u00e5det if\u00f8rt skudsikre veste og bekl\u00e6dning med p\u00e5trykt tekst, der angiver bandetilh\u00f8rsforhold til en af de involverede grupperinger. I forbindelse med omfattende ransagninger, senest den 19. april 2013, er der fundet et st\u00f8rre antal skydev\u00e5ben hos medlemmer af de anf\u00f8rte grupperinger, hos hvem der ogs\u00e5 tidligere flere gange er fundet stik- og skydev\u00e5ben.Herefter og idet de foreliggende oplysninger indikerer, at der fortsat best\u00e5r et forv\u00e6rret forhold mellem de ovenn\u00e6vnte grupperinger\/enkeltpersoner, hvorved der p\u00e5 nuv\u00e6rende tidspunkt fortsat foreligger risiko for voldelige konfrontationer, har jeg i dag besluttet, at perioden for anvendelse af besigtigelses- og visitationszonen forl\u00e6nges til den 7. maj 2013 kl. 12.00.","area":"Kokkedal","authority":"Nordsj\u00e6llands Politi","start":"2013-05-07 12:00","extent":"Ikke opgivet","population":8700,"validation":null}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.5163888931, 
+                            55.9128742355
+                        ], 
+                        [
+                            12.5172042847, 
+                            55.9120805104
+                        ], 
+                        [
+                            12.5153160095, 
+                            55.9111424506
+                        ], 
+                        [
+                            12.5142431259, 
+                            55.9075824278
+                        ], 
+                        [
+                            12.5111961365, 
+                            55.9053692759
+                        ], 
+                        [
+                            12.5074625015, 
+                            55.9024101908
+                        ], 
+                        [
+                            12.5001239777, 
+                            55.9015200153
+                        ], 
+                        [
+                            12.4957466125, 
+                            55.9012313054
+                        ], 
+                        [
+                            12.4866056442, 
+                            55.9005335808
+                        ], 
+                        [
+                            12.4836444855, 
+                            55.8997155429
+                        ], 
+                        [
+                            12.4827003479, 
+                            55.8995230609
+                        ], 
+                        [
+                            12.4802541733, 
+                            55.9002208036
+                        ], 
+                        [
+                            12.4764347076, 
+                            55.9036852714
+                        ], 
+                        [
+                            12.4729156494, 
+                            55.9050805946
+                        ], 
+                        [
+                            12.466135025, 
+                            55.9095308592
+                        ], 
+                        [
+                            12.4783658981, 
+                            55.9190310662
+                        ], 
+                        [
+                            12.4793958664, 
+                            55.9207865458
+                        ], 
+                        [
+                            12.4846744537, 
+                            55.92040179
+                        ], 
+                        [
+                            12.4923992157, 
+                            55.9194398837
+                        ], 
+                        [
+                            12.4951887131, 
+                            55.9199929827
+                        ], 
+                        [
+                            12.496304512, 
+                            55.919127259
+                        ], 
+                        [
+                            12.496304512, 
+                            55.917131211
+                        ], 
+                        [
+                            12.4988365173, 
+                            55.9170109639
+                        ], 
+                        [
+                            12.502913475, 
+                            55.9165059219
+                        ], 
+                        [
+                            12.5057029724, 
+                            55.9158565725
+                        ], 
+                        [
+                            12.5098657608, 
+                            55.9142451769
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2013-05-21 12:00", 
+                "background": "Baggrunden herfor er det ansp\u00e6ndte forhold mellem kriminelle grupperinger og enkeltpersoner fra omr\u00e5derne Bl\u00e5g\u00e5rds Plads, K\u00f8benhavn, V\u00e6rebro, Bagsv\u00e6rd og Kokkedal, der vurderedes at indeb\u00e6re en st\u00e6rkt for\u00f8get risiko for voldelige konfrontationer med fare for - ogs\u00e5 udenforst\u00e5ende -  personers liv, helbred eller velf\u00e6rd. Der er ogs\u00e5 gennem den seneste periode forekommet en flere episoder i det stork\u00f8benhavnske omr\u00e5de, hvorunder der mellem formodede bandegrupperinger er anvendt s\u00e5vel skyde- som stikv\u00e5ben. Episoderne har som helhed en betydelig geografisk spredning i det stork\u00f8benhavnske omr\u00e5de, og det m\u00e5 antages, at episoder af den beskrevne karakter vil kunne forekomme overalt, hvor medlemmer af bandegrupperingerne bor og f\u00e6rdes. Det bem\u00e6rkes herved, at fortsat antr\u00e6ffes personer er i Kokkedal-omr\u00e5det if\u00f8rt skudsikre veste og bekl\u00e6dning med p\u00e5trykt tekst, der angiver bandetilh\u00f8rsforhold til en af de involverede grupperinger. I forbindelse med omfattende ransagninger, senest den 19. april 2013, er der fundet et st\u00f8rre antal skydev\u00e5ben hos medlemmer af de anf\u00f8rte grupperinger, hos hvem der ogs\u00e5 tidligere flere gange er fundet stik- og skydev\u00e5ben.Herefter og idet de foreliggende oplysninger indikerer, at der fortsat best\u00e5r et forv\u00e6rret forhold mellem de ovenn\u00e6vnte grupperinger/enkeltpersoner, hvorved der p\u00e5 nuv\u00e6rende tidspunkt fortsat foreligger risiko for voldelige konfrontationer, har jeg i dag besluttet, at perioden for anvendelse af besigtigelses- og visitationszonen forl\u00e6nges til den 7. maj 2013 kl. 12.00.", 
+                "area": "Kokkedal", 
+                "authority": "Nordsj\u00e6llands Politi", 
+                "start": "2013-05-07 12:00", 
+                "extent": "Ikke opgivet", 
+                "validation": null, 
+                "population": 8700
+            }
+        }
+    ]
+}

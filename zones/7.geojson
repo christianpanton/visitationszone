@@ -1,1 +1,137 @@
-{"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[12.5582742691,55.6824962525],[12.5624370575,55.686972024],[12.5631666183,55.6871171756],[12.563252449,55.6875042438],[12.5685739517,55.6913021477],[12.5693893433,55.6915682291],[12.5696468353,55.6921003863],[12.5618362427,55.6963090114],[12.559132576,55.6973490041],[12.5545835495,55.6992354318],[12.5484895706,55.7030805603],[12.5432538986,55.7059581133],[12.5398635864,55.70840024],[12.5386619568,55.7076265134],[12.5373315811,55.7031772882],[12.5371170044,55.7014119661],[12.5378036499,55.6998642208],[12.5384044647,55.6968411041],[12.5382757187,55.693648439],[12.5389623642,55.6909151171],[12.5373744965,55.6903587538],[12.5411081314,55.6875042438],[12.5453567505,55.6859801404],[12.5469017029,55.6851091975],[12.5496482849,55.6850608113],[12.5533390045,55.6846979122],[12.5554847717,55.6836333889],[12.5574159622,55.6820849397]]]},"type":"Feature","properties":{"end":"2010-04-28 12:00","background":"I den senere tid har der v\u00e6ret f\u00f8lgende h\u00e6ndelser: \n\nDen 17. april 2010 anslag med t\u00e6skehold i Mj\u00f8lnerparken. Derudover har der inden for de sidste to uger v\u00e6ret en meget sp\u00e6ndt situation med bl.a. trusler og stenkast mod politiet i Mj\u00f8lnerparken.\nDer har endvidere v\u00e6ret flere trusler med pistol over for almindelige borgere, sidst den 20. april 2010 i Korsgade.\nDen 20. april 2010, skudh\u00e6ndelse i J\u00e6rgersborggade, som m\u00e5ske kan v\u00e6re aff\u00f8dt af en konkret l\u00f8sladelse den 19. april 2010.\nDen 20. april 2010, skud og drab i K\u00f8ge, hvor mist\u00e6nkte personer blev sporet til indre N\u00f8rrebro.","area":"N\u00f8rrebro","authority":"K\u00f8benhavns Politi","start":"2010-04-21 12:00","extent":"N\u00f8rrebro Station \u2013 Lygten \u2013 Tagensvej - Fredensgade \u2013 Sortedams Dosseringen \u2013 Peblinge Dosseringen \u2013 \u00c5boulevard \u2013 \u00c5gade \u2013 Borups Alle \u2013 Borups Plads \u2013 Lundtoftegade \u2013 N\u00f8rrebro Station","population":60900,"validation":null}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.5582742691, 
+                            55.6824962525
+                        ], 
+                        [
+                            12.5624370575, 
+                            55.686972024
+                        ], 
+                        [
+                            12.5631666183, 
+                            55.6871171756
+                        ], 
+                        [
+                            12.563252449, 
+                            55.6875042438
+                        ], 
+                        [
+                            12.5685739517, 
+                            55.6913021477
+                        ], 
+                        [
+                            12.5693893433, 
+                            55.6915682291
+                        ], 
+                        [
+                            12.5696468353, 
+                            55.6921003863
+                        ], 
+                        [
+                            12.5618362427, 
+                            55.6963090114
+                        ], 
+                        [
+                            12.559132576, 
+                            55.6973490041
+                        ], 
+                        [
+                            12.5545835495, 
+                            55.6992354318
+                        ], 
+                        [
+                            12.5484895706, 
+                            55.7030805603
+                        ], 
+                        [
+                            12.5432538986, 
+                            55.7059581133
+                        ], 
+                        [
+                            12.5398635864, 
+                            55.70840024
+                        ], 
+                        [
+                            12.5386619568, 
+                            55.7076265134
+                        ], 
+                        [
+                            12.5373315811, 
+                            55.7031772882
+                        ], 
+                        [
+                            12.5371170044, 
+                            55.7014119661
+                        ], 
+                        [
+                            12.5378036499, 
+                            55.6998642208
+                        ], 
+                        [
+                            12.5384044647, 
+                            55.6968411041
+                        ], 
+                        [
+                            12.5382757187, 
+                            55.693648439
+                        ], 
+                        [
+                            12.5389623642, 
+                            55.6909151171
+                        ], 
+                        [
+                            12.5373744965, 
+                            55.6903587538
+                        ], 
+                        [
+                            12.5411081314, 
+                            55.6875042438
+                        ], 
+                        [
+                            12.5453567505, 
+                            55.6859801404
+                        ], 
+                        [
+                            12.5469017029, 
+                            55.6851091975
+                        ], 
+                        [
+                            12.5496482849, 
+                            55.6850608113
+                        ], 
+                        [
+                            12.5533390045, 
+                            55.6846979122
+                        ], 
+                        [
+                            12.5554847717, 
+                            55.6836333889
+                        ], 
+                        [
+                            12.5574159622, 
+                            55.6820849397
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2010-04-28 12:00", 
+                "background": "I den senere tid har der v\u00e6ret f\u00f8lgende h\u00e6ndelser: \n\nDen 17. april 2010 anslag med t\u00e6skehold i Mj\u00f8lnerparken. Derudover har der inden for de sidste to uger v\u00e6ret en meget sp\u00e6ndt situation med bl.a. trusler og stenkast mod politiet i Mj\u00f8lnerparken.\nDer har endvidere v\u00e6ret flere trusler med pistol over for almindelige borgere, sidst den 20. april 2010 i Korsgade.\nDen 20. april 2010, skudh\u00e6ndelse i J\u00e6rgersborggade, som m\u00e5ske kan v\u00e6re aff\u00f8dt af en konkret l\u00f8sladelse den 19. april 2010.\nDen 20. april 2010, skud og drab i K\u00f8ge, hvor mist\u00e6nkte personer blev sporet til indre N\u00f8rrebro.", 
+                "area": "N\u00f8rrebro", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2010-04-21 12:00", 
+                "extent": "N\u00f8rrebro Station \u2013 Lygten \u2013 Tagensvej - Fredensgade \u2013 Sortedams Dosseringen \u2013 Peblinge Dosseringen \u2013 \u00c5boulevard \u2013 \u00c5gade \u2013 Borups Alle \u2013 Borups Plads \u2013 Lundtoftegade \u2013 N\u00f8rrebro Station", 
+                "validation": null, 
+                "population": 60900
+            }
+        }
+    ]
+}

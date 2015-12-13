@@ -1,1 +1,73 @@
-{"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[12.4704265594,55.6516842142],[12.4714136124,55.6502071444],[12.4720144272,55.6480519755],[12.4762630463,55.6485847249],[12.4770355225,55.6480761915],[12.4781513214,55.6482699193],[12.4781084061,55.6475676515],[12.4887084961,55.648947959],[12.4875497818,55.6509820076],[12.4851036072,55.6525559013],[12.4839019775,55.6535002072],[12.4796962738,55.6526043278]]]},"type":"Feature","properties":{"end":"2014-06-15 08:00","background":"K\u00f8benhavns Vestegns Politi har oprettet visitationszone i omr\u00e5det omkring rockergruppen Bandidos MCs klubhus i Hvidovre p\u00e5 grund af en st\u00f8rre fest l\u00f8rdag aften.","area":"Hvidovre","authority":"K\u00f8benhavns Vestegns Politi","start":"2014-06-14 08:00","extent":"\u00d8stvej \u2013 Vigerslev All\u00e9 \u2013 Harrestrup \u00c5 \u2013 Vestk\u00e6rs All\u00e9 \u2013 Hvidovrevej \u2013 Arnold Nielsens Boulevard \u2013 Ketteg\u00e5rd All\u00e9 (","population":1800,"validation":null}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.4704265594, 
+                            55.6516842142
+                        ], 
+                        [
+                            12.4714136124, 
+                            55.6502071444
+                        ], 
+                        [
+                            12.4720144272, 
+                            55.6480519755
+                        ], 
+                        [
+                            12.4762630463, 
+                            55.6485847249
+                        ], 
+                        [
+                            12.4770355225, 
+                            55.6480761915
+                        ], 
+                        [
+                            12.4781513214, 
+                            55.6482699193
+                        ], 
+                        [
+                            12.4781084061, 
+                            55.6475676515
+                        ], 
+                        [
+                            12.4887084961, 
+                            55.648947959
+                        ], 
+                        [
+                            12.4875497818, 
+                            55.6509820076
+                        ], 
+                        [
+                            12.4851036072, 
+                            55.6525559013
+                        ], 
+                        [
+                            12.4839019775, 
+                            55.6535002072
+                        ], 
+                        [
+                            12.4796962738, 
+                            55.6526043278
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2014-06-15 08:00", 
+                "background": "K\u00f8benhavns Vestegns Politi har oprettet visitationszone i omr\u00e5det omkring rockergruppen Bandidos MCs klubhus i Hvidovre p\u00e5 grund af en st\u00f8rre fest l\u00f8rdag aften.", 
+                "area": "Hvidovre", 
+                "authority": "K\u00f8benhavns Vestegns Politi", 
+                "start": "2014-06-14 08:00", 
+                "extent": "\u00d8stvej \u2013 Vigerslev All\u00e9 \u2013 Harrestrup \u00c5 \u2013 Vestk\u00e6rs All\u00e9 \u2013 Hvidovrevej \u2013 Arnold Nielsens Boulevard \u2013 Ketteg\u00e5rd All\u00e9 (", 
+                "validation": null, 
+                "population": 1800
+            }
+        }
+    ]
+}

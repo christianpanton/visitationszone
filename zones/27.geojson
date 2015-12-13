@@ -1,1 +1,177 @@
-{"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[12.1973133087,55.447613477],[12.1916913986,55.4466642116],[12.1897172928,55.4480029126],[12.1863698959,55.4483193263],[12.1747398376,55.4496336325],[12.1731090546,55.4495849553],[12.1699333191,55.4492928907],[12.1671438217,55.4485140411],[12.1635818481,55.4480759314],[12.1607494354,55.4481732895],[12.1594190598,55.4481246105],[12.1606636047,55.4526271667],[12.1594619751,55.4543063669],[12.1607923508,55.4552311133],[12.1625947952,55.455742148],[12.1651697159,55.4557908177],[12.1720790863,55.4568128661],[12.1732378006,55.4566668608],[12.1785593033,55.4660830953],[12.1800613403,55.4685888461],[12.1791172028,55.4690024013],[12.1772289276,55.4696348892],[12.1730232239,55.4702430409],[12.1712636948,55.4708025323],[12.169675827,55.4721160895],[12.1692037582,55.4730404183],[12.169418335,55.4744025476],[12.1743965149,55.4827931988],[12.1857690811,55.4807990609],[12.1990728378,55.4781724815],[12.1993732452,55.474937657],[12.2003173828,55.4708998343],[12.2005319595,55.4618983798],[12.2014760971,55.457129209],[12.2036218643,55.4537223053],[12.2008752823,55.4522134397],[12.1980428696,55.4513129601],[12.1987295151,55.4477108363]]]},"type":"Feature","properties":{"end":"2013-02-14 23:59","background":"Tiltagende sp\u00e6ndinger mellem kriminelle grupper i K\u00f8ge f\u00e5r nu Midt- og Vestsj\u00e6llands Politi til at indf\u00f8re en visitationszone, der d\u00e6kker det meste af den centrale del af byen.\n\nIf\u00f8lge politiets oplysninger er der en overh\u00e6ngende fare for, at grupperne vil st\u00f8de sammen p\u00e5 ny, og da det er en kendt sag, at flere af medlemmerne er bev\u00e6bnet med knive og andre stikv\u00e5ben, vil ordensmagten alts\u00e5 nu have mulighed for at visitere mist\u00e6nkelige personer.\n\nZonen g\u00e5r fra Lyngvej i nord til S\u00f8ndre Viakuktvej i syd og d\u00e6kker blandt andet midtbyen, havnen, \u00d8lby samt boligomr\u00e5det Ellemarken, hvor bandemedlemmerne j\u00e6vnligt f\u00e6rdes. Den \u00f8gede kontrol varer forel\u00f8big til og med 14. februar.\n\nOtte unge m\u00e6nd blev tirsdag aften anholdt for at skabe uro p\u00e5 K\u00f8ge Sygehus. M\u00e6ndene havde indleveret en kammerat, der tidligere p\u00e5 aftenen var blevet stukket ned i en slikbutik i det centrale K\u00f8ge.","area":"K\u00f8ge","authority":"Midt- og Vestsj\u00e6llands Politi","start":"2013-01-31 00:00","extent":"","population":11900,"validation":null}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.1973133087, 
+                            55.447613477
+                        ], 
+                        [
+                            12.1916913986, 
+                            55.4466642116
+                        ], 
+                        [
+                            12.1897172928, 
+                            55.4480029126
+                        ], 
+                        [
+                            12.1863698959, 
+                            55.4483193263
+                        ], 
+                        [
+                            12.1747398376, 
+                            55.4496336325
+                        ], 
+                        [
+                            12.1731090546, 
+                            55.4495849553
+                        ], 
+                        [
+                            12.1699333191, 
+                            55.4492928907
+                        ], 
+                        [
+                            12.1671438217, 
+                            55.4485140411
+                        ], 
+                        [
+                            12.1635818481, 
+                            55.4480759314
+                        ], 
+                        [
+                            12.1607494354, 
+                            55.4481732895
+                        ], 
+                        [
+                            12.1594190598, 
+                            55.4481246105
+                        ], 
+                        [
+                            12.1606636047, 
+                            55.4526271667
+                        ], 
+                        [
+                            12.1594619751, 
+                            55.4543063669
+                        ], 
+                        [
+                            12.1607923508, 
+                            55.4552311133
+                        ], 
+                        [
+                            12.1625947952, 
+                            55.455742148
+                        ], 
+                        [
+                            12.1651697159, 
+                            55.4557908177
+                        ], 
+                        [
+                            12.1720790863, 
+                            55.4568128661
+                        ], 
+                        [
+                            12.1732378006, 
+                            55.4566668608
+                        ], 
+                        [
+                            12.1785593033, 
+                            55.4660830953
+                        ], 
+                        [
+                            12.1800613403, 
+                            55.4685888461
+                        ], 
+                        [
+                            12.1791172028, 
+                            55.4690024013
+                        ], 
+                        [
+                            12.1772289276, 
+                            55.4696348892
+                        ], 
+                        [
+                            12.1730232239, 
+                            55.4702430409
+                        ], 
+                        [
+                            12.1712636948, 
+                            55.4708025323
+                        ], 
+                        [
+                            12.169675827, 
+                            55.4721160895
+                        ], 
+                        [
+                            12.1692037582, 
+                            55.4730404183
+                        ], 
+                        [
+                            12.169418335, 
+                            55.4744025476
+                        ], 
+                        [
+                            12.1743965149, 
+                            55.4827931988
+                        ], 
+                        [
+                            12.1857690811, 
+                            55.4807990609
+                        ], 
+                        [
+                            12.1990728378, 
+                            55.4781724815
+                        ], 
+                        [
+                            12.1993732452, 
+                            55.474937657
+                        ], 
+                        [
+                            12.2003173828, 
+                            55.4708998343
+                        ], 
+                        [
+                            12.2005319595, 
+                            55.4618983798
+                        ], 
+                        [
+                            12.2014760971, 
+                            55.457129209
+                        ], 
+                        [
+                            12.2036218643, 
+                            55.4537223053
+                        ], 
+                        [
+                            12.2008752823, 
+                            55.4522134397
+                        ], 
+                        [
+                            12.1980428696, 
+                            55.4513129601
+                        ], 
+                        [
+                            12.1987295151, 
+                            55.4477108363
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2013-02-14 23:59", 
+                "background": "Tiltagende sp\u00e6ndinger mellem kriminelle grupper i K\u00f8ge f\u00e5r nu Midt- og Vestsj\u00e6llands Politi til at indf\u00f8re en visitationszone, der d\u00e6kker det meste af den centrale del af byen.\n\nIf\u00f8lge politiets oplysninger er der en overh\u00e6ngende fare for, at grupperne vil st\u00f8de sammen p\u00e5 ny, og da det er en kendt sag, at flere af medlemmerne er bev\u00e6bnet med knive og andre stikv\u00e5ben, vil ordensmagten alts\u00e5 nu have mulighed for at visitere mist\u00e6nkelige personer.\n\nZonen g\u00e5r fra Lyngvej i nord til S\u00f8ndre Viakuktvej i syd og d\u00e6kker blandt andet midtbyen, havnen, \u00d8lby samt boligomr\u00e5det Ellemarken, hvor bandemedlemmerne j\u00e6vnligt f\u00e6rdes. Den \u00f8gede kontrol varer forel\u00f8big til og med 14. februar.\n\nOtte unge m\u00e6nd blev tirsdag aften anholdt for at skabe uro p\u00e5 K\u00f8ge Sygehus. M\u00e6ndene havde indleveret en kammerat, der tidligere p\u00e5 aftenen var blevet stukket ned i en slikbutik i det centrale K\u00f8ge.", 
+                "area": "K\u00f8ge", 
+                "authority": "Midt- og Vestsj\u00e6llands Politi", 
+                "start": "2013-01-31 00:00", 
+                "extent": "", 
+                "validation": null, 
+                "population": 11900
+            }
+        }
+    ]
+}
