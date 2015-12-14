@@ -251,13 +251,13 @@
             }, 
             "type": "Feature", 
             "properties": {
-                "end": "2014-08-10 10:00", 
+                "end": "2014-08-10 13:00", 
                 "background": "Baggrunden er, at Fyns Politi har f\u00e5et oplysninger om, at et st\u00f8rre antal personer med tilknytning til bandegrupperingen Black Army, rockergruppen Bandidos og bandegrupperingen Loyal to Familia l\u00f8rdag den 9. august 2014 vil indfinde sig i Odense for at deltage i en fest.\n\nP\u00e5 grund af interne sp\u00e6ndinger i visse bandegrupperinger og sp\u00e6ndinger mellem rivaliserende bander frygter Fyns Politi, at det kan komme til voldelige sammenst\u00f8d - eventuelt under anvendelse af v\u00e5ben - i forbindelse med festen.\n\nGrupperingerne er s\u00e6rdeles mobile, og det forventes, at der ikke kun vil v\u00e6re stor aktivitet, der hvor festen afholdes men ogs\u00e5 flere steder i byen. Eventuelle sammenst\u00f8d mellem grupperingerne kan derfor frygtes at opst\u00e5 i forbindelse deres f\u00e6rden inden for det omr\u00e5de, som visitationszonen omfatter.", 
                 "area": "Odense", 
                 "authority": "Fyns Politi", 
                 "start": "2014-08-09 12:00", 
                 "extent": "oldbodgade, Buchwaldsgade, Skibhusvej og Sandhusvej mod nord, Svendborgmotorvejen mod \u00f8st, Niels Bohrs All\u00e9, Hjallesevej, Hunderupgade, Tietgens All\u00e9, Kl\u00f8vermosevej mod syd og Falen og Gr\u00f8nl\u00f8kkevej mod vest. ", 
-                "validation": null, 
+                "validation": "Nyhedsmedie", 
                 "population": 76200
             }
         }
