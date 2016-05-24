@@ -1,0 +1,69 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.489287853240967, 
+                            55.90686076174227
+                        ], 
+                        [
+                            12.492506504058838, 
+                            55.90544144592982
+                        ], 
+                        [
+                            12.494823932647705, 
+                            55.905657955089055
+                        ], 
+                        [
+                            12.496626377105713, 
+                            55.90736592941278
+                        ], 
+                        [
+                            12.498342990875244, 
+                            55.90943464264966
+                        ], 
+                        [
+                            12.498986721038818, 
+                            55.911262715983504
+                        ], 
+                        [
+                            12.498900890350342, 
+                            55.913619841229554
+                        ], 
+                        [
+                            12.49821424484253, 
+                            55.91532746490596
+                        ], 
+                        [
+                            12.497270107269287, 
+                            55.916313523196166
+                        ], 
+                        [
+                            12.49465227127075, 
+                            55.916313523196166
+                        ], 
+                        [
+                            12.490274906158447, 
+                            55.9113108220127
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2016-06-21 17:00", 
+                "background": "Oprettelsen af visitationszonerne sker p\u00e5 baggrund af to skyderier i maj m\u00e5ned i Helsing\u00f8r og Hiller\u00f8d samt beslagl\u00e6ggelse af v\u00e5ben i Kokkedal og Hiller\u00f8d. ", 
+                "area": "Kokkedal", 
+                "authority": "Nordsj\u00e6llands Politi", 
+                "start": "2016-05-24 17:00", 
+                "extent": "", 
+                "validation": "Nyhedsmedie", 
+                "population": 1300
+            }
+        }
+    ]
+}

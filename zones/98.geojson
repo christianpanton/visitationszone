@@ -1,1 +1,117 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"Baggrunden for beslutningen er, at der aktuelt vurderes, at der verserer en voldelig konflikt mellem flere bandegrupperinger. Konflikterne har i maj 2016 givet udslag i flere voldelige hændelser. Da disse voldsforbrydelser indgår i en aktiv konflikt mellem bandegrupperinger, der søger konfrontation, finder politiet det nødvendigt at iværksætte visitationszoner for at forebygge yderligere voldsforbrydelser.\n\nVisitationszonernes udstrækning er valgt på baggrund af politiets viden om bandegrupperingernes færden i området og zonernes geografiske udstrækning fremgår af vedlagte kort.\n\nBeslutningen medfører, at der i visitationszonerne sker stikprøvevis besigtigelser af personers legeme, samt undersøgelse af tøj og andre genstande, herunder køretøjer, med henblik på at kontrollere om nogen besidder eller bærer våben.\n\nVisitationszonerne er oprettet som en præventiv foranstaltning efter politilovens § 6. Formålet er at forebygge strafbare handlinger, så borgerne kan færdes frit og trygt i området. ","start":"2016-05-20 15:00","end":"2016-06-02 16:00","authority":"Københavns Vestegns Politi","area":"Albertslund","extent":"Albertslundvej, Hedemarksvej, Vridløsevej, Herstedvestervej, Damgårdsvej","validation":"Nyhedsmedie"},"geometry":{"type":"Polygon","coordinates":[[[12.351679801940918,55.65790666668114],[12.351250648498535,55.65964974452351],[12.351078987121582,55.662457873346064],[12.350692749023438,55.6668391202158],[12.350692749023438,55.66775887770611],[12.350006103515625,55.669307894089066],[12.34811782836914,55.67119567490041],[12.345757484436035,55.672357340899765],[12.342581748962402,55.67330116912818],[12.341208457946777,55.67361577347794],[12.340564727783203,55.672405742901255],[12.3396635055542,55.67027599819011],[12.33889102935791,55.66775887770611],[12.33790397644043,55.66475748396557],[12.336144447326658,55.66250628759357],[12.334942817687988,55.66110225010188],[12.334427833557129,55.66008550185649],[12.334041595458984,55.658366653094845],[12.333741188049316,55.65705930913833],[12.33438491821289,55.65691404600363],[12.33640193939209,55.65679299297962],[12.337603569030762,55.65657509659311],[12.338461875915527,55.656502464194766]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.351679801940918, 
+                            55.65790666668114
+                        ], 
+                        [
+                            12.351250648498535, 
+                            55.65964974452351
+                        ], 
+                        [
+                            12.351078987121582, 
+                            55.662457873346064
+                        ], 
+                        [
+                            12.350692749023438, 
+                            55.6668391202158
+                        ], 
+                        [
+                            12.350692749023438, 
+                            55.66775887770611
+                        ], 
+                        [
+                            12.350006103515625, 
+                            55.669307894089066
+                        ], 
+                        [
+                            12.34811782836914, 
+                            55.67119567490041
+                        ], 
+                        [
+                            12.345757484436035, 
+                            55.672357340899765
+                        ], 
+                        [
+                            12.342581748962402, 
+                            55.67330116912818
+                        ], 
+                        [
+                            12.341208457946777, 
+                            55.67361577347794
+                        ], 
+                        [
+                            12.340564727783203, 
+                            55.672405742901255
+                        ], 
+                        [
+                            12.3396635055542, 
+                            55.67027599819011
+                        ], 
+                        [
+                            12.33889102935791, 
+                            55.66775887770611
+                        ], 
+                        [
+                            12.33790397644043, 
+                            55.66475748396557
+                        ], 
+                        [
+                            12.336144447326658, 
+                            55.66250628759357
+                        ], 
+                        [
+                            12.334942817687988, 
+                            55.66110225010188
+                        ], 
+                        [
+                            12.334427833557129, 
+                            55.66008550185649
+                        ], 
+                        [
+                            12.334041595458984, 
+                            55.658366653094845
+                        ], 
+                        [
+                            12.333741188049316, 
+                            55.65705930913833
+                        ], 
+                        [
+                            12.33438491821289, 
+                            55.65691404600363
+                        ], 
+                        [
+                            12.33640193939209, 
+                            55.65679299297962
+                        ], 
+                        [
+                            12.337603569030762, 
+                            55.65657509659311
+                        ], 
+                        [
+                            12.338461875915527, 
+                            55.656502464194766
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2016-06-02 16:00", 
+                "background": "Baggrunden for beslutningen er, at der aktuelt vurderes, at der verserer en voldelig konflikt mellem flere bandegrupperinger. Konflikterne har i maj 2016 givet udslag i flere voldelige h\u00e6ndelser. Da disse voldsforbrydelser indg\u00e5r i en aktiv konflikt mellem bandegrupperinger, der s\u00f8ger konfrontation, finder politiet det n\u00f8dvendigt at iv\u00e6rks\u00e6tte visitationszoner for at forebygge yderligere voldsforbrydelser.\n\nVisitationszonernes udstr\u00e6kning er valgt p\u00e5 baggrund af politiets viden om bandegrupperingernes f\u00e6rden i omr\u00e5det og zonernes geografiske udstr\u00e6kning fremg\u00e5r af vedlagte kort.\n\nBeslutningen medf\u00f8rer, at der i visitationszonerne sker stikpr\u00f8vevis besigtigelser af personers legeme, samt unders\u00f8gelse af t\u00f8j og andre genstande, herunder k\u00f8ret\u00f8jer, med henblik p\u00e5 at kontrollere om nogen besidder eller b\u00e6rer v\u00e5ben.\n\nVisitationszonerne er oprettet som en pr\u00e6ventiv foranstaltning efter politilovens \u00a7 6. Form\u00e5let er at forebygge strafbare handlinger, s\u00e5 borgerne kan f\u00e6rdes frit og trygt i omr\u00e5det. ", 
+                "area": "Albertslund", 
+                "authority": "K\u00f8benhavns Vestegns Politi", 
+                "start": "2016-05-20 15:00", 
+                "extent": "Albertslundvej, Hedemarksvej, Vridl\u00f8sevej, Herstedvestervej, Damg\u00e5rdsvej", 
+                "validation": "Nyhedsmedie", 
+                "population": 4600
+            }
+        }
+    ]
+}

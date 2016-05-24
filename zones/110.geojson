@@ -1,0 +1,45 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.578723430633545, 
+                            56.02690518803371
+                        ], 
+                        [
+                            12.585675716400146, 
+                            56.028595828874884
+                        ], 
+                        [
+                            12.585997581481934, 
+                            56.02606583529153
+                        ], 
+                        [
+                            12.580633163452148, 
+                            56.0247108416454
+                        ], 
+                        [
+                            12.575891017913818, 
+                            56.02619773478803
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2016-06-21 17:00", 
+                "background": "Oprettelsen af visitationszonerne sker p\u00e5 baggrund af to skyderier i maj m\u00e5ned i Helsing\u00f8r og Hiller\u00f8d samt beslagl\u00e6ggelse af v\u00e5ben i Kokkedal og Hiller\u00f8d. ", 
+                "area": "Helsing\u00f8r", 
+                "authority": "Nordsj\u00e6llands Politi", 
+                "start": "2016-05-24 17:00", 
+                "extent": "", 
+                "validation": "Nyhedsmedie", 
+                "population": 200
+            }
+        }
+    ]
+}

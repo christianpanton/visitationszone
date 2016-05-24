@@ -1,0 +1,57 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.33940601348877, 
+                            55.93546453356592
+                        ], 
+                        [
+                            12.343697547912598, 
+                            55.93742358222971
+                        ], 
+                        [
+                            12.349920272827147, 
+                            55.93254380468518
+                        ], 
+                        [
+                            12.352409362792969, 
+                            55.933469326968584
+                        ], 
+                        [
+                            12.354233264923094, 
+                            55.93209906533395
+                        ], 
+                        [
+                            12.346851825714111, 
+                            55.92872128365055
+                        ], 
+                        [
+                            12.344834804534912, 
+                            55.930235912563774
+                        ], 
+                        [
+                            12.345263957977295, 
+                            55.930848959816345
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2016-06-21 17:00", 
+                "background": "Oprettelsen af visitationszonerne sker p\u00e5 baggrund af to skyderier i maj m\u00e5ned i Helsing\u00f8r og Hiller\u00f8d samt beslagl\u00e6ggelse af v\u00e5ben i Kokkedal og Hiller\u00f8d. ", 
+                "area": "Hiller\u00f8d", 
+                "authority": "Nordsj\u00e6llands Politi", 
+                "start": "2016-05-24 17:00", 
+                "extent": "", 
+                "validation": "Nyhedsmedie", 
+                "population": 700
+            }
+        }
+    ]
+}
