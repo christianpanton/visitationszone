@@ -142,7 +142,6 @@ function showText(feature, layer){
 
     $("#infobox").show();
     var text = feature.properties.background;
-    console.log(feature);
     text = text.replace(/\n/g, '<br />');
     text = "<i>" + niceDate(getDate(feature.properties.start)) + " - " + niceDate(getDate(feature.properties.end)) + "</i><br /><br />" + text;
     if(feature.properties.validation !== null)
@@ -150,8 +149,6 @@ function showText(feature, layer){
     map.fitBounds(layer.getBounds());
     $("#infohead").text(feature.properties.area);
     $("#infotext").html(text);
-
-    //$("#alerts").ScrollTo();
     $.scrollTo(0, 800);
 
     for(var l in map._layers){
@@ -246,7 +243,6 @@ $(function(){
     L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
 //    L.tileLayer('https://a.tiles.mapbox.com/v3/panton.i20ai51n/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
   	authority = getParameterByName("authority");
-  	console.log(authority);
   	if(authority == null)
   	{
 	  	authority = "";
@@ -281,7 +277,6 @@ function updateZone(data){
     if (typeof text != 'undefined') {
 		updateQueryStringParam('authority',text);
     }
-    console.log(text);
     reset_data();
     fetchGeoJSON(text);
 }
