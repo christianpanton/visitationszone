@@ -142,7 +142,6 @@ function showText(feature, layer){
 
     $("#infobox").show();
     var text = feature.properties.background;
-    console.log(feature);
     text = text.replace(/\n/g, '<br />');
     text = "<i>" + niceDate(getDate(feature.properties.start)) + " - " + niceDate(getDate(feature.properties.end)) + "</i><br /><br />" + text;
     if(feature.properties.validation !== null)
@@ -150,8 +149,6 @@ function showText(feature, layer){
     map.fitBounds(layer.getBounds());
     $("#infohead").text(feature.properties.area);
     $("#infotext").html(text);
-
-    //$("#alerts").ScrollTo();
     $.scrollTo(0, 800);
 
     for(var l in map._layers){
@@ -245,8 +242,16 @@ $(function(){
 
     L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
 //    L.tileLayer('https://a.tiles.mapbox.com/v3/panton.i20ai51n/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
-  
-    fetchGeoJSON(""); 
+  	authority = getParameterByName("authority");
+  	if(authority == null)
+  	{
+	  	authority = "";
+  	}
+  	else{
+	  	politikreds = document.getElementById('politikreds');
+	  	politikreds.value = authority;
+  	}
+    fetchGeoJSON(authority); 
     $(".close-alert").click(function(e){
       $(".alert").hide("fast");
     });
@@ -269,7 +274,9 @@ function updateZone(data){
 	if (data.selectedIndex == -1)
         text = null;
     text = data.options[data.selectedIndex].value;
-    console.log(text);
+    if (typeof text != 'undefined') {
+		updateQueryStringParam('authority',text);
+    }
     reset_data();
     fetchGeoJSON(text);
 }
@@ -306,4 +313,34 @@ function bootstrap_alert(text,type){
               '<p><strong>'+text+'</strong></p>' + 
             '</div>');
     $("#alert .alert").fadeIn("slow");
+}
+
+var updateQueryStringParam = function (key, value) {
+    var baseUrl = [location.protocol, '//', location.host, location.pathname].join(''),
+        urlQueryString = document.location.search,
+        newParam = key + '=' + value,
+        params = '?' + newParam;
+
+    // If the "search" string exists, then build params from it
+    if (urlQueryString) {
+        keyRegex = new RegExp('([\?&])' + key + '[^&]*');
+
+        // If param exists already, update it
+        if (urlQueryString.match(keyRegex) !== null) {
+            params = urlQueryString.replace(keyRegex, "$1" + newParam);
+        } else { // Otherwise, add it to end of query string
+            params = urlQueryString + '&' + newParam;
+        }
+    }
+    window.history.replaceState({}, "", baseUrl + params);
+};
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
