@@ -85,7 +85,7 @@ function fetchGeoJSON(authority) {
         var today = new Date();
         var style = pastStyle;
         var narea = Math.abs(polygonArea(data.features[id].geometry.coordinates[0]))/10000;
-        var population = data.features[id].properties.population;
+        var population = data.features[id].properties.population || 0;
         var filename = data.features[id].properties.filename;
         total_area = total_area + narea;
         total_population = total_population + population;
