@@ -1,1 +1,121 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"I forbindelse med hovedforhandling på Domhust i Svenborg i en straffesag mod 2 personer, som har tilknytning til Hells Angels/AK 81. Det blevet oplyst, at andre personer med tilknytning til samme miljø er anmodet om at møde frem til hovedforhandlingen i Svenborg.Under henvisning til sagens karakter er der grund til at befrygte et sammenstød mellem de involverede persongrupper og at dette vil ske under anvendelse af våben.","start":"2008-09-15 8:00:00","end":"2008-09-15 20:00:00","authority":"Fyns Politi","area":"Svendborg midtby","extent":"Gruppemøllevej, Svinget, Bagergade, Skolegade, centrumpladsen, voldgade, vestergade, viebæltet","validation":"Aktindsigt"},"geometry":{"type":"Polygon","coordinates":[[[10.608587265014648,55.06163966578712],[10.60802936553955,55.060828603483436],[10.60728907585144,55.06008511526802],[10.60728907585144,55.059814752493146],[10.60706377029419,55.05948908581706],[10.606859922409058,55.059470651775065],[10.606087446212769,55.05974101687399],[10.604875087738037,55.05916956122031],[10.602192878723145,55.060263307916706],[10.60207486152649,55.06071800280507],[10.60205340385437,55.06116654810717],[10.602396726608276,55.06116654810717],[10.602707862854004,55.06121570345112],[10.602911710739136,55.06133244715109],[10.603018999099731,55.0614983455074],[10.60302972793579,55.0620697679162],[10.603920221328735,55.06207591219886],[10.604006052017212,55.06183628447672],[10.604349374771118,55.06163966578712],[10.605347156524658,55.06143075737118],[10.605669021606445,55.06136931351191],[10.60706377029419,55.06160894402963],[10.607653856277466,55.0616949648912],[10.608233213424683,55.061719542246266]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            10.608587265014648, 
+                            55.06163966578712
+                        ], 
+                        [
+                            10.60802936553955, 
+                            55.060828603483436
+                        ], 
+                        [
+                            10.60728907585144, 
+                            55.06008511526802
+                        ], 
+                        [
+                            10.60728907585144, 
+                            55.059814752493146
+                        ], 
+                        [
+                            10.60706377029419, 
+                            55.05948908581706
+                        ], 
+                        [
+                            10.606859922409058, 
+                            55.059470651775065
+                        ], 
+                        [
+                            10.606087446212769, 
+                            55.05974101687399
+                        ], 
+                        [
+                            10.604875087738037, 
+                            55.05916956122031
+                        ], 
+                        [
+                            10.602192878723145, 
+                            55.060263307916706
+                        ], 
+                        [
+                            10.60207486152649, 
+                            55.06071800280507
+                        ], 
+                        [
+                            10.60205340385437, 
+                            55.06116654810717
+                        ], 
+                        [
+                            10.602396726608276, 
+                            55.06116654810717
+                        ], 
+                        [
+                            10.602707862854004, 
+                            55.06121570345112
+                        ], 
+                        [
+                            10.602911710739136, 
+                            55.06133244715109
+                        ], 
+                        [
+                            10.603018999099731, 
+                            55.0614983455074
+                        ], 
+                        [
+                            10.60302972793579, 
+                            55.0620697679162
+                        ], 
+                        [
+                            10.603920221328735, 
+                            55.06207591219886
+                        ], 
+                        [
+                            10.604006052017212, 
+                            55.06183628447672
+                        ], 
+                        [
+                            10.604349374771118, 
+                            55.06163966578712
+                        ], 
+                        [
+                            10.605347156524658, 
+                            55.06143075737118
+                        ], 
+                        [
+                            10.605669021606445, 
+                            55.06136931351191
+                        ], 
+                        [
+                            10.60706377029419, 
+                            55.06160894402963
+                        ], 
+                        [
+                            10.607653856277466, 
+                            55.0616949648912
+                        ], 
+                        [
+                            10.608233213424683, 
+                            55.061719542246266
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2008-09-15 20:00:00", 
+                "background": "I forbindelse med hovedforhandling p\u00e5 Domhust i Svenborg i en straffesag mod 2 personer, som har tilknytning til Hells Angels/AK 81. Det blevet oplyst, at andre personer med tilknytning til samme milj\u00f8 er anmodet om at m\u00f8de frem til hovedforhandlingen i Svenborg.Under henvisning til sagens karakter er der grund til at befrygte et sammenst\u00f8d mellem de involverede persongrupper og at dette vil ske under anvendelse af v\u00e5ben.", 
+                "area": "Svendborg midtby", 
+                "authority": "Fyns Politi", 
+                "start": "2008-09-15 8:00:00", 
+                "extent": "Gruppem\u00f8llevej, Svinget, Bagergade, Skolegade, centrumpladsen, voldgade, vestergade, vieb\u00e6ltet", 
+                "validation": "Aktindsigt", 
+                "population": 200
+            }
+        }
+    ]
+}
