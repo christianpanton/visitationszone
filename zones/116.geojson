@@ -1,0 +1,81 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            10.141904354095459, 
+                            56.11627558178134
+                        ], 
+                        [
+                            10.148899555206297, 
+                            56.11735222339835
+                        ], 
+                        [
+                            10.150980949401855, 
+                            56.11501946181836
+                        ], 
+                        [
+                            10.15280485153198, 
+                            56.114050426971815
+                        ], 
+                        [
+                            10.151066780090332, 
+                            56.11236353032223
+                        ], 
+                        [
+                            10.151699781417847, 
+                            56.1121063019952
+                        ], 
+                        [
+                            10.151270627975464, 
+                            56.11186103617517
+                        ], 
+                        [
+                            10.15110969543457, 
+                            56.11150210776727
+                        ], 
+                        [
+                            10.150476694107056, 
+                            56.11155594724187
+                        ], 
+                        [
+                            10.150305032730103, 
+                            56.11167559024907
+                        ], 
+                        [
+                            10.150326490402222, 
+                            56.111944785655325
+                        ], 
+                        [
+                            10.145831108093262, 
+                            56.11327877065955
+                        ], 
+                        [
+                            10.14412522315979, 
+                            56.113727409933375
+                        ], 
+                        [
+                            10.143663883209229, 
+                            56.11370946446284
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2016-09-17 00:00", 
+                "background": "Baggrunden for beslutningen er blandt andet en episode torsdag aften, hvor grupper af unge var samlet i omr\u00e5det og blev fundet i besiddelse af blandt andet slagv\u00e5ben, peberspray og knojern. ", 
+                "area": "Viby J", 
+                "authority": "\u00d8stjyllands Politi", 
+                "start": "2016-09-03 00:00", 
+                "extent": "    Mod nord af jernbanen\n    Mod \u00f8st af Ringvej Syd og S\u00f8ndervangs All\u00e9 inkl. institution p\u00e5 Kj\u00e6rslund 1\n    Mod syd af Matildelundsvej\n    Mod vest af levende hegn op mod industrikvarter", 
+                "validation": "Nyhedsmedie", 
+                "population": 100
+            }
+        }
+    ]
+}

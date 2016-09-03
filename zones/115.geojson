@@ -1,0 +1,73 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            10.172138214111328, 
+                            56.12250772290279
+                        ], 
+                        [
+                            10.176258087158203, 
+                            56.12350046598207
+                        ], 
+                        [
+                            10.179712772369385, 
+                            56.12425397675818
+                        ], 
+                        [
+                            10.183939933776855, 
+                            56.126358944520874
+                        ], 
+                        [
+                            10.184605121612549, 
+                            56.12622738741053
+                        ], 
+                        [
+                            10.186536312103271, 
+                            56.1230459602821
+                        ], 
+                        [
+                            10.18855333328247, 
+                            56.12144318679846
+                        ], 
+                        [
+                            10.182974338531492, 
+                            56.119565225447616
+                        ], 
+                        [
+                            10.179240703582764, 
+                            56.11836902393025
+                        ], 
+                        [
+                            10.172996520996094, 
+                            56.11708904711843
+                        ], 
+                        [
+                            10.171966552734375, 
+                            56.118620229333956
+                        ], 
+                        [
+                            10.171537399291992, 
+                            56.120522159883734
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2016-09-17 00:00", 
+                "background": "Baggrunden for beslutningen er blandt andet en episode torsdag aften, hvor grupper af unge var samlet i omr\u00e5det og blev fundet i besiddelse af blandt andet slagv\u00e5ben, peberspray og knojern. ", 
+                "area": "Viby J", 
+                "authority": "\u00d8stjyllands Politi", 
+                "start": "2016-09-03 00:00", 
+                "extent": "    Mod nord af Jyllands All\u00e9 til Fredensvang Runddel\n    Mod \u00f8st af Rosenvangs All\u00e9\n    Mod syd af Holmevej\n    Mod vest af Holme M\u00f8llevej", 
+                "validation": "Nyhedsmedie", 
+                "population": 1900
+            }
+        }
+    ]
+}
