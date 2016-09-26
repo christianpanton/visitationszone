@@ -1,0 +1,137 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.541022300720215, 
+                            55.69947727492276
+                        ], 
+                        [
+                            12.54183769226074, 
+                            55.70092830225656
+                        ], 
+                        [
+                            12.543210983276367, 
+                            55.70349165222847
+                        ], 
+                        [
+                            12.544841766357422, 
+                            55.705208519036425
+                        ], 
+                        [
+                            12.553467750549315, 
+                            55.71079385955437
+                        ], 
+                        [
+                            12.561192512512207, 
+                            55.71335656242558
+                        ], 
+                        [
+                            12.562093734741211, 
+                            55.716789353778104
+                        ], 
+                        [
+                            12.568573951721191, 
+                            55.71722447480036
+                        ], 
+                        [
+                            12.575526237487793, 
+                            55.71676518024585
+                        ], 
+                        [
+                            12.581706047058105, 
+                            55.71439610151058
+                        ], 
+                        [
+                            12.586212158203125, 
+                            55.71231699567719
+                        ], 
+                        [
+                            12.589688301086426, 
+                            55.70808591537616
+                        ], 
+                        [
+                            12.591083049774168, 
+                            55.70450727269221
+                        ], 
+                        [
+                            12.591640949249268, 
+                            55.699041956217854
+                        ], 
+                        [
+                            12.579967975616455, 
+                            55.69627273205307
+                        ], 
+                        [
+                            12.577629089355469, 
+                            55.6950513088303
+                        ], 
+                        [
+                            12.576062679290771, 
+                            55.694241036725785
+                        ], 
+                        [
+                            12.573938369750975, 
+                            55.692160858304604
+                        ], 
+                        [
+                            12.569754123687744, 
+                            55.68962095551294
+                        ], 
+                        [
+                            12.565054893493652, 
+                            55.68608900692911
+                        ], 
+                        [
+                            12.564239501953123, 
+                            55.68564144272536
+                        ], 
+                        [
+                            12.56411075592041, 
+                            55.68637931610615
+                        ], 
+                        [
+                            12.558145523071289, 
+                            55.6887259028325
+                        ], 
+                        [
+                            12.554819583892822, 
+                            55.690201519269344
+                        ], 
+                        [
+                            12.549004554748535, 
+                            55.69408381780481
+                        ], 
+                        [
+                            12.548360824584961, 
+                            55.694011255012654
+                        ], 
+                        [
+                            12.54814624786377, 
+                            55.694458723418705
+                        ], 
+                        [
+                            12.543554306030273, 
+                            55.69777224896862
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2016-09-28 12:00", 
+                "background": "I den seneste tid har K\u00f8benhavns Politi og K\u00f8benhavns Vestegns Politi konstateret en optrapning i forholdet mellem tilh\u00e6ngere af Br\u00f8ndby IF og FC K\u00f8benhavn. Der har v\u00e6ret flere tilf\u00e6lde med vold og h\u00e6rv\u00e6rk, ligesom det er konstateret, at brugen af slagv\u00e5ben og lignende er i stigning. P\u00e5 tirsdag skal FC K\u00f8benhavn m\u00f8de Club Br\u00fcgge i Parken. Tilh\u00e6ngerne af Club Br\u00fcgge har ogs\u00e5 en historik med voldelige opt\u00f8jer. K\u00f8benhavns Politi har derfor besluttet at oprette en midlertidig visitationszone g\u00e6ldende fra mandag den 26. september kl. 12.00 til onsdag den 28 september kl. 12.00.\n\n- Det er en stor og gl\u00e6delig begivenhed for de mange fredelige fans af FC K\u00f8benhavn og Club Br\u00fcgge, at der spilles Champions League i Parken. Desv\u00e6rre er der nogle fraktioner blandt tilh\u00e6ngerne der g\u00e5r mere op i vold og h\u00e6rv\u00e6rk end fodbold. Vi vil meget gerne forhindre det mindretal i at \u00f8del\u00e6gge en sp\u00e6ndende fodboldaften for de mange fodboldfans \u2013 og i \u00f8vrigt ogs\u00e5 for Parkens naboer og tilf\u00e6ldige forbipasserende. Vi vurderer, at en midlertidig visitationszone vil v\u00e6re et godt v\u00e6rkt\u00f8j til at sikre netop det, siger Ledende Politiinspekt\u00f8r i K\u00f8benhavns Politi, Peter Dahl.  ", 
+                "area": "N\u00f8rrebro og \u00d8sterbro", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2016-09-26 12:00", 
+                "extent": "Se kort", 
+                "validation": "Nyhedsmedie", 
+                "population": 91100
+            }
+        }
+    ]
+}
