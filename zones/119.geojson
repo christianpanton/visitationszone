@@ -1,0 +1,97 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.384724617004395, 
+                            55.651829496697765
+                        ], 
+                        [
+                            12.390389442443848, 
+                            55.64318424735649
+                        ], 
+                        [
+                            12.39077568054199, 
+                            55.64228813196878
+                        ], 
+                        [
+                            12.407941818237305, 
+                            55.64105291228805
+                        ], 
+                        [
+                            12.419829368591309, 
+                            55.64197327574922
+                        ], 
+                        [
+                            12.42201805114746, 
+                            55.6432811234677
+                        ], 
+                        [
+                            12.4235200881958, 
+                            55.645339684186155
+                        ], 
+                        [
+                            12.42300510406494, 
+                            55.6536212703707
+                        ], 
+                        [
+                            12.421889305114746, 
+                            55.653427569061805
+                        ], 
+                        [
+                            12.42180347442627, 
+                            55.65497715270065
+                        ], 
+                        [
+                            12.41952896118164, 
+                            55.65490451733763
+                        ], 
+                        [
+                            12.419099807739256, 
+                            55.6550497879289
+                        ], 
+                        [
+                            12.415108680725096, 
+                            55.65490451733763
+                        ], 
+                        [
+                            12.414164543151854, 
+                            55.65279803318956
+                        ], 
+                        [
+                            12.40755558013916, 
+                            55.65388760810572
+                        ], 
+                        [
+                            12.40330696105957, 
+                            55.654129731747155
+                        ], 
+                        [
+                            12.39734172821045, 
+                            55.65432342958222
+                        ], 
+                        [
+                            12.394852638244629, 
+                            55.65405709481194
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2016-09-28 12:00", 
+                "background": "Politidirekt\u00f8ren for K\u00f8benhavns Vestegns Politi har  i dag den 26. september 2016 truffet beslutning om, at politiet i en begr\u00e6nset periode kan foretage stikpr\u00f8vevis visitation i et n\u00e6rmere anvist geografisk omr\u00e5de.\n\nBaggrunden for beslutningen om oprettelse af visitationszonen er flere voldelige episoder i en eskalerende konflikt mellem hooligans med tilknytning til fodboldklubberne Br\u00f8ndby IF og FC K\u00f8benhavn. Den sidste m\u00e5ned har det ved flere lejligheder kunne konstateres, at der ved disse konfrontationer har v\u00e6ret anvendt slagv\u00e5ben.\n\nSamtidig spilles der i morgen tirsdag den 27. september kl. 2045 Champions League gruppespils-kamp i Parken i K\u00f8benhavn mellem FC K\u00f8benhavn og Club Br\u00fcgge. Det er i den forbindelse forventningen, at der til ovenn\u00e6vnte konflikt-scenarie vil blive tilf\u00f8jet et antal risk-fans fra Club Br\u00fcgge, ligesom det vurderes, at risk-fans med tilknytning til Br\u00f8ndby IF vil deltage.", 
+                "area": "Br\u00f8ndby", 
+                "authority": "K\u00f8benhavns Vestegns Politi", 
+                "start": "2016-09-26 16:00", 
+                "extent": "Se kort", 
+                "validation": "Nyhedsmedie", 
+                "population": 3800
+            }
+        }
+    ]
+}
