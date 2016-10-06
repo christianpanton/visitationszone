@@ -1,0 +1,101 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            11.809444427490234, 
+                            55.2565229016151
+                        ], 
+                        [
+                            11.809444427490234, 
+                            55.25397923055994
+                        ], 
+                        [
+                            11.801033020019531, 
+                            55.248891399988025
+                        ], 
+                        [
+                            11.796398162841797, 
+                            55.24194350262303
+                        ], 
+                        [
+                            11.798458099365234, 
+                            55.226477626370155
+                        ], 
+                        [
+                            11.802921295166016, 
+                            55.217175628111434
+                        ], 
+                        [
+                            11.81253433227539, 
+                            55.21208308703521
+                        ], 
+                        [
+                            11.814937591552734, 
+                            55.20650012991828
+                        ], 
+                        [
+                            11.812705993652344, 
+                            55.20493284331638
+                        ], 
+                        [
+                            11.772708892822266, 
+                            55.1899425491074
+                        ], 
+                        [
+                            11.75485610961914, 
+                            55.20405121748927
+                        ], 
+                        [
+                            11.75313949584961, 
+                            55.2112016195452
+                        ], 
+                        [
+                            11.741294860839844, 
+                            55.20767555438078
+                        ], 
+                        [
+                            11.726703643798828, 
+                            55.21766526118346
+                        ], 
+                        [
+                            11.71365737915039, 
+                            55.24566224661245
+                        ], 
+                        [
+                            11.721038818359375, 
+                            55.251337553670034
+                        ], 
+                        [
+                            11.739234924316406, 
+                            55.26151193732315
+                        ], 
+                        [
+                            11.754512786865234, 
+                            55.26278355211967
+                        ], 
+                        [
+                            11.783180236816406, 
+                            55.26307699590818
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2016-10-18 14:00", 
+                "background": "Der har i l\u00f8bet af de seneste 10 dage v\u00e6ret tre skudepisoder i N\u00e6stved by. Skudepisoder, som vi ved skaber stor utryghed blandt vores borgere i N\u00e6stved. Det er vores opfattelse, at disse skyderier er et resultat af en konflikt, der hersker mellem de to rocker- / bandegrupperinger Satudarah og Bandidos. Vi har derfor p\u00e5 baggrund af den sp\u00e6ndte situation vurderet, at der er en \u00f8get risiko for, at nogen i det omr\u00e5de, vi opretter visitationszone i, kan finde p\u00e5 at b\u00e6re v\u00e5ben. For at forebygge eventuelle strafbare handlinger, der kan v\u00e6re til fare for personers liv eller helbred, v\u00e6lger vi derfor at indf\u00f8re visitationszone i den n\u00e6vnte periode, siger politidirekt\u00f8r Lene Frank.\n\nSydsj\u00e6llands og Lolland-Falsters Politi har samtidig iv\u00e6rksat en \u00f8get patruljering i N\u00e6stved og har selvf\u00f8lgelig stort fokus p\u00e5 en omfattende efterforskning af skyderierne.", 
+                "area": "N\u00e6stved", 
+                "authority": "Sydsj\u00e6llands og Lolland-Falsters Politi", 
+                "start": "2016-10-04 14:00", 
+                "extent": "Nordlig afgr\u00e6nsning: Ring Nord fra rundk\u00f8rslen ved Slagelsevej til rundk\u00f8rslen ved Ring \u00d8st.\n\u00d8stlig afgr\u00e6nsning: Ring \u00d8st til rundk\u00f8rslen ved Ny Pr\u00e6st\u00f8vej.\nSydlig afgr\u00e6nsning: fra rundk\u00f8rslen \u00d8stre Ringvej/Ny Pr\u00e6st\u00f8vej til Vordingborgvej/Industrivangen.\nVestlig afgr\u00e6nsning: Vordingborgvej/Industrivangen til Vestre Ringvej til rundk\u00f8rslen ved Slagelsevej/Ring Nord.", 
+                "validation": "Nyhedsmedie", 
+                "population": 41200
+            }
+        }
+    ]
+}
