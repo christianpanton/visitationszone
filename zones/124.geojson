@@ -1,0 +1,125 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.3211669921875, 
+                            55.623053039102054
+                        ], 
+                        [
+                            12.328033447265625, 
+                            55.62266533311751
+                        ], 
+                        [
+                            12.333869934082031, 
+                            55.62198683841698
+                        ], 
+                        [
+                            12.34039306640625, 
+                            55.620629813782976
+                        ], 
+                        [
+                            12.342967987060545, 
+                            55.61956354718556
+                        ], 
+                        [
+                            12.35137939453125, 
+                            55.6218172129068
+                        ], 
+                        [
+                            12.353782653808592, 
+                            55.62232608723527
+                        ], 
+                        [
+                            12.359447479248047, 
+                            55.618715359863565
+                        ], 
+                        [
+                            12.362537384033201, 
+                            55.617430926984
+                        ], 
+                        [
+                            12.36833095550537, 
+                            55.61508006348228
+                        ], 
+                        [
+                            12.369704246520996, 
+                            55.61389246029035
+                        ], 
+                        [
+                            12.362451553344727, 
+                            55.6109838923957
+                        ], 
+                        [
+                            12.353782653808592, 
+                            55.6044388258086
+                        ], 
+                        [
+                            12.352151870727539, 
+                            55.60279026648159
+                        ], 
+                        [
+                            12.345285415649414, 
+                            55.60366304181471
+                        ], 
+                        [
+                            12.341680526733398, 
+                            55.606184283696905
+                        ], 
+                        [
+                            12.33738899230957, 
+                            55.60783270038267
+                        ], 
+                        [
+                            12.334728240966797, 
+                            55.608317515634745
+                        ], 
+                        [
+                            12.32889175415039, 
+                            55.60919016798591
+                        ], 
+                        [
+                            12.32339859008789, 
+                            55.609674966457426
+                        ], 
+                        [
+                            12.316617965698242, 
+                            55.609674966457426
+                        ], 
+                        [
+                            12.315073013305664, 
+                            55.60986888416798
+                        ], 
+                        [
+                            12.312240600585938, 
+                            55.610886936417046
+                        ], 
+                        [
+                            12.307519912719727, 
+                            55.612583631435456
+                        ], 
+                        [
+                            12.316274642944336, 
+                            55.61714010614988
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2016-11-06 15:00", 
+                "background": "P\u00e5 baggrund af flere skyderier inden for de sidste d\u00f8gn, har Politidirekt\u00f8ren ved K\u00f8benhavn Vestegns Politi i dag den 7. oktober 2016 truffet beslutning om at indf\u00f8re n\u00e6rmere afgr\u00e6nsede visitationszoner i Hvidovre, Ish\u00f8j og Taastrup. Indf\u00f8rslen g\u00f8r at politiet kan visitere uden det normale mistankegrundlag i visitationszonerne. ", 
+                "area": "Ish\u00f8j", 
+                "authority": "K\u00f8benhavns Vestegns Politi", 
+                "start": "2016-10-07 15:00", 
+                "extent": "Se kort http://www.mynewsdesk.com/dk/vestegnenspoliti/pressreleases/koebenhavns-vestegns-politi-indfoerer-visitationszoner-i-hvidovre-ishoej-og-taastrup-1596625", 
+                "validation": "Nyhedsmedie", 
+                "population": 14400
+            }
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.484931945800781, 
+                            55.65279803318956
+                        ], 
+                        [
+                            12.45875358581543, 
+                            55.648826881317596
+                        ], 
+                        [
+                            12.473173141479492, 
+                            55.624846129398506
+                        ], 
+                        [
+                            12.48570442199707, 
+                            55.62930426864397
+                        ], 
+                        [
+                            12.500038146972656, 
+                            55.641464656509676
+                        ], 
+                        [
+                            12.493429183959961, 
+                            55.64577560080913
+                        ], 
+                        [
+                            12.490425109863281, 
+                            55.64645368368984
+                        ], 
+                        [
+                            12.489480972290039, 
+                            55.648584724883214
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2016-11-06 15:00", 
+                "background": "P\u00e5 baggrund af flere skyderier inden for de sidste d\u00f8gn, har Politidirekt\u00f8ren ved K\u00f8benhavn Vestegns Politi i dag den 7. oktober 2016 truffet beslutning om at indf\u00f8re n\u00e6rmere afgr\u00e6nsede visitationszoner i Hvidovre, Ish\u00f8j og Taastrup. Indf\u00f8rslen g\u00f8r at politiet kan visitere uden det normale mistankegrundlag i visitationszonerne. ", 
+                "area": "Hvidovre", 
+                "authority": "K\u00f8benhavns Vestegns Politi", 
+                "start": "2016-10-07 15:00", 
+                "extent": "Se kort http://www.mynewsdesk.com/dk/vestegnenspoliti/pressreleases/koebenhavns-vestegns-politi-indfoerer-visitationszoner-i-hvidovre-ishoej-og-taastrup-1596625", 
+                "validation": "Nyhedsmedie", 
+                "population": 17000
+            }
+        }
+    ]
+}
