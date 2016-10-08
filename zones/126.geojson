@@ -1,0 +1,101 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.381162643432617, 
+                            55.80576725740315
+                        ], 
+                        [
+                            12.374210357666014, 
+                            55.806876689316425
+                        ], 
+                        [
+                            12.36536979675293, 
+                            55.80600844094343
+                        ], 
+                        [
+                            12.358331680297852, 
+                            55.805574309495036
+                        ], 
+                        [
+                            12.356700897216795, 
+                            55.80842019416513
+                        ], 
+                        [
+                            12.348976135253906, 
+                            55.81136233075533
+                        ], 
+                        [
+                            12.344341278076172, 
+                            55.81435247121116
+                        ], 
+                        [
+                            12.339620590209961, 
+                            55.818596147108806
+                        ], 
+                        [
+                            12.338333129882812, 
+                            55.82076602981845
+                        ], 
+                        [
+                            12.338933944702148, 
+                            55.821778600338035
+                        ], 
+                        [
+                            12.344942092895506, 
+                            55.82790167952735
+                        ], 
+                        [
+                            12.350091934204102, 
+                            55.82756421206969
+                        ], 
+                        [
+                            12.35635757446289, 
+                            55.82549113345393
+                        ], 
+                        [
+                            12.362794876098633, 
+                            55.82471972716123
+                        ], 
+                        [
+                            12.367944717407227, 
+                            55.82568398263699
+                        ], 
+                        [
+                            12.373437881469727, 
+                            55.829106896547415
+                        ], 
+                        [
+                            12.38004684448242, 
+                            55.82529828331482
+                        ], 
+                        [
+                            12.382535934448242, 
+                            55.822019684672874
+                        ], 
+                        [
+                            12.384252548217773, 
+                            55.81743882685054
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2016-10-30 19:00", 
+                "background": "Oprettelsen af visitationszonen sker p\u00e5 baggrund af en synlig optrapning af kriminalitetsbilledet og aktuelle skyderier i Farum. Begrundelsen for beslutningen er, at der efter politiets vurdering er en potentiel risiko for, at der kan opst\u00e5 yderligere voldelige konflikter imellem de involverede parter, og at der derfor aktuelt er behov for at kunne foretage besigtigelser og visitationer med henblik p\u00e5 at forebygge, at nogen foretager strafbare handlinger, som indeb\u00e6rer fare for personers liv, helbred eller velf\u00e6rd.", 
+                "area": "Farum", 
+                "authority": "Nordsj\u00e6llands Politi", 
+                "start": "2016-10-08 19:00", 
+                "extent": "\u00d8stlig afgr\u00e6nset af Hiller\u00f8dmotorvejen til Fiskeb\u00e6kbroen - Skovstien - Nordlige bred af Farum S\u00f8\ntil Farumg\u00e5rd -S\u00f8vej - Hestetangsvej til Lillevangsvej \u2013 Lillevangsvej \u2013 Regimentsvej til\nVanddamsvej \u2013 Vanddamsvej \u2013 Trevangsvej \u2013 H\u00f8veltevej til Hiller\u00f8dmotorvejen.", 
+                "validation": "Nyhedsmedie", 
+                "population": 10200
+            }
+        }
+    ]
+}

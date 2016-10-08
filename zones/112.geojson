@@ -107,11 +107,11 @@
             }, 
             "type": "Feature", 
             "properties": {
-                "end": "2008-09-15 20:00:00", 
+                "end": "2008-09-15 20:00", 
                 "background": "I forbindelse med hovedforhandling p\u00e5 Domhust i Svenborg i en straffesag mod 2 personer, som har tilknytning til Hells Angels/AK 81. Det blevet oplyst, at andre personer med tilknytning til samme milj\u00f8 er anmodet om at m\u00f8de frem til hovedforhandlingen i Svenborg.Under henvisning til sagens karakter er der grund til at befrygte et sammenst\u00f8d mellem de involverede persongrupper og at dette vil ske under anvendelse af v\u00e5ben.", 
                 "area": "Svendborg midtby", 
                 "authority": "Fyns Politi", 
-                "start": "2008-09-15 8:00:00", 
+                "start": "2008-09-15 08:00", 
                 "extent": "Gruppem\u00f8llevej, Svinget, Bagergade, Skolegade, centrumpladsen, voldgade, vestergade, vieb\u00e6ltet", 
                 "validation": "Aktindsigt", 
                 "population": 200
