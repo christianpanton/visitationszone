@@ -59,11 +59,11 @@
             }, 
             "type": "Feature", 
             "properties": {
-                "end": "2016-09-17 00:00", 
-                "background": "Baggrunden for beslutningen er blandt andet en episode torsdag aften, hvor grupper af unge var samlet i omr\u00e5det og blev fundet i besiddelse af blandt andet slagv\u00e5ben, peberspray og knojern. ", 
+                "end": "2016-10-10 11:00", 
+                "background": "Det er \u00d8stjyllands Politis vurdering, at der, efter nattens skudepisode, er risiko for, at opg\u00f8ret mellem de to grupperinger med relation til Rosenh\u00f8j og Rundh\u00f8j vil blusse op igen. Derfor har \u00d8stjyllands Politi oprettet visitationszoner i henholdsvis Rundh\u00f8j og Rosenh\u00f8j. ", 
                 "area": "Viby J", 
                 "authority": "\u00d8stjyllands Politi", 
-                "start": "2016-09-03 00:00", 
+                "start": "2016-09-27 11:00", 
                 "extent": "    Mod nord af Jyllands All\u00e9 til Fredensvang Runddel\n    Mod \u00f8st af Rosenvangs All\u00e9\n    Mod syd af Holmevej\n    Mod vest af Holme M\u00f8llevej", 
                 "validation": "Nyhedsmedie", 
                 "population": 1900
