@@ -1,0 +1,81 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            10.141904354095459, 
+                            56.11627558178134
+                        ], 
+                        [
+                            10.148899555206297, 
+                            56.11735222339835
+                        ], 
+                        [
+                            10.150980949401855, 
+                            56.11501946181836
+                        ], 
+                        [
+                            10.15280485153198, 
+                            56.114050426971815
+                        ], 
+                        [
+                            10.151066780090332, 
+                            56.11236353032223
+                        ], 
+                        [
+                            10.151699781417847, 
+                            56.1121063019952
+                        ], 
+                        [
+                            10.151270627975464, 
+                            56.11186103617517
+                        ], 
+                        [
+                            10.15110969543457, 
+                            56.11150210776727
+                        ], 
+                        [
+                            10.150476694107056, 
+                            56.11155594724187
+                        ], 
+                        [
+                            10.150305032730103, 
+                            56.11167559024907
+                        ], 
+                        [
+                            10.150326490402222, 
+                            56.111944785655325
+                        ], 
+                        [
+                            10.145831108093262, 
+                            56.11327877065955
+                        ], 
+                        [
+                            10.14412522315979, 
+                            56.113727409933375
+                        ], 
+                        [
+                            10.143663883209229, 
+                            56.11370946446284
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2016-10-11 11:00", 
+                "background": "Det er \u00d8stjyllands Politis vurdering, at der, efter nattens skudepisode, er risiko for, at opg\u00f8ret mellem de to grupperinger med relation til Rosenh\u00f8j og Rundh\u00f8j vil blusse op igen. Derfor har \u00d8stjyllands Politi oprettet visitationszoner i henholdsvis Rundh\u00f8j og Rosenh\u00f8j. ", 
+                "area": "Viby J", 
+                "authority": "\u00d8stjyllands Politi", 
+                "start": "2016-09-27 11:00", 
+                "extent": "    Mod nord af Jyllands All\u00e9 til Fredensvang Runddel\n    Mod \u00f8st af Rosenvangs All\u00e9\n    Mod syd af Holmevej\n    Mod vest af Holme M\u00f8llevej", 
+                "validation": "Nyhedsmedie", 
+                "population": 1900
+            }
+        }
+    ]
+}
