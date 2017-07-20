@@ -6,7 +6,7 @@ before_install:
   - git config --global user.email "travis@travis-ci.org"
   - git config --global user.name "Travis CI"
   - git config --global push.default simple
-  - git remote set-url origin git://github.com/christianpanton/visitationszone.git
+  - git remote set-url origin git@github.com:christianpanton/visitationszone.git
 install: "pip install -r requirements.txt"
 script: python build/build.py
 after_success:
@@ -36,7 +36,7 @@ after_success:
                "  LogLevel ERROR" >> ~/.ssh/config
 
 
-        git add zones/*
-        git add zones.json
-        git commit --message "Travis build $TRAVIS_BUILD_NUMBER"
-        git push origin master
+  - git add zones/*
+  - git add zones.json
+  - git commit --message "Travis build $TRAVIS_BUILD_NUMBER"
+  - git push origin
