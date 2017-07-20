@@ -1,6 +1,7 @@
 language: python
 python:
   - "2.7"
+cache: pip
 before_install:
   - openssl aes-256-cbc -K $encrypted_d78a7203a7b0_key -iv $encrypted_d78a7203a7b0_iv -in build/github_deploy_key.enc -out build/github_deploy_key -d
   - git config --global user.email "travis@travis-ci.org"
