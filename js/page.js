@@ -69,8 +69,8 @@ function formatNumber(number) {
 }
 
 
-function fetchGeoJSON(authority) {
-  $.getJSON("zone.php?authority=" +authority+ "&" + Date.now(), function(data){
+function fetchGeoJSON() {
+  $.getJSON("zones.json?" + Date.now(), function(data){
      var total_days = 0;
      var total_area = 0;
      var total_population = 0;
@@ -237,21 +237,12 @@ var polygons = [];
 
 $(function(){
 
-
     $("#infobox").hide();
 
     L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
-//    L.tileLayer('https://a.tiles.mapbox.com/v3/panton.i20ai51n/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
-  	authority = getParameterByName("authority");
-  	if(authority == null)
-  	{
-	  	authority = "";
-  	}
-  	else{
-	  	politikreds = document.getElementById('politikreds');
-	  	politikreds.value = authority;
-  	}
-    fetchGeoJSON(authority); 
+  
+    fetchGeoJSON(); 
+
     $(".close-alert").click(function(e){
       $(".alert").hide("fast");
     });
@@ -278,7 +269,7 @@ function updateZone(data){
 		updateQueryStringParam('authority',text);
     }
     reset_data();
-    fetchGeoJSON(text);
+    fetchGeoJSON();
 }
 
 function zone_validation(validation)
