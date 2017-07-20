@@ -42,7 +42,7 @@ master = {
 
 for filename in zonefiles:
     data = json.load(file(PATH + filename))
-    master["features"].append(data["features"])
+    master["features"].append(data["features"][0])
     if "population" in data["features"][0]["properties"]:
         continue
     zone = shape(data["features"][0]["geometry"])
