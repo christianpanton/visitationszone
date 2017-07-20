@@ -38,5 +38,6 @@ after_success:
 
   - git add zones/*
   - git add zones.json
+  - git checkout master
   - git commit --message "Travis build $TRAVIS_BUILD_NUMBER"
-  - git push origin
+  - git push origin master
