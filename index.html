@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Oversigt over visitationszoner</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <!-- Le styles -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/cosmo.bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-
     <style type="text/css">
-      body {
+    body {
         padding-top: 60px;
         padding-bottom: 40px;
-      }
-      #map { height: 400px; margin-bottom: 20px;}
-      #alert div { display: none}
-      #zonelist { 
+    }
+
+    #map {
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    #alert div {
+        display: none
+    }
+
+    #zonelist {
         -webkit-touch-callout: none;
         -webkit-user-select: none;
         -khtml-user-select: none;
@@ -27,246 +34,201 @@
         -ms-user-select: none;
         user-select: none;
         cursor: pointer !important;
-      }
-
+    }
     </style>
     <link rel="stylesheet" href="css/leaflet.css" />
-    
     <link rel="shortcut icon" href="img/favicon.ico">
+</head>
 
-  </head>
-
-  <body>
+<body>
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Visitationzone</a>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Visitationzone</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#oversigt">Oversigt</a></li>
+                    <li><a href="#Statistik">Statistik</a></li>
+                    <li><a href="#lov">Baggrund</a></li>
+                    <li><a href="#data">Data</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-          	<li><a href="#oversigt">Oversigt</a></li>
-          	<li><a href="#Statistik">Statistik</a></li>
-          	<li><a href="#lov">Baggrund</a></li>
-          	<li><a href="#data">Data</a></li>
-          </ul>
-        </div>
-      </div>
     </nav>
     <div class="container">
-
-      <section id="alerts">
-        <div class="row">
-          <div class="col-xs-12" id="alert">
-          </div>
-        </div>
-      </section>
-
-      <div class="row">
-        <div class="col-xs-12">
-          <section id="themap">
-	        <div id="map"></div>
-          </section>
-        </div>
-        
-        <div class="col-xs-12">
-        	<div id="status">
-        	</div>
-        </div>
-        <div class="col-xs-12">
-          <section id="infobox">
-            <h2 id="infohead"></h2> 
-            <blockquote id="infotext"></blockquote>
-          </section>
-        </div>
-      </div>
-
-      <section id="oversigt">
-        <div class="row">
-          <div class="col-xs-12">
-            <div class="page-header">
-              <h2>Oversigt</h2>
+        <section id="alerts">
+            <div class="row">
+                <div class="col-xs-12" id="alert">
+                </div>
             </div>
-          </div>
-          <div class="col-xs-12">
-            <blockquote><i class="fa fa-quote-left fa-2x fa-pull-left fa-border"></i>En visitationszone eller besigtigelses- og visitationszone er et afgrænset område, indenfor hvilket politiet uden en konkret mistanke om at et strafbart forhold er begået af den pågældende, kan visitere borgere og undersøge tøj og tasker. Formålet er at kontrollere, om de forbipasserende bærer ulovlige knive eller våben på sig. Politiet kan også gennemsøge biler og andre køretøjer i zonen. <footer>Kilde: <cite title="Source Title"><a href="https://da.wikipedia.org/wiki/Visitationszone" target="_blank">Wikipedia</a></cite></footer>
-            </blockquote>
-          </div>
-	        </form>
-          </div>
-          <div class="col-xs-12">
-	        <div class="table-responsive">
-              <table class="table table-bordered table-striped table-hover condensed">
-	            <thead>
-	              <tr>
-	                <th>Politikreds</th>
-	                <th>Område</th>
-	                <th>Areal (ha)</th>
-	                <th>Befolkning</th>
-	                <th>Oprettet</th>
-	                <th>Udløb</th>
-	                <th></th>
-	              </tr>
-	            </thead>
-                <tbody id="zonelist">
-                </tbody>
-              </table>
-	        </div>
-          </div>
-
-        </div>
-      </section>
-      
-      <section id="Statistik">
+        </section>
         <div class="row">
-          <div class="mini-charts">
-          	<div class="col-xs-12">
-          	  <div class="page-header">
-                <h2>Statistik ud fra datasæt</h2>
-              </div>
-          	</div>
-          	
-          	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-      	      <div class="panel panel-default">
-      	        <div class="panel-body">
-      	  	      <i class="fa fa-4x pull-left fa-calendar-plus-o"></i>
-      	  	      <small>Antallet af visitationzoner</small><br />
-      	  	      <span class="fa-2x" id="total_zones">0</span>
-      	        </div>
-      	      </div>
-      	    </div>
-          	
-      	    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-      	      <div class="panel panel-default">
-      	        <div class="panel-body">
-      	  	      <i class="fa fa-4x pull-left fa-calendar"></i>
-      	  	      <small>Dage med visitationzoner</small><br />
-      	  	      <span class="fa-2x" id="total_days">0</span>
-      	        </div>
-      	      </div>
-      	    </div>
-      	    
-      	    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-      	      <div class="panel panel-default">
-      	        <div class="panel-body">
-      	  	      <i class="fa fa-4x pull-left fa-map-o"></i>
-      	  	      <small>Gennemsnitligt areal (ha)</small><br />
-      	  	      <span class="fa-2x" id="avg_area">0</span>
-      	        </div>
-      	      </div>
-      	    </div>
-      	    
-      	    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-      	      <div class="panel panel-default">
-      	        <div class="panel-body">
-      	  	      <i class="fa fa-4x pull-left fa-street-view"></i>
-      	  	      <small>Gennemsnitlig befolkning</small><br />
-      	  	      <span class="fa-2x" id="avg_population">0</span>
-      	        </div>
-      	      </div>
-      	    </div>
-      	    
-      	    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-      	      <div class="panel panel-default">
-      	        <div class="panel-body">
-      	  	      <i class="fa fa-4x pull-left fa-question"></i>
-      	  	      <small>Har du et forslag?<br /></small><br />
-      	  	      <span class="fa-2x"></span>
-      	        </div>
-      	      </div>
-      	    </div>
-      	    
-      	  </div>
-        </div>
-      </section>
-
-      <section id="lov">
-        <div class="row">
-	      <div class="col-xs-12">
-	        <div class="page-header">
-              <h2>Baggrund</h2>
+            <div class="col-xs-12">
+                <section id="themap">
+                    <div id="map"></div>
+                </section>
             </div>
-	      </div>
-	      <div class="col-md-8">
-	        <p>Politiet har siden 2004 kunnet oprette visitationszoner, hvor de, uden konkret mistanke, kan foretage stikprøvevisitationer af personer, af personers ejendele, samt af biler, der befinder sig inden for zonen. Formålet med visitationen er at søge efter våben og sprængstof.</p>
-	        <p>Ifølge bemærkningerne til lovforslaget kan politiet kun oprette visitationszoner i et bestemt afgrænset område.
-            
-            <blockquote>Det geografiske anvendelsesområde for den konkrete beslutning om stikprøvevisitation mv. må fastlægges på baggrund af de forhold, som begrunder politiets vurdering af, at der er en forøget risiko for, at nogen foretager strafbare handlinger, som indebærer fare for personers liv, helbred eller velfærd. Dette indebærer, at en beslutning om visitation mv. typisk vil omfatte et bestemt afgrænset område, f.eks. et værtshus, et butikscenter, en gade eller en plads, mens der ikke kan træffes beslutning om visitation mv. i f.eks. en hel politikreds eller kommune.<footer>Bemærkningerne til L159, punkt 5.2.4.3</footer></blockquote>
-
-          Trods bemærkningerne til loven har store dele af Københavns Politikreds af flere omgange været udpeget som visitationzone. Dette har blandt andet fået CEPOS til at kritisere Politiet for at zonerne var ulovlige.</p>
-	      </div>
-	      <div class="col-md-4">
-	        <ul class="list-group">
-	          <li class="list-group-item">
-	            <h4 class="list-group-item-heading">Lovgivningen og forarbejdet</h4>
-	          </li>
-	          <li class="list-group-item">
-	            <a target="_blank" href="https://www.retsinformation.dk/Forms/r0710.aspx?id=1836#K3">Lov om politiets virksomhed, §6</a>
-	          </li>
-	          <li class="list-group-item">
-	            <a target="_blank" href="http://webarkiv.ft.dk/Samling/20031/lovforslag_som_fremsat/L159.htm">Lovforslag med bemærkninger</a>
-	          </li>
-              <li class="list-group-item">
-                <a target="_blank" href="http://webarkiv.ft.dk/Samling/20031/lovforslag_oversigtsformat/L159.htm">Folketingets behandling</a>
-              </li>
-              <li class="list-group-item">
-                <h4 class="list-group-item-heading">Lovligheden af visitationszoner</h4>
-              </li>
-              <li class="list-group-item">
-                <a target="_blank" href="https://www.cepos.dk/publikationer/nyheder/single/artikel/politiets-ulovlige-visitationszoner/">CEPOS: Politiets ulovlige visitationszoner</a>
-              </li>
-              <li class="list-group-item">
-                <a target="_blank" href="https://politiken.dk/indland/ECE878897/dom-skaber-tvivl-om-visitationszoner/">Dom skaber tvivl om visitationszoner</a>
-              </li>
-              <li class="list-group-item">
-                <a target="_blank" href="http://www.justitsministeriet.dk/nyt-og-presse/pressemeddelelser/2010/visitation-ikke-n%C3%B8dvendigt-%C3%A6ndre-danske-regler">JM: Ikke nødvendigt at ændre danske regler</a>
-              </li>
-              <li class="list-group-item">
-                <h4 class="list-group-item-heading">Øvrig omtale</h4>
-              </li>
-              <li class="list-group-item">
-              	<a target="_blank" href="https://www.dr.dk/nyheder/indland/betjente-visiterer-borgere-i-strid-med-reglerne">Betjente visiterer borgere i strid med reglerne</a>
-              </li>
-	        </ul>
-	      </div>
-        </div>
-      </section>
-      <section id="data">
-      	<div class="row">
-          <div class="col-xs-12">
-            <div class="page-header">
-              <h2>Data</h2>
+            <div class="col-xs-12">
+                <div id="status">
+                </div>
             </div>
-          </div>
-          <div class="col-md-12">
-            <p>Data er p.t. manuelt opdateret, og der kan ikke garanteres nogen nøjagtighed af disse data. 
-              Hvis du vil hjælpe med at <a href="draw.html">indsamle data</a> om visitationszoner, kan du kontakte mig på <a href="http://twitter.com/christianpanton">@christianpanton</a>. Der er også behov for indsamling af historiske data. Du kan submitte ændringer som pull-request på <a href="https://github.com/christianpanton/visitationszone">github.com</a>. </p>
-              <p>Befolkning er estimeret ud fra en befolkningstæthed undersøgelse udført af Eurostat / Danmarks Statistik i 2011 og dataen er opbygget i et Kvadratnet med en maskestørrelse på 1km. Opdatering af befolkning, sker via et seperat script der findes på <a href="https://github.com/christianpanton/vz-population">github.com</a></p>
+            <div class="col-xs-12">
+                <section id="infobox">
+                    <h2 id="infohead"></h2>
+                    <blockquote id="infotext"></blockquote>
+                </section>
+            </div>
+        </div>
+        <section id="Statistik">
+            <div class="row">
+                <div class="mini-charts">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <i class="fa fa-4x pull-left fa-calendar-plus-o"></i>
+                                <small>Antallet af visitationzoner</small>
+                                <br />
+                                <span class="fa-2x" id="total_zones">0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <i class="fa fa-4x pull-left fa-calendar"></i>
+                                <small>Dage med visitationzoner</small>
+                                <br />
+                                <span class="fa-2x" id="total_days">0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <i class="fa fa-4x pull-left fa-map-o"></i>
+                                <small>Gennemsnitligt areal (ha)</small>
+                                <br />
+                                <span class="fa-2x" id="avg_area">0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <i class="fa fa-4x pull-left fa-street-view"></i>
+                                <small>Gennemsnitlig befolkning</small>
+                                <br />
+                                <span class="fa-2x" id="avg_population">0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="oversigt">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped table-hover condensed">
+                            <thead>
+                                <tr>
+                                    <th>Politikreds</th>
+                                    <th>Område</th>
+                                    <th>Areal (ha)</th>
+                                    <th>Befolkning</th>
+                                    <th>Oprettet</th>
+                                    <th>Udløb</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody id="zonelist">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="lov">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h2>Baggrund</h2>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <p>Politiet har siden 2004 kunnet oprette visitationszoner, hvor de, uden konkret mistanke, kan foretage stikprøvevisitationer af personer, af personers ejendele, samt af biler, der befinder sig inden for zonen. Formålet med visitationen er at søge efter våben og sprængstof.</p>
+                    <p>Ifølge bemærkningerne til lovforslaget kan politiet kun oprette visitationszoner i et bestemt afgrænset område.
+                        <blockquote>Det geografiske anvendelsesområde for den konkrete beslutning om stikprøvevisitation mv. må fastlægges på baggrund af de forhold, som begrunder politiets vurdering af, at der er en forøget risiko for, at nogen foretager strafbare handlinger, som indebærer fare for personers liv, helbred eller velfærd. Dette indebærer, at en beslutning om visitation mv. typisk vil omfatte et bestemt afgrænset område, f.eks. et værtshus, et butikscenter, en gade eller en plads, mens der ikke kan træffes beslutning om visitation mv. i f.eks. en hel politikreds eller kommune.
+                            <footer>Bemærkningerne til L159, punkt 5.2.4.3</footer>
+                        </blockquote>
+                        Trods bemærkningerne til loven har store dele af Københavns Politikreds af flere omgange været udpeget som visitationzone. Dette har blandt andet fået CEPOS til at kritisere Politiet for at zonerne var ulovlige.</p>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <h4 class="list-group-item-heading">Lovgivningen og forarbejdet</h4>
+                        </li>
+                        <li class="list-group-item">
+                            <a target="_blank" href="https://www.retsinformation.dk/Forms/r0710.aspx?id=1836#K3">Lov om politiets virksomhed, §6</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a target="_blank" href="http://webarkiv.ft.dk/Samling/20031/lovforslag_som_fremsat/L159.htm">Lovforslag med bemærkninger</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a target="_blank" href="http://webarkiv.ft.dk/Samling/20031/lovforslag_oversigtsformat/L159.htm">Folketingets behandling</a>
+                        </li>
+                        <li class="list-group-item">
+                            <h4 class="list-group-item-heading">Lovligheden af visitationszoner</h4>
+                        </li>
+                        <li class="list-group-item">
+                            <a target="_blank" href="https://www.cepos.dk/publikationer/nyheder/single/artikel/politiets-ulovlige-visitationszoner/">CEPOS: Politiets ulovlige visitationszoner</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a target="_blank" href="https://politiken.dk/indland/ECE878897/dom-skaber-tvivl-om-visitationszoner/">Dom skaber tvivl om visitationszoner</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a target="_blank" href="http://www.justitsministeriet.dk/nyt-og-presse/pressemeddelelser/2010/visitation-ikke-n%C3%B8dvendigt-%C3%A6ndre-danske-regler">JM: Ikke nødvendigt at ændre danske regler</a>
+                        </li>
+                        <li class="list-group-item">
+                            <h4 class="list-group-item-heading">Øvrig omtale</h4>
+                        </li>
+                        <li class="list-group-item">
+                            <a target="_blank" href="https://www.dr.dk/nyheder/indland/betjente-visiterer-borgere-i-strid-med-reglerne">Betjente visiterer borgere i strid med reglerne</a>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+        <section id="data">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h2>Data</h2>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <p>Data er p.t. manuelt opdateret, og der kan ikke garanteres nogen nøjagtighed af disse data. Hvis du vil hjælpe med at <a href="draw.html">indsamle data</a> om visitationszoner, kan du kontakte mig på <a href="http://twitter.com/christianpanton">@christianpanton</a>. Der er også behov for indsamling af historiske data. Du kan submitte ændringer som pull-request på <a href="https://github.com/christianpanton/visitationszone">github.com</a>. </p>
+                    <p>Befolkning er estimeret ud fra en befolkningstæthed undersøgelse udført af Eurostat / Danmarks Statistik i 2011 og dataen er opbygget i et Kvadratnet med en maskestørrelse på 1km. Opdatering af befolkning, sker via et seperat script der findes på <a href="https://github.com/christianpanton/vz-population">github.com</a></p>
+                    <p>Data er tilgængelige som GeoJSON og er frigivet under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons 3.0 Attribution</a> samt <a href="http://opendatacommons.org/licenses/odbl/">Open Data Commons Open Database License</a>.</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Denne side er udgivet under en <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons 3.0 Attribution</a>-licens.</p>
+        </footer>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- <script src="http://cdn.leafletjs.com/leaflet-0.4.5/leaflet.js"></script> -->
+        <script src="js/leaflet.js"></script>
+        <script src="js/jquery.scrollto.js"></script>
+        <script src="js/page.js"></script>
+</body>
 
-              <p>Data er tilgængelige som GeoJSON og er frigivet under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons 3.0 Attribution</a> samt <a href="http://opendatacommons.org/licenses/odbl/">Open Data Commons Open Database License</a>.</p>
-          </div>
-      	</div>
-      </section>
-
-
-      <footer>
-        <p>Denne side er udgivet under en <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons 3.0 Attribution</a>-licens.</p>
-      </footer>
-
-    </div> 
-
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-   <!-- <script src="http://cdn.leafletjs.com/leaflet-0.4.5/leaflet.js"></script> -->
-    <script src="js/leaflet.js"></script>
-    <script src="js/jquery.scrollto.js"></script>
-    <script src="js/page.js"></script>
-
-  </body>
 </html>
