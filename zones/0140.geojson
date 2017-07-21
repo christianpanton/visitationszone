@@ -1,1 +1,97 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"Baggrunden for beslutningen er, at der aktuelt pågår en konflikt i og omkring en bandegruppering, som holder til i dele af Høje-Taastrup Kommune, ligesom det vurderes at grupperingen og dens tilhængere har flere uoverensstemmelser med enkelt personer og flere grupper i det storkøbenhavnske rocker/bandemiljø. Senest er en person med tilknytning til grupperingen skudt i benet den 9. juni 2017 i krydset Taastrupgårdsvej/Hveen Boulevard. Politiet har inden for de seneste dage observeret at personer med tilknytning til samme miljø har ageret som vagter i området ligesom flere af disse personer er truffet i skudsikre veste.","start":"2017-06-14 12:00","end":"2017-07-13 23:00","authority":"Københavns Vestegns Politi","area":"Høje-Taastrup","extent":"Visitationszonen dækker området omkring Roskildevej, Halland Boulevard, Blekinge Boulevard, Høje Taastrup Vej, Skolevej, Valbyvej, Kirkevej og Selsmosevej.","validation":"Nyhedsmedie"},"geometry":{"type":"Polygon","coordinates":[[[12.266943454742432,55.65534032749433],[12.266042232513428,55.64635681542569],[12.281835079193115,55.64616307817856],[12.281877994537354,55.64715597143948],[12.298142910003662,55.645920905271936],[12.304322719573975,55.645024852496505],[12.30342149734497,55.647470785997726],[12.30518102645874,55.64773716557035],[12.304108142852783,55.65025557380017],[12.304408550262451,55.65132100544883],[12.302992343902588,55.65146628933665],[12.304279804229736,55.65328229245124],[12.300074100494385,55.653427569061805],[12.298786640167236,55.6550497879289],[12.297756671905516,55.6556308649036],[12.29792833328247,55.65778561672654],[12.285740375518799,55.65693825656349],[12.279903888702393,55.65613930018169]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.266943454742432, 
+                            55.65534032749433
+                        ], 
+                        [
+                            12.266042232513428, 
+                            55.64635681542569
+                        ], 
+                        [
+                            12.281835079193115, 
+                            55.64616307817856
+                        ], 
+                        [
+                            12.281877994537354, 
+                            55.64715597143948
+                        ], 
+                        [
+                            12.298142910003662, 
+                            55.645920905271936
+                        ], 
+                        [
+                            12.304322719573975, 
+                            55.645024852496505
+                        ], 
+                        [
+                            12.30342149734497, 
+                            55.647470785997726
+                        ], 
+                        [
+                            12.30518102645874, 
+                            55.64773716557035
+                        ], 
+                        [
+                            12.304108142852783, 
+                            55.65025557380017
+                        ], 
+                        [
+                            12.304408550262451, 
+                            55.65132100544883
+                        ], 
+                        [
+                            12.302992343902588, 
+                            55.65146628933665
+                        ], 
+                        [
+                            12.304279804229736, 
+                            55.65328229245124
+                        ], 
+                        [
+                            12.300074100494385, 
+                            55.653427569061805
+                        ], 
+                        [
+                            12.298786640167236, 
+                            55.6550497879289
+                        ], 
+                        [
+                            12.297756671905516, 
+                            55.6556308649036
+                        ], 
+                        [
+                            12.29792833328247, 
+                            55.65778561672654
+                        ], 
+                        [
+                            12.285740375518799, 
+                            55.65693825656349
+                        ], 
+                        [
+                            12.279903888702393, 
+                            55.65613930018169
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2017-07-13 23:00", 
+                "background": "Baggrunden for beslutningen er, at der aktuelt p\u00e5g\u00e5r en konflikt i og omkring en bandegruppering, som holder til i dele af H\u00f8je-Taastrup Kommune, ligesom det vurderes at grupperingen og dens tilh\u00e6ngere har flere uoverensstemmelser med enkelt personer og flere grupper i det stork\u00f8benhavnske rocker/bandemilj\u00f8. Senest er en person med tilknytning til grupperingen skudt i benet den 9. juni 2017 i krydset Taastrupg\u00e5rdsvej/Hveen Boulevard. Politiet har inden for de seneste dage observeret at personer med tilknytning til samme milj\u00f8 har ageret som vagter i omr\u00e5det ligesom flere af disse personer er truffet i skudsikre veste.", 
+                "area": "H\u00f8je-Taastrup", 
+                "authority": "K\u00f8benhavns Vestegns Politi", 
+                "start": "2017-06-14 12:00", 
+                "extent": "Visitationszonen d\u00e6kker omr\u00e5det omkring Roskildevej, Halland Boulevard, Blekinge Boulevard, H\u00f8je Taastrup Vej, Skolevej, Valbyvej, Kirkevej og Selsmosevej.", 
+                "validation": "Nyhedsmedie", 
+                "population": 11700
+            }
+        }
+    ]
+}
