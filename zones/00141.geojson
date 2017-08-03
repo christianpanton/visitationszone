@@ -1,304 +1,301 @@
 {
+    "type": "FeatureCollection", 
     "features": [
         {
             "geometry": {
+                "type": "Polygon", 
                 "coordinates": [
                     [
-                        
-                        
-                       
-
                         [
-                            12.46373176574707,
+                            12.46373176574707, 
                             55.70100085220915
-                        ],
+                        ], 
                         [
-                            12.463903427124022,
+                            12.463903427124022, 
                             55.702645281679004
-                        ],
+                        ], 
                         [
-                            12.45823860168457,
+                            12.45823860168457, 
                             55.70409619139846
-                        ],
+                        ], 
                         [
-                            12.454805374145508,
+                            12.454805374145508, 
                             55.70554704725047
-                        ],
+                        ], 
                         [
-                            12.453603744506836,
+                            12.453603744506836, 
                             55.70738472066831
-                        ],
+                        ], 
                         [
-                            12.453088760375975,
+                            12.453088760375975, 
                             55.71115651639838
-                        ],
+                        ], 
                         [
-                            12.453088760375975,
+                            12.453088760375975, 
                             55.712413700727744
-                        ],
+                        ], 
                         [
-                            12.457723617553711,
+                            12.457723617553711, 
                             55.71473455012689
-                        ],
+                        ], 
                         [
-                            12.45823860168457,
+                            12.45823860168457, 
                             55.716958568084955
-                        ],
+                        ], 
                         [
-                            12.466650009155273,
+                            12.466650009155273, 
                             55.71908577112247
-                        ],
+                        ], 
                         [
-                            12.472658157348631,
+                            12.472658157348631, 
                             55.71898908258864
-                        ],
+                        ], 
                         [
-                            12.477636337280273,
+                            12.477636337280273, 
                             55.72159958898716
-                        ],
+                        ], 
                         [
-                            12.477807998657227,
+                            12.477807998657227, 
                             55.72256639892808
-                        ],
+                        ], 
                         [
-                            12.484159469604492,
+                            12.484159469604492, 
                             55.72498331906539
-                        ],
+                        ], 
                         [
-                            12.488279342651365,
+                            12.488279342651365, 
                             55.72478997095933
-                        ],
+                        ], 
                         [
-                            12.492570877075195,
+                            12.492570877075195, 
                             55.72314647340383
-                        ],
+                        ], 
                         [
-                            12.501497268676758,
+                            12.501497268676758, 
                             55.720632755110856
-                        ],
+                        ], 
                         [
-                            12.505102157592773,
+                            12.505102157592773, 
                             55.720052643295986
-                        ],
+                        ], 
                         [
-                            12.509908676147461,
+                            12.509908676147461, 
                             55.72014932919687
-                        ],
+                        ], 
                         [
-                            12.514028549194336,
+                            12.514028549194336, 
                             55.71995595715576
-                        ],
+                        ], 
                         [
-                            12.514715194702148,
+                            12.514715194702148, 
                             55.72295311620265
-                        ],
+                        ], 
                         [
-                            12.529478073120117,
+                            12.529478073120117, 
                             55.723243151645406
-                        ],
+                        ], 
                         [
-                            12.54389762878418,
+                            12.54389762878418, 
                             55.72266307860577
-                        ],
+                        ], 
                         [
-                            12.545614242553711,
+                            12.545614242553711, 
                             55.72256639892808
-                        ],
+                        ], 
                         [
-                            12.551450729370117,
+                            12.551450729370117, 
                             55.71898908258864
-                        ],
+                        ], 
                         [
-                            12.556600570678711,
+                            12.556600570678711, 
                             55.71898908258864
-                        ],
+                        ], 
                         [
-                            12.558145523071289,
+                            12.558145523071289, 
                             55.71657179144925
-                        ],
+                        ], 
                         [
-                            12.56535530090332,
+                            12.56535530090332, 
                             55.71792549291848
-                        ],
+                        ], 
                         [
-                            12.574431896209715,
+                            12.574431896209715, 
                             55.71720030153742
-                        ],
+                        ], 
                         [
-                            12.577736377716064,
+                            12.577736377716064, 
                             55.71599161931457
-                        ],
+                        ], 
                         [
-                            12.57686734199524,
+                            12.57686734199524, 
                             55.71574987838178
-                        ],
+                        ], 
                         [
-                            12.572489976882935,
+                            12.572489976882935, 
                             55.71566526870189
-                        ],
+                        ], 
                         [
-                            12.569442987442017,
+                            12.569442987442017, 
                             55.714879598636244
-                        ],
+                        ], 
                         [
-                            12.568391561508177,
+                            12.568391561508177, 
                             55.714275226294106
-                        ],
+                        ], 
                         [
-                            12.569421529769896,
+                            12.569421529769896, 
                             55.71103563115776
-                        ],
+                        ], 
                         [
-                            12.570365667343138,
+                            12.570365667343138, 
                             55.70778367782094
-                        ],
+                        ], 
                         [
-                            12.56313443183899,
+                            12.56313443183899, 
                             55.70644171484159
-                        ],
+                        ], 
                         [
-                            12.561954259872437,
+                            12.561954259872437, 
                             55.705788851322104
-                        ],
+                        ], 
                         [
-                            12.554422616958618,
+                            12.554422616958618, 
                             55.699041956217854
-                        ],
+                        ], 
                         [
-                            12.561653852462769,
+                            12.561653852462769, 
                             55.696248545824986
-                        ],
+                        ], 
                         [
-                            12.569507360458374,
+                            12.569507360458374, 
                             55.691822214132266
-                        ],
+                        ], 
                         [
-                            12.568026781082153,
+                            12.568026781082153, 
                             55.69127795842431
-                        ],
+                        ], 
                         [
-                            12.562726736068726,
+                            12.562726736068726, 
                             55.68710507961964
-                        ],
+                        ], 
                         [
-                            12.557748556137083,
+                            12.557748556137083, 
                             55.68216962209278
-                        ],
+                        ], 
                         [
-                            12.555967569351196,
+                            12.555967569351196, 
                             55.68350032147975
-                        ],
+                        ], 
                         [
-                            12.55461573600769,
+                            12.55461573600769, 
                             55.68461323528865
-                        ],
+                        ], 
                         [
-                            12.552727460861206,
+                            12.552727460861206, 
                             55.68501242491568
-                        ],
+                        ], 
                         [
-                            12.550109624862671,
+                            12.550109624862671, 
                             55.685085004410105
-                        ],
+                        ], 
                         [
-                            12.54762053489685,
+                            12.54762053489685, 
                             55.68520596993475
-                        ],
+                        ], 
                         [
-                            12.544831037521362,
+                            12.544831037521362, 
                             55.686343027576896
-                        ],
+                        ], 
                         [
-                            12.542470693588257,
+                            12.542470693588257, 
                             55.687177655230144
-                        ],
+                        ], 
                         [
-                            12.54137635231018,
+                            12.54137635231018, 
                             55.687697776496876
-                        ],
+                        ], 
                         [
-                            12.539219856262207,
+                            12.539219856262207, 
                             55.689633050679106
-                        ],
+                        ], 
                         [
-                            12.536473274230957,
+                            12.536473274230957, 
                             55.69147147243294
-                        ],
+                        ], 
                         [
-                            12.536215782165527,
+                            12.536215782165527, 
                             55.692874420351124
-                        ],
+                        ], 
                         [
-                            12.527375221252441,
+                            12.527375221252441, 
                             55.69548667198002
-                        ],
+                        ], 
                         [
-                            12.525572776794434,
+                            12.525572776794434, 
                             55.69650250047357
-                        ],
+                        ], 
                         [
-                            12.52342700958252,
+                            12.52342700958252, 
                             55.696695988622224
-                        ],
+                        ], 
                         [
-                            12.512269020080566,
+                            12.512269020080566, 
                             55.69529317784541
-                        ],
+                        ], 
                         [
-                            12.510037422180176,
+                            12.510037422180176, 
                             55.694664315293416
-                        ],
+                        ], 
                         [
-                            12.506003379821777,
+                            12.506003379821777, 
                             55.693019550021006
-                        ],
+                        ], 
                         [
-                            12.50342845916748,
+                            12.50342845916748, 
                             55.69258415939509
-                        ],
+                        ], 
                         [
-                            12.496733665466309,
+                            12.496733665466309, 
                             55.69340655984007
-                        ],
+                        ], 
                         [
-                            12.490296363830566,
+                            12.490296363830566, 
                             55.69534155146884
-                        ],
+                        ], 
                         [
-                            12.483601570129395,
+                            12.483601570129395, 
                             55.697663414999504
-                        ],
+                        ], 
                         [
-                            12.478773593902588,
+                            12.478773593902588, 
                             55.697784341613165
-                        ],
+                        ], 
                         [
-                            12.471778392791748,
+                            12.471778392791748, 
                             55.69916287856667
-                        ],
+                        ], 
                         [
-                            12.464590072631836,
+                            12.464590072631836, 
                             55.70080738536962
-                        ],
-                      [
-                            12.46373176574707,
+                        ], 
+                        [
+                            12.46373176574707, 
                             55.70100085220915
                         ]
                     ]
-                ],
-                "type": "Polygon"
-            },
+                ]
+            }, 
+            "type": "Feature", 
             "properties": {
-                "area": "København",
-                "authority": "Københavns Politi",
-                "background": "Det er bl.a. nedenstående hændelser vedr. skyderier, der danner baggrund for vurderingen af, at der fortsat ses at være en voldelig konflikt mellem personer med tilknytning til bandegrupperingen Loyal To Familia (LTF) på den ene side, og personer med tilknytning til områderne omkring Mjølnerparken og København NV på den anden side:\n\n20. Juli 2017: Anmeldelse om skyderi i Mjølnerparken, hvor flere antrufne havde hørt op mod 4 skud på stedet. Ingen personer ramt.\n22. Juli 2017: En gerningsmand på knallert havde formentlig afgivet 3-4 skud i området omkring Frimestervej omkring nr. 39. Ingen personer ramt.\n25. Juli 2017: Skyderi på Rovsingsgade ud for nr. 13. En sort bil standsede ud for forurettede, hvor passageren steg ud og afgav 8-10 skud. Forurettede ramt i ballen.\n27. Juli 2017: Anmeldelse om skyderi på Røde Plads. Anmelder havde hørt 4-5 skud. Ingen ramt.\n28. Juli 2017: Anmeldelse om skyderi i Mjølnerparken, hvor 2 personer på en knallert affyrede skud. 3 skudhuller fundet i parkerede biler. Ingen ramt.\n1. August 2017: Anmeldelse om skyderi på Nørrebrogade, hvor 2 personer affyrede skud. Én person ramt.\n2. August 2017: Anmeldelse om skyderi på Frederiksborgvej/Tuborgvej hvor 2 personer affyrede skud. 1 person ramt.\n",
-                "end": "2017-08-17 12:00",
-                "extent": "Københavns Politis kredsgrænse mod nord fra Grønnemose Allé - mod uret til Slotsherrensvej - Sallingvej - Hillerødgade - Borups Allé - Bispeengen - Kronprinsesse Sofies Vej - Bispeengbuen - Ågade - Åboulevard - Peblinge Dossering - Sortedam Dossering - Fredensgade -Tagensvej - Jagtvej - Over Vibenhus Runddel - Vennemindevej - Bellmansgade - Bellmans Plads - Sibeliusgade - Østerbrogade - Over jernbanesporene - Mod vest ad stien ved Ryvangs Allé - Nordhavnsvej - Emdrupvej - Grønnemose Allé til kredsgrænsen.",
-                "start": "2017-08-03 12:00",
-                "validation": "Nyhedsmedie"
-            },
-            "type": "Feature"
+                "end": "2017-08-17 12:00", 
+                "background": "Det er bl.a. nedenst\u00e5ende h\u00e6ndelser vedr. skyderier, der danner baggrund for vurderingen af, at der fortsat ses at v\u00e6re en voldelig konflikt mellem personer med tilknytning til bandegrupperingen Loyal To Familia (LTF) p\u00e5 den ene side, og personer med tilknytning til omr\u00e5derne omkring Mj\u00f8lnerparken og K\u00f8benhavn NV p\u00e5 den anden side:\n\n20. Juli 2017: Anmeldelse om skyderi i Mj\u00f8lnerparken, hvor flere antrufne havde h\u00f8rt op mod 4 skud p\u00e5 stedet. Ingen personer ramt.\n22. Juli 2017: En gerningsmand p\u00e5 knallert havde formentlig afgivet 3-4 skud i omr\u00e5det omkring Frimestervej omkring nr. 39. Ingen personer ramt.\n25. Juli 2017: Skyderi p\u00e5 Rovsingsgade ud for nr. 13. En sort bil standsede ud for forurettede, hvor passageren steg ud og afgav 8-10 skud. Forurettede ramt i ballen.\n27. Juli 2017: Anmeldelse om skyderi p\u00e5 R\u00f8de Plads. Anmelder havde h\u00f8rt 4-5 skud. Ingen ramt.\n28. Juli 2017: Anmeldelse om skyderi i Mj\u00f8lnerparken, hvor 2 personer p\u00e5 en knallert affyrede skud. 3 skudhuller fundet i parkerede biler. Ingen ramt.\n1. August 2017: Anmeldelse om skyderi p\u00e5 N\u00f8rrebrogade, hvor 2 personer affyrede skud. \u00c9n person ramt.\n2. August 2017: Anmeldelse om skyderi p\u00e5 Frederiksborgvej/Tuborgvej hvor 2 personer affyrede skud. 1 person ramt.\n", 
+                "area": "K\u00f8benhavn", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2017-08-03 12:00", 
+                "extent": "K\u00f8benhavns Politis kredsgr\u00e6nse mod nord fra Gr\u00f8nnemose All\u00e9 - mod uret til Slotsherrensvej - Sallingvej - Hiller\u00f8dgade - Borups All\u00e9 - Bispeengen - Kronprinsesse Sofies Vej - Bispeengbuen - \u00c5gade - \u00c5boulevard - Peblinge Dossering - Sortedam Dossering - Fredensgade -Tagensvej - Jagtvej - Over Vibenhus Runddel - Vennemindevej - Bellmansgade - Bellmans Plads - Sibeliusgade - \u00d8sterbrogade - Over jernbanesporene - Mod vest ad stien ved Ryvangs All\u00e9 - Nordhavnsvej - Emdrupvej - Gr\u00f8nnemose All\u00e9 til kredsgr\u00e6nsen.", 
+                "validation": "Nyhedsmedie", 
+                "population": 167900
+            }
         }
-    ],
-    "type": "FeatureCollection"
+    ]
 }
