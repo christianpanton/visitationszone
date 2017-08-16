@@ -1,1 +1,117 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"Baggrunden for beslutningen om oprettelse af visitationszonen er flere episoder, hvor der i det offentlige rum er anvendt skydevåben, med nærliggende fare for personers liv. Skyderierne vurderes at relatere sig til en konflikt mellem to registrerede bandegrupperinger.\n\n• 20. april 2017 kl. 17.01: Skyderi på Halgreensgade på Amager mod en gruppe af personer.\n• 30. april 2017 kl. 04.18: Skyderi på Dalslandsgade på Amager, én person ramt.\n• 15. August 2017 kl. 20.50: Skyderi på Holmbladsgade på Amager, én person ramt.\n","start":"2017-08-16 17:00","end":"2017-08-31 12:00","authority":"Københavns Politi","area":"Amager","extent":"Christmas Møllers Plads mod øst til Vermlandsgade – Uplandsgade – Prags Boulevard – Ved Amagerbanen – Lergravsvej – Strandlodsvej – Øresundsvej – Amagerbrogade og retur til Christmas Møllers Plads.\n","validation":"Nyhedsmedie"},"geometry":{"type":"Polygon","coordinates":[[[12.596297264099121,55.66882383305638],[12.597799301147461,55.667105368028245],[12.600889205932617,55.6639102747205],[12.607884407043457,55.65807613598871],[12.609257698059082,55.65865716804492],[12.610588073730469,55.65950449100118],[12.61299133300781,55.660303378703865],[12.614622116088867,55.660618087564586],[12.620930671691895,55.661465368074694],[12.624921798706055,55.66148957581979],[12.622904777526855,55.663668211567646],[12.62702465057373,55.66427336664266],[12.624578475952148,55.66715377652679],[12.62303352355957,55.668388173007095],[12.620887756347656,55.66887223942912],[12.62002944946289,55.669186879392285],[12.618827819824217,55.66899325509897],[12.614750862121582,55.66923528531591],[12.611060142517088,55.66964673324902],[12.608227729797363,55.66945311123117],[12.60457992553711,55.668315562527305],[12.599430084228516,55.66887223942912],[12.596640586853027,55.66899325509897]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.596297264099121, 
+                            55.66882383305638
+                        ], 
+                        [
+                            12.597799301147461, 
+                            55.667105368028245
+                        ], 
+                        [
+                            12.600889205932617, 
+                            55.6639102747205
+                        ], 
+                        [
+                            12.607884407043457, 
+                            55.65807613598871
+                        ], 
+                        [
+                            12.609257698059082, 
+                            55.65865716804492
+                        ], 
+                        [
+                            12.610588073730469, 
+                            55.65950449100118
+                        ], 
+                        [
+                            12.61299133300781, 
+                            55.660303378703865
+                        ], 
+                        [
+                            12.614622116088867, 
+                            55.660618087564586
+                        ], 
+                        [
+                            12.620930671691895, 
+                            55.661465368074694
+                        ], 
+                        [
+                            12.624921798706055, 
+                            55.66148957581979
+                        ], 
+                        [
+                            12.622904777526855, 
+                            55.663668211567646
+                        ], 
+                        [
+                            12.62702465057373, 
+                            55.66427336664266
+                        ], 
+                        [
+                            12.624578475952148, 
+                            55.66715377652679
+                        ], 
+                        [
+                            12.62303352355957, 
+                            55.668388173007095
+                        ], 
+                        [
+                            12.620887756347656, 
+                            55.66887223942912
+                        ], 
+                        [
+                            12.62002944946289, 
+                            55.669186879392285
+                        ], 
+                        [
+                            12.618827819824217, 
+                            55.66899325509897
+                        ], 
+                        [
+                            12.614750862121582, 
+                            55.66923528531591
+                        ], 
+                        [
+                            12.611060142517088, 
+                            55.66964673324902
+                        ], 
+                        [
+                            12.608227729797363, 
+                            55.66945311123117
+                        ], 
+                        [
+                            12.60457992553711, 
+                            55.668315562527305
+                        ], 
+                        [
+                            12.599430084228516, 
+                            55.66887223942912
+                        ], 
+                        [
+                            12.596640586853027, 
+                            55.66899325509897
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2017-08-31 12:00", 
+                "background": "Baggrunden for beslutningen om oprettelse af visitationszonen er flere episoder, hvor der i det offentlige rum er anvendt skydev\u00e5ben, med n\u00e6rliggende fare for personers liv. Skyderierne vurderes at relatere sig til en konflikt mellem to registrerede bandegrupperinger.\n\n\u2022 20. april 2017 kl. 17.01: Skyderi p\u00e5 Halgreensgade p\u00e5 Amager mod en gruppe af personer.\n\u2022 30. april 2017 kl. 04.18: Skyderi p\u00e5 Dalslandsgade p\u00e5 Amager, \u00e9n person ramt.\n\u2022 15. August 2017 kl. 20.50: Skyderi p\u00e5 Holmbladsgade p\u00e5 Amager, \u00e9n person ramt.\n", 
+                "area": "Amager", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2017-08-16 17:00", 
+                "extent": "Christmas M\u00f8llers Plads mod \u00f8st til Vermlandsgade \u2013 Uplandsgade \u2013 Prags Boulevard \u2013 Ved Amagerbanen \u2013 Lergravsvej \u2013 Strandlodsvej \u2013 \u00d8resundsvej \u2013 Amagerbrogade og retur til Christmas M\u00f8llers Plads.\n", 
+                "validation": "Nyhedsmedie", 
+                "population": 28200
+            }
+        }
+    ]
+}
