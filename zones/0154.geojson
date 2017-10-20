@@ -1,0 +1,53 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            11.624307632446289, 
+                            54.81186461293005
+                        ], 
+                        [
+                            11.626796722412108, 
+                            54.79177843221149
+                        ], 
+                        [
+                            11.644821166992188, 
+                            54.78994742184495
+                        ], 
+                        [
+                            11.6579532623291, 
+                            54.79187740338259
+                        ], 
+                        [
+                            11.661558151245117, 
+                            54.793708326347335
+                        ], 
+                        [
+                            11.654691696166992, 
+                            54.803208000515546
+                        ], 
+                        [
+                            11.65125846862793, 
+                            54.81072699258043
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2017-11-03 16:00", 
+                "background": "Der har i den seneste periode v\u00e6ret en del uro flere steder p\u00e5 Lolland og Falster med fx skudepisoder, slagsm\u00e5l, knivstikkeri mv., som skaber stor utryghed blandt borgerne. Der tegner sig et billede af, at disse ting prim\u00e6rt foreg\u00e5r i Saksk\u00f8bing og Maribo, og derfor oprettes der visitationszone i byerne.", 
+                "area": "Saksk\u00f8bing", 
+                "authority": "Sydsj\u00e6llands og Lolland-Falsters Politi", 
+                "start": "2017-10-20 16:00", 
+                "extent": "Nordlig afgr\u00e6nsning fra Orebyvej til M\u00f8llevej, \u00f8stlig afgr\u00e6nsning fra M\u00f8llevej over Guldborgvej til syd for Sydmotorvejen, sydlig afgr\u00e6nsning p\u00e5 sydlige side af Sydmotorvejen til Industrivej og vestlig begr\u00e6nsning p\u00e5 vestlige side af Lindevej/Kalkbr\u00e6nderivej til Orebyvej.\n", 
+                "validation": "Nyhedsmedie", 
+                "population": 4000
+            }
+        }
+    ]
+}
