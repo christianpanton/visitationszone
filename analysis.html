@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Visitationszone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/cosmo.bootstrap.min.css" rel="stylesheet">
+
+    <style type="text/css">
+      body {
+        padding: 60px;
+      }
+      #map { height: 800px; margin-bottom: 20px;}
+      sup { cursor: help;}
+    </style>
+    
+    
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/leaflet.draw.css" />
+    <link rel="stylesheet" href="css/datepicker.css" />
+
+  </head>
+
+  <body>
+	
+    <div class="container">
+      <section id="themap">
+        <div id="map"></div>
+      </section> 
+    </div> 
+    
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/leaflet.draw.js"></script>
+    <script src="js/datepicker.js"></script>
+
+    <script type="text/javascript">
+
+      function getDate(str){
+        var strparts = str.split(" ");
+        var dateparts = strparts[0].split("-");
+        var timeparts = strparts[1].split(":");
+
+        var date = new Date(parseInt(dateparts[0]), parseInt(dateparts[1]-1), parseInt(dateparts[2]), parseInt(timeparts[0]), parseInt(timeparts[1]));
+        return date;
+      }
+
+
+      var map = L.map('map').setView([56, 10], 7);
+      
+      var attribution = "Data from OpenStreetMap";
+
+      var drawControl = new L.Control.Draw({
+          draw:{
+            position: 'topleft',
+            polyline: false,
+            circle: false,
+            rectangle: false,
+            marker: false,
+            polygon: {
+              allowIntersection: false,
+              shapeOptions: {
+                "color": "#F50F43",
+                "weight": 2,
+                "opacity": 0.7
+              }
+            }
+          }
+           
+      });
+
+
+      var poly = null;
+
+      var kredsStyle = {
+          "color": "#0000ff",
+          "weight": 2,
+          "opacity": 1,
+          "fillOpacity": 0
+      };
+
+      var activeStyle = {
+          "color": "#ff0000",
+          "weight": 0,
+          "fillOpacity": 0.4,
+          "dashArray": null
+      };
+
+      var pastStyle = {
+          "color": "#ffffff",
+          "weight": 1,
+          "opacity": 0,
+          "fillOpacity": 0.05,
+          "dashArray": null
+      };
+
+      $(function(){
+
+        L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
+
+        $.getJSON("/oio/kommuner.geojson", function(geojson){
+          var obj = L.geoJson(geojson, {style: kredsStyle});
+          obj.addTo(map);
+        });
+
+        $.getJSON("/zones.json?"  + Date.now(), function(data){
+
+          var today = new Date();
+          for(var id = 0; id < data.features.length; id++){
+
+            var expire = getDate(data.features[id].properties.end);
+            var style = pastStyle;
+
+
+            if(expire > today) {          
+              style = activeStyle;
+            }
+
+            data.features[id].properties.id = id;
+            data.features[id].properties.style = style;
+
+          }
+
+          var obj = L.geoJson(data, {
+            onEachFeature: function (feature, layer) {
+              layer.setStyle(feature.properties.style);
+            }
+          });
+
+          obj.addTo(map);
+
+        });
+      });
+    </script>
+
+  </body>
+</html>
