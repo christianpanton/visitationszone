@@ -1,1 +1,129 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"Baggrunden for beslutningen er, at der aktuelt pågår en konflikt i og omkring bandemiljøet. Senest fandt politiet blandt andet fandt slagvåben, en revolver og ammunition i Værebro-området i Bagsværd, hvor en gruppering skabte utryghed.\n","start":"2017-11-01 17:00","end":"2017-11-09 23:00","authority":"Københavns Vestegns Politi","area":"Gladsaxe, Herlev og Ballerup ","extent":"Visitationszonen er afgrænset af Ring 4 fra Klausdalsbrovej til kommunegrænsen Gladaxe/Lyngby-Taarbæk kommune - dog undtaget hvor Ring 4 løber i Furesø Kommune ved Åvej og Ny Hjortespringsvej. Fra Ring 4 afgrænses zonen mod syd langs kommunegrænsen (Gladsaxe/Lyngby-Taarbæk/Gentofte) til Motorring 3, Hillerødmotorvejen, Klaudalsbrovej til Ring 4.","validation":"Nyhedsmedie"},"geometry":{"type":"Polygon","coordinates":[[[12.38759994506836,55.744216669304805],[12.396011352539062,55.74064133645501],[12.406139373779297,55.74180093975863],[12.416267395019531,55.744313295376],[12.436180114746094,55.745376166366704],[12.452316284179688,55.74605252374095],[12.456951141357422,55.740931240511316],[12.462272644042969,55.74547278956657],[12.467079162597656,55.74798490877827],[12.47995376586914,55.75107652576907],[12.49445915222168,55.75508560165919],[12.499952316284178,55.755954985435174],[12.499952316284178,55.759818678875895],[12.479267120361328,55.760494785874464],[12.481069564819336,55.765082345151136],[12.472658157348631,55.76513063237821],[12.462701797485352,55.76527549370057],[12.456779479980469,55.76459946959135],[12.447681427001953,55.76585493360784],[12.44253158569336,55.76488919564486],[12.434806823730469,55.76112258901995],[12.423133850097656,55.75822495171307],[12.415752410888672,55.756293073892444],[12.415924072265625,55.75310526627228],[12.40854263305664,55.75252563689486],[12.405967712402344,55.7529120574368]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.38759994506836, 
+                            55.744216669304805
+                        ], 
+                        [
+                            12.396011352539062, 
+                            55.74064133645501
+                        ], 
+                        [
+                            12.406139373779297, 
+                            55.74180093975863
+                        ], 
+                        [
+                            12.416267395019531, 
+                            55.744313295376
+                        ], 
+                        [
+                            12.436180114746094, 
+                            55.745376166366704
+                        ], 
+                        [
+                            12.452316284179688, 
+                            55.74605252374095
+                        ], 
+                        [
+                            12.456951141357422, 
+                            55.740931240511316
+                        ], 
+                        [
+                            12.462272644042969, 
+                            55.74547278956657
+                        ], 
+                        [
+                            12.467079162597656, 
+                            55.74798490877827
+                        ], 
+                        [
+                            12.47995376586914, 
+                            55.75107652576907
+                        ], 
+                        [
+                            12.49445915222168, 
+                            55.75508560165919
+                        ], 
+                        [
+                            12.499952316284178, 
+                            55.755954985435174
+                        ], 
+                        [
+                            12.499952316284178, 
+                            55.759818678875895
+                        ], 
+                        [
+                            12.479267120361328, 
+                            55.760494785874464
+                        ], 
+                        [
+                            12.481069564819336, 
+                            55.765082345151136
+                        ], 
+                        [
+                            12.472658157348631, 
+                            55.76513063237821
+                        ], 
+                        [
+                            12.462701797485352, 
+                            55.76527549370057
+                        ], 
+                        [
+                            12.456779479980469, 
+                            55.76459946959135
+                        ], 
+                        [
+                            12.447681427001953, 
+                            55.76585493360784
+                        ], 
+                        [
+                            12.44253158569336, 
+                            55.76488919564486
+                        ], 
+                        [
+                            12.434806823730469, 
+                            55.76112258901995
+                        ], 
+                        [
+                            12.423133850097656, 
+                            55.75822495171307
+                        ], 
+                        [
+                            12.415752410888672, 
+                            55.756293073892444
+                        ], 
+                        [
+                            12.415924072265625, 
+                            55.75310526627228
+                        ], 
+                        [
+                            12.40854263305664, 
+                            55.75252563689486
+                        ], 
+                        [
+                            12.405967712402344, 
+                            55.7529120574368
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2017-11-09 23:00", 
+                "background": "Baggrunden for beslutningen er, at der aktuelt p\u00e5g\u00e5r en konflikt i og omkring bandemilj\u00f8et. Senest fandt politiet blandt andet fandt slagv\u00e5ben, en revolver og ammunition i V\u00e6rebro-omr\u00e5det i Bagsv\u00e6rd, hvor en gruppering skabte utryghed.\n", 
+                "area": "Gladsaxe, Herlev og Ballerup ", 
+                "authority": "K\u00f8benhavns Vestegns Politi", 
+                "start": "2017-11-01 17:00", 
+                "extent": "Visitationszonen er afgr\u00e6nset af Ring 4 fra Klausdalsbrovej til kommunegr\u00e6nsen Gladaxe/Lyngby-Taarb\u00e6k kommune - dog undtaget hvor Ring 4 l\u00f8ber i Fures\u00f8 Kommune ved \u00c5vej og Ny Hjortespringsvej. Fra Ring 4 afgr\u00e6nses zonen mod syd langs kommunegr\u00e6nsen (Gladsaxe/Lyngby-Taarb\u00e6k/Gentofte) til Motorring 3, Hiller\u00f8dmotorvejen, Klaudalsbrovej til Ring 4.", 
+                "validation": "Nyhedsmedie", 
+                "population": 22300
+            }
+        }
+    ]
+}
