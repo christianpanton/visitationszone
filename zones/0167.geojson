@@ -1,0 +1,85 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            11.484360694885254, 
+                            54.776930012578994
+                        ], 
+                        [
+                            11.482172012329102, 
+                            54.77373689025857
+                        ], 
+                        [
+                            11.48594856262207, 
+                            54.77024644500347
+                        ], 
+                        [
+                            11.4882230758667, 
+                            54.76764698164488
+                        ], 
+                        [
+                            11.493115425109863, 
+                            54.76928094953545
+                        ], 
+                        [
+                            11.497321128845215, 
+                            54.769107653038496
+                        ], 
+                        [
+                            11.49667739868164, 
+                            54.77183079790027
+                        ], 
+                        [
+                            11.502299308776855, 
+                            54.76952851467221
+                        ], 
+                        [
+                            11.50667667388916, 
+                            54.7672756161044
+                        ], 
+                        [
+                            11.508007049560547, 
+                            54.76650811652093
+                        ], 
+                        [
+                            11.510324478149414, 
+                            54.776509227931946
+                        ], 
+                        [
+                            11.509251594543457, 
+                            54.77987538255492
+                        ], 
+                        [
+                            11.499810218811035, 
+                            54.77908337137415
+                        ], 
+                        [
+                            11.498007774353027, 
+                            54.77841509987753
+                        ], 
+                        [
+                            11.497278213500977, 
+                            54.777227034400475
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2017-12-01 23:59", 
+                "background": "Der har i den seneste periode v\u00e6ret en del uro flere steder p\u00e5 Lolland og Falster med fx skudepisoder, slagsm\u00e5l, knivstikkeri mv., som skaber stor utryghed blandt borgerne. Der tegner sig et billede af, at disse ting prim\u00e6rt foreg\u00e5r i Saksk\u00f8bing og Maribo, og derfor oprettes der visitationszone i byerne.", 
+                "area": "Maribo", 
+                "authority": "Sydsj\u00e6llands og Lolland-Falsters Politi", 
+                "start": "2017-11-17 23:59", 
+                "extent": "Nordlig afgr\u00e6nsning fra Vestre Landevej nord for jernbanen og Brovejen til Slagterivej, \u00f8stlig afgr\u00e6nsning \u00f8st for Slagterivej/Maria Gade/Skimminge over S\u00f8ndre Boulevard til S\u00f8nders\u00f8, sydlig afgr\u00e6sning langs S\u00f8nders\u00f8 til vest for Meinckes Vej og vestlig afgr\u00e6nsning vest for Meinckes Vej over R\u00f8dbyvej til Vestre Landevej.", 
+                "validation": "Nyhedsmedie", 
+                "population": 2100
+            }
+        }
+    ]
+}

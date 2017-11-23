@@ -1,0 +1,81 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            11.899051666259766, 
+                            54.753062134117044
+                        ], 
+                        [
+                            11.883087158203123, 
+                            54.74731589574666
+                        ], 
+                        [
+                            11.867294311523438, 
+                            54.757866552255216
+                        ], 
+                        [
+                            11.86497688293457, 
+                            54.76267040025495
+                        ], 
+                        [
+                            11.858882904052734, 
+                            54.77183079790027
+                        ], 
+                        [
+                            11.867208480834961, 
+                            54.77371213638791
+                        ], 
+                        [
+                            11.866693496704102, 
+                            54.772078347436285
+                        ], 
+                        [
+                            11.872014999389648, 
+                            54.7696522966726
+                        ], 
+                        [
+                            11.87746524810791, 
+                            54.76767173922638
+                        ], 
+                        [
+                            11.882743835449219, 
+                            54.76628529133476
+                        ], 
+                        [
+                            11.886348724365234, 
+                            54.76608722347257
+                        ], 
+                        [
+                            11.89089775085449, 
+                            54.764477886155376
+                        ], 
+                        [
+                            11.893901824951172, 
+                            54.757693206876624
+                        ], 
+                        [
+                            11.89566135406494, 
+                            54.754671925356995
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2017-12-01 23:59", 
+                "background": "Visitationszonen i Nyk\u00f8bing Falster indf\u00f8res for at forebygge eventuelle farlige situationer. Der har i den seneste periode v\u00e6ret en del uro flere steder p\u00e5 Lolland og Falster med fx skudepisoder og knivstikkeri, som skaber stor utryghed blandt borgerne. Der tegner sig et billede af en konflikt, der ulmer, og derfor s\u00e6tter vi nu massivt ind for at forhindre yderligere utryghed. Vi opretter nu visitationszone i Nyk\u00f8bing Falster ogs\u00e5, idet konflikten ogs\u00e5 tidligere har v\u00e6ret flere h\u00e6ndelser i Nyk\u00f8bing Falster", 
+                "area": "Nyk\u00f8bing Falster", 
+                "authority": "Sydsj\u00e6llands og Lolland-Falsters Politi", 
+                "start": "2017-11-17 23:59", 
+                "extent": "Visitationszonen d\u00e6kker omr\u00e5det syd for H. P. Jensensgade og vest for Engboulevarden, Vesterskovvej og Gedser Landevej, omr\u00e5det nord for Prinsholmvej og \u00f8st for Guldborgsund.", 
+                "validation": "Nyhedsmedie", 
+                "population": 7100
+            }
+        }
+    ]
+}
