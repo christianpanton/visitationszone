@@ -214,9 +214,9 @@ var activeStyle = {
 
 var pastStyle = {
     "color": "#666666",
-    "weight": 1,
-    "opacity": 0.4,
-    "fillOpacity": 0.05,
+    "weight": 0,
+    "opacity": 0,
+    "fillOpacity": 0,
     "dashArray": null
 };
 
