@@ -1,1 +1,141 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"Baggrunden for beslutningen om oprettelse af visitationszonen er, at det vurderes, at der er en igangværende konflikt mellem en kriminel gruppering i området omkring Husum i Københavns Kommune og en kriminel gruppering i Rødovre Kommune, som har resulteret i hændelser, hvor der er anvendt skydevåben.\n\nDer har indenfor de seneste ni dage været følgende hændelser i Københavns Politikreds, som formentlig kan relatere sig til konflikten:\n\n31-05-2018 Skyderi og mulig frihedsberøvelse af en person på Storegårdsvej i Husum. Ingen information om, at nogen der skulle være ramt eller tilskadekommen.\n02-06-2018 Skyderi i boligområde ved Storegårdsvej i Husum. Ingen information om, at nogen der skulle være ramt.\nSamtidig indfører Københavns Vestegns Politi visitationszone i dele af Albertslund og Rødovre, hvor der i går var 2 skudepisoder.\n","start":"2018-06-08 18:00","end":"2018-06-22 18:00","authority":"Københavns Politi","area":"Husum","extent":"Åen langs volden til Mørkhøjvej – Mørkhøjvej til Kildeager – Kildeager til kommunegrænsen – langs kommunegrænsen mod syd til Slotsherrensvej – Slotsherrensvej til Stenløsevej – Stenløsevej til Veksøvej – Veksøvej til Frederikssundsvej – Frederikssundsvej til Åkandevej – Åkandevej til åen ved volden.","validation":"Nyhedsmedie"},"geometry":{"type":"Polygon","coordinates":[[[12.470641136169432,55.71889239381546],[12.466306686401367,55.71898908258864],[12.463860511779783,55.71780462862331],[12.45875358581543,55.71681352729539],[12.458066940307615,55.71483124919296],[12.457208633422852,55.71408182516975],[12.453174591064451,55.71238952448754],[12.45351791381836,55.70726382375721],[12.455706596374512,55.70506343461836],[12.459783554077148,55.703443288690856],[12.464075088500977,55.70279037507501],[12.4639892578125,55.70083156877694],[12.470018863677979,55.69948936703981],[12.469160556793213,55.70185330406428],[12.473548650741577,55.70238532133064],[12.479116916656494,55.70297778658093],[12.483311891555786,55.703721378214745],[12.487206459045408,55.706997849236096],[12.485157251358032,55.70781994645101],[12.485854625701903,55.70847882070283],[12.485886812210083,55.708672249566156],[12.485500574111938,55.709881158266725],[12.4854576587677,55.71101145406474],[12.485747337341309,55.712607110110724],[12.486605644226074,55.71403951854617],[12.487431764602661,55.71501255929667],[12.48345136642456,55.71595535827002],[12.476305961608887,55.718203479377976],[12.469611167907715,55.71671683313644]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.470641136169432, 
+                            55.71889239381546
+                        ], 
+                        [
+                            12.466306686401367, 
+                            55.71898908258864
+                        ], 
+                        [
+                            12.463860511779783, 
+                            55.71780462862331
+                        ], 
+                        [
+                            12.45875358581543, 
+                            55.71681352729539
+                        ], 
+                        [
+                            12.458066940307615, 
+                            55.71483124919296
+                        ], 
+                        [
+                            12.457208633422852, 
+                            55.71408182516975
+                        ], 
+                        [
+                            12.453174591064451, 
+                            55.71238952448754
+                        ], 
+                        [
+                            12.45351791381836, 
+                            55.70726382375721
+                        ], 
+                        [
+                            12.455706596374512, 
+                            55.70506343461836
+                        ], 
+                        [
+                            12.459783554077148, 
+                            55.703443288690856
+                        ], 
+                        [
+                            12.464075088500977, 
+                            55.70279037507501
+                        ], 
+                        [
+                            12.4639892578125, 
+                            55.70083156877694
+                        ], 
+                        [
+                            12.470018863677979, 
+                            55.69948936703981
+                        ], 
+                        [
+                            12.469160556793213, 
+                            55.70185330406428
+                        ], 
+                        [
+                            12.473548650741577, 
+                            55.70238532133064
+                        ], 
+                        [
+                            12.479116916656494, 
+                            55.70297778658093
+                        ], 
+                        [
+                            12.483311891555786, 
+                            55.703721378214745
+                        ], 
+                        [
+                            12.487206459045408, 
+                            55.706997849236096
+                        ], 
+                        [
+                            12.485157251358032, 
+                            55.70781994645101
+                        ], 
+                        [
+                            12.485854625701903, 
+                            55.70847882070283
+                        ], 
+                        [
+                            12.485886812210083, 
+                            55.708672249566156
+                        ], 
+                        [
+                            12.485500574111938, 
+                            55.709881158266725
+                        ], 
+                        [
+                            12.4854576587677, 
+                            55.71101145406474
+                        ], 
+                        [
+                            12.485747337341309, 
+                            55.712607110110724
+                        ], 
+                        [
+                            12.486605644226074, 
+                            55.71403951854617
+                        ], 
+                        [
+                            12.487431764602661, 
+                            55.71501255929667
+                        ], 
+                        [
+                            12.48345136642456, 
+                            55.71595535827002
+                        ], 
+                        [
+                            12.476305961608887, 
+                            55.718203479377976
+                        ], 
+                        [
+                            12.469611167907715, 
+                            55.71671683313644
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2018-06-22 18:00", 
+                "background": "Baggrunden for beslutningen om oprettelse af visitationszonen er, at det vurderes, at der er en igangv\u00e6rende konflikt mellem en kriminel gruppering i omr\u00e5det omkring Husum i K\u00f8benhavns Kommune og en kriminel gruppering i R\u00f8dovre Kommune, som har resulteret i h\u00e6ndelser, hvor der er anvendt skydev\u00e5ben.\n\nDer har indenfor de seneste ni dage v\u00e6ret f\u00f8lgende h\u00e6ndelser i K\u00f8benhavns Politikreds, som formentlig kan relatere sig til konflikten:\n\n31-05-2018 Skyderi og mulig frihedsber\u00f8velse af en person p\u00e5 Storeg\u00e5rdsvej i Husum. Ingen information om, at nogen der skulle v\u00e6re ramt eller tilskadekommen.\n02-06-2018 Skyderi i boligomr\u00e5de ved Storeg\u00e5rdsvej i Husum. Ingen information om, at nogen der skulle v\u00e6re ramt.\nSamtidig indf\u00f8rer K\u00f8benhavns Vestegns Politi visitationszone i dele af Albertslund og R\u00f8dovre, hvor der i g\u00e5r var 2 skudepisoder.\n", 
+                "area": "Husum", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2018-06-08 18:00", 
+                "extent": "\u00c5en langs volden til M\u00f8rkh\u00f8jvej \u2013 M\u00f8rkh\u00f8jvej til Kildeager \u2013 Kildeager til kommunegr\u00e6nsen \u2013 langs kommunegr\u00e6nsen mod syd til Slotsherrensvej \u2013 Slotsherrensvej til Stenl\u00f8sevej \u2013 Stenl\u00f8sevej til Veks\u00f8vej \u2013 Veks\u00f8vej til Frederikssundsvej \u2013 Frederikssundsvej til \u00c5kandevej \u2013 \u00c5kandevej til \u00e5en ved volden.", 
+                "validation": "Nyhedsmedie", 
+                "population": 13200
+            }
+        }
+    ]
+}
