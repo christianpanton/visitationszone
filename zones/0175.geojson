@@ -259,11 +259,11 @@
             }, 
             "type": "Feature", 
             "properties": {
-                "end": "2018-04-03 21:00", 
+                "end": "2018-05-01 21:00", 
                 "background": "Baggrunden for beslutningen er, at der i dag tirsdag aften ca. kl. 17.35 blev skudt mod en bil i krydset ved Roskildevej og Albertslund, hvor en borger blev overfladisk strejfet. Han blev skadestuebehandlet og er udskrevet igen.\r\n\r\nDesuden blev der skudt mod ruder til et hus p\u00E5 Tranehusene i Albertslund kl. 00.35 natten til mandag og igen kl. 01.20 natten til i dag tirsdag uden nogen personer kom til skade.", 
                 "area": "Albertslund", 
                 "authority": "K\u00f8benhavns Vestegns Politi", 
-                "start": "2018-05-01 21:00", 
+                "start": "2018-04-03 21:00", 
                 "extent": "", 
                 "validation": "", 
                 "population": 18500
