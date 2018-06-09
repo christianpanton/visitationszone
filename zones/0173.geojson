@@ -1,1 +1,73 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"Baggrunden for beslutningen er bl.a. to skudepisoder indenfor 18 timer. Natten til tirsdag den 22. maj 2018 kl. ca. 00.45 blev der afgivet skud mod en beboelsesejendom i Bymuren i Avedøre i Hvidovre og senere samme dag den 22. maj 2018 kl. ca. 18.35 blev der afgivet skud mellem flere personbiler på Vejlebrovej i Ishøj.","start":"2018-05-23 18:00","end":"2018-06-06 18:00","authority":"Københavns Vestegns Politi","area":"Hvidovre","extent":"Vestvolden (Voldgaden) - Avedøre Tværvej - Byvej forbi jernbanen, videre vest ad Byvej og langs jernbanen til Vestvolden (Voldgaden) - Avedøre Tværvej.","validation":"Nyhedsmedie"},"geometry":{"type":"Polygon","coordinates":[[[12.437553405761717,55.62951020303943],[12.43950605392456,55.62783846903594],[12.441887855529785,55.626481646984416],[12.443432807922362,55.62493093569174],[12.445685863494873,55.6231984278576],[12.454633712768555,55.62548822962523],[12.455127239227295,55.624700746754606],[12.457680702209473,55.62525804396107],[12.457380294799805,55.6259849414523],[12.456607818603516,55.62791115460596],[12.453582286834715,55.632538525056866],[12.439913749694824,55.62999475028929]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.437553405761717, 
+                            55.62951020303943
+                        ], 
+                        [
+                            12.43950605392456, 
+                            55.62783846903594
+                        ], 
+                        [
+                            12.441887855529785, 
+                            55.626481646984416
+                        ], 
+                        [
+                            12.443432807922362, 
+                            55.62493093569174
+                        ], 
+                        [
+                            12.445685863494873, 
+                            55.6231984278576
+                        ], 
+                        [
+                            12.454633712768555, 
+                            55.62548822962523
+                        ], 
+                        [
+                            12.455127239227295, 
+                            55.624700746754606
+                        ], 
+                        [
+                            12.457680702209473, 
+                            55.62525804396107
+                        ], 
+                        [
+                            12.457380294799805, 
+                            55.6259849414523
+                        ], 
+                        [
+                            12.456607818603516, 
+                            55.62791115460596
+                        ], 
+                        [
+                            12.453582286834715, 
+                            55.632538525056866
+                        ], 
+                        [
+                            12.439913749694824, 
+                            55.62999475028929
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2018-06-06 18:00", 
+                "background": "Baggrunden for beslutningen er bl.a. to skudepisoder indenfor 18 timer. Natten til tirsdag den 22. maj 2018 kl. ca. 00.45 blev der afgivet skud mod en beboelsesejendom i Bymuren i Aved\u00f8re i Hvidovre og senere samme dag den 22. maj 2018 kl. ca. 18.35 blev der afgivet skud mellem flere personbiler p\u00e5 Vejlebrovej i Ish\u00f8j.", 
+                "area": "Hvidovre", 
+                "authority": "K\u00f8benhavns Vestegns Politi", 
+                "start": "2018-05-23 18:00", 
+                "extent": "Vestvolden (Voldgaden) - Aved\u00f8re Tv\u00e6rvej - Byvej forbi jernbanen, videre vest ad Byvej og langs jernbanen til Vestvolden (Voldgaden) - Aved\u00f8re Tv\u00e6rvej.", 
+                "validation": "Nyhedsmedie", 
+                "population": 4000
+            }
+        }
+    ]
+}
