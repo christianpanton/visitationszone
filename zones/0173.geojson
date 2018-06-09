@@ -1,20 +1,6 @@
 {"type":"FeatureCollection","features":[{"type":"Feature","properties":
 
-{"background":"På baggrund af skyderierne i Albertslund og Rødovre i går torsdag, har 
-
-politidirektøren for Københavns Vestegns Politi i dag besluttet at indføre 
-
-visitationszone i dele af Albertslund og Rødovre fra i dag fredag den 8. juni 2018 kl 
-
-18 til fredag den 6. juli 2018 kl 18.\n\nPressemeddelelse:
-
-\nhttp://www.mynewsdesk.com/dk/vestegnenspoliti/pressreleases/visitationszone-
-
-indfoeres-i-dele-af-albertslund-og-roedovre-2535439","start":"2018-06-08 
-
-18:00","end":"2018-07-06 18:00","authority":"Københavns Vestegns 
-
-Politi","area":"Albertslund","extent":"","validation":""},"geometry":
+{"background":"På baggrund af skyderierne i Albertslund og Rødovre i går torsdag, har politidirektøren for Københavns Vestegns Politi i dag besluttet at indføre visitationszone i dele af Albertslund og Rødovre fra i dag fredag den 8. juni 2018 kl 18 til fredag den 6. juli 2018 kl 18.\n\nPressemeddelelse: \nhttp://www.mynewsdesk.com/dk/vestegnenspoliti/pressreleases/visitationszone-indfoeres-i-dele-af-albertslund-og-roedovre-2535439","start":"2018-06-08 18:00","end":"2018-07-06 18:00","authority":"Københavns Vestegns Politi","area":"Albertslund","extent":"","validation":""},"geometry":
 
 {"type":"Polygon","coordinates":[[[12.34265899605816,55.68063321285013],
 
