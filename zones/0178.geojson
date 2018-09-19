@@ -1,1 +1,109 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"Baggrunden for beslutningen om oprettelse af visitationszonen er at det vurderes, at der er en igangværende konflikt mellem to kriminelle grupperinger omkring Indre Nørrebro og København NV., samt en omkring Hundige i Greve, som har resulteret i hændelser, hvor der er anvendt skydevåben.","start":"2018-09-19 20:50","end":"2018-10-03 12:00","authority":"Københavns Politi","area":"Nørrebro og Nordvest","extent":"Nørrebrogade – Fælledvej – Nørre Alle – Universitetsparken – Lersø Parkallé – Rovsingsgade – Tagensvej – Tuborgvej – Tomsgårdsvej – Frederikssundsvej – Nørrebrogade.","validation":"Nyhedsmedie"},"geometry":{"type":"Polygon","coordinates":[[[12.521581649780273,55.70607901423297],[12.524499893188477,55.705353602915835],[12.529563903808594,55.70312892423751],[12.534713745117188,55.7016779786058],[12.539606094360352,55.70027534662282],[12.552652359008789,55.691810119643286],[12.55960464477539,55.68813322153914],[12.560977935791016,55.69084254840291],[12.562522888183594,55.70259691709397],[12.559175491333008,55.703080560251],[12.558059692382812,55.703806013763995],[12.555999755859375,55.70902888152251],[12.553939819335938,55.711059808235795],[12.54939079284668,55.70825516738589],[12.545442581176758,55.704579816001036],[12.542009353637695,55.70627245497653],[12.539434432983398,55.70864202636936],[12.535486221313477,55.713380738067336],[12.533597946166992,55.71226864306213],[12.531538009643555,55.71197852611507],[12.523040771484375,55.70777158827011]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.521581649780273, 
+                            55.70607901423297
+                        ], 
+                        [
+                            12.524499893188477, 
+                            55.705353602915835
+                        ], 
+                        [
+                            12.529563903808594, 
+                            55.70312892423751
+                        ], 
+                        [
+                            12.534713745117188, 
+                            55.7016779786058
+                        ], 
+                        [
+                            12.539606094360352, 
+                            55.70027534662282
+                        ], 
+                        [
+                            12.552652359008789, 
+                            55.691810119643286
+                        ], 
+                        [
+                            12.55960464477539, 
+                            55.68813322153914
+                        ], 
+                        [
+                            12.560977935791016, 
+                            55.69084254840291
+                        ], 
+                        [
+                            12.562522888183594, 
+                            55.70259691709397
+                        ], 
+                        [
+                            12.559175491333008, 
+                            55.703080560251
+                        ], 
+                        [
+                            12.558059692382812, 
+                            55.703806013763995
+                        ], 
+                        [
+                            12.555999755859375, 
+                            55.70902888152251
+                        ], 
+                        [
+                            12.553939819335938, 
+                            55.711059808235795
+                        ], 
+                        [
+                            12.54939079284668, 
+                            55.70825516738589
+                        ], 
+                        [
+                            12.545442581176758, 
+                            55.704579816001036
+                        ], 
+                        [
+                            12.542009353637695, 
+                            55.70627245497653
+                        ], 
+                        [
+                            12.539434432983398, 
+                            55.70864202636936
+                        ], 
+                        [
+                            12.535486221313477, 
+                            55.713380738067336
+                        ], 
+                        [
+                            12.533597946166992, 
+                            55.71226864306213
+                        ], 
+                        [
+                            12.531538009643555, 
+                            55.71197852611507
+                        ], 
+                        [
+                            12.523040771484375, 
+                            55.70777158827011
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2018-10-03 12:00", 
+                "background": "Baggrunden for beslutningen om oprettelse af visitationszonen er at det vurderes, at der er en igangv\u00e6rende konflikt mellem to kriminelle grupperinger omkring Indre N\u00f8rrebro og K\u00f8benhavn NV., samt en omkring Hundige i Greve, som har resulteret i h\u00e6ndelser, hvor der er anvendt skydev\u00e5ben.", 
+                "area": "N\u00f8rrebro og Nordvest", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2018-09-19 20:50", 
+                "extent": "N\u00f8rrebrogade \u2013 F\u00e6lledvej \u2013 N\u00f8rre Alle \u2013 Universitetsparken \u2013 Lers\u00f8 Parkall\u00e9 \u2013 Rovsingsgade \u2013 Tagensvej \u2013 Tuborgvej \u2013 Tomsg\u00e5rdsvej \u2013 Frederikssundsvej \u2013 N\u00f8rrebrogade.", 
+                "validation": "Nyhedsmedie", 
+                "population": 44000
+            }
+        }
+    ]
+}
