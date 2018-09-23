@@ -1,1 +1,185 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"Baggrunden for beslutningen er to skudepisoder hhv. lørdag den 15. september på Ishøj Parkvej, hvor to mænd blev ramt, og igen i aften den 22. september på Landlyst Vænge, hvor ingen er meldt ramt.\n\nPolitiet vurderer, at episoderne kan relateres til en aktuel konflikt i det Storkøbenhavnske område efter en bandegruppering fra Nørrebro er blevet splittet op i nye grupperinger med forbindelse til Nørrebro/Nordvest-området i København og Greve/Hundige-området.","start":"2018-09-23 00:00","end":"2018-10-21 00:00","authority":"Københavns Vestegns Politi","area":"Ishøj","extent":"Visitationszonen er afgrænset af en linje sydvest ad Ishøj Strandvej - vest langs kommunegrænsen mod Greve Kommune – nordøst ad Motorring 4/Køge Bugt Motorvejen – sydøst langs kommunegrænsen mod Vallensbæk Kommune.\n\nMotorring 4/Køge Bugt Motorvejen er ikke en del af visitationszonen. Ishøj Strandvej er en del af visitationszonen.","validation":"Nyhedsmedie"},"geometry":{"type":"Polygon","coordinates":[[[12.317562103271484,55.60972344597496],[12.322025299072266,55.61088693641702],[12.325716018676758,55.61340771395637],[12.327432632446287,55.61428025304282],[12.331123352050781,55.61602527296786],[12.34811782836914,55.62072674567191],[12.35987663269043,55.62450690239054],[12.364683151245117,55.62557303452915],[12.367558479309082,55.6239011325739],[12.36910343170166,55.622156463193114],[12.37129211425781,55.62118716887116],[12.372279167175291,55.620120917433766],[12.373909950256348,55.61968471530494],[12.374897003173828,55.618327610975726],[12.375154495239256,55.61803679679309],[12.37734317779541,55.61730975189862],[12.377901077270508,55.61653422248347],[12.376742362976074,55.616243394997795],[12.367515563964844,55.61304415027322],[12.365798950195312,55.6122442983047],[12.363052368164062,55.61100813135293],[12.360434532165527,55.60960224706875],[12.357645034790037,55.607420602706334],[12.352538108825684,55.602766022445124],[12.344727516174316,55.60378425907516],[12.343053817749022,55.6050933816191],[12.342538833618164,55.60613579980438],[12.341036796569822,55.606766085732296],[12.338933944702148,55.60698425927061],[12.337346076965332,55.607881182177586],[12.33665943145752,55.60839023740563],[12.333741188049316,55.60817207168841],[12.33189582824707,55.60829327501447],[12.330050468444824,55.60841447796596],[12.329063415527344,55.609141687809135],[12.324986457824707,55.60960224706875],[12.324128150939941,55.60948104778797],[12.323441505432129,55.609141687809135],[12.320995330810547,55.60899624691923],[12.318806648254395,55.60926288813869]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.317562103271484, 
+                            55.60972344597496
+                        ], 
+                        [
+                            12.322025299072266, 
+                            55.61088693641702
+                        ], 
+                        [
+                            12.325716018676758, 
+                            55.61340771395637
+                        ], 
+                        [
+                            12.327432632446287, 
+                            55.61428025304282
+                        ], 
+                        [
+                            12.331123352050781, 
+                            55.61602527296786
+                        ], 
+                        [
+                            12.34811782836914, 
+                            55.62072674567191
+                        ], 
+                        [
+                            12.35987663269043, 
+                            55.62450690239054
+                        ], 
+                        [
+                            12.364683151245117, 
+                            55.62557303452915
+                        ], 
+                        [
+                            12.367558479309082, 
+                            55.6239011325739
+                        ], 
+                        [
+                            12.36910343170166, 
+                            55.622156463193114
+                        ], 
+                        [
+                            12.37129211425781, 
+                            55.62118716887116
+                        ], 
+                        [
+                            12.372279167175291, 
+                            55.620120917433766
+                        ], 
+                        [
+                            12.373909950256348, 
+                            55.61968471530494
+                        ], 
+                        [
+                            12.374897003173828, 
+                            55.618327610975726
+                        ], 
+                        [
+                            12.375154495239256, 
+                            55.61803679679309
+                        ], 
+                        [
+                            12.37734317779541, 
+                            55.61730975189862
+                        ], 
+                        [
+                            12.377901077270508, 
+                            55.61653422248347
+                        ], 
+                        [
+                            12.376742362976074, 
+                            55.616243394997795
+                        ], 
+                        [
+                            12.367515563964844, 
+                            55.61304415027322
+                        ], 
+                        [
+                            12.365798950195312, 
+                            55.6122442983047
+                        ], 
+                        [
+                            12.363052368164062, 
+                            55.61100813135293
+                        ], 
+                        [
+                            12.360434532165527, 
+                            55.60960224706875
+                        ], 
+                        [
+                            12.357645034790037, 
+                            55.607420602706334
+                        ], 
+                        [
+                            12.352538108825684, 
+                            55.602766022445124
+                        ], 
+                        [
+                            12.344727516174316, 
+                            55.60378425907516
+                        ], 
+                        [
+                            12.343053817749022, 
+                            55.6050933816191
+                        ], 
+                        [
+                            12.342538833618164, 
+                            55.60613579980438
+                        ], 
+                        [
+                            12.341036796569822, 
+                            55.606766085732296
+                        ], 
+                        [
+                            12.338933944702148, 
+                            55.60698425927061
+                        ], 
+                        [
+                            12.337346076965332, 
+                            55.607881182177586
+                        ], 
+                        [
+                            12.33665943145752, 
+                            55.60839023740563
+                        ], 
+                        [
+                            12.333741188049316, 
+                            55.60817207168841
+                        ], 
+                        [
+                            12.33189582824707, 
+                            55.60829327501447
+                        ], 
+                        [
+                            12.330050468444824, 
+                            55.60841447796596
+                        ], 
+                        [
+                            12.329063415527344, 
+                            55.609141687809135
+                        ], 
+                        [
+                            12.324986457824707, 
+                            55.60960224706875
+                        ], 
+                        [
+                            12.324128150939941, 
+                            55.60948104778797
+                        ], 
+                        [
+                            12.323441505432129, 
+                            55.609141687809135
+                        ], 
+                        [
+                            12.320995330810547, 
+                            55.60899624691923
+                        ], 
+                        [
+                            12.318806648254395, 
+                            55.60926288813869
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2018-10-21 00:00", 
+                "background": "Baggrunden for beslutningen er to skudepisoder hhv. l\u00f8rdag den 15. september p\u00e5 Ish\u00f8j Parkvej, hvor to m\u00e6nd blev ramt, og igen i aften den 22. september p\u00e5 Landlyst V\u00e6nge, hvor ingen er meldt ramt.\n\nPolitiet vurderer, at episoderne kan relateres til en aktuel konflikt i det Stork\u00f8benhavnske omr\u00e5de efter en bandegruppering fra N\u00f8rrebro er blevet splittet op i nye grupperinger med forbindelse til N\u00f8rrebro/Nordvest-omr\u00e5det i K\u00f8benhavn og Greve/Hundige-omr\u00e5det.", 
+                "area": "Ish\u00f8j", 
+                "authority": "K\u00f8benhavns Vestegns Politi", 
+                "start": "2018-09-23 00:00", 
+                "extent": "Visitationszonen er afgr\u00e6nset af en linje sydvest ad Ish\u00f8j Strandvej - vest langs kommunegr\u00e6nsen mod Greve Kommune \u2013 nord\u00f8st ad Motorring 4/K\u00f8ge Bugt Motorvejen \u2013 syd\u00f8st langs kommunegr\u00e6nsen mod Vallensb\u00e6k Kommune.\n\nMotorring 4/K\u00f8ge Bugt Motorvejen er ikke en del af visitationszonen. Ish\u00f8j Strandvej er en del af visitationszonen.", 
+                "validation": "Nyhedsmedie", 
+                "population": 20200
+            }
+        }
+    ]
+}
