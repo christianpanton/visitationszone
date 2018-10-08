@@ -1,0 +1,85 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.329578399658203, 
+                            55.60875384423751
+                        ], 
+                        [
+                            12.326402664184569, 
+                            55.605941863635
+                        ], 
+                        [
+                            12.325372695922852, 
+                            55.60298421823378
+                        ], 
+                        [
+                            12.322282791137695, 
+                            55.59575886799256
+                        ], 
+                        [
+                            12.321853637695312, 
+                            55.59493441459873
+                        ], 
+                        [
+                            12.324256896972656, 
+                            55.591005898751426
+                        ], 
+                        [
+                            12.331724166870117, 
+                            55.59604984740737
+                        ], 
+                        [
+                            12.337474822998047, 
+                            55.60012333264254
+                        ], 
+                        [
+                            12.342367172241211, 
+                            55.60269329024588
+                        ], 
+                        [
+                            12.34537124633789, 
+                            55.60376001565302
+                        ], 
+                        [
+                            12.342967987060545, 
+                            55.604875197562585
+                        ], 
+                        [
+                            12.342453002929688, 
+                            55.606378218667615
+                        ], 
+                        [
+                            12.339277267456055, 
+                            55.60681456884569
+                        ], 
+                        [
+                            12.336444854736328, 
+                            55.60855992101335
+                        ], 
+                        [
+                            12.334041595458984, 
+                            55.60812359025307
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2018-10-15 23:59", 
+                "background": "", 
+                "area": "Hundige", 
+                "authority": "Midt- og Vestsj\u00e6llands Politi", 
+                "start": "2018-10-08 23:59", 
+                "extent": "Godsvej fra jernbanestr\u00e6kningen, Hundigevej, indk\u00f8rsel til Hundigevej nr. 38, markskellet f\u00f8r beboelsen frem til Godsvej ved indk\u00f8rsel til Godsvej nr. 105, Godsvej frem til Lille Vejle\u00e5, Lille Vejle\u00e5/Ish\u00f8j S\u00f8, sti til Hundigevej, Hundigevej, jernbanestr\u00e6kningen fra Hundigevej via Hundige St. til Godsve", 
+                "validation": "Nyhedsmedie", 
+                "population": 4200
+            }
+        }
+    ]
+}
