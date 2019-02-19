@@ -172,7 +172,7 @@
           <div class="modal-header">
             <button class="close" data-dismiss="modal">×</button>
             <h2>GeoJSON</h2>
-            <p>Send dette til <a href="mailto:christian@panton.org">christian@panton.org</a></p>
+            <p>Indsend dette som en <a href="https://github.com/christianpanton/visitationszone/new/master/zones/" target="_blank">pull-request på Github</a>. Du skal lave en ny fil med navn: <code id="filename">ERROR</code>.
           </div>
             <div class="modal-body">
               <textarea id="export" rows="15" style="width: 515px"></textarea>
@@ -246,6 +246,10 @@
           });
 
           $("#optegnstart").click(function(){
+		  
+	    $.getJSON("/nextname.json?" + (new Date()).getTime(), function(data){
+		$("#filename").text(data.next);
+	    });
             
             $.getJSON("oio/politikredse.json", function(data){
                 var selected = $("#authority").val();
