@@ -1,1 +1,185 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"Flere voldelige episoder den seneste tid, hvor skydevåben, knive og slagvåben har været brugt, får nu Østjyllands Politi til at indføre visitationszone i et større område i det vestlige og nordlige Aarhus","start":"2019-02-18 18:00","end":"2019-03-19 00:00","authority":"Østjyllands Politi","area":"Nordlige og vestlige Aarhus","extent":"Visitationszonen er afgrænset af følgende område:\nSydvestlig afgrænsning går ved Viborgvej - strækningen mellem Vestre Ringgade og Hasle Ringvej.\nSydøstlig afgrænsning går Vestre Ringgade - strækningen mellem Viborgvej og Randersvej.\nØstlig afgrænsning går ved Randersvej - strækningen mellem Vestre Ringgade og Hasle Ringvej\nNordlig afgrænsning - Hasle Ringvej (strækningen mellem Randersvej og Halmstadsgade og strækningen mellem Viborgvej og Herredsvej) samt Bodøvej, Paludan Müllersvej (strækningen mellem Bodøvej og Herredsvej) samt Rydevænget, Torpevænget, Kappelvænget og Fjældevænget.\nDe nævnte veje er indbefattet i visitationszonen.\n","validation":"Nyhedsmedie"},"geometry":{"type":"Polygon","coordinates":[[[10.197157859802244,56.18239718595409],[10.204367637634277,56.171599840561726],[10.197587013244629,56.17054860933692],[10.192866325378418,56.16882835070792],[10.190720558166504,56.16763368131868],[10.18805980682373,56.16586550241579],[10.187458992004395,56.16505306859774],[10.190720558166504,56.164383992549055],[10.193209648132322,56.16390607394954],[10.192179679870604,56.16175536665904],[10.19604206085205,56.16075166204415],[10.196127891540526,56.15970013384161],[10.189690589904785,56.15993912005155],[10.188231468200684,56.161564186849645],[10.185484886169434,56.16280683860237],[10.18308162689209,56.16103843746743],[10.175614356994627,56.16318918489995],[10.172266960144043,56.1640494501538],[10.168404579162598,56.16524423104225],[10.164971351623533,56.16663013031005],[10.163512229919434,56.167346955135],[10.160679817199707,56.169210637063166],[10.158705711364746,56.170261904917126],[10.156645774841309,56.171074228546814],[10.158448219299316,56.17236435428519],[10.165486335754395,56.17408445450751],[10.166945457458494,56.17690334101471],[10.160508155822754,56.17814549648653],[10.161538124084473,56.18043860099463],[10.163426399230957,56.180581915478086],[10.163512229919434,56.18120293872317],[10.162224769592285,56.181489561447414],[10.162568092346191,56.18292264296403],[10.162653923034668,56.18330478899834],[10.169262886047363,56.1829704114264],[10.173468589782715,56.18062968685364],[10.176472663879395,56.181441791142],[10.17810344696045,56.179722020551],[10.18333911895752,56.18125070932585],[10.188660621643066,56.18024751418432]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            10.197157859802244, 
+                            56.18239718595409
+                        ], 
+                        [
+                            10.204367637634277, 
+                            56.171599840561726
+                        ], 
+                        [
+                            10.197587013244629, 
+                            56.17054860933692
+                        ], 
+                        [
+                            10.192866325378418, 
+                            56.16882835070792
+                        ], 
+                        [
+                            10.190720558166504, 
+                            56.16763368131868
+                        ], 
+                        [
+                            10.18805980682373, 
+                            56.16586550241579
+                        ], 
+                        [
+                            10.187458992004395, 
+                            56.16505306859774
+                        ], 
+                        [
+                            10.190720558166504, 
+                            56.164383992549055
+                        ], 
+                        [
+                            10.193209648132322, 
+                            56.16390607394954
+                        ], 
+                        [
+                            10.192179679870604, 
+                            56.16175536665904
+                        ], 
+                        [
+                            10.19604206085205, 
+                            56.16075166204415
+                        ], 
+                        [
+                            10.196127891540526, 
+                            56.15970013384161
+                        ], 
+                        [
+                            10.189690589904785, 
+                            56.15993912005155
+                        ], 
+                        [
+                            10.188231468200684, 
+                            56.161564186849645
+                        ], 
+                        [
+                            10.185484886169434, 
+                            56.16280683860237
+                        ], 
+                        [
+                            10.18308162689209, 
+                            56.16103843746743
+                        ], 
+                        [
+                            10.175614356994627, 
+                            56.16318918489995
+                        ], 
+                        [
+                            10.172266960144043, 
+                            56.1640494501538
+                        ], 
+                        [
+                            10.168404579162598, 
+                            56.16524423104225
+                        ], 
+                        [
+                            10.164971351623533, 
+                            56.16663013031005
+                        ], 
+                        [
+                            10.163512229919434, 
+                            56.167346955135
+                        ], 
+                        [
+                            10.160679817199707, 
+                            56.169210637063166
+                        ], 
+                        [
+                            10.158705711364746, 
+                            56.170261904917126
+                        ], 
+                        [
+                            10.156645774841309, 
+                            56.171074228546814
+                        ], 
+                        [
+                            10.158448219299316, 
+                            56.17236435428519
+                        ], 
+                        [
+                            10.165486335754395, 
+                            56.17408445450751
+                        ], 
+                        [
+                            10.166945457458494, 
+                            56.17690334101471
+                        ], 
+                        [
+                            10.160508155822754, 
+                            56.17814549648653
+                        ], 
+                        [
+                            10.161538124084473, 
+                            56.18043860099463
+                        ], 
+                        [
+                            10.163426399230957, 
+                            56.180581915478086
+                        ], 
+                        [
+                            10.163512229919434, 
+                            56.18120293872317
+                        ], 
+                        [
+                            10.162224769592285, 
+                            56.181489561447414
+                        ], 
+                        [
+                            10.162568092346191, 
+                            56.18292264296403
+                        ], 
+                        [
+                            10.162653923034668, 
+                            56.18330478899834
+                        ], 
+                        [
+                            10.169262886047363, 
+                            56.1829704114264
+                        ], 
+                        [
+                            10.173468589782715, 
+                            56.18062968685364
+                        ], 
+                        [
+                            10.176472663879395, 
+                            56.181441791142
+                        ], 
+                        [
+                            10.17810344696045, 
+                            56.179722020551
+                        ], 
+                        [
+                            10.18333911895752, 
+                            56.18125070932585
+                        ], 
+                        [
+                            10.188660621643066, 
+                            56.18024751418432
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2019-03-19 00:00", 
+                "background": "Flere voldelige episoder den seneste tid, hvor skydev\u00e5ben, knive og slagv\u00e5ben har v\u00e6ret brugt, f\u00e5r nu \u00d8stjyllands Politi til at indf\u00f8re visitationszone i et st\u00f8rre omr\u00e5de i det vestlige og nordlige Aarhus", 
+                "area": "Nordlige og vestlige Aarhus", 
+                "authority": "\u00d8stjyllands Politi", 
+                "start": "2019-02-18 18:00", 
+                "extent": "Visitationszonen er afgr\u00e6nset af f\u00f8lgende omr\u00e5de:\nSydvestlig afgr\u00e6nsning g\u00e5r ved Viborgvej - str\u00e6kningen mellem Vestre Ringgade og Hasle Ringvej.\nSyd\u00f8stlig afgr\u00e6nsning g\u00e5r Vestre Ringgade - str\u00e6kningen mellem Viborgvej og Randersvej.\n\u00d8stlig afgr\u00e6nsning g\u00e5r ved Randersvej - str\u00e6kningen mellem Vestre Ringgade og Hasle Ringvej\nNordlig afgr\u00e6nsning - Hasle Ringvej (str\u00e6kningen mellem Randersvej og Halmstadsgade og str\u00e6kningen mellem Viborgvej og Herredsvej) samt Bod\u00f8vej, Paludan M\u00fcllersvej (str\u00e6kningen mellem Bod\u00f8vej og Herredsvej) samt Rydev\u00e6nget, Torpev\u00e6nget, Kappelv\u00e6nget og Fj\u00e6ldev\u00e6nget.\nDe n\u00e6vnte veje er indbefattet i visitationszonen.\n", 
+                "validation": "Nyhedsmedie", 
+                "population": 21500
+            }
+        }
+    ]
+}
