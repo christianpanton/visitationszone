@@ -13,10 +13,6 @@
     <link href="css/cosmo.bootstrap.min.css" rel="stylesheet">
 
     <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
       #map { height: 800px; margin-bottom: 20px;}
       sup { cursor: help;}
     </style>
@@ -29,31 +25,12 @@
   </head>
 
   <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Visitationzone</a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-          	<li><a href="#" id="opdater">Opdater</a></li>
-          	<li><a href="#" id="optegn">Optegn</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+
     <div class="container">
       <section id="themap">
         <div id="map"></div>
       </section> 
     </div> 
-    
 
     <div id="kredsselect" class="modal fade" style="display: none; ">
       <div class="modal-dialog">
@@ -235,15 +212,9 @@
       $(function(){
 
           L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: attribution}).addTo(map);
-        
-          $("#opdater").click(function(){
-            if(!drawControl.missing) map.removeControl(drawControl); drawControl.missing = true;
-          });
 
-          $("#optegn").click(function(){
-            if(drawControl.missing) map.addControl(drawControl); drawControl.missing = false;
-            $("#kredsselect").modal("show");
-          });
+          if(drawControl.missing) map.addControl(drawControl); drawControl.missing = false;
+          $("#kredsselect").modal("show");
 
           $("#optegnstart").click(function(){
 		  
