@@ -67,3 +67,9 @@ for filename in zonefiles:
 
 with file("zones.json", "w") as f:
     f.write(json.dumps(master))
+    
+nextid = max(map(lambda x: int(x[:4]), s)) + 1
+nextname = "%04d.geojson" % nextid
+
+with file("nextname.json", "w") as f:
+    f.write(json.dumps({"next": nextname}))
