@@ -1,1 +1,165 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"Baggrunden for beslutningen om en udvidelse af visitationszonen er, at der efter politiets opfattelse er en øget risiko for, at der inden for den etablerede zones område foretages strafbare handlinger, som indebærer fare for personers liv, helbred eller velfærd.\n\nPolitiet har i oktober registreret flere voldelige sammenstød mellem grupperinger i Holbæk, hvor bl.a. knive og slagvåben er anvendt samt en episode med en håndgranat. Derudover har politiet i grupperingerne observeret personer, der optræder på en måde, der giver politiet grund til at frygte, at der kan være optræk til yderligere voldelige sammenstød.","start":"2018-10-25 17:00","end":"2018-11-29 17:00","authority":"Midt- og Vestsjællands Politi","area":"Holbæk","extent":"Visitationszonen dækker en central del af Holbæk bymidte og afgrænses af rundkørslen ved Roskildevej og Skagerakvej, ad Skagerakvej frem til Højvang og af Fælleden frem til Holbæk Have. Kattegatsvej afgrænser herefter zonen frem til Munkholmvej. \nHerefter følger zonen Munkholmvej frem til Labæk og herefter ad Labæk frem til Havnevej. Zonen afgrænses herefter af Havnevej og videre frem til krydset Havnevej, Ahlgade, Valdemar Sejrsvej og Kalundborgvej.\nKalundborgvej afgrænser herefter zonen frem til Stenhusvej og videre ad Stenhusvej frem til rundkørslen ved Skagerakvej.\nZonen afgrænses herefter af Skagerakvej frem mod rundkørslen ved Roskildevej.","validation":"Nyhedsmedie"},"geometry":{"type":"Polygon","coordinates":[[[11.726810932159424,55.69725226171474],[11.729257106781006,55.69756667343924],[11.732604503631592,55.700178611527065],[11.733205318450928,55.70182307559308],[11.731188297271729,55.70196817204164],[11.731874942779541,55.703104742251725],[11.733462810516356,55.70370928740704],[11.734321117401123,55.70559540818451],[11.733934879302979,55.70600647370726],[11.739084720611572,55.712800518536156],[11.739599704742432,55.71434775146887],[11.729729175567627,55.71492794801965],[11.725008487701416,55.71640257546678],[11.724536418914795,55.716789353778104],[11.723935604095459,55.71761124497313],[11.720759868621824,55.71833642872443],[11.71616792678833,55.71898908258864],[11.71342134475708,55.71966589729892],[11.70792818069458,55.719907613995886],[11.706168651580809,55.71949669472091],[11.706211566925047,55.71874736020683],[11.703078746795654,55.71869901555097],[11.698100566864014,55.71799801131605],[11.687843799591064,55.71633005410705],[11.68818712234497,55.71500047198258],[11.681106090545654,55.71006853576709],[11.683080196380615,55.70910141643728],[11.686599254608154,55.707094567453275],[11.69093370437622,55.705256880389435],[11.692521572113035,55.70465235917517],[11.698443889617918,55.70346747046715],[11.704580783843994,55.70223418079827],[11.710760593414307,55.69996095668631],[11.715610027313232,55.697808526891],[11.722261905670166,55.697010404821135]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            11.726810932159424, 
+                            55.69725226171474
+                        ], 
+                        [
+                            11.729257106781006, 
+                            55.69756667343924
+                        ], 
+                        [
+                            11.732604503631592, 
+                            55.700178611527065
+                        ], 
+                        [
+                            11.733205318450928, 
+                            55.70182307559308
+                        ], 
+                        [
+                            11.731188297271729, 
+                            55.70196817204164
+                        ], 
+                        [
+                            11.731874942779541, 
+                            55.703104742251725
+                        ], 
+                        [
+                            11.733462810516356, 
+                            55.70370928740704
+                        ], 
+                        [
+                            11.734321117401123, 
+                            55.70559540818451
+                        ], 
+                        [
+                            11.733934879302979, 
+                            55.70600647370726
+                        ], 
+                        [
+                            11.739084720611572, 
+                            55.712800518536156
+                        ], 
+                        [
+                            11.739599704742432, 
+                            55.71434775146887
+                        ], 
+                        [
+                            11.729729175567627, 
+                            55.71492794801965
+                        ], 
+                        [
+                            11.725008487701416, 
+                            55.71640257546678
+                        ], 
+                        [
+                            11.724536418914795, 
+                            55.716789353778104
+                        ], 
+                        [
+                            11.723935604095459, 
+                            55.71761124497313
+                        ], 
+                        [
+                            11.720759868621824, 
+                            55.71833642872443
+                        ], 
+                        [
+                            11.71616792678833, 
+                            55.71898908258864
+                        ], 
+                        [
+                            11.71342134475708, 
+                            55.71966589729892
+                        ], 
+                        [
+                            11.70792818069458, 
+                            55.719907613995886
+                        ], 
+                        [
+                            11.706168651580809, 
+                            55.71949669472091
+                        ], 
+                        [
+                            11.706211566925047, 
+                            55.71874736020683
+                        ], 
+                        [
+                            11.703078746795654, 
+                            55.71869901555097
+                        ], 
+                        [
+                            11.698100566864014, 
+                            55.71799801131605
+                        ], 
+                        [
+                            11.687843799591064, 
+                            55.71633005410705
+                        ], 
+                        [
+                            11.68818712234497, 
+                            55.71500047198258
+                        ], 
+                        [
+                            11.681106090545654, 
+                            55.71006853576709
+                        ], 
+                        [
+                            11.683080196380615, 
+                            55.70910141643728
+                        ], 
+                        [
+                            11.686599254608154, 
+                            55.707094567453275
+                        ], 
+                        [
+                            11.69093370437622, 
+                            55.705256880389435
+                        ], 
+                        [
+                            11.692521572113035, 
+                            55.70465235917517
+                        ], 
+                        [
+                            11.698443889617918, 
+                            55.70346747046715
+                        ], 
+                        [
+                            11.704580783843994, 
+                            55.70223418079827
+                        ], 
+                        [
+                            11.710760593414307, 
+                            55.69996095668631
+                        ], 
+                        [
+                            11.715610027313232, 
+                            55.697808526891
+                        ], 
+                        [
+                            11.722261905670166, 
+                            55.697010404821135
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2018-11-29 17:00", 
+                "background": "Baggrunden for beslutningen om en udvidelse af visitationszonen er, at der efter politiets opfattelse er en \u00f8get risiko for, at der inden for den etablerede zones omr\u00e5de foretages strafbare handlinger, som indeb\u00e6rer fare for personers liv, helbred eller velf\u00e6rd.\n\nPolitiet har i oktober registreret flere voldelige sammenst\u00f8d mellem grupperinger i Holb\u00e6k, hvor bl.a. knive og slagv\u00e5ben er anvendt samt en episode med en h\u00e5ndgranat. Derudover har politiet i grupperingerne observeret personer, der optr\u00e6der p\u00e5 en m\u00e5de, der giver politiet grund til at frygte, at der kan v\u00e6re optr\u00e6k til yderligere voldelige sammenst\u00f8d.", 
+                "area": "Holb\u00e6k", 
+                "authority": "Midt- og Vestsj\u00e6llands Politi", 
+                "start": "2018-10-25 17:00", 
+                "extent": "Visitationszonen d\u00e6kker en central del af Holb\u00e6k bymidte og afgr\u00e6nses af rundk\u00f8rslen ved Roskildevej og Skagerakvej, ad Skagerakvej frem til H\u00f8jvang og af F\u00e6lleden frem til Holb\u00e6k Have. Kattegatsvej afgr\u00e6nser herefter zonen frem til Munkholmvej. \nHerefter f\u00f8lger zonen Munkholmvej frem til Lab\u00e6k og herefter ad Lab\u00e6k frem til Havnevej. Zonen afgr\u00e6nses herefter af Havnevej og videre frem til krydset Havnevej, Ahlgade, Valdemar Sejrsvej og Kalundborgvej.\nKalundborgvej afgr\u00e6nser herefter zonen frem til Stenhusvej og videre ad Stenhusvej frem til rundk\u00f8rslen ved Skagerakvej.\nZonen afgr\u00e6nses herefter af Skagerakvej frem mod rundk\u00f8rslen ved Roskildevej.", 
+                "validation": "Nyhedsmedie", 
+                "population": 14100
+            }
+        }
+    ]
+}
