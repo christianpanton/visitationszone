@@ -171,9 +171,9 @@
             }, 
             "type": "Feature", 
             "properties": {
-                "end": "2019-03-19 00:00", 
+                "end": "2019-03-18 13:00", 
                 "background": "Flere voldelige episoder den seneste tid, hvor skydev\u00e5ben, knive og slagv\u00e5ben har v\u00e6ret brugt, f\u00e5r nu \u00d8stjyllands Politi til at indf\u00f8re visitationszone i et st\u00f8rre omr\u00e5de i det vestlige og nordlige Aarhus", 
-                "area": "Nordlige og vestlige Aarhus", 
+                "area": "Nordvestlige Aarhus", 
                 "authority": "\u00d8stjyllands Politi", 
                 "start": "2019-02-18 18:00", 
                 "extent": "Visitationszonen er afgr\u00e6nset af f\u00f8lgende omr\u00e5de:\nSydvestlig afgr\u00e6nsning g\u00e5r ved Viborgvej - str\u00e6kningen mellem Vestre Ringgade og Hasle Ringvej.\nSyd\u00f8stlig afgr\u00e6nsning g\u00e5r Vestre Ringgade - str\u00e6kningen mellem Viborgvej og Randersvej.\n\u00d8stlig afgr\u00e6nsning g\u00e5r ved Randersvej - str\u00e6kningen mellem Vestre Ringgade og Hasle Ringvej\nNordlig afgr\u00e6nsning - Hasle Ringvej (str\u00e6kningen mellem Randersvej og Halmstadsgade og str\u00e6kningen mellem Viborgvej og Herredsvej) samt Bod\u00f8vej, Paludan M\u00fcllersvej (str\u00e6kningen mellem Bod\u00f8vej og Herredsvej) samt Rydev\u00e6nget, Torpev\u00e6nget, Kappelv\u00e6nget og Fj\u00e6ldev\u00e6nget.\nDe n\u00e6vnte veje er indbefattet i visitationszonen.\n", 
