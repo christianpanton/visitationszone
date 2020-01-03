@@ -218,15 +218,16 @@
                 ]
             }, 
             "type": "Feature", 
-            "properties":{ 
-            "background":"Mandag aften den 16. december 2019 og natten til tirsdag har Fyns Politi været massivt tilstede i og omkring Vollsmose. Årsagen er, at politiet mandag aften kl 21.59 modtog en anmeldelse om skud affyret i Fyrreparken i Vollsmose. Den foreløbige efterforskning understøtter anmeldelsen om skud, og Fyns Politi indfører derfor visitationszone.\n- Det er en meget alvorlig situation, når der skydes på åben gade, hvor uskyldige borgere færdes, og derfor har vi besluttet at indføre visitationszone i området. Visitationszonen giver os bedre mulighed for at finde de våben og de personer, der bruger disse våben. Vi vil gerne sende en klar besked til dem, der skyder, og dem der skaber utryghed om, at vi ikke vil acceptere det. Samtidig vil vi gerne vise beboerne i området, at vi er tilstede, og at vi gør, hvad vi kan, for at genskabe trygheden i Vollsmose, siger politidirektør Arne Gram. \n\nhttps://politi.dk/fyns-politi/nyhedsliste/fyns-politi-indfoerer-visitationszone-dec-2019/2019/12/17",
-            "start":"2019-12-17 14:00",
-            "end":"2020-01-14 14:00",
-            "authority":"Fyns Politi",
-            "area":"Vollsmose",
-            "extent":"Nord for Martinsminde havekoloni/Hindehøjen, mod øst langs Odense Å og Staupudevej til Nyborgvej, mod syd Nyborgvej og Munkerisvej til Ejby Møllevej og mod vest Ejby Møllevej til Skt. Jørgens Gade, Åsumvej og Ejbygade nord for Martinsminde havekoloni/Hindehøjen.",
-            "validation":"Nyhedsmedie"
-         }
+            "properties": {
+                "end": "2020-01-14 14:00", 
+                "background": "Mandag aften den 16. december 2019 og natten til tirsdag har Fyns Politi v\u00e6ret massivt tilstede i og omkring Vollsmose. \u00c5rsagen er, at politiet mandag aften kl 21.59 modtog en anmeldelse om skud affyret i Fyrreparken i Vollsmose. Den forel\u00f8bige efterforskning underst\u00f8tter anmeldelsen om skud, og Fyns Politi indf\u00f8rer derfor visitationszone.\n- Det er en meget alvorlig situation, n\u00e5r der skydes p\u00e5 \u00e5ben gade, hvor uskyldige borgere f\u00e6rdes, og derfor har vi besluttet at indf\u00f8re visitationszone i omr\u00e5det. Visitationszonen giver os bedre mulighed for at finde de v\u00e5ben og de personer, der bruger disse v\u00e5ben. Vi vil gerne sende en klar besked til dem, der skyder, og dem der skaber utryghed om, at vi ikke vil acceptere det. Samtidig vil vi gerne vise beboerne i omr\u00e5det, at vi er tilstede, og at vi g\u00f8r, hvad vi kan, for at genskabe trygheden i Vollsmose, siger politidirekt\u00f8r Arne Gram. \n\nhttps://politi.dk/fyns-politi/nyhedsliste/fyns-politi-indfoerer-visitationszone-dec-2019/2019/12/17", 
+                "area": "Vollsmose", 
+                "authority": "Fyns Politi", 
+                "start": "2019-12-17 14:00", 
+                "extent": "Nord for Martinsminde havekoloni/Hindeh\u00f8jen, mod \u00f8st langs Odense \u00c5 og Staupudevej til Nyborgvej, mod syd Nyborgvej og Munkerisvej til Ejby M\u00f8llevej og mod vest Ejby M\u00f8llevej til Skt. J\u00f8rgens Gade, \u00c5sumvej og Ejbygade nord for Martinsminde havekoloni/Hindeh\u00f8jen.", 
+                "validation": "Nyhedsmedie", 
+                "population": 14200
+            }
         }
     ]
 }
