@@ -1,1 +1,141 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"På baggrund af en igangværende konflikt mellem to grupperinger etablerer Københavns Politi en ny visitationszone og udvider visitationszonen i Husum. Der er nu i alt fire visitationszoner i politikredsen, henholdsvis på Amager, Frederiksberg, Nørrebro og i Husum.\n\nhttps://politi.dk/koebenhavns-politi/nyhedsliste/koebenhavns-politi-udvider-visitationszone/2020/04/08","start":"2020-04-08 20:00","end":"2020-04-17 18:00","authority":"Københavns Politi","area":"Husum","extent":"Åkandevej – Kildebrøndevej – Husumvej – Veksøvej – Stenløsevej – Islevhusvej – Marbjergvej – Mørkhøjvej – Vestvolden (til Åkandevej). \nUdvides til også at gælde: Vestvolden - Frederikssundsvej - Kagså – banelegemet - Islevhusvej – Stenløsevej – Veksøvej – Husumvej – Kildebrøndevej – Åkandevej – Vestvolden: ","validation":"Nyhedsmedie"},"geometry":{"type":"Polygon","coordinates":[[[12.487549781799316,55.71514551950451],[12.476177215576172,55.718288083559884],[12.467036247253418,55.71594327124769],[12.464847564697264,55.71425105120592],[12.458710670471191,55.716450922965166],[12.458453178405762,55.7155806588387],[12.458024024963377,55.71461367595771],[12.457423210144043,55.71415435070359],[12.459440231323242,55.7131148051853],[12.460899353027342,55.71209940843818],[12.461328506469727,55.7117851136201],[12.46274471282959,55.71062461854178],[12.46373176574707,55.70968169090788],[12.4639892578125,55.70931902037369],[12.46497631072998,55.70960915707037],[12.465920448303223,55.70842441866249],[12.466521263122559,55.707723230029366],[12.467207908630371,55.70646589476246],[12.469182014465332,55.70187144113577],[12.479267120361328,55.703008014158996],[12.478580474853516,55.705474505737214],[12.480382919311522,55.70576467098227],[12.481670379638672,55.70612737450863],[12.48373031616211,55.7067802323722],[12.485103607177734,55.707795767368054],[12.4859619140625,55.70859366920591],[12.485532760620117,55.71050373165533],[12.485661506652832,55.71200270260959],[12.486262321472166,55.71345326490279]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.487549781799316, 
+                            55.71514551950451
+                        ], 
+                        [
+                            12.476177215576172, 
+                            55.718288083559884
+                        ], 
+                        [
+                            12.467036247253418, 
+                            55.71594327124769
+                        ], 
+                        [
+                            12.464847564697264, 
+                            55.71425105120592
+                        ], 
+                        [
+                            12.458710670471191, 
+                            55.716450922965166
+                        ], 
+                        [
+                            12.458453178405762, 
+                            55.7155806588387
+                        ], 
+                        [
+                            12.458024024963377, 
+                            55.71461367595771
+                        ], 
+                        [
+                            12.457423210144043, 
+                            55.71415435070359
+                        ], 
+                        [
+                            12.459440231323242, 
+                            55.7131148051853
+                        ], 
+                        [
+                            12.460899353027342, 
+                            55.71209940843818
+                        ], 
+                        [
+                            12.461328506469727, 
+                            55.7117851136201
+                        ], 
+                        [
+                            12.46274471282959, 
+                            55.71062461854178
+                        ], 
+                        [
+                            12.46373176574707, 
+                            55.70968169090788
+                        ], 
+                        [
+                            12.4639892578125, 
+                            55.70931902037369
+                        ], 
+                        [
+                            12.46497631072998, 
+                            55.70960915707037
+                        ], 
+                        [
+                            12.465920448303223, 
+                            55.70842441866249
+                        ], 
+                        [
+                            12.466521263122559, 
+                            55.707723230029366
+                        ], 
+                        [
+                            12.467207908630371, 
+                            55.70646589476246
+                        ], 
+                        [
+                            12.469182014465332, 
+                            55.70187144113577
+                        ], 
+                        [
+                            12.479267120361328, 
+                            55.703008014158996
+                        ], 
+                        [
+                            12.478580474853516, 
+                            55.705474505737214
+                        ], 
+                        [
+                            12.480382919311522, 
+                            55.70576467098227
+                        ], 
+                        [
+                            12.481670379638672, 
+                            55.70612737450863
+                        ], 
+                        [
+                            12.48373031616211, 
+                            55.7067802323722
+                        ], 
+                        [
+                            12.485103607177734, 
+                            55.707795767368054
+                        ], 
+                        [
+                            12.4859619140625, 
+                            55.70859366920591
+                        ], 
+                        [
+                            12.485532760620117, 
+                            55.71050373165533
+                        ], 
+                        [
+                            12.485661506652832, 
+                            55.71200270260959
+                        ], 
+                        [
+                            12.486262321472166, 
+                            55.71345326490279
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2020-04-17 18:00", 
+                "background": "P\u00e5 baggrund af en igangv\u00e6rende konflikt mellem to grupperinger etablerer K\u00f8benhavns Politi en ny visitationszone og udvider visitationszonen i Husum. Der er nu i alt fire visitationszoner i politikredsen, henholdsvis p\u00e5 Amager, Frederiksberg, N\u00f8rrebro og i Husum.\n\nhttps://politi.dk/koebenhavns-politi/nyhedsliste/koebenhavns-politi-udvider-visitationszone/2020/04/08", 
+                "area": "Husum", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2020-04-08 20:00", 
+                "extent": "\u00c5kandevej \u2013 Kildebr\u00f8ndevej \u2013 Husumvej \u2013 Veks\u00f8vej \u2013 Stenl\u00f8sevej \u2013 Islevhusvej \u2013 Marbjergvej \u2013 M\u00f8rkh\u00f8jvej \u2013 Vestvolden (til \u00c5kandevej). \nUdvides til ogs\u00e5 at g\u00e6lde: Vestvolden - Frederikssundsvej - Kags\u00e5 \u2013 banelegemet - Islevhusvej \u2013 Stenl\u00f8sevej \u2013 Veks\u00f8vej \u2013 Husumvej \u2013 Kildebr\u00f8ndevej \u2013 \u00c5kandevej \u2013 Vestvolden: ", 
+                "validation": "Nyhedsmedie", 
+                "population": 11700
+            }
+        }
+    ]
+}

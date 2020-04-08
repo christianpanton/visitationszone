@@ -1,1 +1,129 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"På baggrund af en igangværende konflikt mellem to grupperinger etablerer Københavns Politi en ny visitationszone og udvider visitationszonen i Husum. Der er nu i alt fire visitationszoner i politikredsen, henholdsvis på Amager, Frederiksberg, Nørrebro og i Husum.\n\nhttps://politi.dk/koebenhavns-politi/nyhedsliste/koebenhavns-politi-udvider-visitationszone/2020/04/08","start":"2020-04-08 20:00","end":"2020-04-17 18:00","authority":"Københavns Politi","area":"Amager","extent":"Amagerbrogade – Øresundsvej – Amager Strandvej – Prags Boulevard – Uplandsgade – Vermlandsgade – Amagerbrogade","validation":"Nyhedsmedie"},"geometry":{"type":"Polygon","coordinates":[[[12.596168518066406,55.668727020131286],[12.600674629211426,55.664224954581],[12.604022026062012,55.66105383411765],[12.607927322387695,55.65802771626143],[12.608871459960938,55.658294024020435],[12.609944343566895,55.65933502787722],[12.611360549926758,55.6600370846146],[12.612948417663572,55.660327587167586],[12.61479377746582,55.66064229583369],[12.617368698120117,55.66098121002901],[12.61972904205322,55.66124749769525],[12.622218132019043,55.66141695253964],[12.624621391296385,55.6615137835499],[12.628569602966307,55.66180427514338],[12.631702423095703,55.66219159391432],[12.62479305267334,55.67015498648735],[12.618956565856934,55.668944848875945],[12.616853713989256,55.669017458188016],[12.614235877990723,55.66933209698351],[12.610931396484375,55.66954992235986],[12.6088285446167,55.66950151682546],[12.606940269470215,55.669211082361564],[12.605481147766113,55.66884803625023],[12.60432243347168,55.668363969528805],[12.601404190063477,55.668678613578884],[12.598443031311035,55.66887223942912]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.596168518066406, 
+                            55.668727020131286
+                        ], 
+                        [
+                            12.600674629211426, 
+                            55.664224954581
+                        ], 
+                        [
+                            12.604022026062012, 
+                            55.66105383411765
+                        ], 
+                        [
+                            12.607927322387695, 
+                            55.65802771626143
+                        ], 
+                        [
+                            12.608871459960938, 
+                            55.658294024020435
+                        ], 
+                        [
+                            12.609944343566895, 
+                            55.65933502787722
+                        ], 
+                        [
+                            12.611360549926758, 
+                            55.6600370846146
+                        ], 
+                        [
+                            12.612948417663572, 
+                            55.660327587167586
+                        ], 
+                        [
+                            12.61479377746582, 
+                            55.66064229583369
+                        ], 
+                        [
+                            12.617368698120117, 
+                            55.66098121002901
+                        ], 
+                        [
+                            12.61972904205322, 
+                            55.66124749769525
+                        ], 
+                        [
+                            12.622218132019043, 
+                            55.66141695253964
+                        ], 
+                        [
+                            12.624621391296385, 
+                            55.6615137835499
+                        ], 
+                        [
+                            12.628569602966307, 
+                            55.66180427514338
+                        ], 
+                        [
+                            12.631702423095703, 
+                            55.66219159391432
+                        ], 
+                        [
+                            12.62479305267334, 
+                            55.67015498648735
+                        ], 
+                        [
+                            12.618956565856934, 
+                            55.668944848875945
+                        ], 
+                        [
+                            12.616853713989256, 
+                            55.669017458188016
+                        ], 
+                        [
+                            12.614235877990723, 
+                            55.66933209698351
+                        ], 
+                        [
+                            12.610931396484375, 
+                            55.66954992235986
+                        ], 
+                        [
+                            12.6088285446167, 
+                            55.66950151682546
+                        ], 
+                        [
+                            12.606940269470215, 
+                            55.669211082361564
+                        ], 
+                        [
+                            12.605481147766113, 
+                            55.66884803625023
+                        ], 
+                        [
+                            12.60432243347168, 
+                            55.668363969528805
+                        ], 
+                        [
+                            12.601404190063477, 
+                            55.668678613578884
+                        ], 
+                        [
+                            12.598443031311035, 
+                            55.66887223942912
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2020-04-17 18:00", 
+                "background": "P\u00e5 baggrund af en igangv\u00e6rende konflikt mellem to grupperinger etablerer K\u00f8benhavns Politi en ny visitationszone og udvider visitationszonen i Husum. Der er nu i alt fire visitationszoner i politikredsen, henholdsvis p\u00e5 Amager, Frederiksberg, N\u00f8rrebro og i Husum.\n\nhttps://politi.dk/koebenhavns-politi/nyhedsliste/koebenhavns-politi-udvider-visitationszone/2020/04/08", 
+                "area": "Amager", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2020-04-08 20:00", 
+                "extent": "Amagerbrogade \u2013 \u00d8resundsvej \u2013 Amager Strandvej \u2013 Prags Boulevard \u2013 Uplandsgade \u2013 Vermlandsgade \u2013 Amagerbrogade", 
+                "validation": "Nyhedsmedie", 
+                "population": 33000
+            }
+        }
+    ]
+}
