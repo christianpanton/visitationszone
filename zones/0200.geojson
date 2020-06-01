@@ -1,1 +1,113 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"Visitationszoner i Københavns Politikreds forlænges\nDe nuværende visitationszoner på Amager, Frederiksberg, Nørrebro og i Husum bliver forlænget indtil fredag den 29. maj 2020 kl. 18.\nDet er fortsat vurderingen, at der er en eksisterende konflikt mellem to kriminelle grupperinger i København, og at konflikten har resulteret i hændelser, hvor der er brugt våben.\n\n \n\nDerfor har politidirektøren i København i dag, fredag den 15. maj 2020, besluttet at forlænge de fire visitationszoner, der er etableret i Københavns Politikreds.\n\n \n\nTre af visitationszonerne blev oprettet den 4. april på henholdsvis Frederiksberg, Nørrebro og i Husum. Den 8. april blev visitationszonen i Husum udvidet, og yderligere en zone blev etableret på Amager.","start":"2020-05-15 18:00","end":"2020-05-29 18:00","authority":"Københavns Politi","area":"Amagerbro","extent":"Amagerbrogade – Øresundsvej – Amager Strandvej – Prags Boulevard – Uplandsgade – Vermlandsgade – Amagerbrogade","validation":"Nyhedsmedie"},"geometry":{"type":"Polygon","coordinates":[[[12.607862949371338,55.65809429337102],[12.601929903030396,55.66293596141588],[12.596415281295776,55.66864230862532],[12.597391605377197,55.66892064574196],[12.604225873947144,55.668297409886335],[12.605963945388792,55.66892064574196],[12.607905864715576,55.66935629986297],[12.609837055206299,55.669555973047444],[12.61128544807434,55.66954387167134],[12.61831283569336,55.66891459495614],[12.618945837020874,55.66891459495614],[12.624911069869993,55.67009448049564],[12.631745338439941,55.662246060309116],[12.628655433654785,55.661840586440974],[12.62677788734436,55.66155009511698],[12.624632120132446,55.66150773161877],[12.622143030166626,55.66142905642902],[12.616574764251709,55.66090858580563],[12.615265846252441,55.66078754513387],[12.611145973205566,55.659946302124645],[12.61057734489441,55.659710266665385],[12.608721256256104,55.658294024020435]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.607862949371338, 
+                            55.65809429337102
+                        ], 
+                        [
+                            12.601929903030396, 
+                            55.66293596141588
+                        ], 
+                        [
+                            12.596415281295776, 
+                            55.66864230862532
+                        ], 
+                        [
+                            12.597391605377197, 
+                            55.66892064574196
+                        ], 
+                        [
+                            12.604225873947144, 
+                            55.668297409886335
+                        ], 
+                        [
+                            12.605963945388792, 
+                            55.66892064574196
+                        ], 
+                        [
+                            12.607905864715576, 
+                            55.66935629986297
+                        ], 
+                        [
+                            12.609837055206299, 
+                            55.669555973047444
+                        ], 
+                        [
+                            12.61128544807434, 
+                            55.66954387167134
+                        ], 
+                        [
+                            12.61831283569336, 
+                            55.66891459495614
+                        ], 
+                        [
+                            12.618945837020874, 
+                            55.66891459495614
+                        ], 
+                        [
+                            12.624911069869993, 
+                            55.67009448049564
+                        ], 
+                        [
+                            12.631745338439941, 
+                            55.662246060309116
+                        ], 
+                        [
+                            12.628655433654785, 
+                            55.661840586440974
+                        ], 
+                        [
+                            12.62677788734436, 
+                            55.66155009511698
+                        ], 
+                        [
+                            12.624632120132446, 
+                            55.66150773161877
+                        ], 
+                        [
+                            12.622143030166626, 
+                            55.66142905642902
+                        ], 
+                        [
+                            12.616574764251709, 
+                            55.66090858580563
+                        ], 
+                        [
+                            12.615265846252441, 
+                            55.66078754513387
+                        ], 
+                        [
+                            12.611145973205566, 
+                            55.659946302124645
+                        ], 
+                        [
+                            12.61057734489441, 
+                            55.659710266665385
+                        ], 
+                        [
+                            12.608721256256104, 
+                            55.658294024020435
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2020-05-29 18:00", 
+                "background": "Visitationszoner i K\u00f8benhavns Politikreds forl\u00e6nges\nDe nuv\u00e6rende visitationszoner p\u00e5 Amager, Frederiksberg, N\u00f8rrebro og i Husum bliver forl\u00e6nget indtil fredag den 29. maj 2020 kl. 18.\nDet er fortsat vurderingen, at der er en eksisterende konflikt mellem to kriminelle grupperinger i K\u00f8benhavn, og at konflikten har resulteret i h\u00e6ndelser, hvor der er brugt v\u00e5ben.\n\n \n\nDerfor har politidirekt\u00f8ren i K\u00f8benhavn i dag, fredag den 15. maj 2020, besluttet at forl\u00e6nge de fire visitationszoner, der er etableret i K\u00f8benhavns Politikreds.\n\n \n\nTre af visitationszonerne blev oprettet den 4. april p\u00e5 henholdsvis Frederiksberg, N\u00f8rrebro og i Husum. Den 8. april blev visitationszonen i Husum udvidet, og yderligere en zone blev etableret p\u00e5 Amager.", 
+                "area": "Amagerbro", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2020-05-15 18:00", 
+                "extent": "Amagerbrogade \u2013 \u00d8resundsvej \u2013 Amager Strandvej \u2013 Prags Boulevard \u2013 Uplandsgade \u2013 Vermlandsgade \u2013 Amagerbrogade", 
+                "validation": "Nyhedsmedie", 
+                "population": 32800
+            }
+        }
+    ]
+}
