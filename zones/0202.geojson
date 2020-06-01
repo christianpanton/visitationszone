@@ -1,1 +1,45 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"[2/4] Four previously established zones were extended from 15/5 to 29/5.\nhttps://politi.dk/koebenhavns-politi/nyhedsliste/fire-visitationszoner-i-koebenhavns-politikreds-forlaenges/2020/05/15","start":"2020-05-15 18:00","end":"2020-05-29 18:00","authority":"Københavns Politi","area":"Frederiksberg","extent":"Dalgas Boulevard – Peter Bangsvej – Nordre Fasanvej","validation":"Nyhedsmedie"},"geometry":{"type":"Polygon","coordinates":[[[12.512290477752686,55.68360919488036],[12.509071826934814,55.67881847852428],[12.521474361419678,55.679350809319644],[12.521989345550537,55.68072999631588],[12.522804737091063,55.681722013031965]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.512290477752686, 
+                            55.68360919488036
+                        ], 
+                        [
+                            12.509071826934814, 
+                            55.67881847852428
+                        ], 
+                        [
+                            12.521474361419678, 
+                            55.679350809319644
+                        ], 
+                        [
+                            12.521989345550537, 
+                            55.68072999631588
+                        ], 
+                        [
+                            12.522804737091063, 
+                            55.681722013031965
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2020-05-29 18:00", 
+                "background": "[2/4] Four previously established zones were extended from 15/5 to 29/5.\nhttps://politi.dk/koebenhavns-politi/nyhedsliste/fire-visitationszoner-i-koebenhavns-politikreds-forlaenges/2020/05/15", 
+                "area": "Frederiksberg", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2020-05-15 18:00", 
+                "extent": "Dalgas Boulevard \u2013 Peter Bangsvej \u2013 Nordre Fasanvej", 
+                "validation": "Nyhedsmedie", 
+                "population": 3700
+            }
+        }
+    ]
+}
