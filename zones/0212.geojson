@@ -147,11 +147,11 @@
             }, 
             "type": "Feature", 
             "properties": {
-                "end": "2021-02-12 18.00", 
+                "end": "2021-02-12 18:00", 
                 "background": "P\u00e5 baggrund af flere v\u00e5benfund og \u00f8vrige indikationer p\u00e5 en konfliktoptrapning mellem grupperinger i det vestlige Aarhus indf\u00f8rer \u00d8stjyllands Politi nu visitationszoner i to omr\u00e5der omkring Gellerupparken/Tovesh\u00f8j og Trilleg\u00e5rden/Herredsvang.\nhttps://web.archive.org/web/20211118153950/https://politi.dk/oestjyllands-politi/nyhedsliste/oestjyllands-politi-indfoerer-visitationszoner-i-det-vestlige-aarhus/2021/01/20", 
                 "area": "Trilleg\u00e5rden/Herredsvang", 
                 "authority": "\u00d8stjyllands Politi", 
-                "start": "2021-01-20 18.00", 
+                "start": "2021-01-20 18:00", 
                 "extent": "Mod syd:\nHasle Ringvej fra krydset ved Herredsvej til krydset ved Paludan M\u00fcllers Vej.\n\nMod \u00f8st:\nPaludan M\u00fcllers fra krydset ved Hasle Ringvej Vej til krydset ved Bod\u00f8vej.\nBod\u00f8vej fra krydset ved Paludan M\u00fcllers Vej til stien der omkranser Haveforeningen Dybkj\u00e6r\nStien, inklusive Haveforeningen Dybkj\u00e6r, til krydset ved Paludan M\u00fcllers Vej, inklusive parkeringspladsen ved Aarhus Firma Sport.\nPaludan M\u00fcllers Vej fra krydset ved stien der omkranser Haveforeningen Dybkj\u00e6r og Aarhus Firma sport til krydset ved Marienlystvej\n\nMod nord:\nMarienlystvej fra krydset ved Paludan M\u00fcllers Vej, til krydset ved Marienlystvangen, herunder Haveforeningen Marienlyst og stier der omkranser Haveforeningen Marienlyst, samt Marienlyst Parken og stien der omkranser Marienlystparken.\n\nMod vest:\nStien der omkranser Marienlystparken til Fj\u00e6ldev\u00e6nget.\nFj\u00e6ldev\u00e6nget fra stien der omkranser Marienlystparken til krydset ved Herredsvej.\nHerredsvej fra krydset ved Fj\u00e6ldev\u00e6nget til krydset ved Hasle Ringvej.\n\nDe n\u00e6vnte veje er indbefattet i visitationszonen.", 
                 "validation": "Nyhedsmedie", 
                 "population": 3700
