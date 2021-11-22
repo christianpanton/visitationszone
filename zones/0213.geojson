@@ -139,11 +139,11 @@
             }, 
             "type": "Feature", 
             "properties": {
-                "end": "2021-02-12 18.00", 
+                "end": "2021-02-12 18:00", 
                 "background": "P\u00e5 baggrund af flere v\u00e5benfund og \u00f8vrige indikationer p\u00e5 en konfliktoptrapning mellem grupperinger i det vestlige Aarhus indf\u00f8rer \u00d8stjyllands Politi nu visitationszoner i to omr\u00e5der omkring Gellerupparken/Tovesh\u00f8j og Trilleg\u00e5rden/Herredsvang.\nhttps://web.archive.org/web/20211118153950/https://politi.dk/oestjyllands-politi/nyhedsliste/oestjyllands-politi-indfoerer-visitationszoner-i-det-vestlige-aarhus/2021/01/20", 
                 "area": "Gellerupparken/Tovesh\u00f8j", 
                 "authority": "\u00d8stjyllands Politi", 
-                "start": "2021-01-20 18.00", 
+                "start": "2021-01-20 18:00", 
                 "extent": "Mod syd:\nSilkeborgvej fra krydset ved Hejredalsvej til krydset ved \u00c5by Ringvej.\n\nMod \u00f8st:\n\u00c5by Ringvej fra krydset ved Silkeborgvej til krydset ved Jernaldervej.\n\nMod nord:\nJernaldervej fra krydset ved Silkeborgvej til krydset ved Holmstrupg\u00e5rdvej.\n\nMod vest:\nHolmstrupg\u00e5rdvej fra krydset ved Jernaldervej til krydset ved Edwin Rahrs Vej.\nEdwin Rahrs Vej fra krydset ved Holmstrupg\u00e5rdvej til Krydset ved Hejredalsvej.\nHejredalsvej fra krydset ved Edwin Rahrs Vej til krydset ved Silkeborgvej.\n\nDe n\u00e6vnte veje er indbefattet i visitationszonen. ", 
                 "validation": "Nyhedsmedie", 
                 "population": 10800
