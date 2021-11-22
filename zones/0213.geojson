@@ -1,152 +1,153 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "background": "På baggrund af flere våbenfund og øvrige indikationer på en konfliktoptrapning mellem grupperinger i det vestlige Aarhus indfører Østjyllands Politi nu visitationszoner i to områder omkring Gellerupparken/Toveshøj og Trillegården/Herredsvang.\nhttps://web.archive.org/web/20211118153950/https://politi.dk/oestjyllands-politi/nyhedsliste/oestjyllands-politi-indfoerer-visitationszoner-i-det-vestlige-aarhus/2021/01/20",
-        "start": "2021-01-20 18.00",
-        "end": "2021-02-12 18.00",
-        "authority": "Østjyllands Politi",
-        "area": "Gellerupparken/Toveshøj",
-        "extent": "Mod syd:\nSilkeborgvej fra krydset ved Hejredalsvej til krydset ved Åby Ringvej.\n\nMod øst:\nÅby Ringvej fra krydset ved Silkeborgvej til krydset ved Jernaldervej.\n\nMod nord:\nJernaldervej fra krydset ved Silkeborgvej til krydset ved Holmstrupgårdvej.\n\nMod vest:\nHolmstrupgårdvej fra krydset ved Jernaldervej til krydset ved Edwin Rahrs Vej.\nEdwin Rahrs Vej fra krydset ved Holmstrupgårdvej til Krydset ved Hejredalsvej.\nHejredalsvej fra krydset ved Edwin Rahrs Vej til krydset ved Silkeborgvej.\n\nDe nævnte veje er indbefattet i visitationszonen. ",
-        "validation": "Nyhedsmedie"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              10.119545459747314,
-              56.175302812207704
-            ],
-            [
-              10.12190580368042,
-              56.17525503420275
-            ],
-            [
-              10.124480724334715,
-              56.174944475721134
-            ],
-            [
-              10.13486623764038,
-              56.17358276656959
-            ],
-            [
-              10.149414539337158,
-              56.17105033692063
-            ],
-            [
-              10.151431560516357,
-              56.17057250127528
-            ],
-            [
-              10.154178142547607,
-              56.169401778813686
-            ],
-            [
-              10.149285793304443,
-              56.166223923636714
-            ],
-            [
-              10.147397518157959,
-              56.16502917322528
-            ],
-            [
-              10.14585256576538,
-              56.16361931993536
-            ],
-            [
-              10.144779682159424,
-              56.162472282469814
-            ],
-            [
-              10.14413595199585,
-              56.161301313058026
-            ],
-            [
-              10.143535137176514,
-              56.15950894380315
-            ],
-            [
-              10.143406391143799,
-              56.158218386154395
-            ],
-            [
-              10.143492221832275,
-              56.15656927717607
-            ],
-            [
-              10.144178867340088,
-              56.1534620679329
-            ],
-            [
-              10.136840343475342,
-              56.15296011055707
-            ],
-            [
-              10.127227306365967,
-              56.152362533702565
-            ],
-            [
-              10.117571353912354,
-              56.152697177886026
-            ],
-            [
-              10.11692762374878,
-              56.15394011648013
-            ],
-            [
-              10.118944644927979,
-              56.154107432066496
-            ],
-            [
-              10.120832920074463,
-              56.154418159079675
-            ],
-            [
-              10.122549533843992,
-              56.15503960556735
-            ],
-            [
-              10.124008655548096,
-              56.15592395439312
-            ],
-            [
-              10.125081539154053,
-              56.157262389573276
-            ],
-            [
-              10.125939846038818,
-              56.158242285764096
-            ],
-            [
-              10.12765645980835,
-              56.159389449545905
-            ],
-            [
-              10.130016803741455,
-              56.16077556007787
-            ],
-            [
-              10.13164758682251,
-              56.16194654551691
-            ],
-            [
-              10.121090412139893,
-              56.16309359868236
-            ],
-            [
-              10.119202136993408,
-              56.17059639319875
-            ],
-            [
-              10.119030475616455,
-              56.17365443667635
-            ]
-          ]
-        ]
-      }
-    }
-  ]
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            10.119545459747314, 
+                            56.175302812207704
+                        ], 
+                        [
+                            10.12190580368042, 
+                            56.17525503420275
+                        ], 
+                        [
+                            10.124480724334715, 
+                            56.174944475721134
+                        ], 
+                        [
+                            10.13486623764038, 
+                            56.17358276656959
+                        ], 
+                        [
+                            10.149414539337158, 
+                            56.17105033692063
+                        ], 
+                        [
+                            10.151431560516357, 
+                            56.17057250127528
+                        ], 
+                        [
+                            10.154178142547607, 
+                            56.169401778813686
+                        ], 
+                        [
+                            10.149285793304443, 
+                            56.166223923636714
+                        ], 
+                        [
+                            10.147397518157959, 
+                            56.16502917322528
+                        ], 
+                        [
+                            10.14585256576538, 
+                            56.16361931993536
+                        ], 
+                        [
+                            10.144779682159424, 
+                            56.162472282469814
+                        ], 
+                        [
+                            10.14413595199585, 
+                            56.161301313058026
+                        ], 
+                        [
+                            10.143535137176514, 
+                            56.15950894380315
+                        ], 
+                        [
+                            10.143406391143799, 
+                            56.158218386154395
+                        ], 
+                        [
+                            10.143492221832275, 
+                            56.15656927717607
+                        ], 
+                        [
+                            10.144178867340088, 
+                            56.1534620679329
+                        ], 
+                        [
+                            10.136840343475342, 
+                            56.15296011055707
+                        ], 
+                        [
+                            10.127227306365967, 
+                            56.152362533702565
+                        ], 
+                        [
+                            10.117571353912354, 
+                            56.152697177886026
+                        ], 
+                        [
+                            10.11692762374878, 
+                            56.15394011648013
+                        ], 
+                        [
+                            10.118944644927979, 
+                            56.154107432066496
+                        ], 
+                        [
+                            10.120832920074463, 
+                            56.154418159079675
+                        ], 
+                        [
+                            10.122549533843992, 
+                            56.15503960556735
+                        ], 
+                        [
+                            10.124008655548096, 
+                            56.15592395439312
+                        ], 
+                        [
+                            10.125081539154053, 
+                            56.157262389573276
+                        ], 
+                        [
+                            10.125939846038818, 
+                            56.158242285764096
+                        ], 
+                        [
+                            10.12765645980835, 
+                            56.159389449545905
+                        ], 
+                        [
+                            10.130016803741455, 
+                            56.16077556007787
+                        ], 
+                        [
+                            10.13164758682251, 
+                            56.16194654551691
+                        ], 
+                        [
+                            10.121090412139893, 
+                            56.16309359868236
+                        ], 
+                        [
+                            10.119202136993408, 
+                            56.17059639319875
+                        ], 
+                        [
+                            10.119030475616455, 
+                            56.17365443667635
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2021-02-12 18.00", 
+                "background": "P\u00e5 baggrund af flere v\u00e5benfund og \u00f8vrige indikationer p\u00e5 en konfliktoptrapning mellem grupperinger i det vestlige Aarhus indf\u00f8rer \u00d8stjyllands Politi nu visitationszoner i to omr\u00e5der omkring Gellerupparken/Tovesh\u00f8j og Trilleg\u00e5rden/Herredsvang.\nhttps://web.archive.org/web/20211118153950/https://politi.dk/oestjyllands-politi/nyhedsliste/oestjyllands-politi-indfoerer-visitationszoner-i-det-vestlige-aarhus/2021/01/20", 
+                "area": "Gellerupparken/Tovesh\u00f8j", 
+                "authority": "\u00d8stjyllands Politi", 
+                "start": "2021-01-20 18.00", 
+                "extent": "Mod syd:\nSilkeborgvej fra krydset ved Hejredalsvej til krydset ved \u00c5by Ringvej.\n\nMod \u00f8st:\n\u00c5by Ringvej fra krydset ved Silkeborgvej til krydset ved Jernaldervej.\n\nMod nord:\nJernaldervej fra krydset ved Silkeborgvej til krydset ved Holmstrupg\u00e5rdvej.\n\nMod vest:\nHolmstrupg\u00e5rdvej fra krydset ved Jernaldervej til krydset ved Edwin Rahrs Vej.\nEdwin Rahrs Vej fra krydset ved Holmstrupg\u00e5rdvej til Krydset ved Hejredalsvej.\nHejredalsvej fra krydset ved Edwin Rahrs Vej til krydset ved Silkeborgvej.\n\nDe n\u00e6vnte veje er indbefattet i visitationszonen. ", 
+                "validation": "Nyhedsmedie", 
+                "population": 10800
+            }
+        }
+    ]
 }

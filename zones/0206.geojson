@@ -1,1 +1,145 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"Politiet vurderer, at der udspiller sig en voldelig konflikt mellem to grupperinger i det københavnske bandemiljø.\nBlandt andet blev der den 11. november affyret flere skud mod en gruppe personer, som opholdt sig ved en kiosk på Ruten i Tingbjerg, og den 16. november blev der ligeledes affyret flere skud ved en kiosk på Bisiddervej i København NV.\n\nhttps://web.archive.org/web/20211118081242/https://politi.dk/koebenhavns-politi/nyhedsliste/k%C3%B8benhavns-politi-opretter-to-visitationszoner/2021/11/17","start":"2021-11-17 18:00","end":"2021-12-01 18:00","authority":"Københavns Politi","area":"Brønshøj","extent":"Ruten – Åkandevej – Kildebrøndevej – Smørumvej – Veksøvej – Stenløsevej – Islevhusvej – Marbjergvej - Mørkhøjvej – grønt område langs kredsgrænsen - Hillerødmotorvejen - Ruten","validation":"Nyhedsmedie"},"geometry":{"type":"Polygon","coordinates":[[[12.484266757965088,55.72474163378324],[12.488772869110106,55.72449994700522],[12.492334842681885,55.72266307860577],[12.497742176055908,55.718288083559884],[12.496454715728758,55.71773210986672],[12.494308948516846,55.71720030153742],[12.48920202255249,55.71681352729539],[12.488429546356201,55.71603996732159],[12.48744249343872,55.714686200504104],[12.486326694488525,55.71304227772144],[12.485811710357664,55.7120268790892],[12.485597133636475,55.7106729731916],[12.486069202423096,55.70881127597016],[12.486026287078857,55.708327703737055],[12.483837604522703,55.70673187290453],[12.480189800262451,55.70574049062748],[12.475812435150146,55.705208519036425],[12.475640773773193,55.70259691709397],[12.469246387481688,55.7017747099905],[12.467358112335203,55.70646589476246],[12.466113567352295,55.7084727760354],[12.464869022369385,55.7095849790946],[12.467100620269775,55.710213601601815],[12.466886043548584,55.71043119934393],[12.470576763153076,55.718868221584735],[12.472937107086182,55.718868221584735],[12.473580837249756,55.7194725228642],[12.474610805511475,55.72002847178339],[12.477099895477293,55.721043662432926],[12.477614879608154,55.722179677823945]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            12.484266757965088, 
+                            55.72474163378324
+                        ], 
+                        [
+                            12.488772869110106, 
+                            55.72449994700522
+                        ], 
+                        [
+                            12.492334842681885, 
+                            55.72266307860577
+                        ], 
+                        [
+                            12.497742176055908, 
+                            55.718288083559884
+                        ], 
+                        [
+                            12.496454715728758, 
+                            55.71773210986672
+                        ], 
+                        [
+                            12.494308948516846, 
+                            55.71720030153742
+                        ], 
+                        [
+                            12.48920202255249, 
+                            55.71681352729539
+                        ], 
+                        [
+                            12.488429546356201, 
+                            55.71603996732159
+                        ], 
+                        [
+                            12.48744249343872, 
+                            55.714686200504104
+                        ], 
+                        [
+                            12.486326694488525, 
+                            55.71304227772144
+                        ], 
+                        [
+                            12.485811710357664, 
+                            55.7120268790892
+                        ], 
+                        [
+                            12.485597133636475, 
+                            55.7106729731916
+                        ], 
+                        [
+                            12.486069202423096, 
+                            55.70881127597016
+                        ], 
+                        [
+                            12.486026287078857, 
+                            55.708327703737055
+                        ], 
+                        [
+                            12.483837604522703, 
+                            55.70673187290453
+                        ], 
+                        [
+                            12.480189800262451, 
+                            55.70574049062748
+                        ], 
+                        [
+                            12.475812435150146, 
+                            55.705208519036425
+                        ], 
+                        [
+                            12.475640773773193, 
+                            55.70259691709397
+                        ], 
+                        [
+                            12.469246387481688, 
+                            55.7017747099905
+                        ], 
+                        [
+                            12.467358112335203, 
+                            55.70646589476246
+                        ], 
+                        [
+                            12.466113567352295, 
+                            55.7084727760354
+                        ], 
+                        [
+                            12.464869022369385, 
+                            55.7095849790946
+                        ], 
+                        [
+                            12.467100620269775, 
+                            55.710213601601815
+                        ], 
+                        [
+                            12.466886043548584, 
+                            55.71043119934393
+                        ], 
+                        [
+                            12.470576763153076, 
+                            55.718868221584735
+                        ], 
+                        [
+                            12.472937107086182, 
+                            55.718868221584735
+                        ], 
+                        [
+                            12.473580837249756, 
+                            55.7194725228642
+                        ], 
+                        [
+                            12.474610805511475, 
+                            55.72002847178339
+                        ], 
+                        [
+                            12.477099895477293, 
+                            55.721043662432926
+                        ], 
+                        [
+                            12.477614879608154, 
+                            55.722179677823945
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2021-12-01 18:00", 
+                "background": "Politiet vurderer, at der udspiller sig en voldelig konflikt mellem to grupperinger i det k\u00f8benhavnske bandemilj\u00f8.\nBlandt andet blev der den 11. november affyret flere skud mod en gruppe personer, som opholdt sig ved en kiosk p\u00e5 Ruten i Tingbjerg, og den 16. november blev der ligeledes affyret flere skud ved en kiosk p\u00e5 Bisiddervej i K\u00f8benhavn NV.\n\nhttps://web.archive.org/web/20211118081242/https://politi.dk/koebenhavns-politi/nyhedsliste/k%C3%B8benhavns-politi-opretter-to-visitationszoner/2021/11/17", 
+                "area": "Br\u00f8nsh\u00f8j", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2021-11-17 18:00", 
+                "extent": "Ruten \u2013 \u00c5kandevej \u2013 Kildebr\u00f8ndevej \u2013 Sm\u00f8rumvej \u2013 Veks\u00f8vej \u2013 Stenl\u00f8sevej \u2013 Islevhusvej \u2013 Marbjergvej - M\u00f8rkh\u00f8jvej \u2013 gr\u00f8nt omr\u00e5de langs kredsgr\u00e6nsen - Hiller\u00f8dmotorvejen - Ruten", 
+                "validation": "Nyhedsmedie", 
+                "population": 14200
+            }
+        }
+    ]
+}

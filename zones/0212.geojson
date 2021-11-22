@@ -1,160 +1,161 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "background": "På baggrund af flere våbenfund og øvrige indikationer på en konfliktoptrapning mellem grupperinger i det vestlige Aarhus indfører Østjyllands Politi nu visitationszoner i to områder omkring Gellerupparken/Toveshøj og Trillegården/Herredsvang.\nhttps://web.archive.org/web/20211118153950/https://politi.dk/oestjyllands-politi/nyhedsliste/oestjyllands-politi-indfoerer-visitationszoner-i-det-vestlige-aarhus/2021/01/20",
-        "start": "2021-01-20 18.00",
-        "end": "2021-02-12 18.00",
-        "authority": "Østjyllands Politi",
-        "area": "Trillegården/Herredsvang",
-        "extent": "Mod syd:\nHasle Ringvej fra krydset ved Herredsvej til krydset ved Paludan Müllers Vej.\n\nMod øst:\nPaludan Müllers fra krydset ved Hasle Ringvej Vej til krydset ved Bodøvej.\nBodøvej fra krydset ved Paludan Müllers Vej til stien der omkranser Haveforeningen Dybkjær\nStien, inklusive Haveforeningen Dybkjær, til krydset ved Paludan Müllers Vej, inklusive parkeringspladsen ved Aarhus Firma Sport.\nPaludan Müllers Vej fra krydset ved stien der omkranser Haveforeningen Dybkjær og Aarhus Firma sport til krydset ved Marienlystvej\n\nMod nord:\nMarienlystvej fra krydset ved Paludan Müllers Vej, til krydset ved Marienlystvangen, herunder Haveforeningen Marienlyst og stier der omkranser Haveforeningen Marienlyst, samt Marienlyst Parken og stien der omkranser Marienlystparken.\n\nMod vest:\nStien der omkranser Marienlystparken til Fjældevænget.\nFjældevænget fra stien der omkranser Marienlystparken til krydset ved Herredsvej.\nHerredsvej fra krydset ved Fjældevænget til krydset ved Hasle Ringvej.\n\nDe nævnte veje er indbefattet i visitationszonen.",
-        "validation": "Nyhedsmedie"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              10.166666507720947,
-              56.176688348487424
-            ],
-            [
-              10.15709638595581,
-              56.178694898586485
-            ],
-            [
-              10.15434980392456,
-              56.18132236511837
-            ],
-            [
-              10.15486478805542,
-              56.182015030883
-            ],
-            [
-              10.1518177986145,
-              56.184212370580504
-            ],
-            [
-              10.151560306549072,
-              56.18507216491374
-            ],
-            [
-              10.155766010284424,
-              56.18672005021297
-            ],
-            [
-              10.156152248382568,
-              56.18667228641746
-            ],
-            [
-              10.156238079071045,
-              56.18683945944164
-            ],
-            [
-              10.156624317169188,
-              56.187149921697305
-            ],
-            [
-              10.158684253692627,
-              56.18688722302907
-            ],
-            [
-              10.161184072494507,
-              56.18654093567331
-            ],
-            [
-              10.162020921707153,
-              56.18636182029763
-            ],
-            [
-              10.162578821182251,
-              56.18608717509787
-            ],
-            [
-              10.163050889968872,
-              56.18589611640835
-            ],
-            [
-              10.163480043411255,
-              56.18581252793258
-            ],
-            [
-              10.164574384689331,
-              56.18606329281369
-            ],
-            [
-              10.165454149246216,
-              56.185334876006934
-            ],
-            [
-              10.16682744026184,
-              56.184451204271895
-            ],
-            [
-              10.169316530227661,
-              56.18325702095214
-            ],
-            [
-              10.170239210128784,
-              56.182803221548006
-            ],
-            [
-              10.171784162521362,
-              56.182074742863655
-            ],
-            [
-              10.173178911209106,
-              56.18125070932585
-            ],
-            [
-              10.174187421798706,
-              56.181656757048145
-            ],
-            [
-              10.174916982650755,
-              56.181800066983385
-            ],
-            [
-              10.174981355667114,
-              56.18109545464975
-            ],
-            [
-              10.17659068107605,
-              56.18158510187988
-            ],
-            [
-              10.178543329238892,
-              56.179710077430265
-            ],
-            [
-              10.177255868911743,
-              56.17925623608904
-            ],
-            [
-              10.176740884780884,
-              56.17849185959597
-            ],
-            [
-              10.179315805435179,
-              56.17685556500157
-            ],
-            [
-              10.17959475517273,
-              56.17658085177227
-            ],
-            [
-              10.175796747207642,
-              56.17561336779069
-            ],
-            [
-              10.165518522262573,
-              56.173690271679575
-            ]
-          ]
-        ]
-      }
-    }
-  ]
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            10.166666507720947, 
+                            56.176688348487424
+                        ], 
+                        [
+                            10.15709638595581, 
+                            56.178694898586485
+                        ], 
+                        [
+                            10.15434980392456, 
+                            56.18132236511837
+                        ], 
+                        [
+                            10.15486478805542, 
+                            56.182015030883
+                        ], 
+                        [
+                            10.1518177986145, 
+                            56.184212370580504
+                        ], 
+                        [
+                            10.151560306549072, 
+                            56.18507216491374
+                        ], 
+                        [
+                            10.155766010284424, 
+                            56.18672005021297
+                        ], 
+                        [
+                            10.156152248382568, 
+                            56.18667228641746
+                        ], 
+                        [
+                            10.156238079071045, 
+                            56.18683945944164
+                        ], 
+                        [
+                            10.156624317169188, 
+                            56.187149921697305
+                        ], 
+                        [
+                            10.158684253692627, 
+                            56.18688722302907
+                        ], 
+                        [
+                            10.161184072494507, 
+                            56.18654093567331
+                        ], 
+                        [
+                            10.162020921707153, 
+                            56.18636182029763
+                        ], 
+                        [
+                            10.162578821182251, 
+                            56.18608717509787
+                        ], 
+                        [
+                            10.163050889968872, 
+                            56.18589611640835
+                        ], 
+                        [
+                            10.163480043411255, 
+                            56.18581252793258
+                        ], 
+                        [
+                            10.164574384689331, 
+                            56.18606329281369
+                        ], 
+                        [
+                            10.165454149246216, 
+                            56.185334876006934
+                        ], 
+                        [
+                            10.16682744026184, 
+                            56.184451204271895
+                        ], 
+                        [
+                            10.169316530227661, 
+                            56.18325702095214
+                        ], 
+                        [
+                            10.170239210128784, 
+                            56.182803221548006
+                        ], 
+                        [
+                            10.171784162521362, 
+                            56.182074742863655
+                        ], 
+                        [
+                            10.173178911209106, 
+                            56.18125070932585
+                        ], 
+                        [
+                            10.174187421798706, 
+                            56.181656757048145
+                        ], 
+                        [
+                            10.174916982650755, 
+                            56.181800066983385
+                        ], 
+                        [
+                            10.174981355667114, 
+                            56.18109545464975
+                        ], 
+                        [
+                            10.17659068107605, 
+                            56.18158510187988
+                        ], 
+                        [
+                            10.178543329238892, 
+                            56.179710077430265
+                        ], 
+                        [
+                            10.177255868911743, 
+                            56.17925623608904
+                        ], 
+                        [
+                            10.176740884780884, 
+                            56.17849185959597
+                        ], 
+                        [
+                            10.179315805435179, 
+                            56.17685556500157
+                        ], 
+                        [
+                            10.17959475517273, 
+                            56.17658085177227
+                        ], 
+                        [
+                            10.175796747207642, 
+                            56.17561336779069
+                        ], 
+                        [
+                            10.165518522262573, 
+                            56.173690271679575
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2021-02-12 18.00", 
+                "background": "P\u00e5 baggrund af flere v\u00e5benfund og \u00f8vrige indikationer p\u00e5 en konfliktoptrapning mellem grupperinger i det vestlige Aarhus indf\u00f8rer \u00d8stjyllands Politi nu visitationszoner i to omr\u00e5der omkring Gellerupparken/Tovesh\u00f8j og Trilleg\u00e5rden/Herredsvang.\nhttps://web.archive.org/web/20211118153950/https://politi.dk/oestjyllands-politi/nyhedsliste/oestjyllands-politi-indfoerer-visitationszoner-i-det-vestlige-aarhus/2021/01/20", 
+                "area": "Trilleg\u00e5rden/Herredsvang", 
+                "authority": "\u00d8stjyllands Politi", 
+                "start": "2021-01-20 18.00", 
+                "extent": "Mod syd:\nHasle Ringvej fra krydset ved Herredsvej til krydset ved Paludan M\u00fcllers Vej.\n\nMod \u00f8st:\nPaludan M\u00fcllers fra krydset ved Hasle Ringvej Vej til krydset ved Bod\u00f8vej.\nBod\u00f8vej fra krydset ved Paludan M\u00fcllers Vej til stien der omkranser Haveforeningen Dybkj\u00e6r\nStien, inklusive Haveforeningen Dybkj\u00e6r, til krydset ved Paludan M\u00fcllers Vej, inklusive parkeringspladsen ved Aarhus Firma Sport.\nPaludan M\u00fcllers Vej fra krydset ved stien der omkranser Haveforeningen Dybkj\u00e6r og Aarhus Firma sport til krydset ved Marienlystvej\n\nMod nord:\nMarienlystvej fra krydset ved Paludan M\u00fcllers Vej, til krydset ved Marienlystvangen, herunder Haveforeningen Marienlyst og stier der omkranser Haveforeningen Marienlyst, samt Marienlyst Parken og stien der omkranser Marienlystparken.\n\nMod vest:\nStien der omkranser Marienlystparken til Fj\u00e6ldev\u00e6nget.\nFj\u00e6ldev\u00e6nget fra stien der omkranser Marienlystparken til krydset ved Herredsvej.\nHerredsvej fra krydset ved Fj\u00e6ldev\u00e6nget til krydset ved Hasle Ringvej.\n\nDe n\u00e6vnte veje er indbefattet i visitationszonen.", 
+                "validation": "Nyhedsmedie", 
+                "population": 3700
+            }
+        }
+    ]
 }
