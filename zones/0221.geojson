@@ -226,15 +226,16 @@
                 ]
             }, 
             "type": "Feature", 
-            "properties":{
-            "background":"Københavns Politi forlænger de to visitationszoner, der dækker dele af Nørrebro og Nordvest og Tingbjerg/Husum. Det sker for at sikre trygheden for borgere i områderne. Zonerne gælder nu frem til den 4. januar 2022.\n\nSiden den 11. november 2021 har der været en række voldelige hændelser i Storkøbenhavn, som vurderes at have relation til rocker- og bandemiljøet. I flere af sagerne er der blevet anvendt skydevåben. \n\nKøbenhavns Politi har derfor iværksat en massiv indsats for at få standset de kriminelle handlinger. Bl.a. har politiet indført visitationszoner; Den ene dækker dele af Nørrebro og Nordvest, den anden dele af Tingbjerg/Husum. De to visitationszoner forlænges nu. \n\nUd over visitationszonerne etablerede Københavns Politi i sidste uge skærpede strafzoner i samme områder. Strafskærpelseszonerne gælder frem til den 21. december 2021.\n\nhttps://web.archive.org/web/20211217125929/https://politi.dk/koebenhavns-politi/nyhedsliste/forl%C3%A6ngelse-af-visitationszoner-i-k%C3%B8benhavn/2021/12/17 ",
-            "start":"2021-12-17 18:00",
-            "end":"2022-01-04 18:00",
-            "authority":"Københavns Politi",
-            "area":"Tingbjerg/Husum (Zone 2)",
-            "extent":"Ruten – Åkandevej – Kildebrøndevej – Smørumvej – Veksøvej – Stenløsevej – Islevhusvej – Kongemarksvej – Banefløjsstien – langs kredsgrænsen – Kildeager – langs kredsgrænsen og via stisystem til Hillerødmotorvejen – Ruten. ",
-            "validation":""
-         }
+            "properties": {
+                "end": "2022-01-04 18:00", 
+                "background": "K\u00f8benhavns Politi forl\u00e6nger de to visitationszoner, der d\u00e6kker dele af N\u00f8rrebro og Nordvest og Tingbjerg/Husum. Det sker for at sikre trygheden for borgere i omr\u00e5derne. Zonerne g\u00e6lder nu frem til den 4. januar 2022.\n\nSiden den 11. november 2021 har der v\u00e6ret en r\u00e6kke voldelige h\u00e6ndelser i Stork\u00f8benhavn, som vurderes at have relation til rocker- og bandemilj\u00f8et. I flere af sagerne er der blevet anvendt skydev\u00e5ben. \n\nK\u00f8benhavns Politi har derfor iv\u00e6rksat en massiv indsats for at f\u00e5 standset de kriminelle handlinger. Bl.a. har politiet indf\u00f8rt visitationszoner; Den ene d\u00e6kker dele af N\u00f8rrebro og Nordvest, den anden dele af Tingbjerg/Husum. De to visitationszoner forl\u00e6nges nu. \n\nUd over visitationszonerne etablerede K\u00f8benhavns Politi i sidste uge sk\u00e6rpede strafzoner i samme omr\u00e5der. Strafsk\u00e6rpelseszonerne g\u00e6lder frem til den 21. december 2021.\n\nhttps://web.archive.org/web/20211217125929/https://politi.dk/koebenhavns-politi/nyhedsliste/forl%C3%A6ngelse-af-visitationszoner-i-k%C3%B8benhavn/2021/12/17 ", 
+                "area": "Tingbjerg/Husum (Zone 2)", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2021-12-17 18:00", 
+                "extent": "Ruten \u2013 \u00c5kandevej \u2013 Kildebr\u00f8ndevej \u2013 Sm\u00f8rumvej \u2013 Veks\u00f8vej \u2013 Stenl\u00f8sevej \u2013 Islevhusvej \u2013 Kongemarksvej \u2013 Banefl\u00f8jsstien \u2013 langs kredsgr\u00e6nsen \u2013 Kildeager \u2013 langs kredsgr\u00e6nsen og via stisystem til Hiller\u00f8dmotorvejen \u2013 Ruten. ", 
+                "validation": "", 
+                "population": 16200
+            }
         }
     ]
 }
