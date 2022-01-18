@@ -231,10 +231,10 @@
                 "start": "2022-01-04 18:00",
                 "end": "2022-01-18 18:00",
                 "authority": "Københavns Politi",
-                "area": "Tingbjerg/Husum - Zone 1 - forlænget",
+                "area": "Tingbjerg/Husum - Zone 1",
                 "extent": "Ruten – Åkandevej – Kildebrøndevej – Smørumvej – Veksøvej – Stenløsevej – Islevhusvej – Kongemarksvej – Banefløjsstien – langs kredsgrænsen – Kildeager – langs kredsgrænsen og via stisystem til Hillerødmotorvejen – Rute",
                 "validation": ""
-            },
+            }
         }
     ]
 }
