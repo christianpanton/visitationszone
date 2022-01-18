@@ -227,13 +227,14 @@
             }, 
             "type": "Feature", 
             "properties": {
-                "background": "På baggrund af en række voldelige hændelser i Storkøbenhavn har der siden den 3. december 2021 været indført to visitationszoner i dele af hovedstaden. Politiet vurderer, at hændelserne har relation til rocker- og bandemiljøet, og da det er politiets vurdering, at der fortsat er risiko for flere voldelige hændelser, bliver de to zoner nu forlænget med yderligere 14 dage.\n\nhttps://web.archive.org/web/20220104225018/https://politi.dk/koebenhavns-politi/nyhedsliste/forl%C3%A6ngelse-af-visitationszoner-i-k%C3%B8benhavn/2022/01/04",
-                "start": "2022-01-04 18:00",
-                "end": "2022-01-18 18:00",
-                "authority": "Københavns Politi",
-                "area": "Tingbjerg/Husum - Zone 1",
-                "extent": "Ruten – Åkandevej – Kildebrøndevej – Smørumvej – Veksøvej – Stenløsevej – Islevhusvej – Kongemarksvej – Banefløjsstien – langs kredsgrænsen – Kildeager – langs kredsgrænsen og via stisystem til Hillerødmotorvejen – Rute",
-                "validation": ""
+                "end": "2022-01-18 18:00", 
+                "background": "P\u00e5 baggrund af en r\u00e6kke voldelige h\u00e6ndelser i Stork\u00f8benhavn har der siden den 3. december 2021 v\u00e6ret indf\u00f8rt to visitationszoner i dele af hovedstaden. Politiet vurderer, at h\u00e6ndelserne har relation til rocker- og bandemilj\u00f8et, og da det er politiets vurdering, at der fortsat er risiko for flere voldelige h\u00e6ndelser, bliver de to zoner nu forl\u00e6nget med yderligere 14 dage.\n\nhttps://web.archive.org/web/20220104225018/https://politi.dk/koebenhavns-politi/nyhedsliste/forl%C3%A6ngelse-af-visitationszoner-i-k%C3%B8benhavn/2022/01/04", 
+                "area": "Tingbjerg/Husum - Zone 1", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2022-01-04 18:00", 
+                "extent": "Ruten \u2013 \u00c5kandevej \u2013 Kildebr\u00f8ndevej \u2013 Sm\u00f8rumvej \u2013 Veks\u00f8vej \u2013 Stenl\u00f8sevej \u2013 Islevhusvej \u2013 Kongemarksvej \u2013 Banefl\u00f8jsstien \u2013 langs kredsgr\u00e6nsen \u2013 Kildeager \u2013 langs kredsgr\u00e6nsen og via stisystem til Hiller\u00f8dmotorvejen \u2013 Rute", 
+                "validation": "", 
+                "population": 16200
             }
         }
     ]

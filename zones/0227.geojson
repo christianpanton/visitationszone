@@ -267,13 +267,14 @@
             }, 
             "type": "Feature", 
             "properties": {
-                "background": "Fyns Politi begrunder bl.a. forlængelsen af visitationszonen med den skudepisode, der fandt sted i Vollsmose nytårsnat den 1. januar 2022, hvor en ung mand blev skudt i maven, men overlevede. Fyns Politi fik anmeldelsen kl 02.29 den 1. januar 2022 og kunne kort efter ankomsten til Fyrreparken i Vollsmose konstatere, at en ung mand var blevet skudt i maveren. Fem andre unge mænd blev set i umiddelbar nærhed af stedet, hvor episoden fandt sted og blev anholdt. De er alle fem sigtet for ulovlig våbenbesiddelse og løsladt igen. Politiet efterforsker fortsat sagen.\n\nYdermere har Fyns Politi siden forlængelsen af zonen fået anmeldelser og gjort fund, der yderligere bestyrker politiets frygt for, at det kan komme til voldelige konfrontationer mellem personer fra forskellige   grupperinger under anvendelse af våben.\n\nhttps://web.archive.org/web/20220104143510/https://politi.dk/fyns-politi/nyhedsliste/forlaengelse-af-visitationszone-04012022/2022/01/04",
-                "start": "2022-01-04 16:00",
-                "end": "2022-01-18 16:00",
-                "authority": "Fyns Politi",
-                "area": "Vollsmose og Korsløkke",
-                "extent": "Nord for Haveforeningen Martinsminde/Hindehøjen, mod øst langs Odense Å og Staupudevej til Nyborgvej, ad Nyborgvej mod vest og videre ad Munkerisvej til Ørbækvej, ad Ørbækvej til Nyborgvej og herfra ad Ejby Møllevej mod nord til Skt. Jørgens Gade, ad Åsumvej mod øst til Ejbygade og ad Ejbygade mod nord til nord for Haveforeningen Martinsminde/Hindehøjen. ",
-                "validation": ""
+                "end": "2022-01-18 16:00", 
+                "background": "Fyns Politi begrunder bl.a. forl\u00e6ngelsen af visitationszonen med den skudepisode, der fandt sted i Vollsmose nyt\u00e5rsnat den 1. januar 2022, hvor en ung mand blev skudt i maven, men overlevede. Fyns Politi fik anmeldelsen kl 02.29 den 1. januar 2022 og kunne kort efter ankomsten til Fyrreparken i Vollsmose konstatere, at en ung mand var blevet skudt i maveren. Fem andre unge m\u00e6nd blev set i umiddelbar n\u00e6rhed af stedet, hvor episoden fandt sted og blev anholdt. De er alle fem sigtet for ulovlig v\u00e5benbesiddelse og l\u00f8sladt igen. Politiet efterforsker fortsat sagen.\n\nYdermere har Fyns Politi siden forl\u00e6ngelsen af zonen f\u00e5et anmeldelser og gjort fund, der yderligere bestyrker politiets frygt for, at det kan komme til voldelige konfrontationer mellem personer fra forskellige   grupperinger under anvendelse af v\u00e5ben.\n\nhttps://web.archive.org/web/20220104143510/https://politi.dk/fyns-politi/nyhedsliste/forlaengelse-af-visitationszone-04012022/2022/01/04", 
+                "area": "Vollsmose og Korsl\u00f8kke", 
+                "authority": "Fyns Politi", 
+                "start": "2022-01-04 16:00", 
+                "extent": "Nord for Haveforeningen Martinsminde/Hindeh\u00f8jen, mod \u00f8st langs Odense \u00c5 og Staupudevej til Nyborgvej, ad Nyborgvej mod vest og videre ad Munkerisvej til \u00d8rb\u00e6kvej, ad \u00d8rb\u00e6kvej til Nyborgvej og herfra ad Ejby M\u00f8llevej mod nord til Skt. J\u00f8rgens Gade, ad \u00c5sumvej mod \u00f8st til Ejbygade og ad Ejbygade mod nord til nord for Haveforeningen Martinsminde/Hindeh\u00f8jen. ", 
+                "validation": "", 
+                "population": 15800
             }
         }
     ]

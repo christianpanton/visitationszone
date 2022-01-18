@@ -647,13 +647,14 @@
             }, 
             "type": "Feature", 
             "properties": {
-                "background": "Baggrunden for beslutningen er, at der har været en række voldelige hændelser i Storkøbenhavn, som vurderes at have relation til rocker- og bandemiljøet, og hvorunder der er anvendt skydevåben i flere tilfælde. Det er Københavns Vestegns Politis vurdering, at personer fra de involverede grupperinger i Københavns Vestegns Politikreds vil kunne træffes i dele af Gladsaxe, Rødovre og Herlev Kommuner, og at der fortsat er risiko for yderligere voldelige hændelser der, hvor de involverede grupperinger i Københavns Vestegns Politikreds holder til.\n\nhttps://web.archive.org/web/20220104150240/https://politi.dk/koebenhavns-vestegns-politi/nyhedsliste/forlaengelse/2022/01/04",
-                "start": "2022-01-04 18:00",
-                "end": "2022-01-18 18:00",
-                "authority": "Københavns Vestegns Politi",
-                "area": "Gladsaxe, Rødovre og Herlev",
-                "extent": "Bagsværd Hovedgade, Buddinge Hovedgade, Søborg Hovedgade, Kommunegrænsen til Københavns kommune, Roskildevej, Damhus Boulevard, Kommunegrænsen mod Hvidovre kommune, Kommunegrænsen mod Brøndby Kommune, Korsdalvej, Rødovre Parkvej, Tårnvej, Jyllingevej, Islevdalsvej, Niels Frederiksens Alle, Nordre Ringvej, Lyskær, Marielundvej, Herlev Hovedgade, Borgerdiget, Tvedvangen, Gammel Klausdalsbrovej, Skinderskovvej, Krebsedammen, Ring 4, kommunegrænsen til Furesø kommune, Ring 4",
-                "validation": ""
+                "end": "2022-01-18 18:00", 
+                "background": "Baggrunden for beslutningen er, at der har v\u00e6ret en r\u00e6kke voldelige h\u00e6ndelser i Stork\u00f8benhavn, som vurderes at have relation til rocker- og bandemilj\u00f8et, og hvorunder der er anvendt skydev\u00e5ben i flere tilf\u00e6lde. Det er K\u00f8benhavns Vestegns Politis vurdering, at personer fra de involverede grupperinger i K\u00f8benhavns Vestegns Politikreds vil kunne tr\u00e6ffes i dele af Gladsaxe, R\u00f8dovre og Herlev Kommuner, og at der fortsat er risiko for yderligere voldelige h\u00e6ndelser der, hvor de involverede grupperinger i K\u00f8benhavns Vestegns Politikreds holder til.\n\nhttps://web.archive.org/web/20220104150240/https://politi.dk/koebenhavns-vestegns-politi/nyhedsliste/forlaengelse/2022/01/04", 
+                "area": "Gladsaxe, R\u00f8dovre og Herlev", 
+                "authority": "K\u00f8benhavns Vestegns Politi", 
+                "start": "2022-01-04 18:00", 
+                "extent": "Bagsv\u00e6rd Hovedgade, Buddinge Hovedgade, S\u00f8borg Hovedgade, Kommunegr\u00e6nsen til K\u00f8benhavns kommune, Roskildevej, Damhus Boulevard, Kommunegr\u00e6nsen mod Hvidovre kommune, Kommunegr\u00e6nsen mod Br\u00f8ndby Kommune, Korsdalvej, R\u00f8dovre Parkvej, T\u00e5rnvej, Jyllingevej, Islevdalsvej, Niels Frederiksens Alle, Nordre Ringvej, Lysk\u00e6r, Marielundvej, Herlev Hovedgade, Borgerdiget, Tvedvangen, Gammel Klausdalsbrovej, Skinderskovvej, Krebsedammen, Ring 4, kommunegr\u00e6nsen til Fures\u00f8 kommune, Ring 4", 
+                "validation": "", 
+                "population": 86900
             }
         }
     ]

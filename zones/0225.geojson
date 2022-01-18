@@ -359,13 +359,14 @@
             }, 
             "type": "Feature", 
             "properties": {
-                "background": "På baggrund af en række voldelige hændelser i Storkøbenhavn har der siden den 3. december 2021 været indført to visitationszoner i dele af hovedstaden. Politiet vurderer, at hændelserne har relation til rocker- og bandemiljøet, og da det er politiets vurdering, at der fortsat er risiko for flere voldelige hændelser, bliver de to zoner nu forlænget med yderligere 14 dage.\n\nhttps://web.archive.org/web/20220104225018/https://politi.dk/koebenhavns-politi/nyhedsliste/forl%C3%A6ngelse-af-visitationszoner-i-k%C3%B8benhavn/2022/01/04",
-                "start": "2022-01-04 18:00",
-                "end": "2022-01-18 18:00",
-                "authority": "Københavns Politi",
-                "area": "Nørrebro og Nordvest - Zone 2",
-                "extent": "Ågade – Bispeengbuen – Borups Alle – Hareskovvej - Utterslevvej – Rådvadsvej – Frederiksborgvej – Rødkløvervej – via stier syd for kredsgrænsen – Lundedalsvej – Tuborgvej – Lersø Parkalle – Rovsingsgade – Hans Knudsens Plads – Borgervænget via cykelsti til – Vognmandsmarken – Bryggervangen – Omøgade – Lyngbyvej – Nørre Alle – Tagensvej – Fredensgade – Sortedam Dosseringen – Peblinge Dosseringen – Åboulevard – Ågade.",
-                "validation": ""
+                "end": "2022-01-18 18:00", 
+                "background": "P\u00e5 baggrund af en r\u00e6kke voldelige h\u00e6ndelser i Stork\u00f8benhavn har der siden den 3. december 2021 v\u00e6ret indf\u00f8rt to visitationszoner i dele af hovedstaden. Politiet vurderer, at h\u00e6ndelserne har relation til rocker- og bandemilj\u00f8et, og da det er politiets vurdering, at der fortsat er risiko for flere voldelige h\u00e6ndelser, bliver de to zoner nu forl\u00e6nget med yderligere 14 dage.\n\nhttps://web.archive.org/web/20220104225018/https://politi.dk/koebenhavns-politi/nyhedsliste/forl%C3%A6ngelse-af-visitationszoner-i-k%C3%B8benhavn/2022/01/04", 
+                "area": "N\u00f8rrebro og Nordvest - Zone 2", 
+                "authority": "K\u00f8benhavns Politi", 
+                "start": "2022-01-04 18:00", 
+                "extent": "\u00c5gade \u2013 Bispeengbuen \u2013 Borups Alle \u2013 Hareskovvej - Utterslevvej \u2013 R\u00e5dvadsvej \u2013 Frederiksborgvej \u2013 R\u00f8dkl\u00f8vervej \u2013 via stier syd for kredsgr\u00e6nsen \u2013 Lundedalsvej \u2013 Tuborgvej \u2013 Lers\u00f8 Parkalle \u2013 Rovsingsgade \u2013 Hans Knudsens Plads \u2013 Borgerv\u00e6nget via cykelsti til \u2013 Vognmandsmarken \u2013 Bryggervangen \u2013 Om\u00f8gade \u2013 Lyngbyvej \u2013 N\u00f8rre Alle \u2013 Tagensvej \u2013 Fredensgade \u2013 Sortedam Dosseringen \u2013 Peblinge Dosseringen \u2013 \u00c5boulevard \u2013 \u00c5gade.", 
+                "validation": "", 
+                "population": 123000
             }
         }
     ]
