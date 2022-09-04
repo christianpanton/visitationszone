@@ -1,1 +1,69 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"background":"Der er vores vurdering, at den uro, der har ulmet den seneste tid, har udviklet sig til en reel konflikt mellem grupperingerne. Natten til tirsdag blev en 21-årig mand dræbt af skud, da han kom kørende i sin bil i Viby, og det tyder desværre på, at han var et uskyldigt offer, der tilfældigt blev ramt, siger chefpolitiinspektør Klaus Arboe Rasmussen i en pressemeddelelse. \n\nhttps://web.archive.org/web/20220904084846/https://politi.dk/da/oestjyllands-politi/nyhedsliste/visitationszoner-oprettet-i-aarhus-kommune/2022/03/11","start":"2022-03-11 16:00","end":"2022-04-07 16:00","authority":"Østjyllands Politi","area":"Rosenhøj","extent":"Sydlig afgrænsning:\n• Christian X’s Vej mellem Ringvej Syd og Gunnar Clausens Vej\n\nØstlig afgrænsning:\n• Ringvej Syd mellem Skanderborgvej og Christian X’s Vej\n\nNordlig afgrænsning:\n• Skanderborg vej mellem Gunnar Clausens vej og Ringvej Syd\n\nVestlig afgrænsning:\n• Gunnar Clausens Vej mellem Skanderborgvej og Christian X’s Vej\n\nDe nævnte veje er indbefattet i visitationszonen.","validation":""},"geometry":{"type":"Polygon","coordinates":[[[10.146496295928955,56.12076138977365],[10.125102996826172,56.11206442745366],[10.125703811645508,56.11139442859215],[10.127205848693848,56.110580842864316],[10.12913703918457,56.11026976142303],[10.137033462524414,56.11048512576558],[10.139265060424805,56.110556913611944],[10.150508880615234,56.107972466780744],[10.156989097595215,56.11242335061698],[10.152997970581055,56.11426577015772],[10.15012264251709,56.1163234331596]]]}}]}
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
+                        [
+                            10.146496295928955, 
+                            56.12076138977365
+                        ], 
+                        [
+                            10.125102996826172, 
+                            56.11206442745366
+                        ], 
+                        [
+                            10.125703811645508, 
+                            56.11139442859215
+                        ], 
+                        [
+                            10.127205848693848, 
+                            56.110580842864316
+                        ], 
+                        [
+                            10.12913703918457, 
+                            56.11026976142303
+                        ], 
+                        [
+                            10.137033462524414, 
+                            56.11048512576558
+                        ], 
+                        [
+                            10.139265060424805, 
+                            56.110556913611944
+                        ], 
+                        [
+                            10.150508880615234, 
+                            56.107972466780744
+                        ], 
+                        [
+                            10.156989097595215, 
+                            56.11242335061698
+                        ], 
+                        [
+                            10.152997970581055, 
+                            56.11426577015772
+                        ], 
+                        [
+                            10.15012264251709, 
+                            56.1163234331596
+                        ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2022-04-07 16:00", 
+                "background": "Der er vores vurdering, at den uro, der har ulmet den seneste tid, har udviklet sig til en reel konflikt mellem grupperingerne. Natten til tirsdag blev en 21-\u00e5rig mand dr\u00e6bt af skud, da han kom k\u00f8rende i sin bil i Viby, og det tyder desv\u00e6rre p\u00e5, at han var et uskyldigt offer, der tilf\u00e6ldigt blev ramt, siger chefpolitiinspekt\u00f8r Klaus Arboe Rasmussen i en pressemeddelelse. \n\nhttps://web.archive.org/web/20220904084846/https://politi.dk/da/oestjyllands-politi/nyhedsliste/visitationszoner-oprettet-i-aarhus-kommune/2022/03/11", 
+                "area": "Rosenh\u00f8j", 
+                "authority": "\u00d8stjyllands Politi", 
+                "start": "2022-03-11 16:00", 
+                "extent": "Sydlig afgr\u00e6nsning:\n\u2022 Christian X\u2019s Vej mellem Ringvej Syd og Gunnar Clausens Vej\n\n\u00d8stlig afgr\u00e6nsning:\n\u2022 Ringvej Syd mellem Skanderborgvej og Christian X\u2019s Vej\n\nNordlig afgr\u00e6nsning:\n\u2022 Skanderborg vej mellem Gunnar Clausens vej og Ringvej Syd\n\nVestlig afgr\u00e6nsning:\n\u2022 Gunnar Clausens Vej mellem Skanderborgvej og Christian X\u2019s Vej\n\nDe n\u00e6vnte veje er indbefattet i visitationszonen.", 
+                "validation": "", 
+                "population": 2700
+            }
+        }
+    ]
+}
