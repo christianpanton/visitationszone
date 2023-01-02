@@ -1,22 +1,11 @@
 {
-   "type":"FeatureCollection",
-   "features":[
-      {
-         "type":"Feature",
-         "properties":{
-            "background":"På baggrund af uro mellem grupperinger med relationer til Rosenhøj og Brabrand indfører Østjyllands Politi nu visitationszoner to forskellige steder i Aarhus Kommune.\n\nØstjyllands Politi har den seneste tid set flere indikationer på, at en tidligere konflikt mellem grupperinger fra henholdsvis Rosenhøj og Brabrand er ved at blusse op igen.\n\nDer har inden for de seneste uger været flere hændelser relateret til grupperingerne, og det er Østjyllands Politis vurdering, at der er en forøget risiko for, at personer med tilknytning til grupperingerne vil besidde eller bære våben på offentligt tilgængelige steder med henblik på at foretage strafbare handlinger.\n\nSamtidig har Østjyllands Politi inden for den seneste måned fundet flere våben i form af skarpladte skydevåben, en totenschlæger, knive, macheter og flere skarpe patroner.\n\nhttp://web.archive.org/web/20221223035257/https://politi.dk/oestjyllands-politi/nyhedsliste/oestjyllands-politi-indfoerer-to-visitationszoner-i-aarhus/2022/12/16",
-            "start":"2022-12-16 18:00",
-            "end":"2023-01-06 18:00",
-            "authority":"Østjyllands Politi",
-            "area":"Brabrand",
-            "extent":"Nordlig afgrænsning:\n\nJernaldervej fra Holmstrupgårdvej til Åby Ringvej\n \n\nØstlig afgrænsning:\n\nÅby Ringvej fra Jernaldervej til Silkeborgvej\n \n\nSydlig afgrænsning:\n\nSilkeborgvej fra Åby Ringvej til Louisevej\nLouisevej fra Silkeborgvej til Brabrand Skovvej\nBrabrand Skovvej fra Louisevej til Nøjsomhedsvej\nNøjsomhedsvej fra Brabrand Skovvej til Silkeborgvej\nSilkeborgvej fra Nøjsomhedsvej til Stenbækvej\n \n\nVestlig afgrænsning:\n\nStenbækvej fra Silkeborgvej til Hejredalsvej\nHejredalsvej fra Stenbækvej til Edwin Rahrs Vej\nEdwin Rahrs Vej fra Hejredalsvej til Holmstrupgårdvej\nHolmstrupgårdvej fra Edwin Rahrs Vej til Jernaldervej\nDe nævnte veje er indbefattet i visitationszonen.",
-            "validation":""
-         },
-         "geometry":{
-            "type":"Polygon",
-            "coordinates":[
-               [
-                  
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Polygon", 
+                "coordinates": [
+                    [
                         [
                             10.144028663635254, 
                             56.15350987305526
@@ -221,9 +210,20 @@
                             10.136582851409912, 
                             56.15297504985934
                         ]
-               ]
-            ]
-         }
-      }
-   ]
+                    ]
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "end": "2023-01-06 18:00", 
+                "background": "P\u00e5 baggrund af uro mellem grupperinger med relationer til Rosenh\u00f8j og Brabrand indf\u00f8rer \u00d8stjyllands Politi nu visitationszoner to forskellige steder i Aarhus Kommune.\n\n\u00d8stjyllands Politi har den seneste tid set flere indikationer p\u00e5, at en tidligere konflikt mellem grupperinger fra henholdsvis Rosenh\u00f8j og Brabrand er ved at blusse op igen.\n\nDer har inden for de seneste uger v\u00e6ret flere h\u00e6ndelser relateret til grupperingerne, og det er \u00d8stjyllands Politis vurdering, at der er en for\u00f8get risiko for, at personer med tilknytning til grupperingerne vil besidde eller b\u00e6re v\u00e5ben p\u00e5 offentligt tilg\u00e6ngelige steder med henblik p\u00e5 at foretage strafbare handlinger.\n\nSamtidig har \u00d8stjyllands Politi inden for den seneste m\u00e5ned fundet flere v\u00e5ben i form af skarpladte skydev\u00e5ben, en totenschl\u00e6ger, knive, macheter og flere skarpe patroner.\n\nhttp://web.archive.org/web/20221223035257/https://politi.dk/oestjyllands-politi/nyhedsliste/oestjyllands-politi-indfoerer-to-visitationszoner-i-aarhus/2022/12/16", 
+                "area": "Brabrand", 
+                "authority": "\u00d8stjyllands Politi", 
+                "start": "2022-12-16 18:00", 
+                "extent": "Nordlig afgr\u00e6nsning:\n\nJernaldervej fra Holmstrupg\u00e5rdvej til \u00c5by Ringvej\n \n\n\u00d8stlig afgr\u00e6nsning:\n\n\u00c5by Ringvej fra Jernaldervej til Silkeborgvej\n \n\nSydlig afgr\u00e6nsning:\n\nSilkeborgvej fra \u00c5by Ringvej til Louisevej\nLouisevej fra Silkeborgvej til Brabrand Skovvej\nBrabrand Skovvej fra Louisevej til N\u00f8jsomhedsvej\nN\u00f8jsomhedsvej fra Brabrand Skovvej til Silkeborgvej\nSilkeborgvej fra N\u00f8jsomhedsvej til Stenb\u00e6kvej\n \n\nVestlig afgr\u00e6nsning:\n\nStenb\u00e6kvej fra Silkeborgvej til Hejredalsvej\nHejredalsvej fra Stenb\u00e6kvej til Edwin Rahrs Vej\nEdwin Rahrs Vej fra Hejredalsvej til Holmstrupg\u00e5rdvej\nHolmstrupg\u00e5rdvej fra Edwin Rahrs Vej til Jernaldervej\nDe n\u00e6vnte veje er indbefattet i visitationszonen.", 
+                "validation": "", 
+                "population": 11300
+            }
+        }
+    ]
 }
