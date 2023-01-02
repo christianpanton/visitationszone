@@ -1,0 +1,68 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "properties":{
+            "background":"På baggrund af uro mellem grupperinger med relationer til Rosenhøj og Brabrand indfører Østjyllands Politi nu visitationszoner to forskellige steder i Aarhus Kommune.\n\nØstjyllands Politi har den seneste tid set flere indikationer på, at en tidligere konflikt mellem grupperinger fra henholdsvis Rosenhøj og Brabrand er ved at blusse op igen.\n\nDer har inden for de seneste uger været flere hændelser relateret til grupperingerne, og det er Østjyllands Politis vurdering, at der er en forøget risiko for, at personer med tilknytning til grupperingerne vil besidde eller bære våben på offentligt tilgængelige steder med henblik på at foretage strafbare handlinger.\n\nSamtidig har Østjyllands Politi inden for den seneste måned fundet flere våben i form af skarpladte skydevåben, en totenschlæger, knive, macheter og flere skarpe patroner.\n\nhttp://web.archive.org/web/20221223035257/https://politi.dk/oestjyllands-politi/nyhedsliste/oestjyllands-politi-indfoerer-to-visitationszoner-i-aarhus/2022/12/16",
+            "start":"2022-12-16 18:00",
+            "end":"2023-01-06 18:00",
+            "authority":"Østjyllands Politi",
+            "area":"Rosenhøj",
+            "extent":"Nordlig afgrænsning:\n\nSkanderborgvej mellem Ringvej Syd og Gunnar Clausens Vej\n \n\nØstlig afgrænsning:\n\nRingvej Syd mellem Christian X’s Vej og Skanderborgvej\n \n\nSydlig afgrænsning:\n\nChristian X’s Vej mellem Ringvej Syd og Gunnar Clausens Vej\n \n\nVestlig afgrænsning:\n\nGunnar Clausens Vej mellem Skanderborgvej og Christian X’s Vej\n \n\nDe nævnte veje er indbefattet i visitationszonen.",
+            "validation":""
+         },
+         "geometry":{
+            "type":"Polygon",
+            "coordinates":[
+               [
+                  [
+                     10.146496295928955,
+                     56.12076138977365
+                  ],
+                  [
+                     10.125102996826172,
+                     56.11206442745366
+                  ],
+                  [
+                     10.125703811645508,
+                     56.11139442859215
+                  ],
+                  [
+                     10.127205848693848,
+                     56.110580842864316
+                  ],
+                  [
+                     10.12913703918457,
+                     56.11026976142303
+                  ],
+                  [
+                     10.137033462524414,
+                     56.11048512576558
+                  ],
+                  [
+                     10.139265060424805,
+                     56.110556913611944
+                  ],
+                  [
+                     10.150508880615234,
+                     56.107972466780744
+                  ],
+                  [
+                     10.156989097595215,
+                     56.11242335061698
+                  ],
+                  [
+                     10.152997970581055,
+                     56.11426577015772
+                  ],
+                  [
+                     10.15012264251709,
+                     56.1163234331596
+                  ]
+               ]
+            ]
+         }
+      }
+   ]
+}
