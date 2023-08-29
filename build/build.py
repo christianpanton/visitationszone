@@ -13,8 +13,8 @@ from shapely.ops import transform
 PATH = "zones/"
 zonefiles = os.listdir(PATH)
 
-sp = pyproj.Proj(init="EPSG:3035")
-dp = pyproj.Proj(init="EPSG:4326")
+sp = pyproj.Proj("EPSG:3035")
+dp = pyproj.Proj("EPSG:4326")
 
 matcher = re.compile(",1kmN|E")
 
@@ -23,7 +23,7 @@ X = []
 Y = []
 P = []
 
-for line in file("build/population.csv", "r"):
+for line in open("build/population.csv", "r"):
 
     pop, y, x = map(float, matcher.split(line.strip()))
     x = x * 1e3 + 500
@@ -33,7 +33,7 @@ for line in file("build/population.csv", "r"):
     Y.append(y)
     P.append(pop)
 
-kdtree = scipy.spatial.KDTree(zip(X, Y))
+kdtree = scipy.spatial.KDTree(list(zip(X, Y)))
 
 master = {
     "type": "FeatureCollection",
@@ -41,7 +41,7 @@ master = {
 }
 
 for filename in zonefiles:
-    data = json.load(file(PATH + filename))
+    data = json.load(open(PATH + filename))
     master["features"].append(data["features"][0])
     if "population" in data["features"][0]["properties"]:
         continue
@@ -63,13 +63,13 @@ for filename in zonefiles:
 
     pop = int((density * area) / 100) * 100
     data["features"][0]["properties"]["population"] = pop
-    json.dump(data, file(PATH + filename, "w"), indent=4)
+    json.dump(data, open(PATH + filename, "w"), indent=4)
 
-with file("zones.json", "w") as f:
+with open("zones.json", "w") as f:
     f.write(json.dumps(master))
     
 nextid = max(map(lambda x: int(x[:4]), zonefiles)) + 1
 nextname = "%04d.geojson" % nextid
 
-with file("nextname.json", "w") as f:
+with open("nextname.json", "w") as f:
     f.write(json.dumps({"next": nextname}))
